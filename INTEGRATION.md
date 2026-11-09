@@ -23,7 +23,7 @@
 | BailuFrost 文件缺失 | 0（整合时核对；随后删除了未跟踪的 build/、.vscode/、.DS_Store） |
 | zqilin PDS 文件 | 32 个，逐字节相同 32，差异 0 |
 | zqilin pds_howard.cpp | blob 8d1fe9fd046f675a523c6e5f838f789ffd245ad0，与上游一致 |
-| PDS CLI 测试 | tests/test_pds_graph_cli.py 通过（本地环境未编译，留待具备 C++17/Boost 环境验证） |
+| PDS CLI 测试 | **未在本机执行**：本机没有 CMake / C++17 编译器 / Boost；文件与上游逐字节一致，待具备 C++17 + Boost 环境验证 |
 
 ## 5. 相对上游的改动
 只增不改：
@@ -38,6 +38,7 @@
 - PDS 原始报告 / 布局布线数据库未完整入库。
 - PDS_GRAPH_V1 的生成桥不在仓库。
 - PDS 工具使用隔离的旧版头文件；两条线的 API 尚未统一。
+- PDS 工具的编译与 CLI 测试未在整理人本机执行（缺 CMake / C++17 编译器 / Boost）；见第 4 节。
 
 ## 7. 如何更新
 - 上游有新提交时，不要 git pull 或 git merge。
