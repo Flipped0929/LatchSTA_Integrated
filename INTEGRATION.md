@@ -21,7 +21,7 @@
 |---|---|
 | BailuFrost 共同文件 | 2,465 个，逐字节相同 2,465，差异 0 |
 | BailuFrost 文件缺失 | 0（整合时核对；随后删除了未跟踪的 build/、.vscode/、.DS_Store） |
-| zqilin PDS 文件 | 32 个，逐字节相同 32，差异 0 |
+| zqilin PDS 文件 | 31 个（PDS实际测量数据/，不含 tools/pds_howard.cpp），逐字节相同 31，差异 0 |
 | zqilin pds_howard.cpp | blob 8d1fe9fd046f675a523c6e5f838f789ffd245ad0，与上游一致 |
 | PDS CLI 测试 | **未在本机执行**：本机没有 CMake / C++17 编译器 / Boost；文件与上游逐字节一致，待具备 C++17 + Boost 环境验证 |
 
