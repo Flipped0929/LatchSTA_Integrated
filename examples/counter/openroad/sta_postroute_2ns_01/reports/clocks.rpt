@@ -1,0 +1,7 @@
+Clock                   Period          Waveform
+----------------------------------------------------
+clk                       2.00        1.00      2.00
+propagated=1
+source_rise_transition_ns=0.060000
+source_fall_transition_ns=0.060000
+CRPR_enabled=1; CRPR_mode=same_transition

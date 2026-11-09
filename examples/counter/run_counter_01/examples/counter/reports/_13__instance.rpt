@@ -1,0 +1,15 @@
+Instance _13_
+ Cell: sky130_fd_sc_hd__dlrtn_1
+ Library: sky130_fd_sc_hd__tt_025C_1v80
+ Path cells: sky130_fd_sc_hd__dlrtn_1
+ Input pins:
+  D input next_count[3]
+  GATE_N input clk
+  RESET_B input rst_n
+ Output pins:
+  Q output master[3]
+ Other pins:
+  VGND ground (unconnected)
+  VPWR power (unconnected)
+  IQ internal (unconnected)
+  IQ_N internal (unconnected)

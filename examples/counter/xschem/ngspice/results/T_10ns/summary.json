@@ -1,0 +1,19 @@
+{
+  "name": "T_10ns",
+  "period_ns": 10,
+  "max_step_ps": 5,
+  "runtime_seconds": 449.60317502700013,
+  "frequency_mhz": 100.0,
+  "cycles_checked": 128,
+  "measured_clock_period_ns": 10.0,
+  "clock_rising_edges": 128,
+  "control_mismatches": [],
+  "raw_points": 258546,
+  "stop_ns": 1284.5,
+  "failed_cycles": [],
+  "high_sample_mismatches": 0,
+  "low_sample_mismatches": 0,
+  "unstable_windows": [],
+  "max_settling_to_20_80_ns": 0.4125000000022965,
+  "status": "PASS"
+}

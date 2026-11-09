@@ -1,0 +1,31 @@
+{
+  "status": "model_tests_passed",
+  "mode": "zero_skew_50pct",
+  "minimum_period_ns": 1.584538,
+  "maximum_frequency_MHz": 631.0987808433752,
+  "active_path": "en -> _19_ -> _23_ -> count[2]",
+  "independent_path_lower_bound_ns": 1.5845379999999998,
+  "sdc": "code/examples/counter/counter_zero_skew.sdc",
+  "executable": "tmp/counter_solver_20261104/counter_solver.exe",
+  "tests": {
+    "counter_solver_Howard_LP": "PASS",
+    "independent_unrolled_half_cycles": "PASS at optimum; FAIL as expected at 1% shorter",
+    "smaller_period_graph_infeasibility": "PASS: optimum minus 0.0001 ns",
+    "artificial_IO_feedback_pulse_bounds": "PASS",
+    "reader_v1_v2_v3_v4": "PASS",
+    "legacy_zero_skew": "PASS",
+    "legacy_v3_SDC_export": "PASS",
+    "counter_SDC_mocked_Tcl": "PASS",
+    "STA_runner_alternate_SDC_mocked_Tcl": "PASS",
+    "report_conversion_roundtrip": "PASS",
+    "output_overwrite_and_corruption_protection": "PASS",
+    "diff_whitespace": "PASS"
+  },
+  "limitations": [
+    "Fixed-condition scalar timing envelopes; conservative opening-response hold certificate; only reported polarity pulse requirements.",
+    "Real OpenSTA validation not run: no executable available.",
+    "Full main not built: local xtensor/LEDA environment unavailable; standalone counter_solver built and run.",
+    "Shell syntax command could not start in the Windows sandbox; run_flow only receives status/text and environment-cleanup updates."
+  ],
+  "compiler": "MinGW GCC 9.5.0 C++17 with existing Boost headers and GLPK 5.0"
+}

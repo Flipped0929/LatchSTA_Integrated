@@ -1,0 +1,18 @@
+Net slave[0]
+ Pin capacitance: 0.016014-0.016672
+ Wire capacitance: 0.000000
+ Total capacitance: 0.016014-0.016672
+ Number of drivers: 1
+ Number of loads: 5
+ Number of pins: 6
+
+Driver pins
+ _14_/Q output (sky130_fd_sc_hd__dlrtp_1)
+
+Load pins
+ _03_/A input (sky130_fd_sc_hd__xor2_1) 0.004210-0.004544
+ _04_/A input (sky130_fd_sc_hd__nand3_1) 0.002253-0.002350
+ _05_/A input (sky130_fd_sc_hd__nand4_1) 0.002272-0.002352
+ _07_/A1 input (sky130_fd_sc_hd__a21oi_1) 0.002279-0.002426
+ count[0] output port pin 0.005000
+

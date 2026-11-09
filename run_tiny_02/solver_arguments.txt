@@ -1,0 +1,7 @@
+/home/bailufrost/LatchSTA_Code/LatchSTA_Code/code/build/main
+/home/bailufrost/LatchSTA_Code/LatchSTA_Code/code/run_tiny_02/examples/tiny_sky130/tiny.blif.out
+1
+100
+/home/bailufrost/LatchSTA_Code/LatchSTA_Code/code/run_tiny_02/examples/tiny_sky130/latch_timing.json
+--export-sdc
+/home/bailufrost/LatchSTA_Code/LatchSTA_Code/code/run_tiny_02/examples/tiny_sky130/candidate_howard.sdc

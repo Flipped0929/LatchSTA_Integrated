@@ -1,0 +1,1000 @@
+{
+  "schema_version": 3,
+  "units": {
+    "time": "ns",
+    "capacitance": "pF"
+  },
+  "clock": {
+    "period_ns": 10.0,
+    "rise_ns": 5.0,
+    "fall_ns": 10.0,
+    "name": "clk"
+  },
+  "io_constraints": {
+    "model": "single_clock_rise_dag_v1",
+    "clock": "clk",
+    "input": {
+      "port": "i_din",
+      "min_delay_ns": 0.2,
+      "max_delay_ns": 1.0
+    },
+    "output": {
+      "port": "o_dout",
+      "min_delay_ns": -0.05,
+      "max_delay_ns": 1.0
+    },
+    "setup_uncertainty_ns": 0.0,
+    "hold_uncertainty_ns": 0.0,
+    "setup_capture_cycles": 1,
+    "hold_capture_cycles": 0,
+    "path_cycle_shift": 0
+  },
+  "sta_conditions": {
+    "clock_port": "i_clk",
+    "clock_transition_ns": 0.05,
+    "input_transition_ns": 0.05,
+    "output_load_pf": 0.005
+  },
+  "nodes": [
+    {
+      "instance": "L1",
+      "cell": "sky130_fd_sc_hd__dlxtp_1",
+      "library": "sky130_fd_sc_hd__tt_025C_1v80",
+      "parameters_ns": {
+        "tsu": 0.19198,
+        "thd": -0.015695,
+        "tdqMin": 0.218371,
+        "tdqMax": 0.327392,
+        "tcqMin": 0.273814,
+        "tcqMax": 0.315624
+      },
+      "reported_arcs": {
+        "dq_min": {
+          "rise_ns": 0.327392,
+          "fall_ns": 0.218371
+        },
+        "dq_max": {
+          "rise_ns": 0.327392,
+          "fall_ns": 0.218371
+        },
+        "cq_min": {
+          "rise_ns": 0.315624,
+          "fall_ns": 0.273814
+        },
+        "cq_max": {
+          "rise_ns": 0.315624,
+          "fall_ns": 0.273814
+        }
+      },
+      "clock_checks_ns": {
+        "min_pulse_width_high": 0.23101371836734697,
+        "min_pulse_width_low": null
+      },
+      "clock_checks_conditions": {
+        "clock_slew_ns": 0.05
+      }
+    },
+    {
+      "instance": "L2",
+      "cell": "sky130_fd_sc_hd__dlxtp_1",
+      "library": "sky130_fd_sc_hd__tt_025C_1v80",
+      "parameters_ns": {
+        "tsu": 0.192707,
+        "thd": -0.018286,
+        "tdqMin": 0.21217,
+        "tdqMax": 0.313652,
+        "tcqMin": 0.264169,
+        "tcqMax": 0.300269
+      },
+      "reported_arcs": {
+        "dq_min": {
+          "rise_ns": 0.313627,
+          "fall_ns": 0.21217
+        },
+        "dq_max": {
+          "rise_ns": 0.313652,
+          "fall_ns": 0.212835
+        },
+        "cq_min": {
+          "rise_ns": 0.300269,
+          "fall_ns": 0.264169
+        },
+        "cq_max": {
+          "rise_ns": 0.300269,
+          "fall_ns": 0.264169
+        }
+      },
+      "clock_checks_ns": {
+        "min_pulse_width_high": 0.23101371836734697,
+        "min_pulse_width_low": null
+      },
+      "clock_checks_conditions": {
+        "clock_slew_ns": 0.05
+      }
+    },
+    {
+      "instance": "L3",
+      "cell": "sky130_fd_sc_hd__dlxtp_1",
+      "library": "sky130_fd_sc_hd__tt_025C_1v80",
+      "parameters_ns": {
+        "tsu": 0.191975,
+        "thd": -0.015689,
+        "tdqMin": 0.20878,
+        "tdqMax": 0.312064,
+        "tcqMin": 0.264169,
+        "tcqMax": 0.300269
+      },
+      "reported_arcs": {
+        "dq_min": {
+          "rise_ns": 0.312064,
+          "fall_ns": 0.20878
+        },
+        "dq_max": {
+          "rise_ns": 0.312064,
+          "fall_ns": 0.20878
+        },
+        "cq_min": {
+          "rise_ns": 0.300269,
+          "fall_ns": 0.264169
+        },
+        "cq_max": {
+          "rise_ns": 0.300269,
+          "fall_ns": 0.264169
+        }
+      },
+      "clock_checks_ns": {
+        "min_pulse_width_high": 0.23101371836734697,
+        "min_pulse_width_low": null
+      },
+      "clock_checks_conditions": {
+        "clock_slew_ns": 0.05
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "INPUT",
+      "target": "L1",
+      "min_delay_ns": 0.074577,
+      "max_delay_ns": 0.083593,
+      "min_witness": {
+        "source": "INPUT",
+        "target": "L1",
+        "source_pin": "i_din",
+        "target_pin": "L1/D",
+        "analysis": "min",
+        "transition": "^",
+        "delay_ns": 0.074577,
+        "pins": [
+          "i_din",
+          "U_INPUT/A",
+          "U_INPUT/X",
+          "L1/D"
+        ],
+        "setup_ns": null,
+        "hold_ns": -0.179921,
+        "external_delay_contributions": [
+          {
+            "kind": "input",
+            "signed_contribution_ns": 0.2
+          }
+        ]
+      },
+      "max_witness": {
+        "source": "INPUT",
+        "target": "L1",
+        "source_pin": "i_din",
+        "target_pin": "L1/D",
+        "analysis": "max",
+        "transition": "v",
+        "delay_ns": 0.083593,
+        "pins": [
+          "i_din",
+          "U_INPUT/A",
+          "U_INPUT/X",
+          "L1/D"
+        ],
+        "setup_ns": 0.02699,
+        "hold_ns": null,
+        "external_delay_contributions": [
+          {
+            "kind": "input",
+            "signed_contribution_ns": 1.0
+          }
+        ]
+      }
+    },
+    {
+      "source": "L1",
+      "target": "L2",
+      "min_delay_ns": 0.177533,
+      "max_delay_ns": 0.336778,
+      "min_witness": {
+        "source": "L1",
+        "target": "L2",
+        "source_pin": "L1/Q",
+        "target_pin": "L2/D",
+        "analysis": "min",
+        "transition": "^",
+        "delay_ns": 0.177533,
+        "pins": [
+          "L1/Q",
+          "U_SHORT/A",
+          "U_SHORT/X",
+          "U_MERGE/B",
+          "U_MERGE/X",
+          "L2/D"
+        ],
+        "setup_ns": null,
+        "hold_ns": -0.180648,
+        "external_delay_contributions": []
+      },
+      "max_witness": {
+        "source": "L1",
+        "target": "L2",
+        "source_pin": "L1/Q",
+        "target_pin": "L2/D",
+        "analysis": "max",
+        "transition": "v",
+        "delay_ns": 0.336778,
+        "pins": [
+          "L1/Q",
+          "U_LONG_HEAD/A",
+          "U_LONG_HEAD/X",
+          "U_LONG_MIDDLE/A",
+          "U_LONG_MIDDLE/X",
+          "U_LONG_TAIL/A",
+          "U_LONG_TAIL/X",
+          "U_MERGE/A",
+          "U_MERGE/X",
+          "L2/D"
+        ],
+        "setup_ns": 0.030056,
+        "hold_ns": null,
+        "external_delay_contributions": []
+      }
+    },
+    {
+      "source": "L2",
+      "target": "L3",
+      "min_delay_ns": 0.070218,
+      "max_delay_ns": 0.072031,
+      "min_witness": {
+        "source": "L2",
+        "target": "L3",
+        "source_pin": "L2/Q",
+        "target_pin": "L3/D",
+        "analysis": "min",
+        "transition": "^",
+        "delay_ns": 0.070218,
+        "pins": [
+          "L2/Q",
+          "U_TAIL/A",
+          "U_TAIL/X",
+          "L3/D"
+        ],
+        "setup_ns": null,
+        "hold_ns": -0.179916,
+        "external_delay_contributions": []
+      },
+      "max_witness": {
+        "source": "L2",
+        "target": "L3",
+        "source_pin": "L2/Q",
+        "target_pin": "L3/D",
+        "analysis": "max",
+        "transition": "v",
+        "delay_ns": 0.072031,
+        "pins": [
+          "L2/Q",
+          "U_TAIL/A",
+          "U_TAIL/X",
+          "L3/D"
+        ],
+        "setup_ns": 0.026984,
+        "hold_ns": null,
+        "external_delay_contributions": []
+      }
+    },
+    {
+      "source": "L3",
+      "target": "OUTPUT",
+      "min_delay_ns": 0.088638,
+      "max_delay_ns": 0.095645,
+      "min_witness": {
+        "source": "L3",
+        "target": "OUTPUT",
+        "source_pin": "L3/Q",
+        "target_pin": "o_dout",
+        "analysis": "min",
+        "transition": "v",
+        "delay_ns": 0.088638,
+        "pins": [
+          "L3/Q",
+          "U_OUTPUT/A",
+          "U_OUTPUT/X",
+          "o_dout"
+        ],
+        "setup_ns": null,
+        "hold_ns": null,
+        "external_delay_contributions": [
+          {
+            "kind": "output",
+            "signed_contribution_ns": 0.05
+          }
+        ]
+      },
+      "max_witness": {
+        "source": "L3",
+        "target": "OUTPUT",
+        "source_pin": "L3/Q",
+        "target_pin": "o_dout",
+        "analysis": "max",
+        "transition": "^",
+        "delay_ns": 0.095645,
+        "pins": [
+          "L3/Q",
+          "U_OUTPUT/A",
+          "U_OUTPUT/X",
+          "o_dout"
+        ],
+        "setup_ns": null,
+        "hold_ns": null,
+        "external_delay_contributions": [
+          {
+            "kind": "output",
+            "signed_contribution_ns": -1.0
+          }
+        ]
+      }
+    }
+  ],
+  "paths": [
+    {
+      "source": "L2",
+      "target": "L3",
+      "source_pin": "L2/Q",
+      "target_pin": "L3/D",
+      "analysis": "max",
+      "transition": "^",
+      "delay_ns": 0.070218,
+      "pins": [
+        "L2/Q",
+        "U_TAIL/A",
+        "U_TAIL/X",
+        "L3/D"
+      ],
+      "setup_ns": 0.191975,
+      "hold_ns": null,
+      "external_delay_contributions": []
+    },
+    {
+      "source": "L2",
+      "target": "L3",
+      "source_pin": "L2/Q",
+      "target_pin": "L3/D",
+      "analysis": "max",
+      "transition": "v",
+      "delay_ns": 0.072031,
+      "pins": [
+        "L2/Q",
+        "U_TAIL/A",
+        "U_TAIL/X",
+        "L3/D"
+      ],
+      "setup_ns": 0.026984,
+      "hold_ns": null,
+      "external_delay_contributions": []
+    },
+    {
+      "source": "L1",
+      "target": "L2",
+      "source_pin": "L1/Q",
+      "target_pin": "L2/D",
+      "analysis": "max",
+      "transition": "^",
+      "delay_ns": 0.318199,
+      "pins": [
+        "L1/Q",
+        "U_LONG_HEAD/A",
+        "U_LONG_HEAD/X",
+        "U_LONG_MIDDLE/A",
+        "U_LONG_MIDDLE/X",
+        "U_LONG_TAIL/A",
+        "U_LONG_TAIL/X",
+        "U_MERGE/A",
+        "U_MERGE/X",
+        "L2/D"
+      ],
+      "setup_ns": 0.192707,
+      "hold_ns": null,
+      "external_delay_contributions": []
+    },
+    {
+      "source": "L1",
+      "target": "L2",
+      "source_pin": "L1/Q",
+      "target_pin": "L2/D",
+      "analysis": "max",
+      "transition": "v",
+      "delay_ns": 0.336778,
+      "pins": [
+        "L1/Q",
+        "U_LONG_HEAD/A",
+        "U_LONG_HEAD/X",
+        "U_LONG_MIDDLE/A",
+        "U_LONG_MIDDLE/X",
+        "U_LONG_TAIL/A",
+        "U_LONG_TAIL/X",
+        "U_MERGE/A",
+        "U_MERGE/X",
+        "L2/D"
+      ],
+      "setup_ns": 0.030056,
+      "hold_ns": null,
+      "external_delay_contributions": []
+    },
+    {
+      "source": "L1",
+      "target": "L2",
+      "source_pin": "L1/Q",
+      "target_pin": "L2/D",
+      "analysis": "max",
+      "transition": "^",
+      "delay_ns": 0.177533,
+      "pins": [
+        "L1/Q",
+        "U_SHORT/A",
+        "U_SHORT/X",
+        "U_MERGE/B",
+        "U_MERGE/X",
+        "L2/D"
+      ],
+      "setup_ns": 0.192707,
+      "hold_ns": null,
+      "external_delay_contributions": []
+    },
+    {
+      "source": "L1",
+      "target": "L2",
+      "source_pin": "L1/Q",
+      "target_pin": "L2/D",
+      "analysis": "max",
+      "transition": "v",
+      "delay_ns": 0.207292,
+      "pins": [
+        "L1/Q",
+        "U_SHORT/A",
+        "U_SHORT/X",
+        "U_MERGE/B",
+        "U_MERGE/X",
+        "L2/D"
+      ],
+      "setup_ns": 0.030056,
+      "hold_ns": null,
+      "external_delay_contributions": []
+    },
+    {
+      "source": "INPUT",
+      "target": "L1",
+      "source_pin": "i_din",
+      "target_pin": "L1/D",
+      "analysis": "max",
+      "transition": "v",
+      "delay_ns": 0.083593,
+      "pins": [
+        "i_din",
+        "U_INPUT/A",
+        "U_INPUT/X",
+        "L1/D"
+      ],
+      "setup_ns": 0.02699,
+      "hold_ns": null,
+      "external_delay_contributions": [
+        {
+          "kind": "input",
+          "signed_contribution_ns": 1.0
+        }
+      ]
+    },
+    {
+      "source": "INPUT",
+      "target": "L1",
+      "source_pin": "i_din",
+      "target_pin": "L1/D",
+      "analysis": "max",
+      "transition": "^",
+      "delay_ns": 0.074577,
+      "pins": [
+        "i_din",
+        "U_INPUT/A",
+        "U_INPUT/X",
+        "L1/D"
+      ],
+      "setup_ns": 0.19198,
+      "hold_ns": null,
+      "external_delay_contributions": [
+        {
+          "kind": "input",
+          "signed_contribution_ns": 1.0
+        }
+      ]
+    },
+    {
+      "source": "L1",
+      "target": "L2",
+      "source_pin": "L1/Q",
+      "target_pin": "L2/D",
+      "analysis": "max",
+      "transition": "^",
+      "delay_ns": 0.318199,
+      "pins": [
+        "L1/Q",
+        "U_LONG_HEAD/A",
+        "U_LONG_HEAD/X",
+        "U_LONG_MIDDLE/A",
+        "U_LONG_MIDDLE/X",
+        "U_LONG_TAIL/A",
+        "U_LONG_TAIL/X",
+        "U_MERGE/A",
+        "U_MERGE/X",
+        "L2/D"
+      ],
+      "setup_ns": 0.192707,
+      "hold_ns": null,
+      "external_delay_contributions": []
+    },
+    {
+      "source": "L1",
+      "target": "L2",
+      "source_pin": "L1/Q",
+      "target_pin": "L2/D",
+      "analysis": "max",
+      "transition": "v",
+      "delay_ns": 0.336778,
+      "pins": [
+        "L1/Q",
+        "U_LONG_HEAD/A",
+        "U_LONG_HEAD/X",
+        "U_LONG_MIDDLE/A",
+        "U_LONG_MIDDLE/X",
+        "U_LONG_TAIL/A",
+        "U_LONG_TAIL/X",
+        "U_MERGE/A",
+        "U_MERGE/X",
+        "L2/D"
+      ],
+      "setup_ns": 0.030056,
+      "hold_ns": null,
+      "external_delay_contributions": []
+    },
+    {
+      "source": "L1",
+      "target": "L2",
+      "source_pin": "L1/Q",
+      "target_pin": "L2/D",
+      "analysis": "max",
+      "transition": "^",
+      "delay_ns": 0.177533,
+      "pins": [
+        "L1/Q",
+        "U_SHORT/A",
+        "U_SHORT/X",
+        "U_MERGE/B",
+        "U_MERGE/X",
+        "L2/D"
+      ],
+      "setup_ns": 0.192707,
+      "hold_ns": null,
+      "external_delay_contributions": []
+    },
+    {
+      "source": "L1",
+      "target": "L2",
+      "source_pin": "L1/Q",
+      "target_pin": "L2/D",
+      "analysis": "max",
+      "transition": "v",
+      "delay_ns": 0.207292,
+      "pins": [
+        "L1/Q",
+        "U_SHORT/A",
+        "U_SHORT/X",
+        "U_MERGE/B",
+        "U_MERGE/X",
+        "L2/D"
+      ],
+      "setup_ns": 0.030056,
+      "hold_ns": null,
+      "external_delay_contributions": []
+    },
+    {
+      "source": "L2",
+      "target": "L3",
+      "source_pin": "L2/Q",
+      "target_pin": "L3/D",
+      "analysis": "max",
+      "transition": "^",
+      "delay_ns": 0.070218,
+      "pins": [
+        "L2/Q",
+        "U_TAIL/A",
+        "U_TAIL/X",
+        "L3/D"
+      ],
+      "setup_ns": 0.191975,
+      "hold_ns": null,
+      "external_delay_contributions": []
+    },
+    {
+      "source": "L2",
+      "target": "L3",
+      "source_pin": "L2/Q",
+      "target_pin": "L3/D",
+      "analysis": "max",
+      "transition": "v",
+      "delay_ns": 0.072031,
+      "pins": [
+        "L2/Q",
+        "U_TAIL/A",
+        "U_TAIL/X",
+        "L3/D"
+      ],
+      "setup_ns": 0.026984,
+      "hold_ns": null,
+      "external_delay_contributions": []
+    },
+    {
+      "source": "L3",
+      "target": "OUTPUT",
+      "source_pin": "L3/Q",
+      "target_pin": "o_dout",
+      "analysis": "max",
+      "transition": "^",
+      "delay_ns": 0.095645,
+      "pins": [
+        "L3/Q",
+        "U_OUTPUT/A",
+        "U_OUTPUT/X",
+        "o_dout"
+      ],
+      "setup_ns": null,
+      "hold_ns": null,
+      "external_delay_contributions": [
+        {
+          "kind": "output",
+          "signed_contribution_ns": -1.0
+        }
+      ]
+    },
+    {
+      "source": "L3",
+      "target": "OUTPUT",
+      "source_pin": "L3/Q",
+      "target_pin": "o_dout",
+      "analysis": "max",
+      "transition": "v",
+      "delay_ns": 0.088638,
+      "pins": [
+        "L3/Q",
+        "U_OUTPUT/A",
+        "U_OUTPUT/X",
+        "o_dout"
+      ],
+      "setup_ns": null,
+      "hold_ns": null,
+      "external_delay_contributions": [
+        {
+          "kind": "output",
+          "signed_contribution_ns": -1.0
+        }
+      ]
+    },
+    {
+      "source": "L3",
+      "target": "OUTPUT",
+      "source_pin": "L3/Q",
+      "target_pin": "o_dout",
+      "analysis": "max",
+      "transition": "^",
+      "delay_ns": 0.095645,
+      "pins": [
+        "L3/Q",
+        "U_OUTPUT/A",
+        "U_OUTPUT/X",
+        "o_dout"
+      ],
+      "setup_ns": null,
+      "hold_ns": null,
+      "external_delay_contributions": [
+        {
+          "kind": "output",
+          "signed_contribution_ns": -1.0
+        }
+      ]
+    },
+    {
+      "source": "L3",
+      "target": "OUTPUT",
+      "source_pin": "L3/Q",
+      "target_pin": "o_dout",
+      "analysis": "max",
+      "transition": "v",
+      "delay_ns": 0.088638,
+      "pins": [
+        "L3/Q",
+        "U_OUTPUT/A",
+        "U_OUTPUT/X",
+        "o_dout"
+      ],
+      "setup_ns": null,
+      "hold_ns": null,
+      "external_delay_contributions": [
+        {
+          "kind": "output",
+          "signed_contribution_ns": -1.0
+        }
+      ]
+    },
+    {
+      "source": "L3",
+      "target": "OUTPUT",
+      "source_pin": "L3/Q",
+      "target_pin": "o_dout",
+      "analysis": "min",
+      "transition": "v",
+      "delay_ns": 0.088638,
+      "pins": [
+        "L3/Q",
+        "U_OUTPUT/A",
+        "U_OUTPUT/X",
+        "o_dout"
+      ],
+      "setup_ns": null,
+      "hold_ns": null,
+      "external_delay_contributions": [
+        {
+          "kind": "output",
+          "signed_contribution_ns": 0.05
+        }
+      ]
+    },
+    {
+      "source": "L3",
+      "target": "OUTPUT",
+      "source_pin": "L3/Q",
+      "target_pin": "o_dout",
+      "analysis": "min",
+      "transition": "^",
+      "delay_ns": 0.095645,
+      "pins": [
+        "L3/Q",
+        "U_OUTPUT/A",
+        "U_OUTPUT/X",
+        "o_dout"
+      ],
+      "setup_ns": null,
+      "hold_ns": null,
+      "external_delay_contributions": [
+        {
+          "kind": "output",
+          "signed_contribution_ns": 0.05
+        }
+      ]
+    },
+    {
+      "source": "INPUT",
+      "target": "L1",
+      "source_pin": "i_din",
+      "target_pin": "L1/D",
+      "analysis": "min",
+      "transition": "v",
+      "delay_ns": 0.083593,
+      "pins": [
+        "i_din",
+        "U_INPUT/A",
+        "U_INPUT/X",
+        "L1/D"
+      ],
+      "setup_ns": null,
+      "hold_ns": -0.015695,
+      "external_delay_contributions": [
+        {
+          "kind": "input",
+          "signed_contribution_ns": 0.2
+        }
+      ]
+    },
+    {
+      "source": "L2",
+      "target": "L3",
+      "source_pin": "L2/Q",
+      "target_pin": "L3/D",
+      "analysis": "min",
+      "transition": "v",
+      "delay_ns": 0.072031,
+      "pins": [
+        "L2/Q",
+        "U_TAIL/A",
+        "U_TAIL/X",
+        "L3/D"
+      ],
+      "setup_ns": null,
+      "hold_ns": -0.015689,
+      "external_delay_contributions": []
+    },
+    {
+      "source": "INPUT",
+      "target": "L1",
+      "source_pin": "i_din",
+      "target_pin": "L1/D",
+      "analysis": "min",
+      "transition": "^",
+      "delay_ns": 0.074577,
+      "pins": [
+        "i_din",
+        "U_INPUT/A",
+        "U_INPUT/X",
+        "L1/D"
+      ],
+      "setup_ns": null,
+      "hold_ns": -0.179921,
+      "external_delay_contributions": [
+        {
+          "kind": "input",
+          "signed_contribution_ns": 0.2
+        }
+      ]
+    },
+    {
+      "source": "L1",
+      "target": "L2",
+      "source_pin": "L1/Q",
+      "target_pin": "L2/D",
+      "analysis": "min",
+      "transition": "v",
+      "delay_ns": 0.207292,
+      "pins": [
+        "L1/Q",
+        "U_SHORT/A",
+        "U_SHORT/X",
+        "U_MERGE/B",
+        "U_MERGE/X",
+        "L2/D"
+      ],
+      "setup_ns": null,
+      "hold_ns": -0.018286,
+      "external_delay_contributions": []
+    },
+    {
+      "source": "L2",
+      "target": "L3",
+      "source_pin": "L2/Q",
+      "target_pin": "L3/D",
+      "analysis": "min",
+      "transition": "^",
+      "delay_ns": 0.070218,
+      "pins": [
+        "L2/Q",
+        "U_TAIL/A",
+        "U_TAIL/X",
+        "L3/D"
+      ],
+      "setup_ns": null,
+      "hold_ns": -0.179916,
+      "external_delay_contributions": []
+    },
+    {
+      "source": "L1",
+      "target": "L2",
+      "source_pin": "L1/Q",
+      "target_pin": "L2/D",
+      "analysis": "min",
+      "transition": "v",
+      "delay_ns": 0.336778,
+      "pins": [
+        "L1/Q",
+        "U_LONG_HEAD/A",
+        "U_LONG_HEAD/X",
+        "U_LONG_MIDDLE/A",
+        "U_LONG_MIDDLE/X",
+        "U_LONG_TAIL/A",
+        "U_LONG_TAIL/X",
+        "U_MERGE/A",
+        "U_MERGE/X",
+        "L2/D"
+      ],
+      "setup_ns": null,
+      "hold_ns": -0.018286,
+      "external_delay_contributions": []
+    },
+    {
+      "source": "L1",
+      "target": "L2",
+      "source_pin": "L1/Q",
+      "target_pin": "L2/D",
+      "analysis": "min",
+      "transition": "^",
+      "delay_ns": 0.177533,
+      "pins": [
+        "L1/Q",
+        "U_SHORT/A",
+        "U_SHORT/X",
+        "U_MERGE/B",
+        "U_MERGE/X",
+        "L2/D"
+      ],
+      "setup_ns": null,
+      "hold_ns": -0.180648,
+      "external_delay_contributions": []
+    },
+    {
+      "source": "L1",
+      "target": "L2",
+      "source_pin": "L1/Q",
+      "target_pin": "L2/D",
+      "analysis": "min",
+      "transition": "^",
+      "delay_ns": 0.318199,
+      "pins": [
+        "L1/Q",
+        "U_LONG_HEAD/A",
+        "U_LONG_HEAD/X",
+        "U_LONG_MIDDLE/A",
+        "U_LONG_MIDDLE/X",
+        "U_LONG_TAIL/A",
+        "U_LONG_TAIL/X",
+        "U_MERGE/A",
+        "U_MERGE/X",
+        "L2/D"
+      ],
+      "setup_ns": null,
+      "hold_ns": -0.180648,
+      "external_delay_contributions": []
+    }
+  ],
+  "source_sha256": {
+    "units.rpt": "68cd79d3bdd9d6a6042a83c2b041185a6b47ba9d1791cea4c42d270cd6381bf1",
+    "check_setup.rpt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "opensta_rerun.log": "9fe2aa1bb0c3b726ce4e0458a0e48fca6785325be6f84713acab6ab013a1c22c",
+    "clocks.rpt": "bda3f0b7b5e348b4ff40befc937a070352114394e2c4345c9d4ec525eda4dfa0",
+    "L1_instance.rpt": "54a74800bf6b58e136bfc409a3466c1c08ce9ac3e7324dfc7d9076521a3a864b",
+    "L2_instance.rpt": "22a3caf9b492a5c4f9e39b3361f6eb3ef0b63daad88cd227e4840fdde18ed7b8",
+    "L3_instance.rpt": "a578abac817d4dcb9765f383fbaf73fda40d2a2487d9b9f2eb40379ee47fe815",
+    "setup.rpt": "31e8130698c9b608b7152a559c51cb8b6cd4df4127f6c40e67a45430a12a61e1",
+    "hold.rpt": "441e013028802f4ca451dcccaf9fc7c795c718b457f722e591498b92baa7de89",
+    "constraints.sdc": "ac074aab5a1e618ee03f33629c09cba9314bb6b498ff234a849fd170be6f83bf",
+    "L1_dq_min.rpt": "31219d4fa1ce6753b106f41347ffe0243cf14f8a2bf2d17591d04248effe254c",
+    "L1_dq_max.rpt": "31219d4fa1ce6753b106f41347ffe0243cf14f8a2bf2d17591d04248effe254c",
+    "L1_cq_min.rpt": "f1c76a4d79325e813c9129d852b3ca35985fdecc5bf7096fc6cc779e6b0e2301",
+    "L1_cq_max.rpt": "f1c76a4d79325e813c9129d852b3ca35985fdecc5bf7096fc6cc779e6b0e2301",
+    "L2_dq_min.rpt": "b30c7c4bad300070e2ecb97948bf920d086050ffba7b9ce26ecb3648593b882f",
+    "L2_dq_max.rpt": "fd265d0110ec334fbf9c5a011652298d1473710b0b8c91ae38efed41dbcf941e",
+    "L2_cq_min.rpt": "9c16484f20b54358dc901dfc2229e7f6c275e4c70189df35d3d501147e974ff3",
+    "L2_cq_max.rpt": "9c16484f20b54358dc901dfc2229e7f6c275e4c70189df35d3d501147e974ff3",
+    "L3_dq_min.rpt": "eca1a7e3d495d5173be09e73c9296c9ee620b16a4aa29fe7a8fdb7d2c87e3712",
+    "L3_dq_max.rpt": "eca1a7e3d495d5173be09e73c9296c9ee620b16a4aa29fe7a8fdb7d2c87e3712",
+    "L3_cq_min.rpt": "9c16484f20b54358dc901dfc2229e7f6c275e4c70189df35d3d501147e974ff3",
+    "L3_cq_max.rpt": "9c16484f20b54358dc901dfc2229e7f6c275e4c70189df35d3d501147e974ff3",
+    "pulse_width.rpt": "5ce3bdca02b557bc93d818d6d95123edcebd5bb3daa1ece7be7e173148653525"
+  },
+  "pulse_width_sources": [
+    {
+      "file": "sky130_fd_sc_hd__common.lib.json",
+      "sha256": "f2e44ee9535bca3badb2748c12f7bf90c0cd1a67d01e5ed7659e43d964a791de"
+    },
+    {
+      "file": "sky130_fd_sc_hd__dlxtp_1__tt_025C_1v80.lib.json",
+      "sha256": "ceda3df7a93c21ab9ea03e5a1cc89fe0a195a93ada785c105dccf4cf13d8442b"
+    }
+  ],
+  "semantics": "Edges contain only combinational delay. IO delays are excluded; signed report contributions and original port names are retained in paths. Setup contributions are negated; hold signs are preserved.",
+  "limitations": [
+    "Only paths present in the reports are exported; report truncation can omit connectivity or extrema.",
+    "Single clock, flat positive-level D/GATE/Q latches and the supplied OpenSTA text layout only.",
+    "Values are rounded envelopes at reported operating points, not a multi-PVT envelope.",
+    "Pulse widths use supplied TT Liberty JSON tables at a fixed reported ideal-clock slew; null means no check in that arc.",
+    "IO supports one input/output, ideal related rising-edge clocks and same-transaction acyclic paths only; other SDC commands are rejected.",
+    "Hold checks use a conservative opening-edge lower bound for latch-launched paths; this may reject feasible schedules."
+  ]
+}

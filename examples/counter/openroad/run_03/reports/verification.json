@@ -1,0 +1,145 @@
+{
+  "status": "PASS",
+  "openroad_version": "26Q2-1164-g08f67ee5ec",
+  "sdc_clock_period_ns": 1.649999976158,
+  "die_um": [
+    0,
+    0,
+    60,
+    60
+  ],
+  "core_um": [
+    10.12,
+    10.88,
+    49.68,
+    48.96
+  ],
+  "core_area_um2": 1506.4448,
+  "original_cell_area_um2": 178.9216,
+  "original_instances": 18,
+  "preserved_latches": 8,
+  "preserved_signal_pins": 66,
+  "clock_tree_buffers": 3,
+  "clock_balance_dummy_loads": 1,
+  "clock_buffer_depths": [
+    2,
+    2
+  ],
+  "tap_cells": 16,
+  "endcap_cells": 28,
+  "filler_cells": 169,
+  "final_instances": 235,
+  "final_total_nets": 26,
+  "routed_signal_clock_nets": 24,
+  "global_route_overflow": 0,
+  "detailed_route_drc_violations": 0,
+  "all_signal_nets_routed": true,
+  "pdn_vdd_connected": true,
+  "pdn_vss_connected": true,
+  "placement_legal": true,
+  "detailed_signal_clock_wirelength_um": 476.95,
+  "detailed_route_vias": 156,
+  "instance_counts_by_master": {
+    "sky130_fd_sc_hd__a21oi_1": 3,
+    "sky130_fd_sc_hd__a31oi_1": 1,
+    "sky130_fd_sc_hd__a41o_1": 1,
+    "sky130_fd_sc_hd__and3_1": 1,
+    "sky130_fd_sc_hd__clkbuf_1": 1,
+    "sky130_fd_sc_hd__clkbuf_4": 3,
+    "sky130_fd_sc_hd__dlxtn_1": 4,
+    "sky130_fd_sc_hd__dlxtp_1": 4,
+    "sky130_fd_sc_hd__fill_1": 24,
+    "sky130_fd_sc_hd__fill_2": 18,
+    "sky130_fd_sc_hd__fill_4": 20,
+    "sky130_fd_sc_hd__fill_8": 107,
+    "sky130_fd_sc_hd__nand2_1": 1,
+    "sky130_fd_sc_hd__nor3b_1": 1,
+    "sky130_fd_sc_hd__o21ai_0": 2,
+    "sky130_fd_sc_hd__tapvpwrvgnd_1": 44
+  },
+  "clock_paths": [
+    {
+      "instance": "_17_",
+      "pin": "GATE_N",
+      "leaf_net": "clknet_1_0__leaf_clk",
+      "buffer_depth": 2,
+      "root_to_sink_buffers": [
+        "clkbuf_0_clk",
+        "clkbuf_1_0__f_clk"
+      ]
+    },
+    {
+      "instance": "_18_",
+      "pin": "GATE_N",
+      "leaf_net": "clknet_1_1__leaf_clk",
+      "buffer_depth": 2,
+      "root_to_sink_buffers": [
+        "clkbuf_0_clk",
+        "clkbuf_1_1__f_clk"
+      ]
+    },
+    {
+      "instance": "_19_",
+      "pin": "GATE_N",
+      "leaf_net": "clknet_1_1__leaf_clk",
+      "buffer_depth": 2,
+      "root_to_sink_buffers": [
+        "clkbuf_0_clk",
+        "clkbuf_1_1__f_clk"
+      ]
+    },
+    {
+      "instance": "_20_",
+      "pin": "GATE_N",
+      "leaf_net": "clknet_1_1__leaf_clk",
+      "buffer_depth": 2,
+      "root_to_sink_buffers": [
+        "clkbuf_0_clk",
+        "clkbuf_1_1__f_clk"
+      ]
+    },
+    {
+      "instance": "_21_",
+      "pin": "GATE",
+      "leaf_net": "clknet_1_0__leaf_clk",
+      "buffer_depth": 2,
+      "root_to_sink_buffers": [
+        "clkbuf_0_clk",
+        "clkbuf_1_0__f_clk"
+      ]
+    },
+    {
+      "instance": "_22_",
+      "pin": "GATE",
+      "leaf_net": "clknet_1_0__leaf_clk",
+      "buffer_depth": 2,
+      "root_to_sink_buffers": [
+        "clkbuf_0_clk",
+        "clkbuf_1_0__f_clk"
+      ]
+    },
+    {
+      "instance": "_23_",
+      "pin": "GATE",
+      "leaf_net": "clknet_1_0__leaf_clk",
+      "buffer_depth": 2,
+      "root_to_sink_buffers": [
+        "clkbuf_0_clk",
+        "clkbuf_1_0__f_clk"
+      ]
+    },
+    {
+      "instance": "_24_",
+      "pin": "GATE",
+      "leaf_net": "clknet_1_1__leaf_clk",
+      "buffer_depth": 2,
+      "root_to_sink_buffers": [
+        "clkbuf_0_clk",
+        "clkbuf_1_1__f_clk"
+      ]
+    }
+  ],
+  "parasitic_extraction": "NOT RUN",
+  "design_parasitic_estimation": "NOT RUN",
+  "post_route_sta": "NOT RUN"
+}

@@ -1,0 +1,4029 @@
+{
+  "schema_version": 4,
+  "timing_model": "counter_mixed_polarity_feedback_v1",
+  "units": {
+    "time": "ns",
+    "capacitance": "pF"
+  },
+  "clock": {
+    "name": "clk",
+    "port": "clk",
+    "period_ns": 10.0,
+    "rise_ns": 5.0,
+    "fall_ns": 10.0
+  },
+  "clock_skew_ns": 0.0,
+  "io_constraints": {
+    "inputs": {
+      "en": {
+        "min_delay_ns": 0.2,
+        "max_delay_ns": 1.0,
+        "transition_ns": 0.06
+      },
+      "rst_n": {
+        "min_delay_ns": 0.2,
+        "max_delay_ns": 1.0,
+        "transition_ns": 0.06
+      }
+    },
+    "outputs": {
+      "count[0]": {
+        "min_delay_ns": -0.05,
+        "max_delay_ns": 1.0,
+        "load_pf": 0.01
+      },
+      "count[1]": {
+        "min_delay_ns": -0.05,
+        "max_delay_ns": 1.0,
+        "load_pf": 0.01
+      },
+      "count[2]": {
+        "min_delay_ns": -0.05,
+        "max_delay_ns": 1.0,
+        "load_pf": 0.01
+      },
+      "count[3]": {
+        "min_delay_ns": -0.05,
+        "max_delay_ns": 1.0,
+        "load_pf": 0.01
+      }
+    },
+    "uncertainty": {
+      "setup_ns": 0.05,
+      "hold_ns": 0.05
+    }
+  },
+  "sta_conditions": {
+    "clock_transition_ns": 0.06
+  },
+  "nodes": [
+    {
+      "instance": "_17_",
+      "cell": "sky130_fd_sc_hd__dlxtn_1",
+      "gate_pin": "_17_/GATE_N",
+      "data_pin": "_17_/D",
+      "output_pin": "_17_/Q",
+      "polarity": "negative",
+      "library": "sky130_fd_sc_hd__tt_025C_1v80",
+      "window_fraction": [
+        0.0,
+        0.5
+      ],
+      "parameters_ns": {
+        "tsu": 0.161291,
+        "thd": -0.097909,
+        "tdqMin": 0.211706,
+        "tdqMax": 0.329472,
+        "tcqMin": 0.251567,
+        "tcqMax": 0.387303
+      },
+      "reported_arcs": {
+        "dq_min": {
+          "^": 0.324467,
+          "v": 0.211706
+        },
+        "dq_max": {
+          "^": 0.329472,
+          "v": 0.222207
+        },
+        "cq_min": {
+          "^": 0.387303,
+          "v": 0.251567
+        },
+        "cq_max": {
+          "^": 0.387303,
+          "v": 0.251567
+        }
+      },
+      "reported_pulse_check": {
+        "level": "low",
+        "required_ns": 0.209874,
+        "actual_ns": 5.0,
+        "slack_ns": 4.790126,
+        "status": "MET"
+      }
+    },
+    {
+      "instance": "_18_",
+      "cell": "sky130_fd_sc_hd__dlxtn_1",
+      "gate_pin": "_18_/GATE_N",
+      "data_pin": "_18_/D",
+      "output_pin": "_18_/Q",
+      "polarity": "negative",
+      "library": "sky130_fd_sc_hd__tt_025C_1v80",
+      "window_fraction": [
+        0.0,
+        0.5
+      ],
+      "parameters_ns": {
+        "tsu": 0.169062,
+        "thd": -0.099318,
+        "tdqMin": 0.213567,
+        "tdqMax": 0.341451,
+        "tcqMin": 0.251567,
+        "tcqMax": 0.387303
+      },
+      "reported_arcs": {
+        "dq_min": {
+          "^": 0.341242,
+          "v": 0.213567
+        },
+        "dq_max": {
+          "^": 0.341451,
+          "v": 0.216757
+        },
+        "cq_min": {
+          "^": 0.387303,
+          "v": 0.251567
+        },
+        "cq_max": {
+          "^": 0.387303,
+          "v": 0.251567
+        }
+      },
+      "reported_pulse_check": {
+        "level": "low",
+        "required_ns": 0.209874,
+        "actual_ns": 5.0,
+        "slack_ns": 4.790126,
+        "status": "MET"
+      }
+    },
+    {
+      "instance": "_19_",
+      "cell": "sky130_fd_sc_hd__dlxtn_1",
+      "gate_pin": "_19_/GATE_N",
+      "data_pin": "_19_/D",
+      "output_pin": "_19_/Q",
+      "polarity": "negative",
+      "library": "sky130_fd_sc_hd__tt_025C_1v80",
+      "window_fraction": [
+        0.0,
+        0.5
+      ],
+      "parameters_ns": {
+        "tsu": 0.16127,
+        "thd": -0.097909,
+        "tdqMin": 0.211706,
+        "tdqMax": 0.329435,
+        "tcqMin": 0.251567,
+        "tcqMax": 0.387303
+      },
+      "reported_arcs": {
+        "dq_min": {
+          "^": 0.32459,
+          "v": 0.211706
+        },
+        "dq_max": {
+          "^": 0.329435,
+          "v": 0.224339
+        },
+        "cq_min": {
+          "^": 0.387303,
+          "v": 0.251567
+        },
+        "cq_max": {
+          "^": 0.387303,
+          "v": 0.251567
+        }
+      },
+      "reported_pulse_check": {
+        "level": "low",
+        "required_ns": 0.209874,
+        "actual_ns": 5.0,
+        "slack_ns": 4.790126,
+        "status": "MET"
+      }
+    },
+    {
+      "instance": "_20_",
+      "cell": "sky130_fd_sc_hd__dlxtn_1",
+      "gate_pin": "_20_/GATE_N",
+      "data_pin": "_20_/D",
+      "output_pin": "_20_/Q",
+      "polarity": "negative",
+      "library": "sky130_fd_sc_hd__tt_025C_1v80",
+      "window_fraction": [
+        0.0,
+        0.5
+      ],
+      "parameters_ns": {
+        "tsu": 0.164585,
+        "thd": -0.096218,
+        "tdqMin": 0.209533,
+        "tdqMax": 0.33518,
+        "tcqMin": 0.251567,
+        "tcqMax": 0.387303
+      },
+      "reported_arcs": {
+        "dq_min": {
+          "^": 0.325667,
+          "v": 0.209533
+        },
+        "dq_max": {
+          "^": 0.33518,
+          "v": 0.228641
+        },
+        "cq_min": {
+          "^": 0.387303,
+          "v": 0.251567
+        },
+        "cq_max": {
+          "^": 0.387303,
+          "v": 0.251567
+        }
+      },
+      "reported_pulse_check": {
+        "level": "low",
+        "required_ns": 0.209874,
+        "actual_ns": 5.0,
+        "slack_ns": 4.790126,
+        "status": "MET"
+      }
+    },
+    {
+      "instance": "_21_",
+      "cell": "sky130_fd_sc_hd__dlxtp_1",
+      "gate_pin": "_21_/GATE",
+      "data_pin": "_21_/D",
+      "output_pin": "_21_/Q",
+      "polarity": "positive",
+      "library": "sky130_fd_sc_hd__tt_025C_1v80",
+      "window_fraction": [
+        0.5,
+        1.0
+      ],
+      "parameters_ns": {
+        "tsu": 0.190057,
+        "thd": -0.012533,
+        "tdqMin": 0.275939,
+        "tdqMax": 0.433861,
+        "tcqMin": 0.33457,
+        "tcqMax": 0.425993
+      },
+      "reported_arcs": {
+        "dq_min": {
+          "^": 0.433861,
+          "v": 0.275939
+        },
+        "dq_max": {
+          "^": 0.433861,
+          "v": 0.275939
+        },
+        "cq_min": {
+          "^": 0.425993,
+          "v": 0.33457
+        },
+        "cq_max": {
+          "^": 0.425993,
+          "v": 0.33457
+        }
+      },
+      "reported_pulse_check": {
+        "level": "high",
+        "required_ns": 0.244399,
+        "actual_ns": 5.0,
+        "slack_ns": 4.755601,
+        "status": "MET"
+      }
+    },
+    {
+      "instance": "_22_",
+      "cell": "sky130_fd_sc_hd__dlxtp_1",
+      "gate_pin": "_22_/GATE",
+      "data_pin": "_22_/D",
+      "output_pin": "_22_/Q",
+      "polarity": "positive",
+      "library": "sky130_fd_sc_hd__tt_025C_1v80",
+      "window_fraction": [
+        0.5,
+        1.0
+      ],
+      "parameters_ns": {
+        "tsu": 0.190057,
+        "thd": -0.012533,
+        "tdqMin": 0.262755,
+        "tdqMax": 0.406283,
+        "tcqMin": 0.321368,
+        "tcqMax": 0.398364
+      },
+      "reported_arcs": {
+        "dq_min": {
+          "^": 0.406283,
+          "v": 0.262755
+        },
+        "dq_max": {
+          "^": 0.406283,
+          "v": 0.262755
+        },
+        "cq_min": {
+          "^": 0.398364,
+          "v": 0.321368
+        },
+        "cq_max": {
+          "^": 0.398364,
+          "v": 0.321368
+        }
+      },
+      "reported_pulse_check": {
+        "level": "high",
+        "required_ns": 0.244399,
+        "actual_ns": 5.0,
+        "slack_ns": 4.755601,
+        "status": "MET"
+      }
+    },
+    {
+      "instance": "_23_",
+      "cell": "sky130_fd_sc_hd__dlxtp_1",
+      "gate_pin": "_23_/GATE",
+      "data_pin": "_23_/D",
+      "output_pin": "_23_/Q",
+      "polarity": "positive",
+      "library": "sky130_fd_sc_hd__tt_025C_1v80",
+      "window_fraction": [
+        0.5,
+        1.0
+      ],
+      "parameters_ns": {
+        "tsu": 0.190057,
+        "thd": -0.012533,
+        "tdqMin": 0.271495,
+        "tdqMax": 0.422635,
+        "tcqMin": 0.330119,
+        "tcqMax": 0.414746
+      },
+      "reported_arcs": {
+        "dq_min": {
+          "^": 0.422635,
+          "v": 0.271495
+        },
+        "dq_max": {
+          "^": 0.422635,
+          "v": 0.271495
+        },
+        "cq_min": {
+          "^": 0.414746,
+          "v": 0.330119
+        },
+        "cq_max": {
+          "^": 0.414746,
+          "v": 0.330119
+        }
+      },
+      "reported_pulse_check": {
+        "level": "high",
+        "required_ns": 0.244399,
+        "actual_ns": 5.0,
+        "slack_ns": 4.755601,
+        "status": "MET"
+      }
+    },
+    {
+      "instance": "_24_",
+      "cell": "sky130_fd_sc_hd__dlxtp_1",
+      "gate_pin": "_24_/GATE",
+      "data_pin": "_24_/D",
+      "output_pin": "_24_/Q",
+      "polarity": "positive",
+      "library": "sky130_fd_sc_hd__tt_025C_1v80",
+      "window_fraction": [
+        0.5,
+        1.0
+      ],
+      "parameters_ns": {
+        "tsu": 0.190057,
+        "thd": -0.012533,
+        "tdqMin": 0.258086,
+        "tdqMax": 0.397519,
+        "tcqMin": 0.316692,
+        "tcqMax": 0.389584
+      },
+      "reported_arcs": {
+        "dq_min": {
+          "^": 0.397519,
+          "v": 0.258086
+        },
+        "dq_max": {
+          "^": 0.397519,
+          "v": 0.258086
+        },
+        "cq_min": {
+          "^": 0.389584,
+          "v": 0.316692
+        },
+        "cq_max": {
+          "^": 0.389584,
+          "v": 0.316692
+        }
+      },
+      "reported_pulse_check": {
+        "level": "high",
+        "required_ns": 0.244399,
+        "actual_ns": 5.0,
+        "slack_ns": 4.755601,
+        "status": "MET"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "_17_",
+      "target": "_21_",
+      "min_delay_ns": 0.0,
+      "max_delay_ns": 0.0
+    },
+    {
+      "source": "_18_",
+      "target": "_22_",
+      "min_delay_ns": 0.0,
+      "max_delay_ns": 0.0
+    },
+    {
+      "source": "_19_",
+      "target": "_23_",
+      "min_delay_ns": 0.0,
+      "max_delay_ns": 0.0
+    },
+    {
+      "source": "_20_",
+      "target": "_24_",
+      "min_delay_ns": 0.0,
+      "max_delay_ns": 0.0
+    },
+    {
+      "source": "_21_",
+      "target": "_17_",
+      "min_delay_ns": 0.088094,
+      "max_delay_ns": 0.199753
+    },
+    {
+      "source": "_21_",
+      "target": "_18_",
+      "min_delay_ns": 0.201324,
+      "max_delay_ns": 0.397982
+    },
+    {
+      "source": "_21_",
+      "target": "_19_",
+      "min_delay_ns": 0.297761,
+      "max_delay_ns": 0.410682
+    },
+    {
+      "source": "_21_",
+      "target": "_20_",
+      "min_delay_ns": 0.311434,
+      "max_delay_ns": 0.374963
+    },
+    {
+      "source": "_21_",
+      "target": "count[0]",
+      "min_delay_ns": 0.0,
+      "max_delay_ns": 0.0
+    },
+    {
+      "source": "_22_",
+      "target": "_18_",
+      "min_delay_ns": 0.168177,
+      "max_delay_ns": 0.37527
+    },
+    {
+      "source": "_22_",
+      "target": "_19_",
+      "min_delay_ns": 0.29071,
+      "max_delay_ns": 0.402099
+    },
+    {
+      "source": "_22_",
+      "target": "_20_",
+      "min_delay_ns": 0.304383,
+      "max_delay_ns": 0.352251
+    },
+    {
+      "source": "_22_",
+      "target": "count[1]",
+      "min_delay_ns": 0.0,
+      "max_delay_ns": 0.0
+    },
+    {
+      "source": "_23_",
+      "target": "_19_",
+      "min_delay_ns": 0.080552,
+      "max_delay_ns": 0.212012
+    },
+    {
+      "source": "_23_",
+      "target": "_20_",
+      "min_delay_ns": 0.092466,
+      "max_delay_ns": 0.33349
+    },
+    {
+      "source": "_23_",
+      "target": "count[2]",
+      "min_delay_ns": 0.0,
+      "max_delay_ns": 0.0
+    },
+    {
+      "source": "_24_",
+      "target": "_20_",
+      "min_delay_ns": 0.092516,
+      "max_delay_ns": 0.290729
+    },
+    {
+      "source": "_24_",
+      "target": "count[3]",
+      "min_delay_ns": 0.0,
+      "max_delay_ns": 0.0
+    },
+    {
+      "source": "en",
+      "target": "_17_",
+      "min_delay_ns": 0.052409,
+      "max_delay_ns": 0.198834
+    },
+    {
+      "source": "en",
+      "target": "_18_",
+      "min_delay_ns": 0.16811,
+      "max_delay_ns": 0.344702
+    },
+    {
+      "source": "en",
+      "target": "_19_",
+      "min_delay_ns": 0.255617,
+      "max_delay_ns": 0.367006
+    },
+    {
+      "source": "en",
+      "target": "_20_",
+      "min_delay_ns": 0.26929,
+      "max_delay_ns": 0.321683
+    },
+    {
+      "source": "rst_n",
+      "target": "_17_",
+      "min_delay_ns": 0.107685,
+      "max_delay_ns": 0.170389
+    },
+    {
+      "source": "rst_n",
+      "target": "_18_",
+      "min_delay_ns": 0.133082,
+      "max_delay_ns": 0.152937
+    },
+    {
+      "source": "rst_n",
+      "target": "_19_",
+      "min_delay_ns": 0.107685,
+      "max_delay_ns": 0.172545
+    },
+    {
+      "source": "rst_n",
+      "target": "_20_",
+      "min_delay_ns": 0.08743,
+      "max_delay_ns": 0.158616
+    }
+  ],
+  "paths": [
+    {
+      "source": "en",
+      "target": "_19_",
+      "analysis": "max",
+      "source_transition": "^",
+      "target_transition": "^",
+      "delay_ns": 0.367006,
+      "pins": [
+        "en",
+        "_09_/A",
+        "_09_/X",
+        "_10_/A2",
+        "_10_/Y",
+        "_11_/B1",
+        "_11_/Y",
+        "_19_/D"
+      ],
+      "checks": {
+        "setup_ns": 0.16127
+      },
+      "external_delays": [
+        {
+          "kind": "input",
+          "contribution_ns": 1.0
+        }
+      ]
+    },
+    {
+      "source": "en",
+      "target": "_19_",
+      "analysis": "max",
+      "source_transition": "v",
+      "target_transition": "v",
+      "delay_ns": 0.357402,
+      "pins": [
+        "en",
+        "_09_/A",
+        "_09_/X",
+        "_10_/A2",
+        "_10_/Y",
+        "_11_/B1",
+        "_11_/Y",
+        "_19_/D"
+      ],
+      "checks": {
+        "setup_ns": 0.120878
+      },
+      "external_delays": [
+        {
+          "kind": "input",
+          "contribution_ns": 1.0
+        }
+      ]
+    },
+    {
+      "source": "en",
+      "target": "_18_",
+      "analysis": "max",
+      "source_transition": "v",
+      "target_transition": "^",
+      "delay_ns": 0.344702,
+      "pins": [
+        "en",
+        "_09_/A",
+        "_09_/X",
+        "_16_/A",
+        "_16_/Y",
+        "_18_/D"
+      ],
+      "checks": {
+        "setup_ns": 0.169062
+      },
+      "external_delays": [
+        {
+          "kind": "input",
+          "contribution_ns": 1.0
+        }
+      ]
+    },
+    {
+      "source": "en",
+      "target": "_20_",
+      "analysis": "max",
+      "source_transition": "v",
+      "target_transition": "^",
+      "delay_ns": 0.321683,
+      "pins": [
+        "en",
+        "_09_/A",
+        "_09_/X",
+        "_14_/A3",
+        "_14_/Y",
+        "_20_/D"
+      ],
+      "checks": {
+        "setup_ns": 0.164585
+      },
+      "external_delays": [
+        {
+          "kind": "input",
+          "contribution_ns": 1.0
+        }
+      ]
+    },
+    {
+      "source": "en",
+      "target": "_20_",
+      "analysis": "max",
+      "source_transition": "^",
+      "target_transition": "^",
+      "delay_ns": 0.309534,
+      "pins": [
+        "en",
+        "_12_/A2",
+        "_12_/X",
+        "_13_/B",
+        "_13_/Y",
+        "_14_/B1",
+        "_14_/Y",
+        "_20_/D"
+      ],
+      "checks": {
+        "setup_ns": 0.164585
+      },
+      "external_delays": [
+        {
+          "kind": "input",
+          "contribution_ns": 1.0
+        }
+      ]
+    },
+    {
+      "source": "en",
+      "target": "_19_",
+      "analysis": "max",
+      "source_transition": "v",
+      "target_transition": "^",
+      "delay_ns": 0.301003,
+      "pins": [
+        "en",
+        "_09_/A",
+        "_09_/X",
+        "_11_/A2",
+        "_11_/Y",
+        "_19_/D"
+      ],
+      "checks": {
+        "setup_ns": 0.16127
+      },
+      "external_delays": [
+        {
+          "kind": "input",
+          "contribution_ns": 1.0
+        }
+      ]
+    },
+    {
+      "source": "en",
+      "target": "_20_",
+      "analysis": "max",
+      "source_transition": "v",
+      "target_transition": "v",
+      "delay_ns": 0.28987,
+      "pins": [
+        "en",
+        "_12_/A2",
+        "_12_/X",
+        "_13_/B",
+        "_13_/Y",
+        "_14_/B1",
+        "_14_/Y",
+        "_20_/D"
+      ],
+      "checks": {
+        "setup_ns": 0.124
+      },
+      "external_delays": [
+        {
+          "kind": "input",
+          "contribution_ns": 1.0
+        }
+      ]
+    },
+    {
+      "source": "en",
+      "target": "_20_",
+      "analysis": "max",
+      "source_transition": "^",
+      "target_transition": "v",
+      "delay_ns": 0.269531,
+      "pins": [
+        "en",
+        "_09_/A",
+        "_09_/X",
+        "_14_/A3",
+        "_14_/Y",
+        "_20_/D"
+      ],
+      "checks": {
+        "setup_ns": 0.124
+      },
+      "external_delays": [
+        {
+          "kind": "input",
+          "contribution_ns": 1.0
+        }
+      ]
+    },
+    {
+      "source": "en",
+      "target": "_19_",
+      "analysis": "max",
+      "source_transition": "^",
+      "target_transition": "v",
+      "delay_ns": 0.255888,
+      "pins": [
+        "en",
+        "_09_/A",
+        "_09_/X",
+        "_11_/A2",
+        "_11_/Y",
+        "_19_/D"
+      ],
+      "checks": {
+        "setup_ns": 0.120878
+      },
+      "external_delays": [
+        {
+          "kind": "input",
+          "contribution_ns": 1.0
+        }
+      ]
+    },
+    {
+      "source": "en",
+      "target": "_18_",
+      "analysis": "max",
+      "source_transition": "^",
+      "target_transition": "v",
+      "delay_ns": 0.243108,
+      "pins": [
+        "en",
+        "_09_/A",
+        "_09_/X",
+        "_16_/A",
+        "_16_/Y",
+        "_18_/D"
+      ],
+      "checks": {
+        "setup_ns": 0.11525
+      },
+      "external_delays": [
+        {
+          "kind": "input",
+          "contribution_ns": 1.0
+        }
+      ]
+    },
+    {
+      "source": "en",
+      "target": "_18_",
+      "analysis": "max",
+      "source_transition": "^",
+      "target_transition": "^",
+      "delay_ns": 0.209061,
+      "pins": [
+        "en",
+        "_15_/A1",
+        "_15_/Y",
+        "_16_/B",
+        "_16_/Y",
+        "_18_/D"
+      ],
+      "checks": {
+        "setup_ns": 0.169062
+      },
+      "external_delays": [
+        {
+          "kind": "input",
+          "contribution_ns": 1.0
+        }
+      ]
+    },
+    {
+      "source": "en",
+      "target": "_17_",
+      "analysis": "max",
+      "source_transition": "v",
+      "target_transition": "v",
+      "delay_ns": 0.198834,
+      "pins": [
+        "en",
+        "_07_/A1",
+        "_07_/Y",
+        "_08_/B1",
+        "_08_/Y",
+        "_17_/D"
+      ],
+      "checks": {
+        "setup_ns": 0.119312
+      },
+      "external_delays": [
+        {
+          "kind": "input",
+          "contribution_ns": 1.0
+        }
+      ]
+    },
+    {
+      "source": "en",
+      "target": "_17_",
+      "analysis": "max",
+      "source_transition": "^",
+      "target_transition": "^",
+      "delay_ns": 0.176796,
+      "pins": [
+        "en",
+        "_07_/A1",
+        "_07_/Y",
+        "_08_/B1",
+        "_08_/Y",
+        "_17_/D"
+      ],
+      "checks": {
+        "setup_ns": 0.161291
+      },
+      "external_delays": [
+        {
+          "kind": "input",
+          "contribution_ns": 1.0
+        }
+      ]
+    },
+    {
+      "source": "rst_n",
+      "target": "_19_",
+      "analysis": "max",
+      "source_transition": "^",
+      "target_transition": "^",
+      "delay_ns": 0.172545,
+      "pins": [
+        "rst_n",
+        "_10_/B1",
+        "_10_/Y",
+        "_11_/B1",
+        "_11_/Y",
+        "_19_/D"
+      ],
+      "checks": {
+        "setup_ns": 0.16127
+      },
+      "external_delays": [
+        {
+          "kind": "input",
+          "contribution_ns": 1.0
+        }
+      ]
+    },
+    {
+      "source": "en",
+      "target": "_18_",
+      "analysis": "max",
+      "source_transition": "v",
+      "target_transition": "v",
+      "delay_ns": 0.17233,
+      "pins": [
+        "en",
+        "_15_/A1",
+        "_15_/Y",
+        "_16_/B",
+        "_16_/Y",
+        "_18_/D"
+      ],
+      "checks": {
+        "setup_ns": 0.11525
+      },
+      "external_delays": [
+        {
+          "kind": "input",
+          "contribution_ns": 1.0
+        }
+      ]
+    },
+    {
+      "source": "rst_n",
+      "target": "_17_",
+      "analysis": "max",
+      "source_transition": "^",
+      "target_transition": "^",
+      "delay_ns": 0.170389,
+      "pins": [
+        "rst_n",
+        "_07_/B1",
+        "_07_/Y",
+        "_08_/B1",
+        "_08_/Y",
+        "_17_/D"
+      ],
+      "checks": {
+        "setup_ns": 0.161291
+      },
+      "external_delays": [
+        {
+          "kind": "input",
+          "contribution_ns": 1.0
+        }
+      ]
+    },
+    {
+      "source": "rst_n",
+      "target": "_20_",
+      "analysis": "max",
+      "source_transition": "^",
+      "target_transition": "^",
+      "delay_ns": 0.158616,
+      "pins": [
+        "rst_n",
+        "_13_/A",
+        "_13_/Y",
+        "_14_/B1",
+        "_14_/Y",
+        "_20_/D"
+      ],
+      "checks": {
+        "setup_ns": 0.164585
+      },
+      "external_delays": [
+        {
+          "kind": "input",
+          "contribution_ns": 1.0
+        }
+      ]
+    },
+    {
+      "source": "rst_n",
+      "target": "_18_",
+      "analysis": "max",
+      "source_transition": "^",
+      "target_transition": "^",
+      "delay_ns": 0.152937,
+      "pins": [
+        "rst_n",
+        "_16_/C_N",
+        "_16_/Y",
+        "_18_/D"
+      ],
+      "checks": {
+        "setup_ns": 0.169062
+      },
+      "external_delays": [
+        {
+          "kind": "input",
+          "contribution_ns": 1.0
+        }
+      ]
+    },
+    {
+      "source": "rst_n",
+      "target": "_18_",
+      "analysis": "max",
+      "source_transition": "v",
+      "target_transition": "v",
+      "delay_ns": 0.133082,
+      "pins": [
+        "rst_n",
+        "_16_/C_N",
+        "_16_/Y",
+        "_18_/D"
+      ],
+      "checks": {
+        "setup_ns": 0.11525
+      },
+      "external_delays": [
+        {
+          "kind": "input",
+          "contribution_ns": 1.0
+        }
+      ]
+    },
+    {
+      "source": "rst_n",
+      "target": "_17_",
+      "analysis": "max",
+      "source_transition": "v",
+      "target_transition": "v",
+      "delay_ns": 0.118508,
+      "pins": [
+        "rst_n",
+        "_07_/B1",
+        "_07_/Y",
+        "_08_/B1",
+        "_08_/Y",
+        "_17_/D"
+      ],
+      "checks": {
+        "setup_ns": 0.119312
+      },
+      "external_delays": [
+        {
+          "kind": "input",
+          "contribution_ns": 1.0
+        }
+      ]
+    },
+    {
+      "source": "rst_n",
+      "target": "_19_",
+      "analysis": "max",
+      "source_transition": "v",
+      "target_transition": "v",
+      "delay_ns": 0.118506,
+      "pins": [
+        "rst_n",
+        "_10_/B1",
+        "_10_/Y",
+        "_11_/B1",
+        "_11_/Y",
+        "_19_/D"
+      ],
+      "checks": {
+        "setup_ns": 0.120878
+      },
+      "external_delays": [
+        {
+          "kind": "input",
+          "contribution_ns": 1.0
+        }
+      ]
+    },
+    {
+      "source": "en",
+      "target": "_17_",
+      "analysis": "max",
+      "source_transition": "v",
+      "target_transition": "^",
+      "delay_ns": 0.1099,
+      "pins": [
+        "en",
+        "_08_/A1",
+        "_08_/Y",
+        "_17_/D"
+      ],
+      "checks": {
+        "setup_ns": 0.161291
+      },
+      "external_delays": [
+        {
+          "kind": "input",
+          "contribution_ns": 1.0
+        }
+      ]
+    },
+    {
+      "source": "rst_n",
+      "target": "_20_",
+      "analysis": "max",
+      "source_transition": "v",
+      "target_transition": "v",
+      "delay_ns": 0.088625,
+      "pins": [
+        "rst_n",
+        "_13_/A",
+        "_13_/Y",
+        "_14_/B1",
+        "_14_/Y",
+        "_20_/D"
+      ],
+      "checks": {
+        "setup_ns": 0.124
+      },
+      "external_delays": [
+        {
+          "kind": "input",
+          "contribution_ns": 1.0
+        }
+      ]
+    },
+    {
+      "source": "en",
+      "target": "_17_",
+      "analysis": "max",
+      "source_transition": "^",
+      "target_transition": "v",
+      "delay_ns": 0.052409,
+      "pins": [
+        "en",
+        "_08_/A1",
+        "_08_/Y",
+        "_17_/D"
+      ],
+      "checks": {
+        "setup_ns": 0.119312
+      },
+      "external_delays": [
+        {
+          "kind": "input",
+          "contribution_ns": 1.0
+        }
+      ]
+    },
+    {
+      "source": "_21_",
+      "target": "_19_",
+      "analysis": "max",
+      "source_transition": "^",
+      "target_transition": "^",
+      "delay_ns": 0.40915,
+      "pins": [
+        "_21_/Q",
+        "_09_/C",
+        "_09_/X",
+        "_10_/A2",
+        "_10_/Y",
+        "_11_/B1",
+        "_11_/Y",
+        "_19_/D"
+      ],
+      "checks": {
+        "setup_ns": 0.16127
+      },
+      "external_delays": []
+    },
+    {
+      "source": "_22_",
+      "target": "_19_",
+      "analysis": "max",
+      "source_transition": "^",
+      "target_transition": "^",
+      "delay_ns": 0.402099,
+      "pins": [
+        "_22_/Q",
+        "_09_/B",
+        "_09_/X",
+        "_10_/A2",
+        "_10_/Y",
+        "_11_/B1",
+        "_11_/Y",
+        "_19_/D"
+      ],
+      "checks": {
+        "setup_ns": 0.16127
+      },
+      "external_delays": []
+    },
+    {
+      "source": "_21_",
+      "target": "_20_",
+      "analysis": "max",
+      "source_transition": "^",
+      "target_transition": "^",
+      "delay_ns": 0.350758,
+      "pins": [
+        "_21_/Q",
+        "_12_/A4",
+        "_12_/X",
+        "_13_/B",
+        "_13_/Y",
+        "_14_/B1",
+        "_14_/Y",
+        "_20_/D"
+      ],
+      "checks": {
+        "setup_ns": 0.164585
+      },
+      "external_delays": []
+    },
+    {
+      "source": "_23_",
+      "target": "_20_",
+      "analysis": "max",
+      "source_transition": "^",
+      "target_transition": "^",
+      "delay_ns": 0.33349,
+      "pins": [
+        "_23_/Q",
+        "_12_/A1",
+        "_12_/X",
+        "_13_/B",
+        "_13_/Y",
+        "_14_/B1",
+        "_14_/Y",
+        "_20_/D"
+      ],
+      "checks": {
+        "setup_ns": 0.164585
+      },
+      "external_delays": []
+    },
+    {
+      "source": "_21_",
+      "target": "_19_",
+      "analysis": "max",
+      "source_transition": "v",
+      "target_transition": "v",
+      "delay_ns": 0.410682,
+      "pins": [
+        "_21_/Q",
+        "_09_/C",
+        "_09_/X",
+        "_10_/A2",
+        "_10_/Y",
+        "_11_/B1",
+        "_11_/Y",
+        "_19_/D"
+      ],
+      "checks": {
+        "setup_ns": 0.120878
+      },
+      "external_delays": []
+    },
+    {
+      "source": "_22_",
+      "target": "_20_",
+      "analysis": "max",
+      "source_transition": "^",
+      "target_transition": "^",
+      "delay_ns": 0.340548,
+      "pins": [
+        "_22_/Q",
+        "_12_/A3",
+        "_12_/X",
+        "_13_/B",
+        "_13_/Y",
+        "_14_/B1",
+        "_14_/Y",
+        "_20_/D"
+      ],
+      "checks": {
+        "setup_ns": 0.164585
+      },
+      "external_delays": []
+    },
+    {
+      "source": "_21_",
+      "target": "_20_",
+      "analysis": "max",
+      "source_transition": "^",
+      "target_transition": "v",
+      "delay_ns": 0.311675,
+      "pins": [
+        "_21_/Q",
+        "_09_/C",
+        "_09_/X",
+        "_14_/A3",
+        "_14_/Y",
+        "_20_/D"
+      ],
+      "checks": {
+        "setup_ns": 0.124
+      },
+      "external_delays": []
+    },
+    {
+      "source": "_21_",
+      "target": "_18_",
+      "analysis": "max",
+      "source_transition": "v",
+      "target_transition": "^",
+      "delay_ns": 0.397982,
+      "pins": [
+        "_21_/Q",
+        "_09_/C",
+        "_09_/X",
+        "_16_/A",
+        "_16_/Y",
+        "_18_/D"
+      ],
+      "checks": {
+        "setup_ns": 0.169062
+      },
+      "external_delays": []
+    },
+    {
+      "source": "_21_",
+      "target": "_19_",
+      "analysis": "max",
+      "source_transition": "^",
+      "target_transition": "v",
+      "delay_ns": 0.298032,
+      "pins": [
+        "_21_/Q",
+        "_09_/C",
+        "_09_/X",
+        "_11_/A2",
+        "_11_/Y",
+        "_19_/D"
+      ],
+      "checks": {
+        "setup_ns": 0.120878
+      },
+      "external_delays": []
+    },
+    {
+      "source": "_21_",
+      "target": "_18_",
+      "analysis": "max",
+      "source_transition": "^",
+      "target_transition": "v",
+      "delay_ns": 0.285252,
+      "pins": [
+        "_21_/Q",
+        "_09_/C",
+        "_09_/X",
+        "_16_/A",
+        "_16_/Y",
+        "_18_/D"
+      ],
+      "checks": {
+        "setup_ns": 0.11525
+      },
+      "external_delays": []
+    },
+    {
+      "source": "_21_",
+      "target": "_20_",
+      "analysis": "max",
+      "source_transition": "v",
+      "target_transition": "^",
+      "delay_ns": 0.374963,
+      "pins": [
+        "_21_/Q",
+        "_09_/C",
+        "_09_/X",
+        "_14_/A3",
+        "_14_/Y",
+        "_20_/D"
+      ],
+      "checks": {
+        "setup_ns": 0.164585
+      },
+      "external_delays": []
+    },
+    {
+      "source": "_22_",
+      "target": "_19_",
+      "analysis": "max",
+      "source_transition": "v",
+      "target_transition": "v",
+      "delay_ns": 0.38797,
+      "pins": [
+        "_22_/Q",
+        "_09_/B",
+        "_09_/X",
+        "_10_/A2",
+        "_10_/Y",
+        "_11_/B1",
+        "_11_/Y",
+        "_19_/D"
+      ],
+      "checks": {
+        "setup_ns": 0.120878
+      },
+      "external_delays": []
+    },
+    {
+      "source": "_22_",
+      "target": "_20_",
+      "analysis": "max",
+      "source_transition": "^",
+      "target_transition": "v",
+      "delay_ns": 0.304624,
+      "pins": [
+        "_22_/Q",
+        "_09_/B",
+        "_09_/X",
+        "_14_/A3",
+        "_14_/Y",
+        "_20_/D"
+      ],
+      "checks": {
+        "setup_ns": 0.124
+      },
+      "external_delays": []
+    },
+    {
+      "source": "_22_",
+      "target": "_18_",
+      "analysis": "max",
+      "source_transition": "v",
+      "target_transition": "^",
+      "delay_ns": 0.37527,
+      "pins": [
+        "_22_/Q",
+        "_09_/B",
+        "_09_/X",
+        "_16_/A",
+        "_16_/Y",
+        "_18_/D"
+      ],
+      "checks": {
+        "setup_ns": 0.169062
+      },
+      "external_delays": []
+    },
+    {
+      "source": "_22_",
+      "target": "_19_",
+      "analysis": "max",
+      "source_transition": "^",
+      "target_transition": "v",
+      "delay_ns": 0.290981,
+      "pins": [
+        "_22_/Q",
+        "_09_/B",
+        "_09_/X",
+        "_11_/A2",
+        "_11_/Y",
+        "_19_/D"
+      ],
+      "checks": {
+        "setup_ns": 0.120878
+      },
+      "external_delays": []
+    },
+    {
+      "source": "_21_",
+      "target": "_19_",
+      "analysis": "max",
+      "source_transition": "v",
+      "target_transition": "^",
+      "delay_ns": 0.354283,
+      "pins": [
+        "_21_/Q",
+        "_09_/C",
+        "_09_/X",
+        "_11_/A2",
+        "_11_/Y",
+        "_19_/D"
+      ],
+      "checks": {
+        "setup_ns": 0.16127
+      },
+      "external_delays": []
+    },
+    {
+      "source": "_22_",
+      "target": "_18_",
+      "analysis": "max",
+      "source_transition": "^",
+      "target_transition": "v",
+      "delay_ns": 0.278201,
+      "pins": [
+        "_22_/Q",
+        "_09_/B",
+        "_09_/X",
+        "_16_/A",
+        "_16_/Y",
+        "_18_/D"
+      ],
+      "checks": {
+        "setup_ns": 0.11525
+      },
+      "external_delays": []
+    },
+    {
+      "source": "_22_",
+      "target": "_20_",
+      "analysis": "max",
+      "source_transition": "v",
+      "target_transition": "^",
+      "delay_ns": 0.352251,
+      "pins": [
+        "_22_/Q",
+        "_09_/B",
+        "_09_/X",
+        "_14_/A3",
+        "_14_/Y",
+        "_20_/D"
+      ],
+      "checks": {
+        "setup_ns": 0.164585
+      },
+      "external_delays": []
+    },
+    {
+      "source": "_21_",
+      "target": "_18_",
+      "analysis": "max",
+      "source_transition": "^",
+      "target_transition": "^",
+      "delay_ns": 0.246097,
+      "pins": [
+        "_21_/Q",
+        "_15_/A2",
+        "_15_/Y",
+        "_16_/B",
+        "_16_/Y",
+        "_18_/D"
+      ],
+      "checks": {
+        "setup_ns": 0.169062
+      },
+      "external_delays": []
+    },
+    {
+      "source": "_21_",
+      "target": "_20_",
+      "analysis": "max",
+      "source_transition": "v",
+      "target_transition": "v",
+      "delay_ns": 0.334286,
+      "pins": [
+        "_21_/Q",
+        "_12_/A4",
+        "_12_/X",
+        "_13_/B",
+        "_13_/Y",
+        "_14_/B1",
+        "_14_/Y",
+        "_20_/D"
+      ],
+      "checks": {
+        "setup_ns": 0.124
+      },
+      "external_delays": []
+    },
+    {
+      "source": "_24_",
+      "target": "_20_",
+      "analysis": "max",
+      "source_transition": "^",
+      "target_transition": "^",
+      "delay_ns": 0.267891,
+      "pins": [
+        "_24_/Q",
+        "_12_/B1",
+        "_12_/X",
+        "_13_/B",
+        "_13_/Y",
+        "_14_/B1",
+        "_14_/Y",
+        "_20_/D"
+      ],
+      "checks": {
+        "setup_ns": 0.164585
+      },
+      "external_delays": []
+    },
+    {
+      "source": "_22_",
+      "target": "_19_",
+      "analysis": "max",
+      "source_transition": "v",
+      "target_transition": "^",
+      "delay_ns": 0.331571,
+      "pins": [
+        "_22_/Q",
+        "_09_/B",
+        "_09_/X",
+        "_11_/A2",
+        "_11_/Y",
+        "_19_/D"
+      ],
+      "checks": {
+        "setup_ns": 0.16127
+      },
+      "external_delays": []
+    },
+    {
+      "source": "_22_",
+      "target": "_20_",
+      "analysis": "max",
+      "source_transition": "v",
+      "target_transition": "v",
+      "delay_ns": 0.318403,
+      "pins": [
+        "_22_/Q",
+        "_12_/A3",
+        "_12_/X",
+        "_13_/B",
+        "_13_/Y",
+        "_14_/B1",
+        "_14_/Y",
+        "_20_/D"
+      ],
+      "checks": {
+        "setup_ns": 0.124
+      },
+      "external_delays": []
+    },
+    {
+      "source": "_23_",
+      "target": "_19_",
+      "analysis": "max",
+      "source_transition": "^",
+      "target_transition": "^",
+      "delay_ns": 0.212012,
+      "pins": [
+        "_23_/Q",
+        "_10_/A1",
+        "_10_/Y",
+        "_11_/B1",
+        "_11_/Y",
+        "_19_/D"
+      ],
+      "checks": {
+        "setup_ns": 0.16127
+      },
+      "external_delays": []
+    },
+    {
+      "source": "_21_",
+      "target": "_17_",
+      "analysis": "max",
+      "source_transition": "^",
+      "target_transition": "^",
+      "delay_ns": 0.19739,
+      "pins": [
+        "_21_/Q",
+        "_07_/A2",
+        "_07_/Y",
+        "_08_/B1",
+        "_08_/Y",
+        "_17_/D"
+      ],
+      "checks": {
+        "setup_ns": 0.161291
+      },
+      "external_delays": []
+    },
+    {
+      "source": "_24_",
+      "target": "_20_",
+      "analysis": "max",
+      "source_transition": "v",
+      "target_transition": "v",
+      "delay_ns": 0.290729,
+      "pins": [
+        "_24_/Q",
+        "_12_/B1",
+        "_12_/X",
+        "_13_/B",
+        "_13_/Y",
+        "_14_/B1",
+        "_14_/Y",
+        "_20_/D"
+      ],
+      "checks": {
+        "setup_ns": 0.124
+      },
+      "external_delays": []
+    },
+    {
+      "source": "_22_",
+      "target": "_18_",
+      "analysis": "max",
+      "source_transition": "^",
+      "target_transition": "^",
+      "delay_ns": 0.208225,
+      "pins": [
+        "_22_/Q",
+        "_15_/B1",
+        "_15_/Y",
+        "_16_/B",
+        "_16_/Y",
+        "_18_/D"
+      ],
+      "checks": {
+        "setup_ns": 0.169062
+      },
+      "external_delays": []
+    },
+    {
+      "source": "_23_",
+      "target": "_20_",
+      "analysis": "max",
+      "source_transition": "v",
+      "target_transition": "v",
+      "delay_ns": 0.274122,
+      "pins": [
+        "_23_/Q",
+        "_12_/A1",
+        "_12_/X",
+        "_13_/B",
+        "_13_/Y",
+        "_14_/B1",
+        "_14_/Y",
+        "_20_/D"
+      ],
+      "checks": {
+        "setup_ns": 0.124
+      },
+      "external_delays": []
+    },
+    {
+      "source": "_23_",
+      "target": "_19_",
+      "analysis": "max",
+      "source_transition": "v",
+      "target_transition": "v",
+      "delay_ns": 0.210868,
+      "pins": [
+        "_23_/Q",
+        "_10_/A1",
+        "_10_/Y",
+        "_11_/B1",
+        "_11_/Y",
+        "_19_/D"
+      ],
+      "checks": {
+        "setup_ns": 0.120878
+      },
+      "external_delays": []
+    },
+    {
+      "source": "_21_",
+      "target": "_18_",
+      "analysis": "max",
+      "source_transition": "v",
+      "target_transition": "v",
+      "delay_ns": 0.205544,
+      "pins": [
+        "_21_/Q",
+        "_15_/A2",
+        "_15_/Y",
+        "_16_/B",
+        "_16_/Y",
+        "_18_/D"
+      ],
+      "checks": {
+        "setup_ns": 0.11525
+      },
+      "external_delays": []
+    },
+    {
+      "source": "_21_",
+      "target": "_17_",
+      "analysis": "max",
+      "source_transition": "v",
+      "target_transition": "v",
+      "delay_ns": 0.199753,
+      "pins": [
+        "_21_/Q",
+        "_07_/A2",
+        "_07_/Y",
+        "_08_/B1",
+        "_08_/Y",
+        "_17_/D"
+      ],
+      "checks": {
+        "setup_ns": 0.119312
+      },
+      "external_delays": []
+    },
+    {
+      "source": "_21_",
+      "target": "_17_",
+      "analysis": "max",
+      "source_transition": "^",
+      "target_transition": "v",
+      "delay_ns": 0.088094,
+      "pins": [
+        "_21_/Q",
+        "_08_/A2",
+        "_08_/Y",
+        "_17_/D"
+      ],
+      "checks": {
+        "setup_ns": 0.119312
+      },
+      "external_delays": []
+    },
+    {
+      "source": "_23_",
+      "target": "_20_",
+      "analysis": "max",
+      "source_transition": "^",
+      "target_transition": "v",
+      "delay_ns": 0.092466,
+      "pins": [
+        "_23_/Q",
+        "_14_/A1",
+        "_14_/Y",
+        "_20_/D"
+      ],
+      "checks": {
+        "setup_ns": 0.124
+      },
+      "external_delays": []
+    },
+    {
+      "source": "_23_",
+      "target": "_19_",
+      "analysis": "max",
+      "source_transition": "^",
+      "target_transition": "v",
+      "delay_ns": 0.080552,
+      "pins": [
+        "_23_/Q",
+        "_11_/A1",
+        "_11_/Y",
+        "_19_/D"
+      ],
+      "checks": {
+        "setup_ns": 0.120878
+      },
+      "external_delays": []
+    },
+    {
+      "source": "_22_",
+      "target": "_18_",
+      "analysis": "max",
+      "source_transition": "v",
+      "target_transition": "v",
+      "delay_ns": 0.172397,
+      "pins": [
+        "_22_/Q",
+        "_15_/B1",
+        "_15_/Y",
+        "_16_/B",
+        "_16_/Y",
+        "_18_/D"
+      ],
+      "checks": {
+        "setup_ns": 0.11525
+      },
+      "external_delays": []
+    },
+    {
+      "source": "_24_",
+      "target": "_20_",
+      "analysis": "max",
+      "source_transition": "^",
+      "target_transition": "v",
+      "delay_ns": 0.092516,
+      "pins": [
+        "_24_/Q",
+        "_14_/A2",
+        "_14_/Y",
+        "_20_/D"
+      ],
+      "checks": {
+        "setup_ns": 0.124
+      },
+      "external_delays": []
+    },
+    {
+      "source": "_21_",
+      "target": "_17_",
+      "analysis": "max",
+      "source_transition": "v",
+      "target_transition": "^",
+      "delay_ns": 0.143126,
+      "pins": [
+        "_21_/Q",
+        "_08_/A2",
+        "_08_/Y",
+        "_17_/D"
+      ],
+      "checks": {
+        "setup_ns": 0.161291
+      },
+      "external_delays": []
+    },
+    {
+      "source": "_24_",
+      "target": "_20_",
+      "analysis": "max",
+      "source_transition": "v",
+      "target_transition": "^",
+      "delay_ns": 0.151236,
+      "pins": [
+        "_24_/Q",
+        "_14_/A2",
+        "_14_/Y",
+        "_20_/D"
+      ],
+      "checks": {
+        "setup_ns": 0.164585
+      },
+      "external_delays": []
+    },
+    {
+      "source": "_23_",
+      "target": "_20_",
+      "analysis": "max",
+      "source_transition": "v",
+      "target_transition": "^",
+      "delay_ns": 0.128702,
+      "pins": [
+        "_23_/Q",
+        "_14_/A1",
+        "_14_/Y",
+        "_20_/D"
+      ],
+      "checks": {
+        "setup_ns": 0.164585
+      },
+      "external_delays": []
+    },
+    {
+      "source": "_23_",
+      "target": "_19_",
+      "analysis": "max",
+      "source_transition": "v",
+      "target_transition": "^",
+      "delay_ns": 0.12333,
+      "pins": [
+        "_23_/Q",
+        "_11_/A1",
+        "_11_/Y",
+        "_19_/D"
+      ],
+      "checks": {
+        "setup_ns": 0.16127
+      },
+      "external_delays": []
+    },
+    {
+      "source": "_17_",
+      "target": "_21_",
+      "analysis": "max",
+      "source_transition": "^",
+      "target_transition": "^",
+      "delay_ns": 0.0,
+      "pins": [
+        "_17_/Q",
+        "_21_/D"
+      ],
+      "checks": {
+        "setup_ns": 0.190057
+      },
+      "external_delays": []
+    },
+    {
+      "source": "_18_",
+      "target": "_22_",
+      "analysis": "max",
+      "source_transition": "^",
+      "target_transition": "^",
+      "delay_ns": 0.0,
+      "pins": [
+        "_18_/Q",
+        "_22_/D"
+      ],
+      "checks": {
+        "setup_ns": 0.190057
+      },
+      "external_delays": []
+    },
+    {
+      "source": "_19_",
+      "target": "_23_",
+      "analysis": "max",
+      "source_transition": "^",
+      "target_transition": "^",
+      "delay_ns": 0.0,
+      "pins": [
+        "_19_/Q",
+        "_23_/D"
+      ],
+      "checks": {
+        "setup_ns": 0.190057
+      },
+      "external_delays": []
+    },
+    {
+      "source": "_20_",
+      "target": "_24_",
+      "analysis": "max",
+      "source_transition": "^",
+      "target_transition": "^",
+      "delay_ns": 0.0,
+      "pins": [
+        "_20_/Q",
+        "_24_/D"
+      ],
+      "checks": {
+        "setup_ns": 0.190057
+      },
+      "external_delays": []
+    },
+    {
+      "source": "_17_",
+      "target": "_21_",
+      "analysis": "max",
+      "source_transition": "v",
+      "target_transition": "v",
+      "delay_ns": 0.0,
+      "pins": [
+        "_17_/Q",
+        "_21_/D"
+      ],
+      "checks": {
+        "setup_ns": 0.023825
+      },
+      "external_delays": []
+    },
+    {
+      "source": "_18_",
+      "target": "_22_",
+      "analysis": "max",
+      "source_transition": "v",
+      "target_transition": "v",
+      "delay_ns": 0.0,
+      "pins": [
+        "_18_/Q",
+        "_22_/D"
+      ],
+      "checks": {
+        "setup_ns": 0.023825
+      },
+      "external_delays": []
+    },
+    {
+      "source": "_19_",
+      "target": "_23_",
+      "analysis": "max",
+      "source_transition": "v",
+      "target_transition": "v",
+      "delay_ns": 0.0,
+      "pins": [
+        "_19_/Q",
+        "_23_/D"
+      ],
+      "checks": {
+        "setup_ns": 0.023825
+      },
+      "external_delays": []
+    },
+    {
+      "source": "_20_",
+      "target": "_24_",
+      "analysis": "max",
+      "source_transition": "v",
+      "target_transition": "v",
+      "delay_ns": 0.0,
+      "pins": [
+        "_20_/Q",
+        "_24_/D"
+      ],
+      "checks": {
+        "setup_ns": 0.023825
+      },
+      "external_delays": []
+    },
+    {
+      "source": "_21_",
+      "target": "count[0]",
+      "analysis": "max",
+      "source_transition": "^",
+      "target_transition": "^",
+      "delay_ns": 0.0,
+      "pins": [
+        "_21_/Q",
+        "count[0]"
+      ],
+      "checks": {},
+      "external_delays": [
+        {
+          "kind": "output",
+          "contribution_ns": -1.0
+        }
+      ]
+    },
+    {
+      "source": "_23_",
+      "target": "count[2]",
+      "analysis": "max",
+      "source_transition": "^",
+      "target_transition": "^",
+      "delay_ns": 0.0,
+      "pins": [
+        "_23_/Q",
+        "count[2]"
+      ],
+      "checks": {},
+      "external_delays": [
+        {
+          "kind": "output",
+          "contribution_ns": -1.0
+        }
+      ]
+    },
+    {
+      "source": "_22_",
+      "target": "count[1]",
+      "analysis": "max",
+      "source_transition": "^",
+      "target_transition": "^",
+      "delay_ns": 0.0,
+      "pins": [
+        "_22_/Q",
+        "count[1]"
+      ],
+      "checks": {},
+      "external_delays": [
+        {
+          "kind": "output",
+          "contribution_ns": -1.0
+        }
+      ]
+    },
+    {
+      "source": "_24_",
+      "target": "count[3]",
+      "analysis": "max",
+      "source_transition": "^",
+      "target_transition": "^",
+      "delay_ns": 0.0,
+      "pins": [
+        "_24_/Q",
+        "count[3]"
+      ],
+      "checks": {},
+      "external_delays": [
+        {
+          "kind": "output",
+          "contribution_ns": -1.0
+        }
+      ]
+    },
+    {
+      "source": "_21_",
+      "target": "count[0]",
+      "analysis": "max",
+      "source_transition": "v",
+      "target_transition": "v",
+      "delay_ns": 0.0,
+      "pins": [
+        "_21_/Q",
+        "count[0]"
+      ],
+      "checks": {},
+      "external_delays": [
+        {
+          "kind": "output",
+          "contribution_ns": -1.0
+        }
+      ]
+    },
+    {
+      "source": "_23_",
+      "target": "count[2]",
+      "analysis": "max",
+      "source_transition": "v",
+      "target_transition": "v",
+      "delay_ns": 0.0,
+      "pins": [
+        "_23_/Q",
+        "count[2]"
+      ],
+      "checks": {},
+      "external_delays": [
+        {
+          "kind": "output",
+          "contribution_ns": -1.0
+        }
+      ]
+    },
+    {
+      "source": "_22_",
+      "target": "count[1]",
+      "analysis": "max",
+      "source_transition": "v",
+      "target_transition": "v",
+      "delay_ns": 0.0,
+      "pins": [
+        "_22_/Q",
+        "count[1]"
+      ],
+      "checks": {},
+      "external_delays": [
+        {
+          "kind": "output",
+          "contribution_ns": -1.0
+        }
+      ]
+    },
+    {
+      "source": "_24_",
+      "target": "count[3]",
+      "analysis": "max",
+      "source_transition": "v",
+      "target_transition": "v",
+      "delay_ns": 0.0,
+      "pins": [
+        "_24_/Q",
+        "count[3]"
+      ],
+      "checks": {},
+      "external_delays": [
+        {
+          "kind": "output",
+          "contribution_ns": -1.0
+        }
+      ]
+    },
+    {
+      "source": "_17_",
+      "target": "_21_",
+      "analysis": "min",
+      "source_transition": "v",
+      "target_transition": "v",
+      "delay_ns": 0.0,
+      "pins": [
+        "_17_/Q",
+        "_21_/D"
+      ],
+      "checks": {
+        "hold_ns": -0.012533
+      },
+      "external_delays": []
+    },
+    {
+      "source": "_18_",
+      "target": "_22_",
+      "analysis": "min",
+      "source_transition": "v",
+      "target_transition": "v",
+      "delay_ns": 0.0,
+      "pins": [
+        "_18_/Q",
+        "_22_/D"
+      ],
+      "checks": {
+        "hold_ns": -0.012533
+      },
+      "external_delays": []
+    },
+    {
+      "source": "_19_",
+      "target": "_23_",
+      "analysis": "min",
+      "source_transition": "v",
+      "target_transition": "v",
+      "delay_ns": 0.0,
+      "pins": [
+        "_19_/Q",
+        "_23_/D"
+      ],
+      "checks": {
+        "hold_ns": -0.012533
+      },
+      "external_delays": []
+    },
+    {
+      "source": "_20_",
+      "target": "_24_",
+      "analysis": "min",
+      "source_transition": "v",
+      "target_transition": "v",
+      "delay_ns": 0.0,
+      "pins": [
+        "_20_/Q",
+        "_24_/D"
+      ],
+      "checks": {
+        "hold_ns": -0.012533
+      },
+      "external_delays": []
+    },
+    {
+      "source": "_24_",
+      "target": "count[3]",
+      "analysis": "min",
+      "source_transition": "v",
+      "target_transition": "v",
+      "delay_ns": 0.0,
+      "pins": [
+        "_24_/Q",
+        "count[3]"
+      ],
+      "checks": {},
+      "external_delays": [
+        {
+          "kind": "output",
+          "contribution_ns": 0.05
+        }
+      ]
+    },
+    {
+      "source": "_22_",
+      "target": "count[1]",
+      "analysis": "min",
+      "source_transition": "v",
+      "target_transition": "v",
+      "delay_ns": 0.0,
+      "pins": [
+        "_22_/Q",
+        "count[1]"
+      ],
+      "checks": {},
+      "external_delays": [
+        {
+          "kind": "output",
+          "contribution_ns": 0.05
+        }
+      ]
+    },
+    {
+      "source": "_23_",
+      "target": "count[2]",
+      "analysis": "min",
+      "source_transition": "v",
+      "target_transition": "v",
+      "delay_ns": 0.0,
+      "pins": [
+        "_23_/Q",
+        "count[2]"
+      ],
+      "checks": {},
+      "external_delays": [
+        {
+          "kind": "output",
+          "contribution_ns": 0.05
+        }
+      ]
+    },
+    {
+      "source": "_21_",
+      "target": "count[0]",
+      "analysis": "min",
+      "source_transition": "v",
+      "target_transition": "v",
+      "delay_ns": 0.0,
+      "pins": [
+        "_21_/Q",
+        "count[0]"
+      ],
+      "checks": {},
+      "external_delays": [
+        {
+          "kind": "output",
+          "contribution_ns": 0.05
+        }
+      ]
+    },
+    {
+      "source": "_24_",
+      "target": "count[3]",
+      "analysis": "min",
+      "source_transition": "^",
+      "target_transition": "^",
+      "delay_ns": 0.0,
+      "pins": [
+        "_24_/Q",
+        "count[3]"
+      ],
+      "checks": {},
+      "external_delays": [
+        {
+          "kind": "output",
+          "contribution_ns": 0.05
+        }
+      ]
+    },
+    {
+      "source": "_22_",
+      "target": "count[1]",
+      "analysis": "min",
+      "source_transition": "^",
+      "target_transition": "^",
+      "delay_ns": 0.0,
+      "pins": [
+        "_22_/Q",
+        "count[1]"
+      ],
+      "checks": {},
+      "external_delays": [
+        {
+          "kind": "output",
+          "contribution_ns": 0.05
+        }
+      ]
+    },
+    {
+      "source": "en",
+      "target": "_17_",
+      "analysis": "min",
+      "source_transition": "^",
+      "target_transition": "v",
+      "delay_ns": 0.052409,
+      "pins": [
+        "en",
+        "_08_/A1",
+        "_08_/Y",
+        "_17_/D"
+      ],
+      "checks": {
+        "hold_ns": -0.097909
+      },
+      "external_delays": [
+        {
+          "kind": "input",
+          "contribution_ns": 0.2
+        }
+      ]
+    },
+    {
+      "source": "_23_",
+      "target": "count[2]",
+      "analysis": "min",
+      "source_transition": "^",
+      "target_transition": "^",
+      "delay_ns": 0.0,
+      "pins": [
+        "_23_/Q",
+        "count[2]"
+      ],
+      "checks": {},
+      "external_delays": [
+        {
+          "kind": "output",
+          "contribution_ns": 0.05
+        }
+      ]
+    },
+    {
+      "source": "_21_",
+      "target": "count[0]",
+      "analysis": "min",
+      "source_transition": "^",
+      "target_transition": "^",
+      "delay_ns": 0.0,
+      "pins": [
+        "_21_/Q",
+        "count[0]"
+      ],
+      "checks": {},
+      "external_delays": [
+        {
+          "kind": "output",
+          "contribution_ns": 0.05
+        }
+      ]
+    },
+    {
+      "source": "rst_n",
+      "target": "_20_",
+      "analysis": "min",
+      "source_transition": "v",
+      "target_transition": "v",
+      "delay_ns": 0.08743,
+      "pins": [
+        "rst_n",
+        "_13_/A",
+        "_13_/Y",
+        "_14_/B1",
+        "_14_/Y",
+        "_20_/D"
+      ],
+      "checks": {
+        "hold_ns": -0.096218
+      },
+      "external_delays": [
+        {
+          "kind": "input",
+          "contribution_ns": 0.2
+        }
+      ]
+    },
+    {
+      "source": "rst_n",
+      "target": "_17_",
+      "analysis": "min",
+      "source_transition": "v",
+      "target_transition": "v",
+      "delay_ns": 0.107685,
+      "pins": [
+        "rst_n",
+        "_07_/B1",
+        "_07_/Y",
+        "_08_/B1",
+        "_08_/Y",
+        "_17_/D"
+      ],
+      "checks": {
+        "hold_ns": -0.097909
+      },
+      "external_delays": [
+        {
+          "kind": "input",
+          "contribution_ns": 0.2
+        }
+      ]
+    },
+    {
+      "source": "rst_n",
+      "target": "_19_",
+      "analysis": "min",
+      "source_transition": "v",
+      "target_transition": "v",
+      "delay_ns": 0.107685,
+      "pins": [
+        "rst_n",
+        "_10_/B1",
+        "_10_/Y",
+        "_11_/B1",
+        "_11_/Y",
+        "_19_/D"
+      ],
+      "checks": {
+        "hold_ns": -0.097909
+      },
+      "external_delays": [
+        {
+          "kind": "input",
+          "contribution_ns": 0.2
+        }
+      ]
+    },
+    {
+      "source": "rst_n",
+      "target": "_18_",
+      "analysis": "min",
+      "source_transition": "v",
+      "target_transition": "v",
+      "delay_ns": 0.133082,
+      "pins": [
+        "rst_n",
+        "_16_/C_N",
+        "_16_/Y",
+        "_18_/D"
+      ],
+      "checks": {
+        "hold_ns": -0.099318
+      },
+      "external_delays": [
+        {
+          "kind": "input",
+          "contribution_ns": 0.2
+        }
+      ]
+    },
+    {
+      "source": "en",
+      "target": "_17_",
+      "analysis": "min",
+      "source_transition": "v",
+      "target_transition": "^",
+      "delay_ns": 0.1099,
+      "pins": [
+        "en",
+        "_08_/A1",
+        "_08_/Y",
+        "_17_/D"
+      ],
+      "checks": {
+        "hold_ns": -0.148423
+      },
+      "external_delays": [
+        {
+          "kind": "input",
+          "contribution_ns": 0.2
+        }
+      ]
+    },
+    {
+      "source": "en",
+      "target": "_18_",
+      "analysis": "min",
+      "source_transition": "v",
+      "target_transition": "v",
+      "delay_ns": 0.16811,
+      "pins": [
+        "en",
+        "_15_/A1",
+        "_15_/Y",
+        "_16_/B",
+        "_16_/Y",
+        "_18_/D"
+      ],
+      "checks": {
+        "hold_ns": -0.099318
+      },
+      "external_delays": [
+        {
+          "kind": "input",
+          "contribution_ns": 0.2
+        }
+      ]
+    },
+    {
+      "source": "en",
+      "target": "_17_",
+      "analysis": "min",
+      "source_transition": "v",
+      "target_transition": "v",
+      "delay_ns": 0.188011,
+      "pins": [
+        "en",
+        "_07_/A1",
+        "_07_/Y",
+        "_08_/B1",
+        "_08_/Y",
+        "_17_/D"
+      ],
+      "checks": {
+        "hold_ns": -0.097909
+      },
+      "external_delays": [
+        {
+          "kind": "input",
+          "contribution_ns": 0.2
+        }
+      ]
+    },
+    {
+      "source": "rst_n",
+      "target": "_20_",
+      "analysis": "min",
+      "source_transition": "^",
+      "target_transition": "^",
+      "delay_ns": 0.157417,
+      "pins": [
+        "rst_n",
+        "_13_/A",
+        "_13_/Y",
+        "_14_/B1",
+        "_14_/Y",
+        "_20_/D"
+      ],
+      "checks": {
+        "hold_ns": -0.149115
+      },
+      "external_delays": [
+        {
+          "kind": "input",
+          "contribution_ns": 0.2
+        }
+      ]
+    },
+    {
+      "source": "rst_n",
+      "target": "_18_",
+      "analysis": "min",
+      "source_transition": "^",
+      "target_transition": "^",
+      "delay_ns": 0.152937,
+      "pins": [
+        "rst_n",
+        "_16_/C_N",
+        "_16_/Y",
+        "_18_/D"
+      ],
+      "checks": {
+        "hold_ns": -0.158872
+      },
+      "external_delays": [
+        {
+          "kind": "input",
+          "contribution_ns": 0.2
+        }
+      ]
+    },
+    {
+      "source": "rst_n",
+      "target": "_19_",
+      "analysis": "min",
+      "source_transition": "^",
+      "target_transition": "^",
+      "delay_ns": 0.166007,
+      "pins": [
+        "rst_n",
+        "_10_/B1",
+        "_10_/Y",
+        "_11_/B1",
+        "_11_/Y",
+        "_19_/D"
+      ],
+      "checks": {
+        "hold_ns": -0.148494
+      },
+      "external_delays": [
+        {
+          "kind": "input",
+          "contribution_ns": 0.2
+        }
+      ]
+    },
+    {
+      "source": "rst_n",
+      "target": "_17_",
+      "analysis": "min",
+      "source_transition": "^",
+      "target_transition": "^",
+      "delay_ns": 0.16806,
+      "pins": [
+        "rst_n",
+        "_07_/B1",
+        "_07_/Y",
+        "_08_/B1",
+        "_08_/Y",
+        "_17_/D"
+      ],
+      "checks": {
+        "hold_ns": -0.148423
+      },
+      "external_delays": [
+        {
+          "kind": "input",
+          "contribution_ns": 0.2
+        }
+      ]
+    },
+    {
+      "source": "en",
+      "target": "_17_",
+      "analysis": "min",
+      "source_transition": "^",
+      "target_transition": "^",
+      "delay_ns": 0.174467,
+      "pins": [
+        "en",
+        "_07_/A1",
+        "_07_/Y",
+        "_08_/B1",
+        "_08_/Y",
+        "_17_/D"
+      ],
+      "checks": {
+        "hold_ns": -0.148423
+      },
+      "external_delays": [
+        {
+          "kind": "input",
+          "contribution_ns": 0.2
+        }
+      ]
+    },
+    {
+      "source": "en",
+      "target": "_18_",
+      "analysis": "min",
+      "source_transition": "^",
+      "target_transition": "v",
+      "delay_ns": 0.242837,
+      "pins": [
+        "en",
+        "_09_/A",
+        "_09_/X",
+        "_16_/A",
+        "_16_/Y",
+        "_18_/D"
+      ],
+      "checks": {
+        "hold_ns": -0.099318
+      },
+      "external_delays": [
+        {
+          "kind": "input",
+          "contribution_ns": 0.2
+        }
+      ]
+    },
+    {
+      "source": "en",
+      "target": "_19_",
+      "analysis": "min",
+      "source_transition": "^",
+      "target_transition": "v",
+      "delay_ns": 0.255617,
+      "pins": [
+        "en",
+        "_09_/A",
+        "_09_/X",
+        "_11_/A2",
+        "_11_/Y",
+        "_19_/D"
+      ],
+      "checks": {
+        "hold_ns": -0.097909
+      },
+      "external_delays": [
+        {
+          "kind": "input",
+          "contribution_ns": 0.2
+        }
+      ]
+    },
+    {
+      "source": "en",
+      "target": "_18_",
+      "analysis": "min",
+      "source_transition": "^",
+      "target_transition": "^",
+      "delay_ns": 0.203379,
+      "pins": [
+        "en",
+        "_15_/A1",
+        "_15_/Y",
+        "_16_/B",
+        "_16_/Y",
+        "_18_/D"
+      ],
+      "checks": {
+        "hold_ns": -0.158872
+      },
+      "external_delays": [
+        {
+          "kind": "input",
+          "contribution_ns": 0.2
+        }
+      ]
+    },
+    {
+      "source": "_17_",
+      "target": "_21_",
+      "analysis": "min",
+      "source_transition": "^",
+      "target_transition": "^",
+      "delay_ns": 0.0,
+      "pins": [
+        "_17_/Q",
+        "_21_/D"
+      ],
+      "checks": {
+        "hold_ns": -0.177797
+      },
+      "external_delays": []
+    },
+    {
+      "source": "_18_",
+      "target": "_22_",
+      "analysis": "min",
+      "source_transition": "^",
+      "target_transition": "^",
+      "delay_ns": 0.0,
+      "pins": [
+        "_18_/Q",
+        "_22_/D"
+      ],
+      "checks": {
+        "hold_ns": -0.177797
+      },
+      "external_delays": []
+    },
+    {
+      "source": "_19_",
+      "target": "_23_",
+      "analysis": "min",
+      "source_transition": "^",
+      "target_transition": "^",
+      "delay_ns": 0.0,
+      "pins": [
+        "_19_/Q",
+        "_23_/D"
+      ],
+      "checks": {
+        "hold_ns": -0.177797
+      },
+      "external_delays": []
+    },
+    {
+      "source": "_20_",
+      "target": "_24_",
+      "analysis": "min",
+      "source_transition": "^",
+      "target_transition": "^",
+      "delay_ns": 0.0,
+      "pins": [
+        "_20_/Q",
+        "_24_/D"
+      ],
+      "checks": {
+        "hold_ns": -0.177797
+      },
+      "external_delays": []
+    },
+    {
+      "source": "en",
+      "target": "_20_",
+      "analysis": "min",
+      "source_transition": "^",
+      "target_transition": "v",
+      "delay_ns": 0.26929,
+      "pins": [
+        "en",
+        "_09_/A",
+        "_09_/X",
+        "_14_/A3",
+        "_14_/Y",
+        "_20_/D"
+      ],
+      "checks": {
+        "hold_ns": -0.096218
+      },
+      "external_delays": [
+        {
+          "kind": "input",
+          "contribution_ns": 0.2
+        }
+      ]
+    },
+    {
+      "source": "_24_",
+      "target": "_20_",
+      "analysis": "min",
+      "source_transition": "^",
+      "target_transition": "v",
+      "delay_ns": 0.092516,
+      "pins": [
+        "_24_/Q",
+        "_14_/A2",
+        "_14_/Y",
+        "_20_/D"
+      ],
+      "checks": {
+        "hold_ns": -0.096218
+      },
+      "external_delays": []
+    },
+    {
+      "source": "en",
+      "target": "_20_",
+      "analysis": "min",
+      "source_transition": "v",
+      "target_transition": "v",
+      "delay_ns": 0.286468,
+      "pins": [
+        "en",
+        "_12_/A2",
+        "_12_/X",
+        "_13_/B",
+        "_13_/Y",
+        "_14_/B1",
+        "_14_/Y",
+        "_20_/D"
+      ],
+      "checks": {
+        "hold_ns": -0.096218
+      },
+      "external_delays": [
+        {
+          "kind": "input",
+          "contribution_ns": 0.2
+        }
+      ]
+    },
+    {
+      "source": "_22_",
+      "target": "_18_",
+      "analysis": "min",
+      "source_transition": "v",
+      "target_transition": "v",
+      "delay_ns": 0.168177,
+      "pins": [
+        "_22_/Q",
+        "_15_/B1",
+        "_15_/Y",
+        "_16_/B",
+        "_16_/Y",
+        "_18_/D"
+      ],
+      "checks": {
+        "hold_ns": -0.099318
+      },
+      "external_delays": []
+    },
+    {
+      "source": "_23_",
+      "target": "_19_",
+      "analysis": "min",
+      "source_transition": "^",
+      "target_transition": "v",
+      "delay_ns": 0.080552,
+      "pins": [
+        "_23_/Q",
+        "_11_/A1",
+        "_11_/Y",
+        "_19_/D"
+      ],
+      "checks": {
+        "hold_ns": -0.097909
+      },
+      "external_delays": []
+    },
+    {
+      "source": "_23_",
+      "target": "_19_",
+      "analysis": "min",
+      "source_transition": "v",
+      "target_transition": "^",
+      "delay_ns": 0.12333,
+      "pins": [
+        "_23_/Q",
+        "_11_/A1",
+        "_11_/Y",
+        "_19_/D"
+      ],
+      "checks": {
+        "hold_ns": -0.148494
+      },
+      "external_delays": []
+    },
+    {
+      "source": "_23_",
+      "target": "_20_",
+      "analysis": "min",
+      "source_transition": "^",
+      "target_transition": "v",
+      "delay_ns": 0.092466,
+      "pins": [
+        "_23_/Q",
+        "_14_/A1",
+        "_14_/Y",
+        "_20_/D"
+      ],
+      "checks": {
+        "hold_ns": -0.096218
+      },
+      "external_delays": []
+    },
+    {
+      "source": "_23_",
+      "target": "_20_",
+      "analysis": "min",
+      "source_transition": "v",
+      "target_transition": "^",
+      "delay_ns": 0.128702,
+      "pins": [
+        "_23_/Q",
+        "_14_/A1",
+        "_14_/Y",
+        "_20_/D"
+      ],
+      "checks": {
+        "hold_ns": -0.149115
+      },
+      "external_delays": []
+    },
+    {
+      "source": "_21_",
+      "target": "_17_",
+      "analysis": "min",
+      "source_transition": "^",
+      "target_transition": "v",
+      "delay_ns": 0.088094,
+      "pins": [
+        "_21_/Q",
+        "_08_/A2",
+        "_08_/Y",
+        "_17_/D"
+      ],
+      "checks": {
+        "hold_ns": -0.097909
+      },
+      "external_delays": []
+    },
+    {
+      "source": "_24_",
+      "target": "_20_",
+      "analysis": "min",
+      "source_transition": "v",
+      "target_transition": "^",
+      "delay_ns": 0.151236,
+      "pins": [
+        "_24_/Q",
+        "_14_/A2",
+        "_14_/Y",
+        "_20_/D"
+      ],
+      "checks": {
+        "hold_ns": -0.149115
+      },
+      "external_delays": []
+    },
+    {
+      "source": "_21_",
+      "target": "_17_",
+      "analysis": "min",
+      "source_transition": "v",
+      "target_transition": "v",
+      "delay_ns": 0.18893,
+      "pins": [
+        "_21_/Q",
+        "_07_/A2",
+        "_07_/Y",
+        "_08_/B1",
+        "_08_/Y",
+        "_17_/D"
+      ],
+      "checks": {
+        "hold_ns": -0.097909
+      },
+      "external_delays": []
+    },
+    {
+      "source": "_21_",
+      "target": "_17_",
+      "analysis": "min",
+      "source_transition": "v",
+      "target_transition": "^",
+      "delay_ns": 0.143126,
+      "pins": [
+        "_21_/Q",
+        "_08_/A2",
+        "_08_/Y",
+        "_17_/D"
+      ],
+      "checks": {
+        "hold_ns": -0.148423
+      },
+      "external_delays": []
+    },
+    {
+      "source": "_23_",
+      "target": "_19_",
+      "analysis": "min",
+      "source_transition": "v",
+      "target_transition": "v",
+      "delay_ns": 0.200047,
+      "pins": [
+        "_23_/Q",
+        "_10_/A1",
+        "_10_/Y",
+        "_11_/B1",
+        "_11_/Y",
+        "_19_/D"
+      ],
+      "checks": {
+        "hold_ns": -0.097909
+      },
+      "external_delays": []
+    },
+    {
+      "source": "_21_",
+      "target": "_18_",
+      "analysis": "min",
+      "source_transition": "v",
+      "target_transition": "v",
+      "delay_ns": 0.201324,
+      "pins": [
+        "_21_/Q",
+        "_15_/A2",
+        "_15_/Y",
+        "_16_/B",
+        "_16_/Y",
+        "_18_/D"
+      ],
+      "checks": {
+        "hold_ns": -0.099318
+      },
+      "external_delays": []
+    },
+    {
+      "source": "en",
+      "target": "_19_",
+      "analysis": "min",
+      "source_transition": "v",
+      "target_transition": "v",
+      "delay_ns": 0.344996,
+      "pins": [
+        "en",
+        "_09_/A",
+        "_09_/X",
+        "_10_/A2",
+        "_10_/Y",
+        "_11_/B1",
+        "_11_/Y",
+        "_19_/D"
+      ],
+      "checks": {
+        "hold_ns": -0.097909
+      },
+      "external_delays": [
+        {
+          "kind": "input",
+          "contribution_ns": 0.2
+        }
+      ]
+    },
+    {
+      "source": "en",
+      "target": "_19_",
+      "analysis": "min",
+      "source_transition": "v",
+      "target_transition": "^",
+      "delay_ns": 0.299443,
+      "pins": [
+        "en",
+        "_09_/A",
+        "_09_/X",
+        "_11_/A2",
+        "_11_/Y",
+        "_19_/D"
+      ],
+      "checks": {
+        "hold_ns": -0.148494
+      },
+      "external_delays": [
+        {
+          "kind": "input",
+          "contribution_ns": 0.2
+        }
+      ]
+    },
+    {
+      "source": "en",
+      "target": "_20_",
+      "analysis": "min",
+      "source_transition": "^",
+      "target_transition": "^",
+      "delay_ns": 0.30732,
+      "pins": [
+        "en",
+        "_12_/A2",
+        "_12_/X",
+        "_13_/B",
+        "_13_/Y",
+        "_14_/B1",
+        "_14_/Y",
+        "_20_/D"
+      ],
+      "checks": {
+        "hold_ns": -0.149115
+      },
+      "external_delays": [
+        {
+          "kind": "input",
+          "contribution_ns": 0.2
+        }
+      ]
+    },
+    {
+      "source": "en",
+      "target": "_20_",
+      "analysis": "min",
+      "source_transition": "v",
+      "target_transition": "^",
+      "delay_ns": 0.320152,
+      "pins": [
+        "en",
+        "_09_/A",
+        "_09_/X",
+        "_14_/A3",
+        "_14_/Y",
+        "_20_/D"
+      ],
+      "checks": {
+        "hold_ns": -0.149115
+      },
+      "external_delays": [
+        {
+          "kind": "input",
+          "contribution_ns": 0.2
+        }
+      ]
+    },
+    {
+      "source": "_23_",
+      "target": "_20_",
+      "analysis": "min",
+      "source_transition": "v",
+      "target_transition": "v",
+      "delay_ns": 0.27072,
+      "pins": [
+        "_23_/Q",
+        "_12_/A1",
+        "_12_/X",
+        "_13_/B",
+        "_13_/Y",
+        "_14_/B1",
+        "_14_/Y",
+        "_20_/D"
+      ],
+      "checks": {
+        "hold_ns": -0.096218
+      },
+      "external_delays": []
+    },
+    {
+      "source": "_24_",
+      "target": "_20_",
+      "analysis": "min",
+      "source_transition": "v",
+      "target_transition": "v",
+      "delay_ns": 0.287327,
+      "pins": [
+        "_24_/Q",
+        "_12_/B1",
+        "_12_/X",
+        "_13_/B",
+        "_13_/Y",
+        "_14_/B1",
+        "_14_/Y",
+        "_20_/D"
+      ],
+      "checks": {
+        "hold_ns": -0.096218
+      },
+      "external_delays": []
+    },
+    {
+      "source": "en",
+      "target": "_18_",
+      "analysis": "min",
+      "source_transition": "v",
+      "target_transition": "^",
+      "delay_ns": 0.343267,
+      "pins": [
+        "en",
+        "_09_/A",
+        "_09_/X",
+        "_16_/A",
+        "_16_/Y",
+        "_18_/D"
+      ],
+      "checks": {
+        "hold_ns": -0.158872
+      },
+      "external_delays": [
+        {
+          "kind": "input",
+          "contribution_ns": 0.2
+        }
+      ]
+    },
+    {
+      "source": "en",
+      "target": "_19_",
+      "analysis": "min",
+      "source_transition": "^",
+      "target_transition": "^",
+      "delay_ns": 0.3602,
+      "pins": [
+        "en",
+        "_09_/A",
+        "_09_/X",
+        "_10_/A2",
+        "_10_/Y",
+        "_11_/B1",
+        "_11_/Y",
+        "_19_/D"
+      ],
+      "checks": {
+        "hold_ns": -0.148494
+      },
+      "external_delays": [
+        {
+          "kind": "input",
+          "contribution_ns": 0.2
+        }
+      ]
+    },
+    {
+      "source": "_22_",
+      "target": "_20_",
+      "analysis": "min",
+      "source_transition": "v",
+      "target_transition": "v",
+      "delay_ns": 0.315001,
+      "pins": [
+        "_22_/Q",
+        "_12_/A3",
+        "_12_/X",
+        "_13_/B",
+        "_13_/Y",
+        "_14_/B1",
+        "_14_/Y",
+        "_20_/D"
+      ],
+      "checks": {
+        "hold_ns": -0.096218
+      },
+      "external_delays": []
+    },
+    {
+      "source": "_22_",
+      "target": "_18_",
+      "analysis": "min",
+      "source_transition": "^",
+      "target_transition": "^",
+      "delay_ns": 0.202543,
+      "pins": [
+        "_22_/Q",
+        "_15_/B1",
+        "_15_/Y",
+        "_16_/B",
+        "_16_/Y",
+        "_18_/D"
+      ],
+      "checks": {
+        "hold_ns": -0.158872
+      },
+      "external_delays": []
+    },
+    {
+      "source": "_21_",
+      "target": "_20_",
+      "analysis": "min",
+      "source_transition": "v",
+      "target_transition": "v",
+      "delay_ns": 0.330884,
+      "pins": [
+        "_21_/Q",
+        "_12_/A4",
+        "_12_/X",
+        "_13_/B",
+        "_13_/Y",
+        "_14_/B1",
+        "_14_/Y",
+        "_20_/D"
+      ],
+      "checks": {
+        "hold_ns": -0.096218
+      },
+      "external_delays": []
+    },
+    {
+      "source": "_23_",
+      "target": "_19_",
+      "analysis": "min",
+      "source_transition": "^",
+      "target_transition": "^",
+      "delay_ns": 0.205474,
+      "pins": [
+        "_23_/Q",
+        "_10_/A1",
+        "_10_/Y",
+        "_11_/B1",
+        "_11_/Y",
+        "_19_/D"
+      ],
+      "checks": {
+        "hold_ns": -0.148494
+      },
+      "external_delays": []
+    },
+    {
+      "source": "_21_",
+      "target": "_17_",
+      "analysis": "min",
+      "source_transition": "^",
+      "target_transition": "^",
+      "delay_ns": 0.195061,
+      "pins": [
+        "_21_/Q",
+        "_07_/A2",
+        "_07_/Y",
+        "_08_/B1",
+        "_08_/Y",
+        "_17_/D"
+      ],
+      "checks": {
+        "hold_ns": -0.148423
+      },
+      "external_delays": []
+    },
+    {
+      "source": "_22_",
+      "target": "_18_",
+      "analysis": "min",
+      "source_transition": "^",
+      "target_transition": "v",
+      "delay_ns": 0.27793,
+      "pins": [
+        "_22_/Q",
+        "_09_/B",
+        "_09_/X",
+        "_16_/A",
+        "_16_/Y",
+        "_18_/D"
+      ],
+      "checks": {
+        "hold_ns": -0.099318
+      },
+      "external_delays": []
+    },
+    {
+      "source": "_22_",
+      "target": "_19_",
+      "analysis": "min",
+      "source_transition": "^",
+      "target_transition": "v",
+      "delay_ns": 0.29071,
+      "pins": [
+        "_22_/Q",
+        "_09_/B",
+        "_09_/X",
+        "_11_/A2",
+        "_11_/Y",
+        "_19_/D"
+      ],
+      "checks": {
+        "hold_ns": -0.097909
+      },
+      "external_delays": []
+    },
+    {
+      "source": "_22_",
+      "target": "_19_",
+      "analysis": "min",
+      "source_transition": "v",
+      "target_transition": "v",
+      "delay_ns": 0.375564,
+      "pins": [
+        "_22_/Q",
+        "_09_/B",
+        "_09_/X",
+        "_10_/A2",
+        "_10_/Y",
+        "_11_/B1",
+        "_11_/Y",
+        "_19_/D"
+      ],
+      "checks": {
+        "hold_ns": -0.097909
+      },
+      "external_delays": []
+    },
+    {
+      "source": "_22_",
+      "target": "_20_",
+      "analysis": "min",
+      "source_transition": "^",
+      "target_transition": "v",
+      "delay_ns": 0.304383,
+      "pins": [
+        "_22_/Q",
+        "_09_/B",
+        "_09_/X",
+        "_14_/A3",
+        "_14_/Y",
+        "_20_/D"
+      ],
+      "checks": {
+        "hold_ns": -0.096218
+      },
+      "external_delays": []
+    },
+    {
+      "source": "_22_",
+      "target": "_19_",
+      "analysis": "min",
+      "source_transition": "v",
+      "target_transition": "^",
+      "delay_ns": 0.330011,
+      "pins": [
+        "_22_/Q",
+        "_09_/B",
+        "_09_/X",
+        "_11_/A2",
+        "_11_/Y",
+        "_19_/D"
+      ],
+      "checks": {
+        "hold_ns": -0.148494
+      },
+      "external_delays": []
+    },
+    {
+      "source": "_24_",
+      "target": "_20_",
+      "analysis": "min",
+      "source_transition": "^",
+      "target_transition": "^",
+      "delay_ns": 0.265677,
+      "pins": [
+        "_24_/Q",
+        "_12_/B1",
+        "_12_/X",
+        "_13_/B",
+        "_13_/Y",
+        "_14_/B1",
+        "_14_/Y",
+        "_20_/D"
+      ],
+      "checks": {
+        "hold_ns": -0.149115
+      },
+      "external_delays": []
+    },
+    {
+      "source": "_21_",
+      "target": "_18_",
+      "analysis": "min",
+      "source_transition": "^",
+      "target_transition": "v",
+      "delay_ns": 0.284981,
+      "pins": [
+        "_21_/Q",
+        "_09_/C",
+        "_09_/X",
+        "_16_/A",
+        "_16_/Y",
+        "_18_/D"
+      ],
+      "checks": {
+        "hold_ns": -0.099318
+      },
+      "external_delays": []
+    },
+    {
+      "source": "_22_",
+      "target": "_20_",
+      "analysis": "min",
+      "source_transition": "v",
+      "target_transition": "^",
+      "delay_ns": 0.35072,
+      "pins": [
+        "_22_/Q",
+        "_09_/B",
+        "_09_/X",
+        "_14_/A3",
+        "_14_/Y",
+        "_20_/D"
+      ],
+      "checks": {
+        "hold_ns": -0.149115
+      },
+      "external_delays": []
+    },
+    {
+      "source": "_21_",
+      "target": "_19_",
+      "analysis": "min",
+      "source_transition": "^",
+      "target_transition": "v",
+      "delay_ns": 0.297761,
+      "pins": [
+        "_21_/Q",
+        "_09_/C",
+        "_09_/X",
+        "_11_/A2",
+        "_11_/Y",
+        "_19_/D"
+      ],
+      "checks": {
+        "hold_ns": -0.097909
+      },
+      "external_delays": []
+    },
+    {
+      "source": "_21_",
+      "target": "_18_",
+      "analysis": "min",
+      "source_transition": "^",
+      "target_transition": "^",
+      "delay_ns": 0.240415,
+      "pins": [
+        "_21_/Q",
+        "_15_/A2",
+        "_15_/Y",
+        "_16_/B",
+        "_16_/Y",
+        "_18_/D"
+      ],
+      "checks": {
+        "hold_ns": -0.158872
+      },
+      "external_delays": []
+    },
+    {
+      "source": "_21_",
+      "target": "_19_",
+      "analysis": "min",
+      "source_transition": "v",
+      "target_transition": "v",
+      "delay_ns": 0.398276,
+      "pins": [
+        "_21_/Q",
+        "_09_/C",
+        "_09_/X",
+        "_10_/A2",
+        "_10_/Y",
+        "_11_/B1",
+        "_11_/Y",
+        "_19_/D"
+      ],
+      "checks": {
+        "hold_ns": -0.097909
+      },
+      "external_delays": []
+    },
+    {
+      "source": "_21_",
+      "target": "_20_",
+      "analysis": "min",
+      "source_transition": "^",
+      "target_transition": "v",
+      "delay_ns": 0.311434,
+      "pins": [
+        "_21_/Q",
+        "_09_/C",
+        "_09_/X",
+        "_14_/A3",
+        "_14_/Y",
+        "_20_/D"
+      ],
+      "checks": {
+        "hold_ns": -0.096218
+      },
+      "external_delays": []
+    },
+    {
+      "source": "_21_",
+      "target": "_19_",
+      "analysis": "min",
+      "source_transition": "v",
+      "target_transition": "^",
+      "delay_ns": 0.352723,
+      "pins": [
+        "_21_/Q",
+        "_09_/C",
+        "_09_/X",
+        "_11_/A2",
+        "_11_/Y",
+        "_19_/D"
+      ],
+      "checks": {
+        "hold_ns": -0.148494
+      },
+      "external_delays": []
+    },
+    {
+      "source": "_22_",
+      "target": "_18_",
+      "analysis": "min",
+      "source_transition": "v",
+      "target_transition": "^",
+      "delay_ns": 0.373835,
+      "pins": [
+        "_22_/Q",
+        "_09_/B",
+        "_09_/X",
+        "_16_/A",
+        "_16_/Y",
+        "_18_/D"
+      ],
+      "checks": {
+        "hold_ns": -0.158872
+      },
+      "external_delays": []
+    },
+    {
+      "source": "_21_",
+      "target": "_20_",
+      "analysis": "min",
+      "source_transition": "v",
+      "target_transition": "^",
+      "delay_ns": 0.373432,
+      "pins": [
+        "_21_/Q",
+        "_09_/C",
+        "_09_/X",
+        "_14_/A3",
+        "_14_/Y",
+        "_20_/D"
+      ],
+      "checks": {
+        "hold_ns": -0.149115
+      },
+      "external_delays": []
+    },
+    {
+      "source": "_22_",
+      "target": "_20_",
+      "analysis": "min",
+      "source_transition": "^",
+      "target_transition": "^",
+      "delay_ns": 0.338334,
+      "pins": [
+        "_22_/Q",
+        "_12_/A3",
+        "_12_/X",
+        "_13_/B",
+        "_13_/Y",
+        "_14_/B1",
+        "_14_/Y",
+        "_20_/D"
+      ],
+      "checks": {
+        "hold_ns": -0.149115
+      },
+      "external_delays": []
+    },
+    {
+      "source": "_21_",
+      "target": "_18_",
+      "analysis": "min",
+      "source_transition": "v",
+      "target_transition": "^",
+      "delay_ns": 0.396547,
+      "pins": [
+        "_21_/Q",
+        "_09_/C",
+        "_09_/X",
+        "_16_/A",
+        "_16_/Y",
+        "_18_/D"
+      ],
+      "checks": {
+        "hold_ns": -0.158872
+      },
+      "external_delays": []
+    },
+    {
+      "source": "_23_",
+      "target": "_20_",
+      "analysis": "min",
+      "source_transition": "^",
+      "target_transition": "^",
+      "delay_ns": 0.331276,
+      "pins": [
+        "_23_/Q",
+        "_12_/A1",
+        "_12_/X",
+        "_13_/B",
+        "_13_/Y",
+        "_14_/B1",
+        "_14_/Y",
+        "_20_/D"
+      ],
+      "checks": {
+        "hold_ns": -0.149115
+      },
+      "external_delays": []
+    },
+    {
+      "source": "_21_",
+      "target": "_20_",
+      "analysis": "min",
+      "source_transition": "^",
+      "target_transition": "^",
+      "delay_ns": 0.348544,
+      "pins": [
+        "_21_/Q",
+        "_12_/A4",
+        "_12_/X",
+        "_13_/B",
+        "_13_/Y",
+        "_14_/B1",
+        "_14_/Y",
+        "_20_/D"
+      ],
+      "checks": {
+        "hold_ns": -0.149115
+      },
+      "external_delays": []
+    },
+    {
+      "source": "_22_",
+      "target": "_19_",
+      "analysis": "min",
+      "source_transition": "^",
+      "target_transition": "^",
+      "delay_ns": 0.395293,
+      "pins": [
+        "_22_/Q",
+        "_09_/B",
+        "_09_/X",
+        "_10_/A2",
+        "_10_/Y",
+        "_11_/B1",
+        "_11_/Y",
+        "_19_/D"
+      ],
+      "checks": {
+        "hold_ns": -0.148494
+      },
+      "external_delays": []
+    },
+    {
+      "source": "_21_",
+      "target": "_19_",
+      "analysis": "min",
+      "source_transition": "^",
+      "target_transition": "^",
+      "delay_ns": 0.402344,
+      "pins": [
+        "_21_/Q",
+        "_09_/C",
+        "_09_/X",
+        "_10_/A2",
+        "_10_/Y",
+        "_11_/B1",
+        "_11_/Y",
+        "_19_/D"
+      ],
+      "checks": {
+        "hold_ns": -0.148494
+      },
+      "external_delays": []
+    }
+  ],
+  "source_sha256": {
+    "units.rpt": "68cd79d3bdd9d6a6042a83c2b041185a6b47ba9d1791cea4c42d270cd6381bf1",
+    "check_setup.rpt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "effective.sdc": "0a5abfeb1e0bd1f243e8587610303d2e805c4a2c630b577a977365b50857077a",
+    "clocks.rpt": "bda3f0b7b5e348b4ff40befc937a070352114394e2c4345c9d4ec525eda4dfa0",
+    "latches.tsv": "f9663da2a87b647c557c980d80612acf7b83abbaad5668151429316d6a9202c6",
+    "_17__instance.rpt": "af88f3aff6b277c365872091af37ceb63189e2e1672a93b563b3b88e4aca24d0",
+    "_18__instance.rpt": "e932cced312ef3b13ffda3fbd41ba30f8f35076cc0ac3862582e94fca8641076",
+    "_19__instance.rpt": "03d570dc09a06290d9c4bedbb2b9fd3409d92ba98151d83abc74d247f06d9eac",
+    "_20__instance.rpt": "c2a7eac23f0ad01daa1a0d20d1625a7560d1c5f0343f56c453bb51a58851caa2",
+    "_21__instance.rpt": "7c53721d251024b89d7e7989c736483766e3f025c0ddc1a1631ea83455ea5099",
+    "_22__instance.rpt": "42303be653351073f1656d9cecad3cadcb3dbbeeadee8720f3ada64b7a6aebc5",
+    "_23__instance.rpt": "bf7222372c37db43c81c7fedf9ea445825c91964f7add124cd5f97b2845cb6ea",
+    "_24__instance.rpt": "fcbdfc56d74139b0b0f26f94164d79c9d92124a1b6bad77e7695be286d3a23b2",
+    "setup.rpt": "35037d51a18de6fbbaf9f44000dda6afc94654dd6dc38e29214899e9bbfa1152",
+    "hold.rpt": "b4fc870cc15dd4d856020d0d2b313e4e4c5806ce3a976437bfb0bec9058752ec",
+    "netlist:counter_mapped.v": "8c69e9c1b7ff7769adac6a67ab3d251891992afb01024f6a5d0f0d5e77cc23aa",
+    "_17__dq_min.rpt": "d3136e776a75a9221b4f1714933a4079d5fbdd932e9d37fac23f4a11d4780713",
+    "_17__dq_max.rpt": "a67b1fa579a9e2004bb537bc76c57e7add82b3f82f88e05a5b904f3450141dfb",
+    "_17__cq_min.rpt": "56ea6f3feb82697a93269eb01639e1f995534aa80a79b426f93b9d0b7c53db9d",
+    "_17__cq_max.rpt": "56ea6f3feb82697a93269eb01639e1f995534aa80a79b426f93b9d0b7c53db9d",
+    "_18__dq_min.rpt": "d04f590a874c80c411edc46080b2d5d111cfb705702714b136d619fdc283d3c9",
+    "_18__dq_max.rpt": "f3feacf44c44d8b072bb377f21d457a5c9765bf607e0b4873e99bfa116a6dace",
+    "_18__cq_min.rpt": "56ea6f3feb82697a93269eb01639e1f995534aa80a79b426f93b9d0b7c53db9d",
+    "_18__cq_max.rpt": "56ea6f3feb82697a93269eb01639e1f995534aa80a79b426f93b9d0b7c53db9d",
+    "_19__dq_min.rpt": "a9c579aa7ce29d19fcff25e10fff6c9b0ca7f8d1ec470ea6a1d5d6f51ac35ef9",
+    "_19__dq_max.rpt": "e2a3cd709636205fae1500d2b2bdd46df58df54730de4ce11f691a57ae9292e4",
+    "_19__cq_min.rpt": "56ea6f3feb82697a93269eb01639e1f995534aa80a79b426f93b9d0b7c53db9d",
+    "_19__cq_max.rpt": "56ea6f3feb82697a93269eb01639e1f995534aa80a79b426f93b9d0b7c53db9d",
+    "_20__dq_min.rpt": "9d141a58b8a3879bcd2b2b4c40980d34a773275517316f3015491289455fdcea",
+    "_20__dq_max.rpt": "5c3d22e9d90844c67710fe64b55d6097200c3715786f45ee4a91c83a6f4c7b6f",
+    "_20__cq_min.rpt": "56ea6f3feb82697a93269eb01639e1f995534aa80a79b426f93b9d0b7c53db9d",
+    "_20__cq_max.rpt": "56ea6f3feb82697a93269eb01639e1f995534aa80a79b426f93b9d0b7c53db9d",
+    "_21__dq_min.rpt": "d98b4b9e373cf2850966e12a2663da23192ab3c5ad770b2a168358f0cc48b23f",
+    "_21__dq_max.rpt": "d98b4b9e373cf2850966e12a2663da23192ab3c5ad770b2a168358f0cc48b23f",
+    "_21__cq_min.rpt": "bd68dd94764dc83a9eabe9678e6a747815c68576512124c1920924fc9d6865b4",
+    "_21__cq_max.rpt": "bd68dd94764dc83a9eabe9678e6a747815c68576512124c1920924fc9d6865b4",
+    "_22__dq_min.rpt": "82cd731abe8f959df42c3bc080d1fad2cd75263dd75e64232f32f62f35ae6e2f",
+    "_22__dq_max.rpt": "82cd731abe8f959df42c3bc080d1fad2cd75263dd75e64232f32f62f35ae6e2f",
+    "_22__cq_min.rpt": "646b5570378f21d7fc6860bc5c4be5c6f7808158414f254e3ef6e18afedcf7e9",
+    "_22__cq_max.rpt": "646b5570378f21d7fc6860bc5c4be5c6f7808158414f254e3ef6e18afedcf7e9",
+    "_23__dq_min.rpt": "da741a3046b9729e94df2af5ba7e82e8cf3947bfece663e5c053e5d86091b419",
+    "_23__dq_max.rpt": "da741a3046b9729e94df2af5ba7e82e8cf3947bfece663e5c053e5d86091b419",
+    "_23__cq_min.rpt": "80444eee237f30280d1d26c2807d6e6d0c15d1a88df6dcea7ac4557171e038dd",
+    "_23__cq_max.rpt": "80444eee237f30280d1d26c2807d6e6d0c15d1a88df6dcea7ac4557171e038dd",
+    "_24__dq_min.rpt": "b0ffb0b2c05a04fa1af324ba5674496ccca94b45c97b2b8f47ed622743eb452d",
+    "_24__dq_max.rpt": "b0ffb0b2c05a04fa1af324ba5674496ccca94b45c97b2b8f47ed622743eb452d",
+    "_24__cq_min.rpt": "24fb1a2b9ef435fe7701f6c7875c95aaf981664b24a356ffa0808facdb443969",
+    "_24__cq_max.rpt": "24fb1a2b9ef435fe7701f6c7875c95aaf981664b24a356ffa0808facdb443969",
+    "pulse_width.rpt": "a317809a1a66c5b6438baf9daf1bff2c8771d1e2003c92a4ac9b74ccf3e5d971"
+  },
+  "solver_compatibility": {
+    "current_cpp_supported": true,
+    "mode": "zero_skew_50pct",
+    "reason": "C++ v4 supports zero-skew 50% duty with opposite-phase feedback and certified opening-response hold bounds."
+  },
+  "semantics": "Edges contain only the reported combinational Q-to-D/port delay, excluding latch arcs and IO budgets. Phase windows are relative to cycle start. Feedback event/cycle mapping must be defined by the solver adapter; no uniform per-edge cycle shift is assumed.",
+  "limitations": [
+    "Only the present 18-cell counter and supplied OpenSTA text layout are supported.",
+    "Topology and rise/fall pair coverage are checked; report truncation or omitted reconvergent alternatives can still affect extrema.",
+    "Scalar cell envelopes are fixed-condition report values, not multi-PVT characterization.",
+    "Pulse requirements are copied from reports; unreported checks are not claimed absent from Liberty.",
+    "This is a schema-v4 interchange, not executable v3 solver input."
+  ]
+}

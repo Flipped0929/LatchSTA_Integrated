@@ -1,0 +1,240 @@
+{
+  "status": "PASS",
+  "period_ns": 1.8,
+  "frequency_mhz": 555.5555555555555,
+  "model_corner": "TT",
+  "temperature_c": 25,
+  "supply_v": 1.8,
+  "output_load_ff": 10,
+  "input_rise_fall_ps": 100,
+  "input_control_delay_ns": 1.0,
+  "runs": [
+    {
+      "name": "T_1p8ns_2p5ps",
+      "period_ns": 1.8,
+      "max_step_ps": 2.5,
+      "runtime_seconds": 241.04281837000053,
+      "status": "PASS",
+      "cycles_checked": 128,
+      "failed_cycles": [],
+      "control_errors": [],
+      "states_covered": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "modulo_16_wraps": 5,
+      "enable_hold_cycles": 16,
+      "reset_cycles": 11,
+      "raw_points": 94079,
+      "stop_ns": 231.20999999999998,
+      "clock_period_ns": 1.8000000000000003,
+      "sink_clocks": {
+        "ckm[0]": {
+          "rising_edges": 128,
+          "falling_edges": 128,
+          "rise_latency_min_ns": 0.20377030771408045,
+          "rise_latency_max_ns": 0.2038228157206845,
+          "high_width_min_ns": 0.9313979802655581,
+          "low_width_min_ns": 0.8673512860823109
+        },
+        "ckm[1]": {
+          "rising_edges": 128,
+          "falling_edges": 128,
+          "rise_latency_min_ns": 0.1948524652833612,
+          "rise_latency_max_ns": 0.19491362915861998,
+          "high_width_min_ns": 0.9328116598229883,
+          "low_width_min_ns": 0.8666335941670411
+        },
+        "ckm[2]": {
+          "rising_edges": 128,
+          "falling_edges": 128,
+          "rise_latency_min_ns": 0.1948321533789965,
+          "rise_latency_max_ns": 0.19489330337206923,
+          "high_width_min_ns": 0.9328125226065822,
+          "low_width_min_ns": 0.8666327913608143
+        },
+        "ckm[3]": {
+          "rising_edges": 128,
+          "falling_edges": 128,
+          "rise_latency_min_ns": 0.19477149375779845,
+          "rise_latency_max_ns": 0.19483271360707022,
+          "high_width_min_ns": 0.9328150438924752,
+          "low_width_min_ns": 0.8666304683294186
+        },
+        "cks[0]": {
+          "rising_edges": 128,
+          "falling_edges": 128,
+          "rise_latency_min_ns": 0.20374212936278013,
+          "rise_latency_max_ns": 0.2037944706506778,
+          "high_width_min_ns": 0.9313995882296808,
+          "low_width_min_ns": 0.8673500800463785
+        },
+        "cks[1]": {
+          "rising_edges": 128,
+          "falling_edges": 128,
+          "rise_latency_min_ns": 0.20382331471796533,
+          "rise_latency_max_ns": 0.20387555681571712,
+          "high_width_min_ns": 0.9313941293586936,
+          "low_width_min_ns": 0.8673549596417445
+        },
+        "cks[2]": {
+          "rising_edges": 128,
+          "falling_edges": 128,
+          "rise_latency_min_ns": 0.20384150619366892,
+          "rise_latency_max_ns": 0.2038936691803599,
+          "high_width_min_ns": 0.9313932739237316,
+          "low_width_min_ns": 0.8673559872654835
+        },
+        "cks[3]": {
+          "rising_edges": 128,
+          "falling_edges": 128,
+          "rise_latency_min_ns": 0.19481624702038403,
+          "rise_latency_max_ns": 0.19487741938122838,
+          "high_width_min_ns": 0.9328132779667158,
+          "low_width_min_ns": 0.8666321092641454
+        }
+      },
+      "max_settling_to_20_80_ns": 0.696250000000731,
+      "validation_window_ns_after_source_rise": [
+        1.1700000000000002,
+        1.71
+      ],
+      "sample_offsets_ns_after_source_rise": [
+        1.1700000000000002,
+        1.62
+      ],
+      "valid_low_max_v": 0.36,
+      "valid_high_min_v": 1.44
+    },
+    {
+      "name": "T_1p8ns_1p25ps",
+      "period_ns": 1.8,
+      "max_step_ps": 1.25,
+      "runtime_seconds": 333.304318855,
+      "status": "PASS",
+      "cycles_checked": 128,
+      "failed_cycles": [],
+      "control_errors": [],
+      "states_covered": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "modulo_16_wraps": 5,
+      "enable_hold_cycles": 16,
+      "reset_cycles": 11,
+      "raw_points": 186563,
+      "stop_ns": 231.20999999999998,
+      "clock_period_ns": 1.8000000000000003,
+      "sink_clocks": {
+        "ckm[0]": {
+          "rising_edges": 128,
+          "falling_edges": 128,
+          "rise_latency_min_ns": 0.20375108270883402,
+          "rise_latency_max_ns": 0.20380296194553127,
+          "high_width_min_ns": 0.9314134466017379,
+          "low_width_min_ns": 0.8673383175307094
+        },
+        "ckm[1]": {
+          "rising_edges": 128,
+          "falling_edges": 128,
+          "rise_latency_min_ns": 0.1948256109168085,
+          "rise_latency_max_ns": 0.19488842647929516,
+          "high_width_min_ns": 0.9328367325442457,
+          "low_width_min_ns": 0.8666097727663384
+        },
+        "ckm[2]": {
+          "rising_edges": 128,
+          "falling_edges": 128,
+          "rise_latency_min_ns": 0.19480530810614027,
+          "rise_latency_max_ns": 0.19486810877927496,
+          "high_width_min_ns": 0.9328375594939189,
+          "low_width_min_ns": 0.8666087932087692
+        },
+        "ckm[3]": {
+          "rising_edges": 128,
+          "falling_edges": 128,
+          "rise_latency_min_ns": 0.19474464387681678,
+          "rise_latency_max_ns": 0.19480751960981024,
+          "high_width_min_ns": 0.9328400293047991,
+          "low_width_min_ns": 0.8666059556217363
+        },
+        "cks[0]": {
+          "rising_edges": 128,
+          "falling_edges": 128,
+          "rise_latency_min_ns": 0.20372313761924943,
+          "rise_latency_max_ns": 0.20377505895235126,
+          "high_width_min_ns": 0.9314145596563321,
+          "low_width_min_ns": 0.8673376933942052
+        },
+        "cks[1]": {
+          "rising_edges": 128,
+          "falling_edges": 128,
+          "rise_latency_min_ns": 0.20380316785721675,
+          "rise_latency_max_ns": 0.20385486634100447,
+          "high_width_min_ns": 0.9314104718799001,
+          "low_width_min_ns": 0.8673406916084616
+        },
+        "cks[2]": {
+          "rising_edges": 128,
+          "falling_edges": 128,
+          "rise_latency_min_ns": 0.20382105337637313,
+          "rise_latency_max_ns": 0.2038727019122235,
+          "high_width_min_ns": 0.9314098972009788,
+          "low_width_min_ns": 0.8673412671100493
+        },
+        "cks[3]": {
+          "rising_edges": 128,
+          "falling_edges": 128,
+          "rise_latency_min_ns": 0.1947894064785487,
+          "rise_latency_max_ns": 0.19485222972529925,
+          "high_width_min_ns": 0.9328382922436731,
+          "low_width_min_ns": 0.8666079767778285
+        }
+      },
+      "max_settling_to_20_80_ns": 0.6956250000041564,
+      "validation_window_ns_after_source_rise": [
+        1.1700000000000002,
+        1.71
+      ],
+      "sample_offsets_ns_after_source_rise": [
+        1.1700000000000002,
+        1.62
+      ],
+      "valid_low_max_v": 0.36,
+      "valid_high_min_v": 1.44
+    }
+  ],
+  "time_step_convergence": {
+    "status": "PASS",
+    "max_sample_voltage_difference_v": 5.875234380559036e-05,
+    "max_settling_difference_ns": 0.0018749999999982947
+  }
+}

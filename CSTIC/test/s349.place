@@ -1,0 +1,33 @@
+Netlist_File: s349.net Netlist_ID: SHA256:2ffaa31805c61c98b8be082274e53d222dd18760eae7165baa08362b599f53f4
+Array size: 6 x 6 logic blocks
+
+#block name	x	y	subblk	block number
+#----------	--	--	------	------------
+nacvg3vd1	4	3	0	#0
+nacvg2vd1	3	3	0	#1
+nacvg4vd1	4	2	0	#2
+nacvg1vd1	3	4	0	#3
+nmrvg3vd	4	4	0	#4
+[73]		3	2	0	#5
+out:pcntvcon2	3	0	7	#6
+out:pready	3	0	0	#7
+out:pcntvco2	4	5	5	#8
+out:pp0		4	5	0	#9
+out:pp1		4	5	2	#10
+out:pp2		5	4	3	#11
+out:pp3		5	4	1	#12
+out:pp4		3	0	5	#13
+out:pp5		4	0	3	#14
+out:pp6		5	4	6	#15
+out:pp7		5	2	4	#16
+pp5		4	1	0	#17
+pa1		5	2	6	#18
+pb2		4	5	4	#19
+pa0		3	0	4	#20
+pb3		3	5	4	#21
+pa3		3	0	3	#22
+pb0		4	5	7	#23
+pa2		5	2	5	#24
+pb1		3	5	0	#25
+pclk		2	0	3	#26
+pstart		5	3	2	#27

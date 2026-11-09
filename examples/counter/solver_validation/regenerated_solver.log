@@ -1,0 +1,10 @@
+GLPK Simplex Optimizer 5.0
+114 rows, 76 columns, 234 non-zeros
+      0: obj =   4.887980000e-01 inf =   2.116e+01 (48)
+     97: obj =   1.694072000e+00 inf =   0.000e+00 (0)
+*    99: obj =   1.584538000e+00 inf =   0.000e+00 (0)
+OPTIMAL LP SOLUTION FOUND
+Zero-skew model minimum period = 1.584538 ns
+Model maximum clock frequency = 631.098780843 MHz
+Exported SDC: tmp/counter_solver_20261104/regenerated_candidate.sdc
+Fixed scalar envelopes; reported pulse checks; independent OpenSTA validation required.

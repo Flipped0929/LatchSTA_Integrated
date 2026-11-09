@@ -1,0 +1,14 @@
+Net master[3]
+ Pin capacitance: 0.001698-0.001850
+ Wire capacitance: 0.000000
+ Total capacitance: 0.001698-0.001850
+ Number of drivers: 1
+ Number of loads: 1
+ Number of pins: 2
+
+Driver pins
+ _20_/Q output (sky130_fd_sc_hd__dlxtn_1)
+
+Load pins
+ _24_/D input (sky130_fd_sc_hd__dlxtp_1) 0.001698-0.001850
+

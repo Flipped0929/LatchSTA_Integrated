@@ -1,0 +1,710 @@
+Startpoint: en (input port clocked by clk)
+Endpoint: _19_ (negative level-sensitive latch clocked by clk)
+Path Group: clk
+Path Type: max
+
+        Cap        Slew       Delay        Time   Description
+---------------------------------------------------------------------------------------
+               0.060000    5.000000    5.000000   clock clk (rise edge)
+                           0.000000    5.000000   clock network delay (ideal)
+                           1.000000    6.000000 ^ input external delay
+   0.010614    0.060000    0.000000    6.000000 ^ en (in)
+                                                  en (net)
+               0.060000    0.000000    6.000000 ^ _09_/A (sky130_fd_sc_hd__and3_1)
+   0.009164    0.107894    0.186133    6.186133 ^ _09_/X (sky130_fd_sc_hd__and3_1)
+                                                  _02_ (net)
+               0.107894    0.000000    6.186133 ^ _10_/A2 (sky130_fd_sc_hd__o21ai_0)
+   0.002169    0.062923    0.078557    6.264691 v _10_/Y (sky130_fd_sc_hd__o21ai_0)
+                                                  _03_ (net)
+               0.062923    0.000000    6.264691 v _11_/B1 (sky130_fd_sc_hd__a21oi_1)
+   0.001889    0.089097    0.102316    6.367007 ^ _11_/Y (sky130_fd_sc_hd__a21oi_1)
+                                                  _00_[2] (net)
+               0.089097    0.000000    6.367007 ^ _19_/D (sky130_fd_sc_hd__dlxtn_1)
+                                       6.367007   data arrival time
+
+               0.060000   10.000000   10.000000   clock clk (fall edge)
+                           0.000000   10.000000   clock network delay (ideal)
+                          -0.050000    9.950000   clock uncertainty
+                           0.000000    9.950000   clock reconvergence pessimism
+                                       9.950000 v _19_/GATE_N (sky130_fd_sc_hd__dlxtn_1)
+                           0.000000    9.950000   time borrowed from endpoint
+                                       9.950000   data required time
+---------------------------------------------------------------------------------------
+                                       9.950000   data required time
+                                      -6.367007   data arrival time
+---------------------------------------------------------------------------------------
+                                       3.582994   slack (MET)
+
+Time Borrowing Information
+------------------------------------------------
+clk pulse width                         5.000000
+library setup time                     -0.161270
+------------------------------------------------
+max time borrow                         4.838730
+actual time borrow                      0.000000
+------------------------------------------------
+
+
+Startpoint: en (input port clocked by clk)
+Endpoint: _19_ (negative level-sensitive latch clocked by clk)
+Path Group: clk
+Path Type: max
+
+        Cap        Slew       Delay        Time   Description
+---------------------------------------------------------------------------------------
+               0.060000    5.000000    5.000000   clock clk (rise edge)
+                           0.000000    5.000000   clock network delay (ideal)
+                           1.000000    6.000000 v input external delay
+   0.009972    0.060000    0.000000    6.000000 v en (in)
+                                                  en (net)
+               0.060000    0.000000    6.000000 v _09_/A (sky130_fd_sc_hd__and3_1)
+   0.008331    0.062290    0.172115    6.172115 v _09_/X (sky130_fd_sc_hd__and3_1)
+                                                  _02_ (net)
+               0.062290    0.000000    6.172115 v _10_/A2 (sky130_fd_sc_hd__o21ai_0)
+   0.002477    0.126803    0.138000    6.310115 ^ _10_/Y (sky130_fd_sc_hd__o21ai_0)
+                                                  _03_ (net)
+               0.126803    0.000000    6.310115 ^ _11_/B1 (sky130_fd_sc_hd__a21oi_1)
+   0.001705    0.055876    0.047287    6.357402 v _11_/Y (sky130_fd_sc_hd__a21oi_1)
+                                                  _00_[2] (net)
+               0.055876    0.000000    6.357402 v _19_/D (sky130_fd_sc_hd__dlxtn_1)
+                                       6.357402   data arrival time
+
+               0.060000   10.000000   10.000000   clock clk (fall edge)
+                           0.000000   10.000000   clock network delay (ideal)
+                          -0.050000    9.950000   clock uncertainty
+                           0.000000    9.950000   clock reconvergence pessimism
+                                       9.950000 v _19_/GATE_N (sky130_fd_sc_hd__dlxtn_1)
+                           0.000000    9.950000   time borrowed from endpoint
+                                       9.950000   data required time
+---------------------------------------------------------------------------------------
+                                       9.950000   data required time
+                                      -6.357402   data arrival time
+---------------------------------------------------------------------------------------
+                                       3.592598   slack (MET)
+
+Time Borrowing Information
+------------------------------------------------
+clk pulse width                         5.000000
+library setup time                     -0.120878
+------------------------------------------------
+max time borrow                         4.879123
+actual time borrow                      0.000000
+------------------------------------------------
+
+
+Startpoint: en (input port clocked by clk)
+Endpoint: _18_ (negative level-sensitive latch clocked by clk)
+Path Group: clk
+Path Type: max
+
+        Cap        Slew       Delay        Time   Description
+---------------------------------------------------------------------------------------
+               0.060000    5.000000    5.000000   clock clk (rise edge)
+                           0.000000    5.000000   clock network delay (ideal)
+                           1.000000    6.000000 v input external delay
+   0.009972    0.060000    0.000000    6.000000 v en (in)
+                                                  en (net)
+               0.060000    0.000000    6.000000 v _09_/A (sky130_fd_sc_hd__and3_1)
+   0.008331    0.062290    0.172115    6.172115 v _09_/X (sky130_fd_sc_hd__and3_1)
+                                                  _02_ (net)
+               0.062290    0.000000    6.172115 v _16_/A (sky130_fd_sc_hd__nor3b_1)
+   0.001889    0.134107    0.172587    6.344702 ^ _16_/Y (sky130_fd_sc_hd__nor3b_1)
+                                                  _00_[1] (net)
+               0.134107    0.000000    6.344702 ^ _18_/D (sky130_fd_sc_hd__dlxtn_1)
+                                       6.344702   data arrival time
+
+               0.060000   10.000000   10.000000   clock clk (fall edge)
+                           0.000000   10.000000   clock network delay (ideal)
+                          -0.050000    9.950000   clock uncertainty
+                           0.000000    9.950000   clock reconvergence pessimism
+                                       9.950000 v _18_/GATE_N (sky130_fd_sc_hd__dlxtn_1)
+                           0.000000    9.950000   time borrowed from endpoint
+                                       9.950000   data required time
+---------------------------------------------------------------------------------------
+                                       9.950000   data required time
+                                      -6.344702   data arrival time
+---------------------------------------------------------------------------------------
+                                       3.605298   slack (MET)
+
+Time Borrowing Information
+------------------------------------------------
+clk pulse width                         5.000000
+library setup time                     -0.169062
+------------------------------------------------
+max time borrow                         4.830938
+actual time borrow                      0.000000
+------------------------------------------------
+
+
+Startpoint: en (input port clocked by clk)
+Endpoint: _20_ (negative level-sensitive latch clocked by clk)
+Path Group: clk
+Path Type: max
+
+        Cap        Slew       Delay        Time   Description
+---------------------------------------------------------------------------------------
+               0.060000    5.000000    5.000000   clock clk (rise edge)
+                           0.000000    5.000000   clock network delay (ideal)
+                           1.000000    6.000000 v input external delay
+   0.009972    0.060000    0.000000    6.000000 v en (in)
+                                                  en (net)
+               0.060000    0.000000    6.000000 v _09_/A (sky130_fd_sc_hd__and3_1)
+   0.008331    0.062290    0.172115    6.172115 v _09_/X (sky130_fd_sc_hd__and3_1)
+                                                  _02_ (net)
+               0.062290    0.000000    6.172115 v _14_/A3 (sky130_fd_sc_hd__a31oi_1)
+   0.001889    0.108249    0.149568    6.321684 ^ _14_/Y (sky130_fd_sc_hd__a31oi_1)
+                                                  _00_[3] (net)
+               0.108249    0.000000    6.321684 ^ _20_/D (sky130_fd_sc_hd__dlxtn_1)
+                                       6.321684   data arrival time
+
+               0.060000   10.000000   10.000000   clock clk (fall edge)
+                           0.000000   10.000000   clock network delay (ideal)
+                          -0.050000    9.950000   clock uncertainty
+                           0.000000    9.950000   clock reconvergence pessimism
+                                       9.950000 v _20_/GATE_N (sky130_fd_sc_hd__dlxtn_1)
+                           0.000000    9.950000   time borrowed from endpoint
+                                       9.950000   data required time
+---------------------------------------------------------------------------------------
+                                       9.950000   data required time
+                                      -6.321684   data arrival time
+---------------------------------------------------------------------------------------
+                                       3.628316   slack (MET)
+
+Time Borrowing Information
+------------------------------------------------
+clk pulse width                         5.000000
+library setup time                     -0.164585
+------------------------------------------------
+max time borrow                         4.835415
+actual time borrow                      0.000000
+------------------------------------------------
+
+
+Startpoint: en (input port clocked by clk)
+Endpoint: _20_ (negative level-sensitive latch clocked by clk)
+Path Group: clk
+Path Type: max
+
+        Cap        Slew       Delay        Time   Description
+---------------------------------------------------------------------------------------
+               0.060000    5.000000    5.000000   clock clk (rise edge)
+                           0.000000    5.000000   clock network delay (ideal)
+                           1.000000    6.000000 ^ input external delay
+   0.010614    0.060000    0.000000    6.000000 ^ en (in)
+                                                  en (net)
+               0.060000    0.000000    6.000000 ^ _12_/A2 (sky130_fd_sc_hd__a41o_1)
+   0.002428    0.047349    0.150476    6.150476 ^ _12_/X (sky130_fd_sc_hd__a41o_1)
+                                                  _04_ (net)
+               0.047349    0.000000    6.150476 ^ _13_/B (sky130_fd_sc_hd__nand2_1)
+   0.002122    0.030108    0.044898    6.195374 v _13_/Y (sky130_fd_sc_hd__nand2_1)
+                                                  _05_ (net)
+               0.030108    0.000000    6.195374 v _14_/B1 (sky130_fd_sc_hd__a31oi_1)
+   0.001889    0.108249    0.114160    6.309535 ^ _14_/Y (sky130_fd_sc_hd__a31oi_1)
+                                                  _00_[3] (net)
+               0.108249    0.000000    6.309535 ^ _20_/D (sky130_fd_sc_hd__dlxtn_1)
+                                       6.309535   data arrival time
+
+               0.060000   10.000000   10.000000   clock clk (fall edge)
+                           0.000000   10.000000   clock network delay (ideal)
+                          -0.050000    9.950000   clock uncertainty
+                           0.000000    9.950000   clock reconvergence pessimism
+                                       9.950000 v _20_/GATE_N (sky130_fd_sc_hd__dlxtn_1)
+                           0.000000    9.950000   time borrowed from endpoint
+                                       9.950000   data required time
+---------------------------------------------------------------------------------------
+                                       9.950000   data required time
+                                      -6.309535   data arrival time
+---------------------------------------------------------------------------------------
+                                       3.640465   slack (MET)
+
+Time Borrowing Information
+------------------------------------------------
+clk pulse width                         5.000000
+library setup time                     -0.164585
+------------------------------------------------
+max time borrow                         4.835415
+actual time borrow                      0.000000
+------------------------------------------------
+
+
+Startpoint: en (input port clocked by clk)
+Endpoint: _19_ (negative level-sensitive latch clocked by clk)
+Path Group: clk
+Path Type: max
+
+        Cap        Slew       Delay        Time   Description
+---------------------------------------------------------------------------------------
+               0.060000    5.000000    5.000000   clock clk (rise edge)
+                           0.000000    5.000000   clock network delay (ideal)
+                           1.000000    6.000000 v input external delay
+   0.009972    0.060000    0.000000    6.000000 v en (in)
+                                                  en (net)
+               0.060000    0.000000    6.000000 v _09_/A (sky130_fd_sc_hd__and3_1)
+   0.008331    0.062290    0.172115    6.172115 v _09_/X (sky130_fd_sc_hd__and3_1)
+                                                  _02_ (net)
+               0.062290    0.000000    6.172115 v _11_/A2 (sky130_fd_sc_hd__a21oi_1)
+   0.001889    0.089097    0.128888    6.301003 ^ _11_/Y (sky130_fd_sc_hd__a21oi_1)
+                                                  _00_[2] (net)
+               0.089097    0.000000    6.301003 ^ _19_/D (sky130_fd_sc_hd__dlxtn_1)
+                                       6.301003   data arrival time
+
+               0.060000   10.000000   10.000000   clock clk (fall edge)
+                           0.000000   10.000000   clock network delay (ideal)
+                          -0.050000    9.950000   clock uncertainty
+                           0.000000    9.950000   clock reconvergence pessimism
+                                       9.950000 v _19_/GATE_N (sky130_fd_sc_hd__dlxtn_1)
+                           0.000000    9.950000   time borrowed from endpoint
+                                       9.950000   data required time
+---------------------------------------------------------------------------------------
+                                       9.950000   data required time
+                                      -6.301003   data arrival time
+---------------------------------------------------------------------------------------
+                                       3.648997   slack (MET)
+
+Time Borrowing Information
+------------------------------------------------
+clk pulse width                         5.000000
+library setup time                     -0.161270
+------------------------------------------------
+max time borrow                         4.838730
+actual time borrow                      0.000000
+------------------------------------------------
+
+
+Startpoint: en (input port clocked by clk)
+Endpoint: _20_ (negative level-sensitive latch clocked by clk)
+Path Group: clk
+Path Type: max
+
+        Cap        Slew       Delay        Time   Description
+---------------------------------------------------------------------------------------
+               0.060000    5.000000    5.000000   clock clk (rise edge)
+                           0.000000    5.000000   clock network delay (ideal)
+                           1.000000    6.000000 v input external delay
+   0.009972    0.060000    0.000000    6.000000 v en (in)
+                                                  en (net)
+               0.060000    0.000000    6.000000 v _12_/A2 (sky130_fd_sc_hd__a41o_1)
+   0.002220    0.037027    0.203482    6.203482 v _12_/X (sky130_fd_sc_hd__a41o_1)
+                                                  _04_ (net)
+               0.037027    0.000000    6.203482 v _13_/B (sky130_fd_sc_hd__nand2_1)
+   0.002448    0.041405    0.055331    6.258813 ^ _13_/Y (sky130_fd_sc_hd__nand2_1)
+                                                  _05_ (net)
+               0.041405    0.000000    6.258813 ^ _14_/B1 (sky130_fd_sc_hd__a31oi_1)
+   0.001705    0.065424    0.031057    6.289870 v _14_/Y (sky130_fd_sc_hd__a31oi_1)
+                                                  _00_[3] (net)
+               0.065424    0.000000    6.289870 v _20_/D (sky130_fd_sc_hd__dlxtn_1)
+                                       6.289870   data arrival time
+
+               0.060000   10.000000   10.000000   clock clk (fall edge)
+                           0.000000   10.000000   clock network delay (ideal)
+                          -0.050000    9.950000   clock uncertainty
+                           0.000000    9.950000   clock reconvergence pessimism
+                                       9.950000 v _20_/GATE_N (sky130_fd_sc_hd__dlxtn_1)
+                           0.000000    9.950000   time borrowed from endpoint
+                                       9.950000   data required time
+---------------------------------------------------------------------------------------
+                                       9.950000   data required time
+                                      -6.289870   data arrival time
+---------------------------------------------------------------------------------------
+                                       3.660131   slack (MET)
+
+Time Borrowing Information
+------------------------------------------------
+clk pulse width                         5.000000
+library setup time                     -0.124000
+------------------------------------------------
+max time borrow                         4.876000
+actual time borrow                      0.000000
+------------------------------------------------
+
+
+Startpoint: en (input port clocked by clk)
+Endpoint: _20_ (negative level-sensitive latch clocked by clk)
+Path Group: clk
+Path Type: max
+
+        Cap        Slew       Delay        Time   Description
+---------------------------------------------------------------------------------------
+               0.060000    5.000000    5.000000   clock clk (rise edge)
+                           0.000000    5.000000   clock network delay (ideal)
+                           1.000000    6.000000 ^ input external delay
+   0.010614    0.060000    0.000000    6.000000 ^ en (in)
+                                                  en (net)
+               0.060000    0.000000    6.000000 ^ _09_/A (sky130_fd_sc_hd__and3_1)
+   0.009164    0.107894    0.186133    6.186133 ^ _09_/X (sky130_fd_sc_hd__and3_1)
+                                                  _02_ (net)
+               0.107894    0.000000    6.186133 ^ _14_/A3 (sky130_fd_sc_hd__a31oi_1)
+   0.001705    0.065424    0.083398    6.269531 v _14_/Y (sky130_fd_sc_hd__a31oi_1)
+                                                  _00_[3] (net)
+               0.065424    0.000000    6.269531 v _20_/D (sky130_fd_sc_hd__dlxtn_1)
+                                       6.269531   data arrival time
+
+               0.060000   10.000000   10.000000   clock clk (fall edge)
+                           0.000000   10.000000   clock network delay (ideal)
+                          -0.050000    9.950000   clock uncertainty
+                           0.000000    9.950000   clock reconvergence pessimism
+                                       9.950000 v _20_/GATE_N (sky130_fd_sc_hd__dlxtn_1)
+                           0.000000    9.950000   time borrowed from endpoint
+                                       9.950000   data required time
+---------------------------------------------------------------------------------------
+                                       9.950000   data required time
+                                      -6.269531   data arrival time
+---------------------------------------------------------------------------------------
+                                       3.680469   slack (MET)
+
+Time Borrowing Information
+------------------------------------------------
+clk pulse width                         5.000000
+library setup time                     -0.124000
+------------------------------------------------
+max time borrow                         4.876000
+actual time borrow                      0.000000
+------------------------------------------------
+
+
+Startpoint: en (input port clocked by clk)
+Endpoint: _19_ (negative level-sensitive latch clocked by clk)
+Path Group: clk
+Path Type: max
+
+        Cap        Slew       Delay        Time   Description
+---------------------------------------------------------------------------------------
+               0.060000    5.000000    5.000000   clock clk (rise edge)
+                           0.000000    5.000000   clock network delay (ideal)
+                           1.000000    6.000000 ^ input external delay
+   0.010614    0.060000    0.000000    6.000000 ^ en (in)
+                                                  en (net)
+               0.060000    0.000000    6.000000 ^ _09_/A (sky130_fd_sc_hd__and3_1)
+   0.009164    0.107894    0.186133    6.186133 ^ _09_/X (sky130_fd_sc_hd__and3_1)
+                                                  _02_ (net)
+               0.107894    0.000000    6.186133 ^ _11_/A2 (sky130_fd_sc_hd__a21oi_1)
+   0.001705    0.055876    0.069755    6.255888 v _11_/Y (sky130_fd_sc_hd__a21oi_1)
+                                                  _00_[2] (net)
+               0.055876    0.000000    6.255888 v _19_/D (sky130_fd_sc_hd__dlxtn_1)
+                                       6.255888   data arrival time
+
+               0.060000   10.000000   10.000000   clock clk (fall edge)
+                           0.000000   10.000000   clock network delay (ideal)
+                          -0.050000    9.950000   clock uncertainty
+                           0.000000    9.950000   clock reconvergence pessimism
+                                       9.950000 v _19_/GATE_N (sky130_fd_sc_hd__dlxtn_1)
+                           0.000000    9.950000   time borrowed from endpoint
+                                       9.950000   data required time
+---------------------------------------------------------------------------------------
+                                       9.950000   data required time
+                                      -6.255888   data arrival time
+---------------------------------------------------------------------------------------
+                                       3.694112   slack (MET)
+
+Time Borrowing Information
+------------------------------------------------
+clk pulse width                         5.000000
+library setup time                     -0.120878
+------------------------------------------------
+max time borrow                         4.879123
+actual time borrow                      0.000000
+------------------------------------------------
+
+
+Startpoint: en (input port clocked by clk)
+Endpoint: _18_ (negative level-sensitive latch clocked by clk)
+Path Group: clk
+Path Type: max
+
+        Cap        Slew       Delay        Time   Description
+---------------------------------------------------------------------------------------
+               0.060000    5.000000    5.000000   clock clk (rise edge)
+                           0.000000    5.000000   clock network delay (ideal)
+                           1.000000    6.000000 ^ input external delay
+   0.010614    0.060000    0.000000    6.000000 ^ en (in)
+                                                  en (net)
+               0.060000    0.000000    6.000000 ^ _09_/A (sky130_fd_sc_hd__and3_1)
+   0.009164    0.107894    0.186133    6.186133 ^ _09_/X (sky130_fd_sc_hd__and3_1)
+                                                  _02_ (net)
+               0.107894    0.000000    6.186133 ^ _16_/A (sky130_fd_sc_hd__nor3b_1)
+   0.001705    0.038669    0.056975    6.243109 v _16_/Y (sky130_fd_sc_hd__nor3b_1)
+                                                  _00_[1] (net)
+               0.038669    0.000000    6.243109 v _18_/D (sky130_fd_sc_hd__dlxtn_1)
+                                       6.243109   data arrival time
+
+               0.060000   10.000000   10.000000   clock clk (fall edge)
+                           0.000000   10.000000   clock network delay (ideal)
+                          -0.050000    9.950000   clock uncertainty
+                           0.000000    9.950000   clock reconvergence pessimism
+                                       9.950000 v _18_/GATE_N (sky130_fd_sc_hd__dlxtn_1)
+                           0.000000    9.950000   time borrowed from endpoint
+                                       9.950000   data required time
+---------------------------------------------------------------------------------------
+                                       9.950000   data required time
+                                      -6.243109   data arrival time
+---------------------------------------------------------------------------------------
+                                       3.706891   slack (MET)
+
+Time Borrowing Information
+------------------------------------------------
+clk pulse width                         5.000000
+library setup time                     -0.115250
+------------------------------------------------
+max time borrow                         4.884750
+actual time borrow                      0.000000
+------------------------------------------------
+
+
+Startpoint: en (input port clocked by clk)
+Endpoint: _18_ (negative level-sensitive latch clocked by clk)
+Path Group: clk
+Path Type: max
+
+        Cap        Slew       Delay        Time   Description
+---------------------------------------------------------------------------------------
+               0.060000    5.000000    5.000000   clock clk (rise edge)
+                           0.000000    5.000000   clock network delay (ideal)
+                           1.000000    6.000000 ^ input external delay
+   0.010614    0.060000    0.000000    6.000000 ^ en (in)
+                                                  en (net)
+               0.060000    0.000000    6.000000 ^ _15_/A1 (sky130_fd_sc_hd__a21oi_1)
+   0.002237    0.054546    0.055497    6.055498 v _15_/Y (sky130_fd_sc_hd__a21oi_1)
+                                                  _06_ (net)
+               0.054546    0.000000    6.055498 v _16_/B (sky130_fd_sc_hd__nor3b_1)
+   0.001889    0.134107    0.153564    6.209062 ^ _16_/Y (sky130_fd_sc_hd__nor3b_1)
+                                                  _00_[1] (net)
+               0.134107    0.000000    6.209062 ^ _18_/D (sky130_fd_sc_hd__dlxtn_1)
+                                       6.209062   data arrival time
+
+               0.060000   10.000000   10.000000   clock clk (fall edge)
+                           0.000000   10.000000   clock network delay (ideal)
+                          -0.050000    9.950000   clock uncertainty
+                           0.000000    9.950000   clock reconvergence pessimism
+                                       9.950000 v _18_/GATE_N (sky130_fd_sc_hd__dlxtn_1)
+                           0.000000    9.950000   time borrowed from endpoint
+                                       9.950000   data required time
+---------------------------------------------------------------------------------------
+                                       9.950000   data required time
+                                      -6.209062   data arrival time
+---------------------------------------------------------------------------------------
+                                       3.740938   slack (MET)
+
+Time Borrowing Information
+------------------------------------------------
+clk pulse width                         5.000000
+library setup time                     -0.169062
+------------------------------------------------
+max time borrow                         4.830938
+actual time borrow                      0.000000
+------------------------------------------------
+
+
+Startpoint: en (input port clocked by clk)
+Endpoint: _17_ (negative level-sensitive latch clocked by clk)
+Path Group: clk
+Path Type: max
+
+        Cap        Slew       Delay        Time   Description
+---------------------------------------------------------------------------------------
+               0.060000    5.000000    5.000000   clock clk (rise edge)
+                           0.000000    5.000000   clock network delay (ideal)
+                           1.000000    6.000000 v input external delay
+   0.009972    0.060000    0.000000    6.000000 v en (in)
+                                                  en (net)
+               0.060000    0.000000    6.000000 v _07_/A1 (sky130_fd_sc_hd__o21ai_0)
+   0.002477    0.126830    0.151545    6.151545 ^ _07_/Y (sky130_fd_sc_hd__o21ai_0)
+                                                  _01_ (net)
+               0.126830    0.000000    6.151545 ^ _08_/B1 (sky130_fd_sc_hd__a21oi_1)
+   0.001705    0.051089    0.047289    6.198834 v _08_/Y (sky130_fd_sc_hd__a21oi_1)
+                                                  _00_[0] (net)
+               0.051089    0.000000    6.198834 v _17_/D (sky130_fd_sc_hd__dlxtn_1)
+                                       6.198834   data arrival time
+
+               0.060000   10.000000   10.000000   clock clk (fall edge)
+                           0.000000   10.000000   clock network delay (ideal)
+                          -0.050000    9.950000   clock uncertainty
+                           0.000000    9.950000   clock reconvergence pessimism
+                                       9.950000 v _17_/GATE_N (sky130_fd_sc_hd__dlxtn_1)
+                           0.000000    9.950000   time borrowed from endpoint
+                                       9.950000   data required time
+---------------------------------------------------------------------------------------
+                                       9.950000   data required time
+                                      -6.198834   data arrival time
+---------------------------------------------------------------------------------------
+                                       3.751166   slack (MET)
+
+Time Borrowing Information
+------------------------------------------------
+clk pulse width                         5.000000
+library setup time                     -0.119312
+------------------------------------------------
+max time borrow                         4.880689
+actual time borrow                      0.000000
+------------------------------------------------
+
+
+Startpoint: en (input port clocked by clk)
+Endpoint: _17_ (negative level-sensitive latch clocked by clk)
+Path Group: clk
+Path Type: max
+
+        Cap        Slew       Delay        Time   Description
+---------------------------------------------------------------------------------------
+               0.060000    5.000000    5.000000   clock clk (rise edge)
+                           0.000000    5.000000   clock network delay (ideal)
+                           1.000000    6.000000 ^ input external delay
+   0.010614    0.060000    0.000000    6.000000 ^ en (in)
+                                                  en (net)
+               0.060000    0.000000    6.000000 ^ _07_/A1 (sky130_fd_sc_hd__o21ai_0)
+   0.002169    0.057498    0.076636    6.076637 v _07_/Y (sky130_fd_sc_hd__o21ai_0)
+                                                  _01_ (net)
+               0.057498    0.000000    6.076637 v _08_/B1 (sky130_fd_sc_hd__a21oi_1)
+   0.001889    0.089219    0.100160    6.176797 ^ _08_/Y (sky130_fd_sc_hd__a21oi_1)
+                                                  _00_[0] (net)
+               0.089219    0.000000    6.176797 ^ _17_/D (sky130_fd_sc_hd__dlxtn_1)
+                                       6.176797   data arrival time
+
+               0.060000   10.000000   10.000000   clock clk (fall edge)
+                           0.000000   10.000000   clock network delay (ideal)
+                          -0.050000    9.950000   clock uncertainty
+                           0.000000    9.950000   clock reconvergence pessimism
+                                       9.950000 v _17_/GATE_N (sky130_fd_sc_hd__dlxtn_1)
+                           0.000000    9.950000   time borrowed from endpoint
+                                       9.950000   data required time
+---------------------------------------------------------------------------------------
+                                       9.950000   data required time
+                                      -6.176797   data arrival time
+---------------------------------------------------------------------------------------
+                                       3.773203   slack (MET)
+
+Time Borrowing Information
+------------------------------------------------
+clk pulse width                         5.000000
+library setup time                     -0.161291
+------------------------------------------------
+max time borrow                         4.838709
+actual time borrow                      0.000000
+------------------------------------------------
+
+
+Startpoint: en (input port clocked by clk)
+Endpoint: _18_ (negative level-sensitive latch clocked by clk)
+Path Group: clk
+Path Type: max
+
+        Cap        Slew       Delay        Time   Description
+---------------------------------------------------------------------------------------
+               0.060000    5.000000    5.000000   clock clk (rise edge)
+                           0.000000    5.000000   clock network delay (ideal)
+                           1.000000    6.000000 v input external delay
+   0.009972    0.060000    0.000000    6.000000 v en (in)
+                                                  en (net)
+               0.060000    0.000000    6.000000 v _15_/A1 (sky130_fd_sc_hd__a21oi_1)
+   0.002516    0.101388    0.118976    6.118977 ^ _15_/Y (sky130_fd_sc_hd__a21oi_1)
+                                                  _06_ (net)
+               0.101388    0.000000    6.118977 ^ _16_/B (sky130_fd_sc_hd__nor3b_1)
+   0.001705    0.038669    0.053354    6.172331 v _16_/Y (sky130_fd_sc_hd__nor3b_1)
+                                                  _00_[1] (net)
+               0.038669    0.000000    6.172331 v _18_/D (sky130_fd_sc_hd__dlxtn_1)
+                                       6.172331   data arrival time
+
+               0.060000   10.000000   10.000000   clock clk (fall edge)
+                           0.000000   10.000000   clock network delay (ideal)
+                          -0.050000    9.950000   clock uncertainty
+                           0.000000    9.950000   clock reconvergence pessimism
+                                       9.950000 v _18_/GATE_N (sky130_fd_sc_hd__dlxtn_1)
+                           0.000000    9.950000   time borrowed from endpoint
+                                       9.950000   data required time
+---------------------------------------------------------------------------------------
+                                       9.950000   data required time
+                                      -6.172331   data arrival time
+---------------------------------------------------------------------------------------
+                                       3.777669   slack (MET)
+
+Time Borrowing Information
+------------------------------------------------
+clk pulse width                         5.000000
+library setup time                     -0.115250
+------------------------------------------------
+max time borrow                         4.884750
+actual time borrow                      0.000000
+------------------------------------------------
+
+
+Startpoint: en (input port clocked by clk)
+Endpoint: _17_ (negative level-sensitive latch clocked by clk)
+Path Group: clk
+Path Type: max
+
+        Cap        Slew       Delay        Time   Description
+---------------------------------------------------------------------------------------
+               0.060000    5.000000    5.000000   clock clk (rise edge)
+                           0.000000    5.000000   clock network delay (ideal)
+                           1.000000    6.000000 v input external delay
+   0.009972    0.060000    0.000000    6.000000 v en (in)
+                                                  en (net)
+               0.060000    0.000000    6.000000 v _08_/A1 (sky130_fd_sc_hd__a21oi_1)
+   0.001889    0.089219    0.109900    6.109900 ^ _08_/Y (sky130_fd_sc_hd__a21oi_1)
+                                                  _00_[0] (net)
+               0.089219    0.000000    6.109900 ^ _17_/D (sky130_fd_sc_hd__dlxtn_1)
+                                       6.109900   data arrival time
+
+               0.060000   10.000000   10.000000   clock clk (fall edge)
+                           0.000000   10.000000   clock network delay (ideal)
+                          -0.050000    9.950000   clock uncertainty
+                           0.000000    9.950000   clock reconvergence pessimism
+                                       9.950000 v _17_/GATE_N (sky130_fd_sc_hd__dlxtn_1)
+                           0.000000    9.950000   time borrowed from endpoint
+                                       9.950000   data required time
+---------------------------------------------------------------------------------------
+                                       9.950000   data required time
+                                      -6.109900   data arrival time
+---------------------------------------------------------------------------------------
+                                       3.840100   slack (MET)
+
+Time Borrowing Information
+------------------------------------------------
+clk pulse width                         5.000000
+library setup time                     -0.161291
+------------------------------------------------
+max time borrow                         4.838709
+actual time borrow                      0.000000
+------------------------------------------------
+
+
+Startpoint: en (input port clocked by clk)
+Endpoint: _17_ (negative level-sensitive latch clocked by clk)
+Path Group: clk
+Path Type: max
+
+        Cap        Slew       Delay        Time   Description
+---------------------------------------------------------------------------------------
+               0.060000    5.000000    5.000000   clock clk (rise edge)
+                           0.000000    5.000000   clock network delay (ideal)
+                           1.000000    6.000000 ^ input external delay
+   0.010614    0.060000    0.000000    6.000000 ^ en (in)
+                                                  en (net)
+               0.060000    0.000000    6.000000 ^ _08_/A1 (sky130_fd_sc_hd__a21oi_1)
+   0.001705    0.051089    0.052409    6.052409 v _08_/Y (sky130_fd_sc_hd__a21oi_1)
+                                                  _00_[0] (net)
+               0.051089    0.000000    6.052409 v _17_/D (sky130_fd_sc_hd__dlxtn_1)
+                                       6.052409   data arrival time
+
+               0.060000   10.000000   10.000000   clock clk (fall edge)
+                           0.000000   10.000000   clock network delay (ideal)
+                          -0.050000    9.950000   clock uncertainty
+                           0.000000    9.950000   clock reconvergence pessimism
+                                       9.950000 v _17_/GATE_N (sky130_fd_sc_hd__dlxtn_1)
+                           0.000000    9.950000   time borrowed from endpoint
+                                       9.950000   data required time
+---------------------------------------------------------------------------------------
+                                       9.950000   data required time
+                                      -6.052409   data arrival time
+---------------------------------------------------------------------------------------
+                                       3.897591   slack (MET)
+
+Time Borrowing Information
+------------------------------------------------
+clk pulse width                         5.000000
+library setup time                     -0.119312
+------------------------------------------------
+max time borrow                         4.880689
+actual time borrow                      0.000000
+------------------------------------------------
+
+

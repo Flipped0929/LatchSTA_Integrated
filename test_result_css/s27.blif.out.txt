@@ -1,0 +1,53 @@
+benchmark/s27.blif.out
+GLPK Simplex Optimizer 5.0
+63 rows, 21 columns, 166 non-zeros
+      0: obj =   0.000000000e+00 inf =   5.721e+01 (17)
+     29: obj =   5.060700000e+00 inf =   8.882e-16 (0)
+OPTIMAL LP SOLUTION FOUND
+GLPK Simplex Optimizer 5.0
+42 rows, 6 columns, 116 non-zeros
+      0: obj =   0.000000000e+00 inf =   1.144e+02 (28)
+     14: obj =   6.583830000e+00 inf =   0.000e+00 (0)
+*    17: obj =   5.060700000e+00 inf =   0.000e+00 (0)
+OPTIMAL LP SOLUTION FOUND
+=====================SUMMARY====================
+Input file is benchmark/s27.blif.out
+Initial T is 6.5838299999999998 ns
+Legacy compressed input uses zero LatchTiming; IO is a boundary placeholder.
+MCR: s_IO=0, W=T/2, s_k <= T - 1e-08 ns; feasibility tolerance = 9.9999999999999995e-08 ns.
+	#vertices = 20, #edges = 67
+	T_Howard = 5.0606999999999998 ns, time is 0.23175999999999999 ms, status = Optimal, cycle_len = 2, max_violation = 0, iters = 4
+Skew schedule s_k from Howard (index 0 = IO, unit ns):
+	n_latch = 3
+	s[0] = 0  (IO)
+	s[1] = 0.81650000000000045
+	s[2] = 2.1582200000000005
+	s[3] = 0
+	T_YTO = 5.0606999999999998 ns, time is 0.53037800000000002 ms, status = Optimal, cycle_len = 2, max_violation = 0, iters = 12
+Skew schedule s_k from YTO (index 0 = IO, unit ns):
+	n_latch = 3
+	s[0] = 0  (IO)
+	s[1] = 0.81650000000000045
+	s[2] = 2.1582200000000005
+	s[3] = 0
+	T_LP_MCR = 5.0607000000000024 ns, time is 0.19041 ms, status = Optimal, cycle_len = 0, max_violation = 1.7763568394002505e-15, iters = 29
+Skew schedule s_k from LP_MCR (index 0 = IO, unit ns):
+	n_latch = 3
+	s[0] = 0  (IO)
+	s[1] = 0.32550999999999952
+	s[2] = 0
+	s[3] = 0
+	|T_Howard - T_LP_MCR| = 2.6645352591003757e-15 ns
+	|T_YTO - T_LP_MCR| = 2.6645352591003757e-15 ns
+Selected MCR solver: Howard, period = 5.0606999999999998 ns
+Skew schedule s_k from selected Howard (index 0 = IO, unit ns):
+	n_latch = 3
+	s[0] = 0  (IO)
+	s[1] = 0.81650000000000045
+	s[2] = 2.1582200000000005
+	s[3] = 0
+Feasible optimum skew schedules can differ at the same period.
+ELL (independent legacy model):
+	#vertices = 4, #edges = 42
+	T_ELL = 5.0608860357360639 ns, W_ELL = 0.00012925691703503879 ns, time is 4.0695439999999996 ms
+	T_LP_ELL = 5.0606999999999998 ns, W_LP_ELL = 0 ns, time is 0.085056000000000007 ms

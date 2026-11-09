@@ -1,0 +1,1951 @@
+
+---
+events:
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/bailufrost/miniconda3/share/cmake-4.4/Modules/CMakeDetermineSystem.cmake:12 (find_program)"
+      - "CMakeLists.txt:16 (project)"
+    mode: "program"
+    variable: "CMAKE_UNAME"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "uname"
+    candidate_directories:
+      - "/home/bailufrost/miniconda3/bin/"
+      - "/home/bailufrost/.npm-global/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+      - "/home/synopsys/vcs-mx/O-2018.09-SP2/gui/dve/bin/"
+      - "/home/synopsys/vcs-mx/O-2018.09-SP2/bin/"
+      - "/home/synopsys/verdi/Verdi_O-2018.09-SP2/bin/"
+      - "/home/synopsys/scl/2018.06/linux64/bin/"
+    searched_directories:
+      - "/home/bailufrost/miniconda3/bin/uname"
+      - "/home/bailufrost/.npm-global/bin/uname"
+      - "/usr/local/sbin/uname"
+      - "/usr/local/bin/uname"
+      - "/usr/sbin/uname"
+    found: "/usr/bin/uname"
+    search_context:
+      ENV{PATH}:
+        - "/home/bailufrost/miniconda3/bin"
+        - "/home/bailufrost/.npm-global/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+        - "/home/synopsys/vcs-mx/O-2018.09-SP2/gui/dve/bin"
+        - "/home/synopsys/vcs-mx/O-2018.09-SP2/bin"
+        - "/home/synopsys/verdi/Verdi_O-2018.09-SP2/bin"
+        - "/home/synopsys/scl/2018.06/linux64/bin"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/bailufrost/miniconda3/share/cmake-4.4/Modules/CMakeDetermineSystem.cmake:218 (message)"
+      - "CMakeLists.txt:16 (project)"
+    message: |
+      The system is: Linux - 7.0.0-31-generic - x86_64
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/bailufrost/miniconda3/share/cmake-4.4/Modules/CMakeUnixFindMake.cmake:5 (find_program)"
+      - "CMakeLists.txt:16 (project)"
+    mode: "program"
+    variable: "CMAKE_MAKE_PROGRAM"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "gmake"
+      - "make"
+      - "smake"
+    candidate_directories:
+      - "/home/bailufrost/miniconda3/bin/"
+      - "/home/bailufrost/.npm-global/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+      - "/home/synopsys/vcs-mx/O-2018.09-SP2/gui/dve/bin/"
+      - "/home/synopsys/vcs-mx/O-2018.09-SP2/bin/"
+      - "/home/synopsys/verdi/Verdi_O-2018.09-SP2/bin/"
+      - "/home/synopsys/scl/2018.06/linux64/bin/"
+    searched_directories:
+      - "/home/bailufrost/miniconda3/bin/gmake"
+      - "/home/bailufrost/.npm-global/bin/gmake"
+      - "/usr/local/sbin/gmake"
+      - "/usr/local/bin/gmake"
+      - "/usr/sbin/gmake"
+      - "/usr/bin/gmake"
+      - "/sbin/gmake"
+      - "/bin/gmake"
+      - "/usr/games/gmake"
+      - "/usr/local/games/gmake"
+      - "/snap/bin/gmake"
+      - "/home/synopsys/vcs-mx/O-2018.09-SP2/gui/dve/bin/gmake"
+      - "/home/synopsys/vcs-mx/O-2018.09-SP2/bin/gmake"
+      - "/home/synopsys/verdi/Verdi_O-2018.09-SP2/bin/gmake"
+      - "/home/synopsys/scl/2018.06/linux64/bin/gmake"
+    found: "/home/bailufrost/miniconda3/bin/make"
+    search_context:
+      ENV{PATH}:
+        - "/home/bailufrost/miniconda3/bin"
+        - "/home/bailufrost/.npm-global/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+        - "/home/synopsys/vcs-mx/O-2018.09-SP2/gui/dve/bin"
+        - "/home/synopsys/vcs-mx/O-2018.09-SP2/bin"
+        - "/home/synopsys/verdi/Verdi_O-2018.09-SP2/bin"
+        - "/home/synopsys/scl/2018.06/linux64/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/bailufrost/miniconda3/share/cmake-4.4/Modules/CMakeDetermineCompiler.cmake:73 (find_program)"
+      - "/home/bailufrost/miniconda3/share/cmake-4.4/Modules/CMakeDetermineCXXCompiler.cmake:69 (_cmake_find_compiler)"
+      - "CMakeLists.txt:16 (project)"
+    mode: "program"
+    variable: "CMAKE_CXX_COMPILER"
+    description: "CXX compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "c++"
+      - "CC"
+      - "g++"
+      - "aCC"
+      - "cl"
+      - "bcc"
+      - "xlC"
+      - "icpx"
+      - "icx"
+      - "clang++"
+    candidate_directories:
+      - "/home/bailufrost/miniconda3/bin/"
+      - "/home/bailufrost/.npm-global/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+      - "/home/synopsys/vcs-mx/O-2018.09-SP2/gui/dve/bin/"
+      - "/home/synopsys/vcs-mx/O-2018.09-SP2/bin/"
+      - "/home/synopsys/verdi/Verdi_O-2018.09-SP2/bin/"
+      - "/home/synopsys/scl/2018.06/linux64/bin/"
+    found: "/home/bailufrost/miniconda3/bin/c++"
+    search_context:
+      ENV{PATH}:
+        - "/home/bailufrost/miniconda3/bin"
+        - "/home/bailufrost/.npm-global/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+        - "/home/synopsys/vcs-mx/O-2018.09-SP2/gui/dve/bin"
+        - "/home/synopsys/vcs-mx/O-2018.09-SP2/bin"
+        - "/home/synopsys/verdi/Verdi_O-2018.09-SP2/bin"
+        - "/home/synopsys/scl/2018.06/linux64/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/bailufrost/miniconda3/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:501 (find_file)"
+      - "/home/bailufrost/miniconda3/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:538 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "/home/bailufrost/miniconda3/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "/home/bailufrost/miniconda3/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/home/bailufrost/miniconda3/share/cmake-4.4/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:16 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "/home/bailufrost/miniconda3/share/cmake-4.4/Modules/"
+    found: "/home/bailufrost/miniconda3/share/cmake-4.4/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      ENV{PATH}:
+        - "/home/bailufrost/miniconda3/bin"
+        - "/home/bailufrost/.npm-global/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+        - "/home/synopsys/vcs-mx/O-2018.09-SP2/gui/dve/bin"
+        - "/home/synopsys/vcs-mx/O-2018.09-SP2/bin"
+        - "/home/synopsys/verdi/Verdi_O-2018.09-SP2/bin"
+        - "/home/synopsys/scl/2018.06/linux64/bin"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/bailufrost/miniconda3/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/home/bailufrost/miniconda3/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/home/bailufrost/miniconda3/share/cmake-4.4/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:16 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: /home/bailufrost/miniconda3/bin/c++ 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+      
+      The CXX compiler identification is GNU, found in:
+        /home/bailufrost/LatchSTA_Code/LatchSTA_Code/code/src/CMakeFiles/4.4.3/CompilerIdCXX/a.out
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/bailufrost/miniconda3/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
+      - "/home/bailufrost/miniconda3/share/cmake-4.4/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:16 (project)"
+    mode: "program"
+    variable: "CMAKE_AR"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "ar"
+    candidate_directories:
+      - "/home/bailufrost/miniconda3/bin/"
+      - "/home/bailufrost/.npm-global/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+      - "/home/synopsys/vcs-mx/O-2018.09-SP2/gui/dve/bin/"
+      - "/home/synopsys/vcs-mx/O-2018.09-SP2/bin/"
+      - "/home/synopsys/verdi/Verdi_O-2018.09-SP2/bin/"
+      - "/home/synopsys/scl/2018.06/linux64/bin/"
+    searched_directories:
+      - "/home/bailufrost/miniconda3/bin/ar"
+      - "/home/bailufrost/.npm-global/bin/ar"
+      - "/usr/local/sbin/ar"
+      - "/usr/local/bin/ar"
+      - "/usr/sbin/ar"
+    found: "/usr/bin/ar"
+    search_context:
+      ENV{PATH}:
+        - "/home/bailufrost/miniconda3/bin"
+        - "/home/bailufrost/.npm-global/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+        - "/home/synopsys/vcs-mx/O-2018.09-SP2/gui/dve/bin"
+        - "/home/synopsys/vcs-mx/O-2018.09-SP2/bin"
+        - "/home/synopsys/verdi/Verdi_O-2018.09-SP2/bin"
+        - "/home/synopsys/scl/2018.06/linux64/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/bailufrost/miniconda3/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
+      - "/home/bailufrost/miniconda3/share/cmake-4.4/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:16 (project)"
+    mode: "program"
+    variable: "CMAKE_RANLIB"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "ranlib"
+    candidate_directories:
+      - "/home/bailufrost/miniconda3/bin/"
+      - "/home/bailufrost/.npm-global/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+      - "/home/synopsys/vcs-mx/O-2018.09-SP2/gui/dve/bin/"
+      - "/home/synopsys/vcs-mx/O-2018.09-SP2/bin/"
+      - "/home/synopsys/verdi/Verdi_O-2018.09-SP2/bin/"
+      - "/home/synopsys/scl/2018.06/linux64/bin/"
+    searched_directories:
+      - "/home/bailufrost/miniconda3/bin/ranlib"
+      - "/home/bailufrost/.npm-global/bin/ranlib"
+      - "/usr/local/sbin/ranlib"
+      - "/usr/local/bin/ranlib"
+      - "/usr/sbin/ranlib"
+    found: "/usr/bin/ranlib"
+    search_context:
+      ENV{PATH}:
+        - "/home/bailufrost/miniconda3/bin"
+        - "/home/bailufrost/.npm-global/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+        - "/home/synopsys/vcs-mx/O-2018.09-SP2/gui/dve/bin"
+        - "/home/synopsys/vcs-mx/O-2018.09-SP2/bin"
+        - "/home/synopsys/verdi/Verdi_O-2018.09-SP2/bin"
+        - "/home/synopsys/scl/2018.06/linux64/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/bailufrost/miniconda3/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
+      - "/home/bailufrost/miniconda3/share/cmake-4.4/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:16 (project)"
+    mode: "program"
+    variable: "CMAKE_STRIP"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "strip"
+    candidate_directories:
+      - "/home/bailufrost/miniconda3/bin/"
+      - "/home/bailufrost/.npm-global/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+      - "/home/synopsys/vcs-mx/O-2018.09-SP2/gui/dve/bin/"
+      - "/home/synopsys/vcs-mx/O-2018.09-SP2/bin/"
+      - "/home/synopsys/verdi/Verdi_O-2018.09-SP2/bin/"
+      - "/home/synopsys/scl/2018.06/linux64/bin/"
+    searched_directories:
+      - "/home/bailufrost/miniconda3/bin/strip"
+      - "/home/bailufrost/.npm-global/bin/strip"
+      - "/usr/local/sbin/strip"
+      - "/usr/local/bin/strip"
+      - "/usr/sbin/strip"
+    found: "/usr/bin/strip"
+    search_context:
+      ENV{PATH}:
+        - "/home/bailufrost/miniconda3/bin"
+        - "/home/bailufrost/.npm-global/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+        - "/home/synopsys/vcs-mx/O-2018.09-SP2/gui/dve/bin"
+        - "/home/synopsys/vcs-mx/O-2018.09-SP2/bin"
+        - "/home/synopsys/verdi/Verdi_O-2018.09-SP2/bin"
+        - "/home/synopsys/scl/2018.06/linux64/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/bailufrost/miniconda3/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
+      - "/home/bailufrost/miniconda3/share/cmake-4.4/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:16 (project)"
+    mode: "program"
+    variable: "CMAKE_LINKER"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "ld"
+    candidate_directories:
+      - "/home/bailufrost/miniconda3/bin/"
+      - "/home/bailufrost/.npm-global/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+      - "/home/synopsys/vcs-mx/O-2018.09-SP2/gui/dve/bin/"
+      - "/home/synopsys/vcs-mx/O-2018.09-SP2/bin/"
+      - "/home/synopsys/verdi/Verdi_O-2018.09-SP2/bin/"
+      - "/home/synopsys/scl/2018.06/linux64/bin/"
+    searched_directories:
+      - "/home/bailufrost/miniconda3/bin/ld"
+      - "/home/bailufrost/.npm-global/bin/ld"
+      - "/usr/local/sbin/ld"
+      - "/usr/local/bin/ld"
+      - "/usr/sbin/ld"
+    found: "/usr/bin/ld"
+    search_context:
+      ENV{PATH}:
+        - "/home/bailufrost/miniconda3/bin"
+        - "/home/bailufrost/.npm-global/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+        - "/home/synopsys/vcs-mx/O-2018.09-SP2/gui/dve/bin"
+        - "/home/synopsys/vcs-mx/O-2018.09-SP2/bin"
+        - "/home/synopsys/verdi/Verdi_O-2018.09-SP2/bin"
+        - "/home/synopsys/scl/2018.06/linux64/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/bailufrost/miniconda3/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
+      - "/home/bailufrost/miniconda3/share/cmake-4.4/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:16 (project)"
+    mode: "program"
+    variable: "CMAKE_NM"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "nm"
+    candidate_directories:
+      - "/home/bailufrost/miniconda3/bin/"
+      - "/home/bailufrost/.npm-global/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+      - "/home/synopsys/vcs-mx/O-2018.09-SP2/gui/dve/bin/"
+      - "/home/synopsys/vcs-mx/O-2018.09-SP2/bin/"
+      - "/home/synopsys/verdi/Verdi_O-2018.09-SP2/bin/"
+      - "/home/synopsys/scl/2018.06/linux64/bin/"
+    searched_directories:
+      - "/home/bailufrost/miniconda3/bin/nm"
+      - "/home/bailufrost/.npm-global/bin/nm"
+      - "/usr/local/sbin/nm"
+      - "/usr/local/bin/nm"
+      - "/usr/sbin/nm"
+    found: "/usr/bin/nm"
+    search_context:
+      ENV{PATH}:
+        - "/home/bailufrost/miniconda3/bin"
+        - "/home/bailufrost/.npm-global/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+        - "/home/synopsys/vcs-mx/O-2018.09-SP2/gui/dve/bin"
+        - "/home/synopsys/vcs-mx/O-2018.09-SP2/bin"
+        - "/home/synopsys/verdi/Verdi_O-2018.09-SP2/bin"
+        - "/home/synopsys/scl/2018.06/linux64/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/bailufrost/miniconda3/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
+      - "/home/bailufrost/miniconda3/share/cmake-4.4/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:16 (project)"
+    mode: "program"
+    variable: "CMAKE_OBJDUMP"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "objdump"
+    candidate_directories:
+      - "/home/bailufrost/miniconda3/bin/"
+      - "/home/bailufrost/.npm-global/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+      - "/home/synopsys/vcs-mx/O-2018.09-SP2/gui/dve/bin/"
+      - "/home/synopsys/vcs-mx/O-2018.09-SP2/bin/"
+      - "/home/synopsys/verdi/Verdi_O-2018.09-SP2/bin/"
+      - "/home/synopsys/scl/2018.06/linux64/bin/"
+    searched_directories:
+      - "/home/bailufrost/miniconda3/bin/objdump"
+      - "/home/bailufrost/.npm-global/bin/objdump"
+      - "/usr/local/sbin/objdump"
+      - "/usr/local/bin/objdump"
+      - "/usr/sbin/objdump"
+    found: "/usr/bin/objdump"
+    search_context:
+      ENV{PATH}:
+        - "/home/bailufrost/miniconda3/bin"
+        - "/home/bailufrost/.npm-global/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+        - "/home/synopsys/vcs-mx/O-2018.09-SP2/gui/dve/bin"
+        - "/home/synopsys/vcs-mx/O-2018.09-SP2/bin"
+        - "/home/synopsys/verdi/Verdi_O-2018.09-SP2/bin"
+        - "/home/synopsys/scl/2018.06/linux64/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/bailufrost/miniconda3/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
+      - "/home/bailufrost/miniconda3/share/cmake-4.4/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:16 (project)"
+    mode: "program"
+    variable: "CMAKE_OBJCOPY"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "objcopy"
+    candidate_directories:
+      - "/home/bailufrost/miniconda3/bin/"
+      - "/home/bailufrost/.npm-global/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+      - "/home/synopsys/vcs-mx/O-2018.09-SP2/gui/dve/bin/"
+      - "/home/synopsys/vcs-mx/O-2018.09-SP2/bin/"
+      - "/home/synopsys/verdi/Verdi_O-2018.09-SP2/bin/"
+      - "/home/synopsys/scl/2018.06/linux64/bin/"
+    searched_directories:
+      - "/home/bailufrost/miniconda3/bin/objcopy"
+      - "/home/bailufrost/.npm-global/bin/objcopy"
+      - "/usr/local/sbin/objcopy"
+      - "/usr/local/bin/objcopy"
+      - "/usr/sbin/objcopy"
+    found: "/usr/bin/objcopy"
+    search_context:
+      ENV{PATH}:
+        - "/home/bailufrost/miniconda3/bin"
+        - "/home/bailufrost/.npm-global/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+        - "/home/synopsys/vcs-mx/O-2018.09-SP2/gui/dve/bin"
+        - "/home/synopsys/vcs-mx/O-2018.09-SP2/bin"
+        - "/home/synopsys/verdi/Verdi_O-2018.09-SP2/bin"
+        - "/home/synopsys/scl/2018.06/linux64/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/bailufrost/miniconda3/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
+      - "/home/bailufrost/miniconda3/share/cmake-4.4/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:16 (project)"
+    mode: "program"
+    variable: "CMAKE_READELF"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "readelf"
+    candidate_directories:
+      - "/home/bailufrost/miniconda3/bin/"
+      - "/home/bailufrost/.npm-global/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+      - "/home/synopsys/vcs-mx/O-2018.09-SP2/gui/dve/bin/"
+      - "/home/synopsys/vcs-mx/O-2018.09-SP2/bin/"
+      - "/home/synopsys/verdi/Verdi_O-2018.09-SP2/bin/"
+      - "/home/synopsys/scl/2018.06/linux64/bin/"
+    searched_directories:
+      - "/home/bailufrost/miniconda3/bin/readelf"
+      - "/home/bailufrost/.npm-global/bin/readelf"
+      - "/usr/local/sbin/readelf"
+      - "/usr/local/bin/readelf"
+      - "/usr/sbin/readelf"
+    found: "/usr/bin/readelf"
+    search_context:
+      ENV{PATH}:
+        - "/home/bailufrost/miniconda3/bin"
+        - "/home/bailufrost/.npm-global/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+        - "/home/synopsys/vcs-mx/O-2018.09-SP2/gui/dve/bin"
+        - "/home/synopsys/vcs-mx/O-2018.09-SP2/bin"
+        - "/home/synopsys/verdi/Verdi_O-2018.09-SP2/bin"
+        - "/home/synopsys/scl/2018.06/linux64/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/bailufrost/miniconda3/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
+      - "/home/bailufrost/miniconda3/share/cmake-4.4/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:16 (project)"
+    mode: "program"
+    variable: "CMAKE_DLLTOOL"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "dlltool"
+    candidate_directories:
+      - "/home/bailufrost/miniconda3/bin/"
+      - "/home/bailufrost/.npm-global/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+      - "/home/synopsys/vcs-mx/O-2018.09-SP2/gui/dve/bin/"
+      - "/home/synopsys/vcs-mx/O-2018.09-SP2/bin/"
+      - "/home/synopsys/verdi/Verdi_O-2018.09-SP2/bin/"
+      - "/home/synopsys/scl/2018.06/linux64/bin/"
+    searched_directories:
+      - "/home/bailufrost/miniconda3/bin/dlltool"
+      - "/home/bailufrost/.npm-global/bin/dlltool"
+      - "/usr/local/sbin/dlltool"
+      - "/usr/local/bin/dlltool"
+      - "/usr/sbin/dlltool"
+      - "/usr/bin/dlltool"
+      - "/sbin/dlltool"
+      - "/bin/dlltool"
+      - "/usr/games/dlltool"
+      - "/usr/local/games/dlltool"
+      - "/snap/bin/dlltool"
+      - "/home/synopsys/vcs-mx/O-2018.09-SP2/gui/dve/bin/dlltool"
+      - "/home/synopsys/vcs-mx/O-2018.09-SP2/bin/dlltool"
+      - "/home/synopsys/verdi/Verdi_O-2018.09-SP2/bin/dlltool"
+      - "/home/synopsys/scl/2018.06/linux64/bin/dlltool"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "/home/bailufrost/miniconda3/bin"
+        - "/home/bailufrost/.npm-global/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+        - "/home/synopsys/vcs-mx/O-2018.09-SP2/gui/dve/bin"
+        - "/home/synopsys/vcs-mx/O-2018.09-SP2/bin"
+        - "/home/synopsys/verdi/Verdi_O-2018.09-SP2/bin"
+        - "/home/synopsys/scl/2018.06/linux64/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/bailufrost/miniconda3/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
+      - "/home/bailufrost/miniconda3/share/cmake-4.4/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:16 (project)"
+    mode: "program"
+    variable: "CMAKE_ADDR2LINE"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "addr2line"
+    candidate_directories:
+      - "/home/bailufrost/miniconda3/bin/"
+      - "/home/bailufrost/.npm-global/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+      - "/home/synopsys/vcs-mx/O-2018.09-SP2/gui/dve/bin/"
+      - "/home/synopsys/vcs-mx/O-2018.09-SP2/bin/"
+      - "/home/synopsys/verdi/Verdi_O-2018.09-SP2/bin/"
+      - "/home/synopsys/scl/2018.06/linux64/bin/"
+    searched_directories:
+      - "/home/bailufrost/miniconda3/bin/addr2line"
+      - "/home/bailufrost/.npm-global/bin/addr2line"
+      - "/usr/local/sbin/addr2line"
+      - "/usr/local/bin/addr2line"
+      - "/usr/sbin/addr2line"
+    found: "/usr/bin/addr2line"
+    search_context:
+      ENV{PATH}:
+        - "/home/bailufrost/miniconda3/bin"
+        - "/home/bailufrost/.npm-global/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+        - "/home/synopsys/vcs-mx/O-2018.09-SP2/gui/dve/bin"
+        - "/home/synopsys/vcs-mx/O-2018.09-SP2/bin"
+        - "/home/synopsys/verdi/Verdi_O-2018.09-SP2/bin"
+        - "/home/synopsys/scl/2018.06/linux64/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/bailufrost/miniconda3/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
+      - "/home/bailufrost/miniconda3/share/cmake-4.4/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:16 (project)"
+    mode: "program"
+    variable: "CMAKE_TAPI"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "tapi"
+    candidate_directories:
+      - "/home/bailufrost/miniconda3/bin/"
+      - "/home/bailufrost/.npm-global/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+      - "/home/synopsys/vcs-mx/O-2018.09-SP2/gui/dve/bin/"
+      - "/home/synopsys/vcs-mx/O-2018.09-SP2/bin/"
+      - "/home/synopsys/verdi/Verdi_O-2018.09-SP2/bin/"
+      - "/home/synopsys/scl/2018.06/linux64/bin/"
+    searched_directories:
+      - "/home/bailufrost/miniconda3/bin/tapi"
+      - "/home/bailufrost/.npm-global/bin/tapi"
+      - "/usr/local/sbin/tapi"
+      - "/usr/local/bin/tapi"
+      - "/usr/sbin/tapi"
+      - "/usr/bin/tapi"
+      - "/sbin/tapi"
+      - "/bin/tapi"
+      - "/usr/games/tapi"
+      - "/usr/local/games/tapi"
+      - "/snap/bin/tapi"
+      - "/home/synopsys/vcs-mx/O-2018.09-SP2/gui/dve/bin/tapi"
+      - "/home/synopsys/vcs-mx/O-2018.09-SP2/bin/tapi"
+      - "/home/synopsys/verdi/Verdi_O-2018.09-SP2/bin/tapi"
+      - "/home/synopsys/scl/2018.06/linux64/bin/tapi"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "/home/bailufrost/miniconda3/bin"
+        - "/home/bailufrost/.npm-global/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+        - "/home/synopsys/vcs-mx/O-2018.09-SP2/gui/dve/bin"
+        - "/home/synopsys/vcs-mx/O-2018.09-SP2/bin"
+        - "/home/synopsys/verdi/Verdi_O-2018.09-SP2/bin"
+        - "/home/synopsys/scl/2018.06/linux64/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/bailufrost/miniconda3/share/cmake-4.4/Modules/Compiler/GNU-FindBinUtils.cmake:18 (find_program)"
+      - "/home/bailufrost/miniconda3/share/cmake-4.4/Modules/CMakeDetermineCXXCompiler.cmake:207 (include)"
+      - "CMakeLists.txt:16 (project)"
+    mode: "program"
+    variable: "CMAKE_CXX_COMPILER_AR"
+    description: "A wrapper around 'ar' adding the appropriate '--plugin' option for the GCC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "gcc-ar-16.2"
+      - "gcc-ar-16"
+      - "gcc-ar16"
+      - "gcc-ar"
+    candidate_directories:
+      - "/home/bailufrost/miniconda3/bin/"
+      - "/home/bailufrost/.npm-global/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+      - "/home/synopsys/vcs-mx/O-2018.09-SP2/gui/dve/bin/"
+      - "/home/synopsys/vcs-mx/O-2018.09-SP2/bin/"
+      - "/home/synopsys/verdi/Verdi_O-2018.09-SP2/bin/"
+      - "/home/synopsys/scl/2018.06/linux64/bin/"
+    searched_directories:
+      - "/home/bailufrost/miniconda3/bin/gcc-ar-16.2"
+      - "/home/bailufrost/.npm-global/bin/gcc-ar-16.2"
+      - "/usr/local/sbin/gcc-ar-16.2"
+      - "/usr/local/bin/gcc-ar-16.2"
+      - "/usr/sbin/gcc-ar-16.2"
+      - "/usr/bin/gcc-ar-16.2"
+      - "/sbin/gcc-ar-16.2"
+      - "/bin/gcc-ar-16.2"
+      - "/usr/games/gcc-ar-16.2"
+      - "/usr/local/games/gcc-ar-16.2"
+      - "/snap/bin/gcc-ar-16.2"
+      - "/home/synopsys/vcs-mx/O-2018.09-SP2/gui/dve/bin/gcc-ar-16.2"
+      - "/home/synopsys/vcs-mx/O-2018.09-SP2/bin/gcc-ar-16.2"
+      - "/home/synopsys/verdi/Verdi_O-2018.09-SP2/bin/gcc-ar-16.2"
+      - "/home/synopsys/scl/2018.06/linux64/bin/gcc-ar-16.2"
+      - "/home/bailufrost/miniconda3/bin/gcc-ar-16"
+      - "/home/bailufrost/.npm-global/bin/gcc-ar-16"
+      - "/usr/local/sbin/gcc-ar-16"
+      - "/usr/local/bin/gcc-ar-16"
+      - "/usr/sbin/gcc-ar-16"
+      - "/usr/bin/gcc-ar-16"
+      - "/sbin/gcc-ar-16"
+      - "/bin/gcc-ar-16"
+      - "/usr/games/gcc-ar-16"
+      - "/usr/local/games/gcc-ar-16"
+      - "/snap/bin/gcc-ar-16"
+      - "/home/synopsys/vcs-mx/O-2018.09-SP2/gui/dve/bin/gcc-ar-16"
+      - "/home/synopsys/vcs-mx/O-2018.09-SP2/bin/gcc-ar-16"
+      - "/home/synopsys/verdi/Verdi_O-2018.09-SP2/bin/gcc-ar-16"
+      - "/home/synopsys/scl/2018.06/linux64/bin/gcc-ar-16"
+      - "/home/bailufrost/miniconda3/bin/gcc-ar16"
+      - "/home/bailufrost/.npm-global/bin/gcc-ar16"
+      - "/usr/local/sbin/gcc-ar16"
+      - "/usr/local/bin/gcc-ar16"
+      - "/usr/sbin/gcc-ar16"
+      - "/usr/bin/gcc-ar16"
+      - "/sbin/gcc-ar16"
+      - "/bin/gcc-ar16"
+      - "/usr/games/gcc-ar16"
+      - "/usr/local/games/gcc-ar16"
+      - "/snap/bin/gcc-ar16"
+      - "/home/synopsys/vcs-mx/O-2018.09-SP2/gui/dve/bin/gcc-ar16"
+      - "/home/synopsys/vcs-mx/O-2018.09-SP2/bin/gcc-ar16"
+      - "/home/synopsys/verdi/Verdi_O-2018.09-SP2/bin/gcc-ar16"
+      - "/home/synopsys/scl/2018.06/linux64/bin/gcc-ar16"
+    found: "/home/bailufrost/miniconda3/bin/gcc-ar"
+    search_context:
+      ENV{PATH}:
+        - "/home/bailufrost/miniconda3/bin"
+        - "/home/bailufrost/.npm-global/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+        - "/home/synopsys/vcs-mx/O-2018.09-SP2/gui/dve/bin"
+        - "/home/synopsys/vcs-mx/O-2018.09-SP2/bin"
+        - "/home/synopsys/verdi/Verdi_O-2018.09-SP2/bin"
+        - "/home/synopsys/scl/2018.06/linux64/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/bailufrost/miniconda3/share/cmake-4.4/Modules/Compiler/GNU-FindBinUtils.cmake:30 (find_program)"
+      - "/home/bailufrost/miniconda3/share/cmake-4.4/Modules/CMakeDetermineCXXCompiler.cmake:207 (include)"
+      - "CMakeLists.txt:16 (project)"
+    mode: "program"
+    variable: "CMAKE_CXX_COMPILER_RANLIB"
+    description: "A wrapper around 'ranlib' adding the appropriate '--plugin' option for the GCC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "gcc-ranlib-16.2"
+      - "gcc-ranlib-16"
+      - "gcc-ranlib16"
+      - "gcc-ranlib"
+    candidate_directories:
+      - "/home/bailufrost/miniconda3/bin/"
+      - "/home/bailufrost/.npm-global/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+      - "/home/synopsys/vcs-mx/O-2018.09-SP2/gui/dve/bin/"
+      - "/home/synopsys/vcs-mx/O-2018.09-SP2/bin/"
+      - "/home/synopsys/verdi/Verdi_O-2018.09-SP2/bin/"
+      - "/home/synopsys/scl/2018.06/linux64/bin/"
+    searched_directories:
+      - "/home/bailufrost/miniconda3/bin/gcc-ranlib-16.2"
+      - "/home/bailufrost/.npm-global/bin/gcc-ranlib-16.2"
+      - "/usr/local/sbin/gcc-ranlib-16.2"
+      - "/usr/local/bin/gcc-ranlib-16.2"
+      - "/usr/sbin/gcc-ranlib-16.2"
+      - "/usr/bin/gcc-ranlib-16.2"
+      - "/sbin/gcc-ranlib-16.2"
+      - "/bin/gcc-ranlib-16.2"
+      - "/usr/games/gcc-ranlib-16.2"
+      - "/usr/local/games/gcc-ranlib-16.2"
+      - "/snap/bin/gcc-ranlib-16.2"
+      - "/home/synopsys/vcs-mx/O-2018.09-SP2/gui/dve/bin/gcc-ranlib-16.2"
+      - "/home/synopsys/vcs-mx/O-2018.09-SP2/bin/gcc-ranlib-16.2"
+      - "/home/synopsys/verdi/Verdi_O-2018.09-SP2/bin/gcc-ranlib-16.2"
+      - "/home/synopsys/scl/2018.06/linux64/bin/gcc-ranlib-16.2"
+      - "/home/bailufrost/miniconda3/bin/gcc-ranlib-16"
+      - "/home/bailufrost/.npm-global/bin/gcc-ranlib-16"
+      - "/usr/local/sbin/gcc-ranlib-16"
+      - "/usr/local/bin/gcc-ranlib-16"
+      - "/usr/sbin/gcc-ranlib-16"
+      - "/usr/bin/gcc-ranlib-16"
+      - "/sbin/gcc-ranlib-16"
+      - "/bin/gcc-ranlib-16"
+      - "/usr/games/gcc-ranlib-16"
+      - "/usr/local/games/gcc-ranlib-16"
+      - "/snap/bin/gcc-ranlib-16"
+      - "/home/synopsys/vcs-mx/O-2018.09-SP2/gui/dve/bin/gcc-ranlib-16"
+      - "/home/synopsys/vcs-mx/O-2018.09-SP2/bin/gcc-ranlib-16"
+      - "/home/synopsys/verdi/Verdi_O-2018.09-SP2/bin/gcc-ranlib-16"
+      - "/home/synopsys/scl/2018.06/linux64/bin/gcc-ranlib-16"
+      - "/home/bailufrost/miniconda3/bin/gcc-ranlib16"
+      - "/home/bailufrost/.npm-global/bin/gcc-ranlib16"
+      - "/usr/local/sbin/gcc-ranlib16"
+      - "/usr/local/bin/gcc-ranlib16"
+      - "/usr/sbin/gcc-ranlib16"
+      - "/usr/bin/gcc-ranlib16"
+      - "/sbin/gcc-ranlib16"
+      - "/bin/gcc-ranlib16"
+      - "/usr/games/gcc-ranlib16"
+      - "/usr/local/games/gcc-ranlib16"
+      - "/snap/bin/gcc-ranlib16"
+      - "/home/synopsys/vcs-mx/O-2018.09-SP2/gui/dve/bin/gcc-ranlib16"
+      - "/home/synopsys/vcs-mx/O-2018.09-SP2/bin/gcc-ranlib16"
+      - "/home/synopsys/verdi/Verdi_O-2018.09-SP2/bin/gcc-ranlib16"
+      - "/home/synopsys/scl/2018.06/linux64/bin/gcc-ranlib16"
+    found: "/home/bailufrost/miniconda3/bin/gcc-ranlib"
+    search_context:
+      ENV{PATH}:
+        - "/home/bailufrost/miniconda3/bin"
+        - "/home/bailufrost/.npm-global/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+        - "/home/synopsys/vcs-mx/O-2018.09-SP2/gui/dve/bin"
+        - "/home/synopsys/vcs-mx/O-2018.09-SP2/bin"
+        - "/home/synopsys/verdi/Verdi_O-2018.09-SP2/bin"
+        - "/home/synopsys/scl/2018.06/linux64/bin"
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/bailufrost/miniconda3/share/cmake-4.4/Modules/CMakeDetermineCompilerABI.cmake:123 (try_compile)"
+      - "/home/bailufrost/miniconda3/share/cmake-4.4/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:16 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "/home/bailufrost/LatchSTA_Code/LatchSTA_Code/code/src/CMakeFiles/CMakeScratch/TryCompile-oK3qUK"
+      binary: "/home/bailufrost/LatchSTA_Code/LatchSTA_Code/code/src/CMakeFiles/CMakeScratch/TryCompile-oK3qUK"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: false
+      stdout: |
+        Change Dir: '/home/bailufrost/LatchSTA_Code/LatchSTA_Code/code/src/CMakeFiles/CMakeScratch/TryCompile-oK3qUK'
+        
+        Run Build Command(s): /home/bailufrost/miniconda3/bin/cmake -E env VERBOSE=1 /home/bailufrost/miniconda3/bin/make -f Makefile cmTC_51bad/fast
+        /home/bailufrost/miniconda3/bin/make  -f CMakeFiles/cmTC_51bad.dir/build.make CMakeFiles/cmTC_51bad.dir/build
+        make[1]: Entering directory '/home/bailufrost/LatchSTA_Code/LatchSTA_Code/code/src/CMakeFiles/CMakeScratch/TryCompile-oK3qUK'
+        Building CXX object CMakeFiles/cmTC_51bad.dir/CMakeCXXCompilerABI.cpp.o
+        /home/bailufrost/miniconda3/bin/c++   -v -o CMakeFiles/cmTC_51bad.dir/CMakeCXXCompilerABI.cpp.o -c /home/bailufrost/miniconda3/share/cmake-4.4/Modules/CMakeCXXCompilerABI.cpp
+        Reading specs from /home/bailufrost/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/16.2.0/specs
+        Reading specs from /home/bailufrost/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/16.2.0/conda.specs
+        COLLECT_GCC=/home/bailufrost/miniconda3/bin/c++
+        Target: x86_64-conda-linux-gnu
+        Configured with: ../configure --prefix=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1787616373364/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho --with-slibdir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1787616373364/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/lib --libdir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1787616373364/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/lib --mandir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1787616373364/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/share/man --build=x86_64-conda-linux-gnu --host=x86_64-conda-linux-gnu --target=x86_64-conda-linux-gnu --enable-languages=c,c++,fortran,objc,obj-c++ --enable-libgomp --disable-libssp --enable-libquadmath --enable-libquadmath-support --disable-nls --disable-bootstrap --disable-multilib --enable-long-long --without-zstd --with-native-system-header-dir=/usr/include --with-gxx-include-dir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1787616373364/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/lib/gcc/x86_64-conda-linux-gnu/16.2.0/include/c++ --with-gxx-libcxx-include-dir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1787616373364/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/lib/gcc/x86_64-conda-linux-gnu/16.2.0/../../../../include/c++/v1 --with-pkgversion='conda-forge gcc 16.2.0-4' --with-bugurl=https://github.com/conda-forge/ctng-compilers-feedstock/issues/new/choose --enable-libsanitizer --enable-default-pie --enable-threads=posix --enable-__cxa_atexit --with-sysroot=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1787616373364/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/x86_64-conda-linux-gnu/sysroot --with-build-sysroot=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1787616373364/_build_env/x86_64-conda-linux-gnu/sysroot --enable-plugin --enable-lto
+        Thread model: posix
+        Supported LTO compression algorithms: zlib
+        gcc version 16.2.0 (conda-forge gcc 16.2.0-4) 
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_51bad.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_51bad.dir/'
+         /home/bailufrost/miniconda3/bin/../libexec/gcc/x86_64-conda-linux-gnu/16.2.0/cc1plus -quiet -v -iprefix /home/bailufrost/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/16.2.0/ -isysroot /home/bailufrost/miniconda3/bin/../x86_64-conda-linux-gnu/sysroot -D_GNU_SOURCE /home/bailufrost/miniconda3/share/cmake-4.4/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_51bad.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -idirafter /home/bailufrost/miniconda3/include -o /tmp/ccQmkqoE.s
+        GNU C++20 (conda-forge gcc 16.2.0-4) version 16.2.0 (x86_64-conda-linux-gnu)
+        	compiled by GNU C version 16.1.0, GMP version 6.3.0, MPFR version 4.2.2, MPC version 1.3.1, isl version isl-0.24-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring nonexistent directory "/home/bailufrost/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/16.2.0/../../../../x86_64-conda-linux-gnu/include"
+        ignoring duplicate directory "/home/bailufrost/miniconda3/bin/../lib/gcc/../../lib/gcc/x86_64-conda-linux-gnu/16.2.0/include/c++"
+        ignoring duplicate directory "/home/bailufrost/miniconda3/bin/../lib/gcc/../../lib/gcc/x86_64-conda-linux-gnu/16.2.0/include/c++/x86_64-conda-linux-gnu"
+        ignoring duplicate directory "/home/bailufrost/miniconda3/bin/../lib/gcc/../../lib/gcc/x86_64-conda-linux-gnu/16.2.0/include/c++/backward"
+        ignoring duplicate directory "/home/bailufrost/miniconda3/bin/../lib/gcc/../../lib/gcc/x86_64-conda-linux-gnu/16.2.0/include"
+        ignoring nonexistent directory "/home/bailufrost/miniconda3/bin/../x86_64-conda-linux-gnu/sysroot/usr/local/include"
+        ignoring duplicate directory "/home/bailufrost/miniconda3/bin/../lib/gcc/../../lib/gcc/x86_64-conda-linux-gnu/16.2.0/include-fixed"
+        ignoring nonexistent directory "/home/bailufrost/miniconda3/bin/../lib/gcc/../../lib/gcc/x86_64-conda-linux-gnu/16.2.0/../../../../x86_64-conda-linux-gnu/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /home/bailufrost/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/16.2.0/include/c++
+         /home/bailufrost/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/16.2.0/include/c++/x86_64-conda-linux-gnu
+         /home/bailufrost/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/16.2.0/include/c++/backward
+         /home/bailufrost/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/16.2.0/include
+         /home/bailufrost/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/16.2.0/include-fixed
+         /home/bailufrost/miniconda3/bin/../x86_64-conda-linux-gnu/sysroot/usr/include
+         /home/bailufrost/miniconda3/include
+        End of search list.
+        Compiler executable checksum: 244ac0642dcf2b2b4a857fabd8a8fba0
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_51bad.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_51bad.dir/'
+         /home/bailufrost/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/16.2.0/../../../../x86_64-conda-linux-gnu/bin/as -v --64 -o CMakeFiles/cmTC_51bad.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccQmkqoE.s
+        GNU assembler version 2.46.1 (x86_64-conda-linux-gnu) using BFD version (GNU Binutils) 2.46.1
+        COMPILER_PATH=/home/bailufrost/miniconda3/bin/../libexec/gcc/x86_64-conda-linux-gnu/16.2.0/:/home/bailufrost/miniconda3/bin/../libexec/gcc/:/home/bailufrost/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/16.2.0/../../../../x86_64-conda-linux-gnu/bin/
+        LIBRARY_PATH=/home/bailufrost/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/16.2.0/:/home/bailufrost/miniconda3/bin/../lib/gcc/:/home/bailufrost/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/16.2.0/../../../../x86_64-conda-linux-gnu/lib/../lib/:/home/bailufrost/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/16.2.0/../../../../lib/:/home/bailufrost/miniconda3/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib/:/home/bailufrost/miniconda3/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/:/home/bailufrost/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/16.2.0/../../../../x86_64-conda-linux-gnu/lib/:/home/bailufrost/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/16.2.0/../../../:/home/bailufrost/miniconda3/bin/../x86_64-conda-linux-gnu/sysroot/lib/:/home/bailufrost/miniconda3/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_51bad.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_51bad.dir/CMakeCXXCompilerABI.cpp.'
+        Linking CXX executable cmTC_51bad
+        /home/bailufrost/miniconda3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_51bad.dir/link.txt --verbose=1
+        Reading specs from /home/bailufrost/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/16.2.0/specs
+        Reading specs from /home/bailufrost/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/16.2.0/conda.specs
+        COLLECT_GCC=/home/bailufrost/miniconda3/bin/c++
+        COLLECT_LTO_WRAPPER=/home/bailufrost/miniconda3/bin/../libexec/gcc/x86_64-conda-linux-gnu/16.2.0/lto-wrapper
+        Target: x86_64-conda-linux-gnu
+        Configured with: ../configure --prefix=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1787616373364/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho --with-slibdir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1787616373364/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/lib --libdir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1787616373364/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/lib --mandir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1787616373364/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/share/man --build=x86_64-conda-linux-gnu --host=x86_64-conda-linux-gnu --target=x86_64-conda-linux-gnu --enable-languages=c,c++,fortran,objc,obj-c++ --enable-libgomp --disable-libssp --enable-libquadmath --enable-libquadmath-support --disable-nls --disable-bootstrap --disable-multilib --enable-long-long --without-zstd --with-native-system-header-dir=/usr/include --with-gxx-include-dir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1787616373364/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/lib/gcc/x86_64-conda-linux-gnu/16.2.0/include/c++ --with-gxx-libcxx-include-dir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1787616373364/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/lib/gcc/x86_64-conda-linux-gnu/16.2.0/../../../../include/c++/v1 --with-pkgversion='conda-forge gcc 16.2.0-4' --with-bugurl=https://github.com/conda-forge/ctng-compilers-feedstock/issues/new/choose --enable-libsanitizer --enable-default-pie --enable-threads=posix --enable-__cxa_atexit --with-sysroot=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1787616373364/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/x86_64-conda-linux-gnu/sysroot --with-build-sysroot=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1787616373364/_build_env/x86_64-conda-linux-gnu/sysroot --enable-plugin --enable-lto
+        Thread model: posix
+        Supported LTO compression algorithms: zlib
+        gcc version 16.2.0 (conda-forge gcc 16.2.0-4) 
+        COMPILER_PATH=/home/bailufrost/miniconda3/bin/../libexec/gcc/x86_64-conda-linux-gnu/16.2.0/:/home/bailufrost/miniconda3/bin/../libexec/gcc/:/home/bailufrost/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/16.2.0/../../../../x86_64-conda-linux-gnu/bin/
+        LIBRARY_PATH=/home/bailufrost/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/16.2.0/:/home/bailufrost/miniconda3/bin/../lib/gcc/:/home/bailufrost/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/16.2.0/../../../../x86_64-conda-linux-gnu/lib/../lib/:/home/bailufrost/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/16.2.0/../../../../lib/:/home/bailufrost/miniconda3/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib/:/home/bailufrost/miniconda3/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/:/home/bailufrost/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/16.2.0/../../../../x86_64-conda-linux-gnu/lib/:/home/bailufrost/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/16.2.0/../../../:/home/bailufrost/miniconda3/bin/../x86_64-conda-linux-gnu/sysroot/lib/:/home/bailufrost/miniconda3/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_51bad' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_51bad.'
+         /home/bailufrost/miniconda3/bin/../libexec/gcc/x86_64-conda-linux-gnu/16.2.0/collect2 -disable-new-dtags -plugin /home/bailufrost/miniconda3/bin/../libexec/gcc/x86_64-conda-linux-gnu/16.2.0/liblto_plugin.so -plugin-opt=/home/bailufrost/miniconda3/bin/../libexec/gcc/x86_64-conda-linux-gnu/16.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccW2Btys.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-latomic_asneeded -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/home/bailufrost/miniconda3/bin/../x86_64-conda-linux-gnu/sysroot --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_51bad /home/bailufrost/miniconda3/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib/Scrt1.o /home/bailufrost/miniconda3/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib/crti.o /home/bailufrost/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/16.2.0/crtbeginS.o -L/home/bailufrost/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/16.2.0 -L/home/bailufrost/miniconda3/bin/../lib/gcc -L/home/bailufrost/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/16.2.0/../../../../x86_64-conda-linux-gnu/lib/../lib -L/home/bailufrost/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/16.2.0/../../../../lib -L/home/bailufrost/miniconda3/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib -L/home/bailufrost/miniconda3/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib -L/home/bailufrost/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/16.2.0/../../../../x86_64-conda-linux-gnu/lib -L/home/bailufrost/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/16.2.0/../../.. -L/home/bailufrost/miniconda3/bin/../x86_64-conda-linux-gnu/sysroot/lib -L/home/bailufrost/miniconda3/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib -v CMakeFiles/cmTC_51bad.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -latomic_asneeded -lc -lgcc_s -lgcc /home/bailufrost/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/16.2.0/crtendS.o /home/bailufrost/miniconda3/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib/crtn.o -rpath /home/bailufrost/miniconda3/lib -rpath-link /home/bailufrost/miniconda3/lib -L /home/bailufrost/miniconda3/lib/stubs -L /home/bailufrost/miniconda3/lib
+        collect2 version 16.2.0
+        /home/bailufrost/miniconda3/bin/../libexec/gcc/x86_64-conda-linux-gnu/16.2.0/ld -disable-new-dtags -plugin /home/bailufrost/miniconda3/bin/../libexec/gcc/x86_64-conda-linux-gnu/16.2.0/liblto_plugin.so -plugin-opt=/home/bailufrost/miniconda3/bin/../libexec/gcc/x86_64-conda-linux-gnu/16.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccW2Btys.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-latomic_asneeded -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/home/bailufrost/miniconda3/bin/../x86_64-conda-linux-gnu/sysroot --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_51bad /home/bailufrost/miniconda3/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib/Scrt1.o /home/bailufrost/miniconda3/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib/crti.o /home/bailufrost/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/16.2.0/crtbeginS.o -L/home/bailufrost/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/16.2.0 -L/home/bailufrost/miniconda3/bin/../lib/gcc -L/home/bailufrost/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/16.2.0/../../../../x86_64-conda-linux-gnu/lib/../lib -L/home/bailufrost/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/16.2.0/../../../../lib -L/home/bailufrost/miniconda3/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib -L/home/bailufrost/miniconda3/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib -L/home/bailufrost/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/16.2.0/../../../../x86_64-conda-linux-gnu/lib -L/home/bailufrost/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/16.2.0/../../.. -L/home/bailufrost/miniconda3/bin/../x86_64-conda-linux-gnu/sysroot/lib -L/home/bailufrost/miniconda3/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib -v CMakeFiles/cmTC_51bad.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -latomic_asneeded -lc -lgcc_s -lgcc /home/bailufrost/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/16.2.0/crtendS.o /home/bailufrost/miniconda3/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib/crtn.o -rpath /home/bailufrost/miniconda3/lib -rpath-link /home/bailufrost/miniconda3/lib -L /home/bailufrost/miniconda3/lib/stubs -L /home/bailufrost/miniconda3/lib
+        GNU ld (GNU Binutils) 2.46.1
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_51bad' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_51bad.'
+        /home/bailufrost/miniconda3/bin/c++  -v -Wl,-v CMakeFiles/cmTC_51bad.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_51bad
+        make[1]: Leaving directory '/home/bailufrost/LatchSTA_Code/LatchSTA_Code/code/src/CMakeFiles/CMakeScratch/TryCompile-oK3qUK'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/bailufrost/miniconda3/share/cmake-4.4/Modules/CMakeDetermineCompilerABI.cmake:255 (message)"
+      - "/home/bailufrost/miniconda3/share/cmake-4.4/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:16 (project)"
+    message: |
+      Parsed CXX implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/home/bailufrost/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/16.2.0/include/c++]
+          add: [/home/bailufrost/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/16.2.0/include/c++/x86_64-conda-linux-gnu]
+          add: [/home/bailufrost/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/16.2.0/include/c++/backward]
+          add: [/home/bailufrost/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/16.2.0/include]
+          add: [/home/bailufrost/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/16.2.0/include-fixed]
+          add: [/home/bailufrost/miniconda3/bin/../x86_64-conda-linux-gnu/sysroot/usr/include]
+          add: [/home/bailufrost/miniconda3/include]
+        end of search list found
+        collapse include dir [/home/bailufrost/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/16.2.0/include/c++] ==> [/home/bailufrost/miniconda3/lib/gcc/x86_64-conda-linux-gnu/16.2.0/include/c++]
+        collapse include dir [/home/bailufrost/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/16.2.0/include/c++/x86_64-conda-linux-gnu] ==> [/home/bailufrost/miniconda3/lib/gcc/x86_64-conda-linux-gnu/16.2.0/include/c++/x86_64-conda-linux-gnu]
+        collapse include dir [/home/bailufrost/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/16.2.0/include/c++/backward] ==> [/home/bailufrost/miniconda3/lib/gcc/x86_64-conda-linux-gnu/16.2.0/include/c++/backward]
+        collapse include dir [/home/bailufrost/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/16.2.0/include] ==> [/home/bailufrost/miniconda3/lib/gcc/x86_64-conda-linux-gnu/16.2.0/include]
+        collapse include dir [/home/bailufrost/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/16.2.0/include-fixed] ==> [/home/bailufrost/miniconda3/lib/gcc/x86_64-conda-linux-gnu/16.2.0/include-fixed]
+        collapse include dir [/home/bailufrost/miniconda3/bin/../x86_64-conda-linux-gnu/sysroot/usr/include] ==> [/home/bailufrost/miniconda3/x86_64-conda-linux-gnu/sysroot/usr/include]
+        collapse include dir [/home/bailufrost/miniconda3/include] ==> [/home/bailufrost/miniconda3/include]
+        implicit include dirs: [/home/bailufrost/miniconda3/lib/gcc/x86_64-conda-linux-gnu/16.2.0/include/c++;/home/bailufrost/miniconda3/lib/gcc/x86_64-conda-linux-gnu/16.2.0/include/c++/x86_64-conda-linux-gnu;/home/bailufrost/miniconda3/lib/gcc/x86_64-conda-linux-gnu/16.2.0/include/c++/backward;/home/bailufrost/miniconda3/lib/gcc/x86_64-conda-linux-gnu/16.2.0/include;/home/bailufrost/miniconda3/lib/gcc/x86_64-conda-linux-gnu/16.2.0/include-fixed;/home/bailufrost/miniconda3/x86_64-conda-linux-gnu/sysroot/usr/include;/home/bailufrost/miniconda3/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/bailufrost/miniconda3/share/cmake-4.4/Modules/CMakeDetermineCompilerABI.cmake:291 (message)"
+      - "/home/bailufrost/miniconda3/share/cmake-4.4/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:16 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|wild|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|wild))("|,| |$)]
+        ignore line: [Change Dir: '/home/bailufrost/LatchSTA_Code/LatchSTA_Code/code/src/CMakeFiles/CMakeScratch/TryCompile-oK3qUK']
+        ignore line: []
+        ignore line: [Run Build Command(s): /home/bailufrost/miniconda3/bin/cmake -E env VERBOSE=1 /home/bailufrost/miniconda3/bin/make -f Makefile cmTC_51bad/fast]
+        ignore line: [/home/bailufrost/miniconda3/bin/make  -f CMakeFiles/cmTC_51bad.dir/build.make CMakeFiles/cmTC_51bad.dir/build]
+        ignore line: [make[1]: Entering directory '/home/bailufrost/LatchSTA_Code/LatchSTA_Code/code/src/CMakeFiles/CMakeScratch/TryCompile-oK3qUK']
+        ignore line: [Building CXX object CMakeFiles/cmTC_51bad.dir/CMakeCXXCompilerABI.cpp.o]
+        ignore line: [/home/bailufrost/miniconda3/bin/c++   -v -o CMakeFiles/cmTC_51bad.dir/CMakeCXXCompilerABI.cpp.o -c /home/bailufrost/miniconda3/share/cmake-4.4/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Reading specs from /home/bailufrost/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/16.2.0/specs]
+        ignore line: [Reading specs from /home/bailufrost/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/16.2.0/conda.specs]
+        ignore line: [COLLECT_GCC=/home/bailufrost/miniconda3/bin/c++]
+        ignore line: [Target: x86_64-conda-linux-gnu]
+        ignore line: [Configured with: ../configure --prefix=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1787616373364/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho --with-slibdir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1787616373364/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/lib --libdir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1787616373364/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/lib --mandir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1787616373364/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/share/man --build=x86_64-conda-linux-gnu --host=x86_64-conda-linux-gnu --target=x86_64-conda-linux-gnu --enable-languages=c c++ fortran objc obj-c++ --enable-libgomp --disable-libssp --enable-libquadmath --enable-libquadmath-support --disable-nls --disable-bootstrap --disable-multilib --enable-long-long --without-zstd --with-native-system-header-dir=/usr/include --with-gxx-include-dir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1787616373364/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/lib/gcc/x86_64-conda-linux-gnu/16.2.0/include/c++ --with-gxx-libcxx-include-dir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1787616373364/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/lib/gcc/x86_64-conda-linux-gnu/16.2.0/../../../../include/c++/v1 --with-pkgversion='conda-forge gcc 16.2.0-4' --with-bugurl=https://github.com/conda-forge/ctng-compilers-feedstock/issues/new/choose --enable-libsanitizer --enable-default-pie --enable-threads=posix --enable-__cxa_atexit --with-sysroot=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1787616373364/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/x86_64-conda-linux-gnu/sysroot --with-build-sysroot=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1787616373364/_build_env/x86_64-conda-linux-gnu/sysroot --enable-plugin --enable-lto]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib]
+        ignore line: [gcc version 16.2.0 (conda-forge gcc 16.2.0-4) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_51bad.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_51bad.dir/']
+        ignore line: [ /home/bailufrost/miniconda3/bin/../libexec/gcc/x86_64-conda-linux-gnu/16.2.0/cc1plus -quiet -v -iprefix /home/bailufrost/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/16.2.0/ -isysroot /home/bailufrost/miniconda3/bin/../x86_64-conda-linux-gnu/sysroot -D_GNU_SOURCE /home/bailufrost/miniconda3/share/cmake-4.4/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_51bad.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -idirafter /home/bailufrost/miniconda3/include -o /tmp/ccQmkqoE.s]
+        ignore line: [GNU C++20 (conda-forge gcc 16.2.0-4) version 16.2.0 (x86_64-conda-linux-gnu)]
+        ignore line: [	compiled by GNU C version 16.1.0  GMP version 6.3.0  MPFR version 4.2.2  MPC version 1.3.1  isl version isl-0.24-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring nonexistent directory "/home/bailufrost/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/16.2.0/../../../../x86_64-conda-linux-gnu/include"]
+        ignore line: [ignoring duplicate directory "/home/bailufrost/miniconda3/bin/../lib/gcc/../../lib/gcc/x86_64-conda-linux-gnu/16.2.0/include/c++"]
+        ignore line: [ignoring duplicate directory "/home/bailufrost/miniconda3/bin/../lib/gcc/../../lib/gcc/x86_64-conda-linux-gnu/16.2.0/include/c++/x86_64-conda-linux-gnu"]
+        ignore line: [ignoring duplicate directory "/home/bailufrost/miniconda3/bin/../lib/gcc/../../lib/gcc/x86_64-conda-linux-gnu/16.2.0/include/c++/backward"]
+        ignore line: [ignoring duplicate directory "/home/bailufrost/miniconda3/bin/../lib/gcc/../../lib/gcc/x86_64-conda-linux-gnu/16.2.0/include"]
+        ignore line: [ignoring nonexistent directory "/home/bailufrost/miniconda3/bin/../x86_64-conda-linux-gnu/sysroot/usr/local/include"]
+        ignore line: [ignoring duplicate directory "/home/bailufrost/miniconda3/bin/../lib/gcc/../../lib/gcc/x86_64-conda-linux-gnu/16.2.0/include-fixed"]
+        ignore line: [ignoring nonexistent directory "/home/bailufrost/miniconda3/bin/../lib/gcc/../../lib/gcc/x86_64-conda-linux-gnu/16.2.0/../../../../x86_64-conda-linux-gnu/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /home/bailufrost/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/16.2.0/include/c++]
+        ignore line: [ /home/bailufrost/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/16.2.0/include/c++/x86_64-conda-linux-gnu]
+        ignore line: [ /home/bailufrost/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/16.2.0/include/c++/backward]
+        ignore line: [ /home/bailufrost/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/16.2.0/include]
+        ignore line: [ /home/bailufrost/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/16.2.0/include-fixed]
+        ignore line: [ /home/bailufrost/miniconda3/bin/../x86_64-conda-linux-gnu/sysroot/usr/include]
+        ignore line: [ /home/bailufrost/miniconda3/include]
+        ignore line: [End of search list.]
+        ignore line: [Compiler executable checksum: 244ac0642dcf2b2b4a857fabd8a8fba0]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_51bad.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_51bad.dir/']
+        ignore line: [ /home/bailufrost/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/16.2.0/../../../../x86_64-conda-linux-gnu/bin/as -v --64 -o CMakeFiles/cmTC_51bad.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccQmkqoE.s]
+        ignore line: [GNU assembler version 2.46.1 (x86_64-conda-linux-gnu) using BFD version (GNU Binutils) 2.46.1]
+        ignore line: [COMPILER_PATH=/home/bailufrost/miniconda3/bin/../libexec/gcc/x86_64-conda-linux-gnu/16.2.0/:/home/bailufrost/miniconda3/bin/../libexec/gcc/:/home/bailufrost/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/16.2.0/../../../../x86_64-conda-linux-gnu/bin/]
+        ignore line: [LIBRARY_PATH=/home/bailufrost/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/16.2.0/:/home/bailufrost/miniconda3/bin/../lib/gcc/:/home/bailufrost/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/16.2.0/../../../../x86_64-conda-linux-gnu/lib/../lib/:/home/bailufrost/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/16.2.0/../../../../lib/:/home/bailufrost/miniconda3/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib/:/home/bailufrost/miniconda3/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/:/home/bailufrost/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/16.2.0/../../../../x86_64-conda-linux-gnu/lib/:/home/bailufrost/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/16.2.0/../../../:/home/bailufrost/miniconda3/bin/../x86_64-conda-linux-gnu/sysroot/lib/:/home/bailufrost/miniconda3/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_51bad.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_51bad.dir/CMakeCXXCompilerABI.cpp.']
+        ignore line: [Linking CXX executable cmTC_51bad]
+        ignore line: [/home/bailufrost/miniconda3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_51bad.dir/link.txt --verbose=1]
+        ignore line: [Reading specs from /home/bailufrost/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/16.2.0/specs]
+        ignore line: [Reading specs from /home/bailufrost/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/16.2.0/conda.specs]
+        ignore line: [COLLECT_GCC=/home/bailufrost/miniconda3/bin/c++]
+        ignore line: [COLLECT_LTO_WRAPPER=/home/bailufrost/miniconda3/bin/../libexec/gcc/x86_64-conda-linux-gnu/16.2.0/lto-wrapper]
+        ignore line: [Target: x86_64-conda-linux-gnu]
+        ignore line: [Configured with: ../configure --prefix=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1787616373364/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho --with-slibdir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1787616373364/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/lib --libdir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1787616373364/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/lib --mandir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1787616373364/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/share/man --build=x86_64-conda-linux-gnu --host=x86_64-conda-linux-gnu --target=x86_64-conda-linux-gnu --enable-languages=c c++ fortran objc obj-c++ --enable-libgomp --disable-libssp --enable-libquadmath --enable-libquadmath-support --disable-nls --disable-bootstrap --disable-multilib --enable-long-long --without-zstd --with-native-system-header-dir=/usr/include --with-gxx-include-dir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1787616373364/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/lib/gcc/x86_64-conda-linux-gnu/16.2.0/include/c++ --with-gxx-libcxx-include-dir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1787616373364/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/lib/gcc/x86_64-conda-linux-gnu/16.2.0/../../../../include/c++/v1 --with-pkgversion='conda-forge gcc 16.2.0-4' --with-bugurl=https://github.com/conda-forge/ctng-compilers-feedstock/issues/new/choose --enable-libsanitizer --enable-default-pie --enable-threads=posix --enable-__cxa_atexit --with-sysroot=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1787616373364/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/x86_64-conda-linux-gnu/sysroot --with-build-sysroot=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1787616373364/_build_env/x86_64-conda-linux-gnu/sysroot --enable-plugin --enable-lto]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib]
+        ignore line: [gcc version 16.2.0 (conda-forge gcc 16.2.0-4) ]
+        ignore line: [COMPILER_PATH=/home/bailufrost/miniconda3/bin/../libexec/gcc/x86_64-conda-linux-gnu/16.2.0/:/home/bailufrost/miniconda3/bin/../libexec/gcc/:/home/bailufrost/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/16.2.0/../../../../x86_64-conda-linux-gnu/bin/]
+        ignore line: [LIBRARY_PATH=/home/bailufrost/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/16.2.0/:/home/bailufrost/miniconda3/bin/../lib/gcc/:/home/bailufrost/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/16.2.0/../../../../x86_64-conda-linux-gnu/lib/../lib/:/home/bailufrost/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/16.2.0/../../../../lib/:/home/bailufrost/miniconda3/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib/:/home/bailufrost/miniconda3/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/:/home/bailufrost/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/16.2.0/../../../../x86_64-conda-linux-gnu/lib/:/home/bailufrost/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/16.2.0/../../../:/home/bailufrost/miniconda3/bin/../x86_64-conda-linux-gnu/sysroot/lib/:/home/bailufrost/miniconda3/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_51bad' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_51bad.']
+        link line: [ /home/bailufrost/miniconda3/bin/../libexec/gcc/x86_64-conda-linux-gnu/16.2.0/collect2 -disable-new-dtags -plugin /home/bailufrost/miniconda3/bin/../libexec/gcc/x86_64-conda-linux-gnu/16.2.0/liblto_plugin.so -plugin-opt=/home/bailufrost/miniconda3/bin/../libexec/gcc/x86_64-conda-linux-gnu/16.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccW2Btys.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-latomic_asneeded -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/home/bailufrost/miniconda3/bin/../x86_64-conda-linux-gnu/sysroot --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_51bad /home/bailufrost/miniconda3/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib/Scrt1.o /home/bailufrost/miniconda3/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib/crti.o /home/bailufrost/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/16.2.0/crtbeginS.o -L/home/bailufrost/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/16.2.0 -L/home/bailufrost/miniconda3/bin/../lib/gcc -L/home/bailufrost/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/16.2.0/../../../../x86_64-conda-linux-gnu/lib/../lib -L/home/bailufrost/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/16.2.0/../../../../lib -L/home/bailufrost/miniconda3/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib -L/home/bailufrost/miniconda3/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib -L/home/bailufrost/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/16.2.0/../../../../x86_64-conda-linux-gnu/lib -L/home/bailufrost/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/16.2.0/../../.. -L/home/bailufrost/miniconda3/bin/../x86_64-conda-linux-gnu/sysroot/lib -L/home/bailufrost/miniconda3/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib -v CMakeFiles/cmTC_51bad.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -latomic_asneeded -lc -lgcc_s -lgcc /home/bailufrost/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/16.2.0/crtendS.o /home/bailufrost/miniconda3/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib/crtn.o -rpath /home/bailufrost/miniconda3/lib -rpath-link /home/bailufrost/miniconda3/lib -L /home/bailufrost/miniconda3/lib/stubs -L /home/bailufrost/miniconda3/lib]
+          arg [/home/bailufrost/miniconda3/bin/../libexec/gcc/x86_64-conda-linux-gnu/16.2.0/collect2] ==> ignore
+          arg [-disable-new-dtags] ==> ignore
+          arg [-plugin] ==> ignore
+          arg [/home/bailufrost/miniconda3/bin/../libexec/gcc/x86_64-conda-linux-gnu/16.2.0/liblto_plugin.so] ==> ignore
+          arg [-plugin-opt=/home/bailufrost/miniconda3/bin/../libexec/gcc/x86_64-conda-linux-gnu/16.2.0/lto-wrapper] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/ccW2Btys.res] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-latomic_asneeded] ==> ignore
+          arg [-plugin-opt=-pass-through=-lc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [--sysroot=/home/bailufrost/miniconda3/bin/../x86_64-conda-linux-gnu/sysroot] ==> ignore
+          arg [--eh-frame-hdr] ==> ignore
+          arg [-m] ==> ignore
+          arg [elf_x86_64] ==> ignore
+          arg [-dynamic-linker] ==> ignore
+          arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+          arg [-pie] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_51bad] ==> ignore
+          arg [/home/bailufrost/miniconda3/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib/Scrt1.o] ==> obj [/home/bailufrost/miniconda3/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib/Scrt1.o]
+          arg [/home/bailufrost/miniconda3/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib/crti.o] ==> obj [/home/bailufrost/miniconda3/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib/crti.o]
+          arg [/home/bailufrost/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/16.2.0/crtbeginS.o] ==> obj [/home/bailufrost/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/16.2.0/crtbeginS.o]
+          arg [-L/home/bailufrost/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/16.2.0] ==> dir [/home/bailufrost/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/16.2.0]
+          arg [-L/home/bailufrost/miniconda3/bin/../lib/gcc] ==> dir [/home/bailufrost/miniconda3/bin/../lib/gcc]
+          arg [-L/home/bailufrost/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/16.2.0/../../../../x86_64-conda-linux-gnu/lib/../lib] ==> dir [/home/bailufrost/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/16.2.0/../../../../x86_64-conda-linux-gnu/lib/../lib]
+          arg [-L/home/bailufrost/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/16.2.0/../../../../lib] ==> dir [/home/bailufrost/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/16.2.0/../../../../lib]
+          arg [-L/home/bailufrost/miniconda3/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib] ==> dir [/home/bailufrost/miniconda3/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib]
+          arg [-L/home/bailufrost/miniconda3/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib] ==> dir [/home/bailufrost/miniconda3/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib]
+          arg [-L/home/bailufrost/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/16.2.0/../../../../x86_64-conda-linux-gnu/lib] ==> dir [/home/bailufrost/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/16.2.0/../../../../x86_64-conda-linux-gnu/lib]
+          arg [-L/home/bailufrost/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/16.2.0/../../..] ==> dir [/home/bailufrost/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/16.2.0/../../..]
+          arg [-L/home/bailufrost/miniconda3/bin/../x86_64-conda-linux-gnu/sysroot/lib] ==> dir [/home/bailufrost/miniconda3/bin/../x86_64-conda-linux-gnu/sysroot/lib]
+          arg [-L/home/bailufrost/miniconda3/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib] ==> dir [/home/bailufrost/miniconda3/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib]
+          arg [-v] ==> ignore
+          arg [CMakeFiles/cmTC_51bad.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+          arg [-lstdc++] ==> lib [stdc++]
+          arg [-lm] ==> lib [m]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+          arg [-latomic_asneeded] ==> lib [atomic_asneeded]
+          arg [-lc] ==> lib [c]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+          arg [/home/bailufrost/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/16.2.0/crtendS.o] ==> obj [/home/bailufrost/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/16.2.0/crtendS.o]
+          arg [/home/bailufrost/miniconda3/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib/crtn.o] ==> obj [/home/bailufrost/miniconda3/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib/crtn.o]
+          arg [-rpath] ==> ignore
+          arg [/home/bailufrost/miniconda3/lib] ==> ignore
+          arg [-rpath-link] ==> ignore
+          arg [/home/bailufrost/miniconda3/lib] ==> ignore
+          arg [-L/home/bailufrost/miniconda3/lib/stubs] ==> dir [/home/bailufrost/miniconda3/lib/stubs]
+          arg [-L/home/bailufrost/miniconda3/lib] ==> dir [/home/bailufrost/miniconda3/lib]
+        ignore line: [collect2 version 16.2.0]
+        link line: [/home/bailufrost/miniconda3/bin/../libexec/gcc/x86_64-conda-linux-gnu/16.2.0/ld -disable-new-dtags -plugin /home/bailufrost/miniconda3/bin/../libexec/gcc/x86_64-conda-linux-gnu/16.2.0/liblto_plugin.so -plugin-opt=/home/bailufrost/miniconda3/bin/../libexec/gcc/x86_64-conda-linux-gnu/16.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccW2Btys.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-latomic_asneeded -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/home/bailufrost/miniconda3/bin/../x86_64-conda-linux-gnu/sysroot --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_51bad /home/bailufrost/miniconda3/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib/Scrt1.o /home/bailufrost/miniconda3/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib/crti.o /home/bailufrost/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/16.2.0/crtbeginS.o -L/home/bailufrost/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/16.2.0 -L/home/bailufrost/miniconda3/bin/../lib/gcc -L/home/bailufrost/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/16.2.0/../../../../x86_64-conda-linux-gnu/lib/../lib -L/home/bailufrost/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/16.2.0/../../../../lib -L/home/bailufrost/miniconda3/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib -L/home/bailufrost/miniconda3/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib -L/home/bailufrost/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/16.2.0/../../../../x86_64-conda-linux-gnu/lib -L/home/bailufrost/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/16.2.0/../../.. -L/home/bailufrost/miniconda3/bin/../x86_64-conda-linux-gnu/sysroot/lib -L/home/bailufrost/miniconda3/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib -v CMakeFiles/cmTC_51bad.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -latomic_asneeded -lc -lgcc_s -lgcc /home/bailufrost/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/16.2.0/crtendS.o /home/bailufrost/miniconda3/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib/crtn.o -rpath /home/bailufrost/miniconda3/lib -rpath-link /home/bailufrost/miniconda3/lib -L /home/bailufrost/miniconda3/lib/stubs -L /home/bailufrost/miniconda3/lib] ==> linker [/home/bailufrost/miniconda3/bin/../libexec/gcc/x86_64-conda-linux-gnu/16.2.0/ld]
+        link line: [/home/bailufrost/miniconda3/bin/../libexec/gcc/x86_64-conda-linux-gnu/16.2.0/ld -disable-new-dtags -plugin /home/bailufrost/miniconda3/bin/../libexec/gcc/x86_64-conda-linux-gnu/16.2.0/liblto_plugin.so -plugin-opt=/home/bailufrost/miniconda3/bin/../libexec/gcc/x86_64-conda-linux-gnu/16.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccW2Btys.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-latomic_asneeded -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/home/bailufrost/miniconda3/bin/../x86_64-conda-linux-gnu/sysroot --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_51bad /home/bailufrost/miniconda3/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib/Scrt1.o /home/bailufrost/miniconda3/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib/crti.o /home/bailufrost/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/16.2.0/crtbeginS.o -L/home/bailufrost/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/16.2.0 -L/home/bailufrost/miniconda3/bin/../lib/gcc -L/home/bailufrost/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/16.2.0/../../../../x86_64-conda-linux-gnu/lib/../lib -L/home/bailufrost/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/16.2.0/../../../../lib -L/home/bailufrost/miniconda3/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib -L/home/bailufrost/miniconda3/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib -L/home/bailufrost/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/16.2.0/../../../../x86_64-conda-linux-gnu/lib -L/home/bailufrost/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/16.2.0/../../.. -L/home/bailufrost/miniconda3/bin/../x86_64-conda-linux-gnu/sysroot/lib -L/home/bailufrost/miniconda3/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib -v CMakeFiles/cmTC_51bad.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -latomic_asneeded -lc -lgcc_s -lgcc /home/bailufrost/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/16.2.0/crtendS.o /home/bailufrost/miniconda3/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib/crtn.o -rpath /home/bailufrost/miniconda3/lib -rpath-link /home/bailufrost/miniconda3/lib -L /home/bailufrost/miniconda3/lib/stubs -L /home/bailufrost/miniconda3/lib] ==> linker architecture flags [-m;elf]
+        ignore line: [/home/bailufrost/miniconda3/bin/../libexec/gcc/x86_64-conda-linux-gnu/16.2.0/ld -disable-new-dtags -plugin /home/bailufrost/miniconda3/bin/../libexec/gcc/x86_64-conda-linux-gnu/16.2.0/liblto_plugin.so -plugin-opt=/home/bailufrost/miniconda3/bin/../libexec/gcc/x86_64-conda-linux-gnu/16.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccW2Btys.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-latomic_asneeded -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/home/bailufrost/miniconda3/bin/../x86_64-conda-linux-gnu/sysroot --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_51bad /home/bailufrost/miniconda3/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib/Scrt1.o /home/bailufrost/miniconda3/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib/crti.o /home/bailufrost/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/16.2.0/crtbeginS.o -L/home/bailufrost/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/16.2.0 -L/home/bailufrost/miniconda3/bin/../lib/gcc -L/home/bailufrost/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/16.2.0/../../../../x86_64-conda-linux-gnu/lib/../lib -L/home/bailufrost/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/16.2.0/../../../../lib -L/home/bailufrost/miniconda3/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib -L/home/bailufrost/miniconda3/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib -L/home/bailufrost/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/16.2.0/../../../../x86_64-conda-linux-gnu/lib -L/home/bailufrost/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/16.2.0/../../.. -L/home/bailufrost/miniconda3/bin/../x86_64-conda-linux-gnu/sysroot/lib -L/home/bailufrost/miniconda3/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib -v CMakeFiles/cmTC_51bad.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -latomic_asneeded -lc -lgcc_s -lgcc /home/bailufrost/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/16.2.0/crtendS.o /home/bailufrost/miniconda3/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib/crtn.o -rpath /home/bailufrost/miniconda3/lib -rpath-link /home/bailufrost/miniconda3/lib -L /home/bailufrost/miniconda3/lib/stubs -L /home/bailufrost/miniconda3/lib]
+        linker tool for 'CXX': /home/bailufrost/miniconda3/bin/../libexec/gcc/x86_64-conda-linux-gnu/16.2.0/ld -m;elf
+        collapse obj [/home/bailufrost/miniconda3/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib/Scrt1.o] ==> [/home/bailufrost/miniconda3/x86_64-conda-linux-gnu/sysroot/lib/Scrt1.o]
+        collapse obj [/home/bailufrost/miniconda3/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib/crti.o] ==> [/home/bailufrost/miniconda3/x86_64-conda-linux-gnu/sysroot/lib/crti.o]
+        collapse obj [/home/bailufrost/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/16.2.0/crtbeginS.o] ==> [/home/bailufrost/miniconda3/lib/gcc/x86_64-conda-linux-gnu/16.2.0/crtbeginS.o]
+        collapse obj [/home/bailufrost/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/16.2.0/crtendS.o] ==> [/home/bailufrost/miniconda3/lib/gcc/x86_64-conda-linux-gnu/16.2.0/crtendS.o]
+        collapse obj [/home/bailufrost/miniconda3/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib/crtn.o] ==> [/home/bailufrost/miniconda3/x86_64-conda-linux-gnu/sysroot/lib/crtn.o]
+        collapse library dir [/home/bailufrost/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/16.2.0] ==> [/home/bailufrost/miniconda3/lib/gcc/x86_64-conda-linux-gnu/16.2.0]
+        collapse library dir [/home/bailufrost/miniconda3/bin/../lib/gcc] ==> [/home/bailufrost/miniconda3/lib/gcc]
+        collapse library dir [/home/bailufrost/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/16.2.0/../../../../x86_64-conda-linux-gnu/lib/../lib] ==> [/home/bailufrost/miniconda3/x86_64-conda-linux-gnu/lib]
+        collapse library dir [/home/bailufrost/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/16.2.0/../../../../lib] ==> [/home/bailufrost/miniconda3/lib]
+        collapse library dir [/home/bailufrost/miniconda3/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib] ==> [/home/bailufrost/miniconda3/x86_64-conda-linux-gnu/sysroot/lib]
+        collapse library dir [/home/bailufrost/miniconda3/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib] ==> [/home/bailufrost/miniconda3/x86_64-conda-linux-gnu/sysroot/usr/lib]
+        collapse library dir [/home/bailufrost/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/16.2.0/../../../../x86_64-conda-linux-gnu/lib] ==> [/home/bailufrost/miniconda3/x86_64-conda-linux-gnu/lib]
+        collapse library dir [/home/bailufrost/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/16.2.0/../../..] ==> [/home/bailufrost/miniconda3/lib]
+        collapse library dir [/home/bailufrost/miniconda3/bin/../x86_64-conda-linux-gnu/sysroot/lib] ==> [/home/bailufrost/miniconda3/x86_64-conda-linux-gnu/sysroot/lib]
+        collapse library dir [/home/bailufrost/miniconda3/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib] ==> [/home/bailufrost/miniconda3/x86_64-conda-linux-gnu/sysroot/usr/lib]
+        collapse library dir [/home/bailufrost/miniconda3/lib/stubs] ==> [/home/bailufrost/miniconda3/lib/stubs]
+        collapse library dir [/home/bailufrost/miniconda3/lib] ==> [/home/bailufrost/miniconda3/lib]
+        implicit libs: [stdc++;m;gcc_s;gcc;atomic_asneeded;c;gcc_s;gcc]
+        implicit objs: [/home/bailufrost/miniconda3/x86_64-conda-linux-gnu/sysroot/lib/Scrt1.o;/home/bailufrost/miniconda3/x86_64-conda-linux-gnu/sysroot/lib/crti.o;/home/bailufrost/miniconda3/lib/gcc/x86_64-conda-linux-gnu/16.2.0/crtbeginS.o;/home/bailufrost/miniconda3/lib/gcc/x86_64-conda-linux-gnu/16.2.0/crtendS.o;/home/bailufrost/miniconda3/x86_64-conda-linux-gnu/sysroot/lib/crtn.o]
+        implicit dirs: [/home/bailufrost/miniconda3/lib/gcc/x86_64-conda-linux-gnu/16.2.0;/home/bailufrost/miniconda3/lib/gcc;/home/bailufrost/miniconda3/x86_64-conda-linux-gnu/lib;/home/bailufrost/miniconda3/lib;/home/bailufrost/miniconda3/x86_64-conda-linux-gnu/sysroot/lib;/home/bailufrost/miniconda3/x86_64-conda-linux-gnu/sysroot/usr/lib;/home/bailufrost/miniconda3/lib/stubs]
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/bailufrost/miniconda3/share/cmake-4.4/Modules/Internal/CMakeDetermineLinkerId.cmake:41 (message)"
+      - "/home/bailufrost/miniconda3/share/cmake-4.4/Modules/CMakeDetermineCompilerABI.cmake:337 (cmake_determine_linker_id)"
+      - "/home/bailufrost/miniconda3/share/cmake-4.4/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:16 (project)"
+    message: |
+      Running the CXX compiler's linker: "/home/bailufrost/miniconda3/bin/../libexec/gcc/x86_64-conda-linux-gnu/16.2.0/ld" "-v"
+      GNU ld (GNU Binutils) 2.46.1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/bailufrost/miniconda3/share/cmake-4.4/Modules/Internal/CheckSourceCompiles.cmake:81 (try_compile)"
+      - "/home/bailufrost/miniconda3/share/cmake-4.4/Modules/CheckCXXSourceCompiles.cmake:103 (cmake_check_source_compiles)"
+      - "/home/bailufrost/miniconda3/share/cmake-4.4/Modules/FindThreads.cmake:162 (check_cxx_source_compiles)"
+      - "/home/bailufrost/miniconda3/share/cmake-4.4/Modules/FindThreads.cmake:226 (_threads_check_libc)"
+      - "CMakeLists.txt:32 (find_package)"
+    checks:
+      - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
+    directories:
+      source: "/home/bailufrost/LatchSTA_Code/LatchSTA_Code/code/src/CMakeFiles/CMakeScratch/TryCompile-wMdqSk"
+      binary: "/home/bailufrost/LatchSTA_Code/LatchSTA_Code/code/src/CMakeFiles/CMakeScratch/TryCompile-wMdqSk"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_HAVE_LIBC_PTHREAD"
+      cached: true
+      stdout: |
+        Change Dir: '/home/bailufrost/LatchSTA_Code/LatchSTA_Code/code/src/CMakeFiles/CMakeScratch/TryCompile-wMdqSk'
+        
+        Run Build Command(s): /home/bailufrost/miniconda3/bin/cmake -E env VERBOSE=1 /home/bailufrost/miniconda3/bin/make -f Makefile cmTC_50915/fast
+        /home/bailufrost/miniconda3/bin/make  -f CMakeFiles/cmTC_50915.dir/build.make CMakeFiles/cmTC_50915.dir/build
+        make[1]: 进入目录“/home/bailufrost/LatchSTA_Code/LatchSTA_Code/code/src/CMakeFiles/CMakeScratch/TryCompile-wMdqSk”
+        Building CXX object CMakeFiles/cmTC_50915.dir/src.cxx.o
+        /home/bailufrost/miniconda3/bin/c++ -DCMAKE_HAVE_LIBC_PTHREAD  -std=c++17 -o CMakeFiles/cmTC_50915.dir/src.cxx.o -c /home/bailufrost/LatchSTA_Code/LatchSTA_Code/code/src/CMakeFiles/CMakeScratch/TryCompile-wMdqSk/src.cxx
+        Linking CXX executable cmTC_50915
+        /home/bailufrost/miniconda3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_50915.dir/link.txt --verbose=1
+        /home/bailufrost/miniconda3/bin/c++ CMakeFiles/cmTC_50915.dir/src.cxx.o -o cmTC_50915
+        make[1]: 离开目录“/home/bailufrost/LatchSTA_Code/LatchSTA_Code/code/src/CMakeFiles/CMakeScratch/TryCompile-wMdqSk”
+        
+      exitCode: 0
+  -
+    kind: "find-v1"
+    backtrace:
+      - "CMakeLists.txt:35 (find_library)"
+    mode: "library"
+    variable: "LEDA_LIB"
+    description: "Path to a library."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "leda"
+    candidate_directories:
+      - "/home/bailufrost/\u4e0b\u8f7d/LEDA-7.2.3/"
+      - "/home/bailufrost/miniconda3/bin/"
+      - "/home/bailufrost/.npm-global/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+      - "/home/synopsys/vcs-mx/O-2018.09-SP2/gui/dve/bin/"
+      - "/home/synopsys/vcs-mx/O-2018.09-SP2/bin/"
+      - "/home/synopsys/verdi/Verdi_O-2018.09-SP2/bin/"
+      - "/home/synopsys/scl/2018.06/linux64/bin/"
+      - "/home/bailufrost/miniconda3/x86_64-conda-linux-gnu/sysroot/usr/lib/"
+      - "/home/bailufrost/miniconda3/x86_64-conda-linux-gnu/sysroot/usr/"
+      - "/usr/local/lib/"
+      - "/usr/local/"
+      - "/usr/lib64/"
+      - "/usr/lib/"
+      - "/usr/"
+      - "/lib64/"
+      - "/lib/"
+      - "/home/bailufrost/miniconda3/lib/"
+      - "/home/bailufrost/miniconda3/"
+      - "/opt/"
+      - "/usr/lib/X11/"
+    found: "/home/bailufrost/\u4e0b\u8f7d/LEDA-7.2.3/libleda.a"
+    search_context:
+      ENV{PATH}:
+        - "/home/bailufrost/miniconda3/bin"
+        - "/home/bailufrost/.npm-global/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+        - "/home/synopsys/vcs-mx/O-2018.09-SP2/gui/dve/bin"
+        - "/home/synopsys/vcs-mx/O-2018.09-SP2/bin"
+        - "/home/synopsys/verdi/Verdi_O-2018.09-SP2/bin"
+        - "/home/synopsys/scl/2018.06/linux64/bin"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/home/bailufrost/miniconda3/bin/../x86_64-conda-linux-gnu/sysroot/usr"
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/home/bailufrost/miniconda3"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+      CMAKE_SYSTEM_LIBRARY_PATH:
+        - "/usr/lib/X11"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "CMakeLists.txt:38 (find_library)"
+    mode: "library"
+    variable: "GLPK_LIB"
+    description: "Path to a library."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "glpk"
+    candidate_directories:
+      - "/home/bailufrost/miniconda3/bin/"
+      - "/home/bailufrost/.npm-global/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+      - "/home/synopsys/vcs-mx/O-2018.09-SP2/gui/dve/bin/"
+      - "/home/synopsys/vcs-mx/O-2018.09-SP2/bin/"
+      - "/home/synopsys/verdi/Verdi_O-2018.09-SP2/bin/"
+      - "/home/synopsys/scl/2018.06/linux64/bin/"
+      - "/home/bailufrost/miniconda3/x86_64-conda-linux-gnu/sysroot/usr/lib/"
+      - "/home/bailufrost/miniconda3/x86_64-conda-linux-gnu/sysroot/usr/"
+      - "/usr/local/lib/"
+      - "/usr/local/"
+      - "/usr/lib64/"
+      - "/usr/lib/"
+      - "/usr/"
+      - "/lib64/"
+      - "/lib/"
+      - "/home/bailufrost/miniconda3/lib/"
+      - "/home/bailufrost/miniconda3/"
+      - "/opt/"
+      - "/usr/lib/X11/"
+    searched_directories:
+      - "/home/bailufrost/miniconda3/bin/"
+      - "/home/bailufrost/.npm-global/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+      - "/home/synopsys/vcs-mx/O-2018.09-SP2/gui/dve/bin/"
+      - "/home/synopsys/vcs-mx/O-2018.09-SP2/bin/"
+      - "/home/synopsys/verdi/Verdi_O-2018.09-SP2/bin/"
+      - "/home/synopsys/scl/2018.06/linux64/bin/"
+      - "/home/bailufrost/miniconda3/x86_64-conda-linux-gnu/sysroot/usr/lib/"
+      - "/home/bailufrost/miniconda3/x86_64-conda-linux-gnu/sysroot/usr/"
+      - "/usr/local/lib/"
+      - "/usr/local/"
+      - "/usr/lib64/"
+      - "/usr/lib/"
+      - "/usr/"
+      - "/lib64/"
+      - "/lib/"
+    found: "/home/bailufrost/miniconda3/lib/libglpk.so"
+    search_context:
+      ENV{PATH}:
+        - "/home/bailufrost/miniconda3/bin"
+        - "/home/bailufrost/.npm-global/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+        - "/home/synopsys/vcs-mx/O-2018.09-SP2/gui/dve/bin"
+        - "/home/synopsys/vcs-mx/O-2018.09-SP2/bin"
+        - "/home/synopsys/verdi/Verdi_O-2018.09-SP2/bin"
+        - "/home/synopsys/scl/2018.06/linux64/bin"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/home/bailufrost/miniconda3/bin/../x86_64-conda-linux-gnu/sysroot/usr"
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/home/bailufrost/miniconda3"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+      CMAKE_SYSTEM_LIBRARY_PATH:
+        - "/usr/lib/X11"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "CMakeLists.txt:41 (find_library)"
+    mode: "library"
+    variable: "OPENBLAS_LIB"
+    description: "Path to a library."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "openblas"
+    candidate_directories:
+      - "/home/bailufrost/miniconda3/bin/"
+      - "/home/bailufrost/.npm-global/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+      - "/home/synopsys/vcs-mx/O-2018.09-SP2/gui/dve/bin/"
+      - "/home/synopsys/vcs-mx/O-2018.09-SP2/bin/"
+      - "/home/synopsys/verdi/Verdi_O-2018.09-SP2/bin/"
+      - "/home/synopsys/scl/2018.06/linux64/bin/"
+      - "/home/bailufrost/miniconda3/x86_64-conda-linux-gnu/sysroot/usr/lib/"
+      - "/home/bailufrost/miniconda3/x86_64-conda-linux-gnu/sysroot/usr/"
+      - "/usr/local/lib/"
+      - "/usr/local/"
+      - "/usr/lib64/"
+      - "/usr/lib/"
+      - "/usr/"
+      - "/lib64/"
+      - "/lib/"
+      - "/home/bailufrost/miniconda3/lib/"
+      - "/home/bailufrost/miniconda3/"
+      - "/opt/"
+      - "/usr/lib/X11/"
+    searched_directories:
+      - "/home/bailufrost/miniconda3/bin/"
+      - "/home/bailufrost/.npm-global/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+      - "/home/synopsys/vcs-mx/O-2018.09-SP2/gui/dve/bin/"
+      - "/home/synopsys/vcs-mx/O-2018.09-SP2/bin/"
+      - "/home/synopsys/verdi/Verdi_O-2018.09-SP2/bin/"
+      - "/home/synopsys/scl/2018.06/linux64/bin/"
+      - "/home/bailufrost/miniconda3/x86_64-conda-linux-gnu/sysroot/usr/lib/"
+      - "/home/bailufrost/miniconda3/x86_64-conda-linux-gnu/sysroot/usr/"
+      - "/usr/local/lib/"
+      - "/usr/local/"
+      - "/usr/lib64/"
+      - "/usr/lib/"
+      - "/usr/"
+      - "/lib64/"
+      - "/lib/"
+    found: "/home/bailufrost/miniconda3/lib/libopenblas.so"
+    search_context:
+      ENV{PATH}:
+        - "/home/bailufrost/miniconda3/bin"
+        - "/home/bailufrost/.npm-global/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+        - "/home/synopsys/vcs-mx/O-2018.09-SP2/gui/dve/bin"
+        - "/home/synopsys/vcs-mx/O-2018.09-SP2/bin"
+        - "/home/synopsys/verdi/Verdi_O-2018.09-SP2/bin"
+        - "/home/synopsys/scl/2018.06/linux64/bin"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/home/bailufrost/miniconda3/bin/../x86_64-conda-linux-gnu/sysroot/usr"
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/home/bailufrost/miniconda3"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+      CMAKE_SYSTEM_LIBRARY_PATH:
+        - "/usr/lib/X11"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "CMakeLists.txt:44 (find_library)"
+    mode: "library"
+    variable: "GFORTRAN_LIB"
+    description: "Path to a library."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "gfortran"
+    candidate_directories:
+      - "/home/bailufrost/miniconda3/bin/"
+      - "/home/bailufrost/.npm-global/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+      - "/home/synopsys/vcs-mx/O-2018.09-SP2/gui/dve/bin/"
+      - "/home/synopsys/vcs-mx/O-2018.09-SP2/bin/"
+      - "/home/synopsys/verdi/Verdi_O-2018.09-SP2/bin/"
+      - "/home/synopsys/scl/2018.06/linux64/bin/"
+      - "/home/bailufrost/miniconda3/x86_64-conda-linux-gnu/sysroot/usr/lib/"
+      - "/home/bailufrost/miniconda3/x86_64-conda-linux-gnu/sysroot/usr/"
+      - "/usr/local/lib/"
+      - "/usr/local/"
+      - "/usr/lib64/"
+      - "/usr/lib/"
+      - "/usr/"
+      - "/lib64/"
+      - "/lib/"
+      - "/home/bailufrost/miniconda3/lib/"
+      - "/home/bailufrost/miniconda3/"
+      - "/opt/"
+      - "/usr/lib/X11/"
+    searched_directories:
+      - "/home/bailufrost/miniconda3/bin/"
+      - "/home/bailufrost/.npm-global/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+      - "/home/synopsys/vcs-mx/O-2018.09-SP2/gui/dve/bin/"
+      - "/home/synopsys/vcs-mx/O-2018.09-SP2/bin/"
+      - "/home/synopsys/verdi/Verdi_O-2018.09-SP2/bin/"
+      - "/home/synopsys/scl/2018.06/linux64/bin/"
+      - "/home/bailufrost/miniconda3/x86_64-conda-linux-gnu/sysroot/usr/lib/"
+      - "/home/bailufrost/miniconda3/x86_64-conda-linux-gnu/sysroot/usr/"
+      - "/usr/local/lib/"
+      - "/usr/local/"
+      - "/usr/lib64/"
+      - "/usr/lib/"
+      - "/usr/"
+      - "/lib64/"
+      - "/lib/"
+    found: "/home/bailufrost/miniconda3/lib/libgfortran.so"
+    search_context:
+      ENV{PATH}:
+        - "/home/bailufrost/miniconda3/bin"
+        - "/home/bailufrost/.npm-global/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+        - "/home/synopsys/vcs-mx/O-2018.09-SP2/gui/dve/bin"
+        - "/home/synopsys/vcs-mx/O-2018.09-SP2/bin"
+        - "/home/synopsys/verdi/Verdi_O-2018.09-SP2/bin"
+        - "/home/synopsys/scl/2018.06/linux64/bin"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/home/bailufrost/miniconda3/bin/../x86_64-conda-linux-gnu/sysroot/usr"
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/home/bailufrost/miniconda3"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+      CMAKE_SYSTEM_LIBRARY_PATH:
+        - "/usr/lib/X11"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "CMakeLists.txt:47 (find_library)"
+    mode: "library"
+    variable: "M_LIB"
+    description: "Path to a library."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "m"
+    candidate_directories:
+      - "/home/bailufrost/miniconda3/bin/"
+      - "/home/bailufrost/.npm-global/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+      - "/home/synopsys/vcs-mx/O-2018.09-SP2/gui/dve/bin/"
+      - "/home/synopsys/vcs-mx/O-2018.09-SP2/bin/"
+      - "/home/synopsys/verdi/Verdi_O-2018.09-SP2/bin/"
+      - "/home/synopsys/scl/2018.06/linux64/bin/"
+      - "/home/bailufrost/miniconda3/x86_64-conda-linux-gnu/sysroot/usr/lib/"
+      - "/home/bailufrost/miniconda3/x86_64-conda-linux-gnu/sysroot/usr/"
+      - "/usr/local/lib/"
+      - "/usr/local/"
+      - "/usr/lib64/"
+      - "/usr/lib/"
+      - "/usr/"
+      - "/lib64/"
+      - "/lib/"
+      - "/home/bailufrost/miniconda3/lib/"
+      - "/home/bailufrost/miniconda3/"
+      - "/opt/"
+      - "/usr/lib/X11/"
+    searched_directories:
+      - "/home/bailufrost/miniconda3/bin/"
+      - "/home/bailufrost/.npm-global/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+      - "/home/synopsys/vcs-mx/O-2018.09-SP2/gui/dve/bin/"
+      - "/home/synopsys/vcs-mx/O-2018.09-SP2/bin/"
+      - "/home/synopsys/verdi/Verdi_O-2018.09-SP2/bin/"
+      - "/home/synopsys/scl/2018.06/linux64/bin/"
+    found: "/home/bailufrost/miniconda3/x86_64-conda-linux-gnu/sysroot/usr/lib/libm.so"
+    search_context:
+      ENV{PATH}:
+        - "/home/bailufrost/miniconda3/bin"
+        - "/home/bailufrost/.npm-global/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+        - "/home/synopsys/vcs-mx/O-2018.09-SP2/gui/dve/bin"
+        - "/home/synopsys/vcs-mx/O-2018.09-SP2/bin"
+        - "/home/synopsys/verdi/Verdi_O-2018.09-SP2/bin"
+        - "/home/synopsys/scl/2018.06/linux64/bin"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/home/bailufrost/miniconda3/bin/../x86_64-conda-linux-gnu/sysroot/usr"
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/home/bailufrost/miniconda3"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+      CMAKE_SYSTEM_LIBRARY_PATH:
+        - "/usr/lib/X11"
+...

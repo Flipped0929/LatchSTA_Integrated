@@ -1,0 +1,11 @@
+design=counter
+corner=nominal
+routed_signal_clock_nets=24
+rule_layers=6
+coupling_threshold_ff=0.0
+max_series_resistance_ohm=50
+coupling_context_tracks=10
+context_depth=5
+merge_via_resistance=false
+post_route_sta=NOT RUN
+sta_spef_annotation=NOT RUN

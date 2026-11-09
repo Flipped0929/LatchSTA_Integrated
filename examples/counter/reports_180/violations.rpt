@@ -1,0 +1,10 @@
+max_delay/setup group clk
+
+                                        Required      Actual
+Endpoint                                   Delay       Delay       Slack
+------------------------------------------------------------------------
+_19_/D (sky130_fd_sc_hd__dlxtn_1)       2.267006    2.267006    0.000000 (MET)
+_18_/D (sky130_fd_sc_hd__dlxtn_1)       2.244702    2.244702    0.000000 (MET)
+_20_/D (sky130_fd_sc_hd__dlxtn_1)       2.221683    2.221683    0.000000 (MET)
+_17_/D (sky130_fd_sc_hd__dlxtn_1)       2.098834    2.098834    0.000000 (MET)
+

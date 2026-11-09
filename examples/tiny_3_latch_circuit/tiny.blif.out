@@ -1,0 +1,9 @@
+Network tiny
+latch latch max_delay min_delay
+INPUT latch max_delay min_delay
+latch OUTPUT max_delay min_delay
+# unit ns; combinational delays only
+INPUT L1 0.083593 0.074577
+L1 L2 0.336778 0.177533
+L2 L3 0.072031 0.070218
+L3 OUTPUT 0.095645 0.088638

@@ -1,0 +1,63 @@
+{
+  "inputs_and_outputs": [
+    {
+      "kind": "routed_odb",
+      "path": "/mnt/hgfs/LatchSTA_Code/code/examples/counter/openroad/run_03/results/08_routed.odb",
+      "resolved_path": "/mnt/hgfs/LatchSTA_Code/code/examples/counter/openroad/run_03/results/08_routed.odb",
+      "sha256": "6d0e13a4e30e4c92c85b0de791f16d8c3fb9e6e49e5a74760063659b09ef7479"
+    },
+    {
+      "kind": "extraction_rules",
+      "path": "/home/bailufrost/eda/OpenROAD-flow-scripts-live/flow/platforms/sky130hd/rcx_patterns.rules",
+      "resolved_path": "/home/bailufrost/eda/OpenROAD-flow-scripts-live/flow/platforms/sky130hs/rcx_patterns.rules",
+      "sha256": "d5bd9b1077ceac9929416abca272a6d52e51cd9a575453a31d129817bb286476"
+    },
+    {
+      "kind": "netlist",
+      "path": "/mnt/hgfs/LatchSTA_Code/code/examples/counter/openroad/run_03/results/counter_routed.v",
+      "resolved_path": "/mnt/hgfs/LatchSTA_Code/code/examples/counter/openroad/run_03/results/counter_routed.v",
+      "sha256": "2886ab027280d6aea812aa2d16450504cc7da44e8e2032ed1408fa462435a736"
+    },
+    {
+      "kind": "sdc_reference_only",
+      "path": "/mnt/hgfs/LatchSTA_Code/code/examples/counter/openroad/run_03/results/08_routed.sdc",
+      "resolved_path": "/mnt/hgfs/LatchSTA_Code/code/examples/counter/openroad/run_03/results/08_routed.sdc",
+      "sha256": "615489c27532c9fb15caec8faf9f25d35a3e6684b89101f9653fc51fda539b44"
+    },
+    {
+      "kind": "artifact",
+      "path": "inputs/extract.tcl",
+      "sha256": "03fbbb320ca15f6fb1f7a584ee32c91b0778c74b262fb8ed7556db428a1cabe8"
+    },
+    {
+      "kind": "artifact",
+      "path": "inputs/sky130hd_rcx_patterns.rules",
+      "sha256": "d5bd9b1077ceac9929416abca272a6d52e51cd9a575453a31d129817bb286476"
+    },
+    {
+      "kind": "artifact",
+      "path": "inputs/counter_routed.v",
+      "sha256": "2886ab027280d6aea812aa2d16450504cc7da44e8e2032ed1408fa462435a736"
+    },
+    {
+      "kind": "artifact",
+      "path": "inputs/counter_routed.sdc",
+      "sha256": "615489c27532c9fb15caec8faf9f25d35a3e6684b89101f9653fc51fda539b44"
+    },
+    {
+      "kind": "artifact",
+      "path": "results/counter.nominal.spef",
+      "sha256": "a5c9129421bd51e8f202d9a54262ae1667d8d46fa1acaa83b23372549da0d3c0"
+    },
+    {
+      "kind": "artifact",
+      "path": "results/09_extracted.odb",
+      "sha256": "83a70cb47dc6c51682e79ef13232e5c41cdef4a72b4de644769b23b20e210769"
+    },
+    {
+      "kind": "artifact",
+      "path": "results/09_extracted.def",
+      "sha256": "3c9f9d287604bf55f891d9a76907a68316e9cb20b8a643c3743fd17e42255b6f"
+    }
+  ]
+}

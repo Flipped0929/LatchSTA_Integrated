@@ -1,0 +1,19 @@
+Netlist_File: s208.net Netlist_ID: SHA256:75cc2ad93716d1bfd384ba196d51f24655b35d46749ad2237487a0573f2a34cb
+Array size: 5 x 5 logic blocks
+
+#block name	x	y	subblk	block number
+#----------	--	--	------	------------
+n_n25		3	1	0	#0
+out:s208_out_0_	4	1	4	#1
+n_n23		3	2	0	#2
+out:s208_out_1_	4	2	2	#3
+[115]		3	3	0	#4
+s208_in_10_	4	2	4	#5
+s208_in_1_	3	0	4	#6
+s208_in_0_	4	1	5	#7
+s208_in_3_	3	0	2	#8
+s208_in_2_	3	0	7	#9
+s208_in_5_	3	0	6	#10
+s208_in_4_	3	0	3	#11
+clock		3	0	1	#12
+s208_in_9_	4	2	7	#13

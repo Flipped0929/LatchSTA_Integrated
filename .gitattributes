@@ -1,0 +1,4 @@
+# Preserve original bytes used by archived timing/input SHA-256 manifests.
+examples/** -text
+sky130_pdk/** -text
+run_tiny_02/** -text

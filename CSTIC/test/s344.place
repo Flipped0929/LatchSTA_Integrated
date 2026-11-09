@@ -1,0 +1,34 @@
+Netlist_File: s344.net Netlist_ID: SHA256:3b7777332d40c695f8f8b99b824fc602bf90bfa102c3e5c8c9f741f7777b9119
+Array size: 6 x 6 logic blocks
+
+#block name	x	y	subblk	block number
+#----------	--	--	------	------------
+nacvg3vd1	4	3	0	#0
+nacvg2vd1	4	4	0	#1
+nacvg4vd1	3	3	0	#2
+nacvg1vd1	3	4	0	#3
+nmrvg2vd	3	2	0	#4
+[80]		4	2	0	#5
+out:pcntvcon2	3	0	3	#6
+out:pready	5	3	3	#7
+out:pcntvco2	3	0	7	#8
+out:pp0		4	0	0	#9
+out:pp1		3	0	1	#10
+out:pp2		5	2	5	#11
+out:pp3		5	2	3	#12
+out:pp4		5	2	7	#13
+out:pp5		3	0	0	#14
+out:pp6		0	2	7	#15
+out:pp7		5	2	6	#16
+pp0		4	1	0	#17
+pp5		3	1	0	#18
+pa1		5	2	4	#19
+pb2		3	5	2	#20
+pa0		5	3	6	#21
+pb3		3	5	4	#22
+pa3		5	2	1	#23
+pb0		5	2	0	#24
+pa2		5	2	2	#25
+pb1		3	0	5	#26
+pclk		2	0	7	#27
+pstart		5	3	0	#28

@@ -1,0 +1,26 @@
+Netlist_File: s386.net Netlist_ID: SHA256:cab353cf81df22679830ab99b9379c8a22cecbed3879d22868ba0f129fd6c6ac
+Array size: 5 x 5 logic blocks
+
+#block name	x	y	subblk	block number
+#----------	--	--	------	------------
+n_n39		1	2	0	#0
+n_n40		3	2	0	#1
+out:s386_out_0_	4	2	1	#2
+out:s386_out_5_	0	2	6	#3
+s386_out_1_	1	3	0	#4
+[32]		1	1	0	#5
+[41]		3	3	0	#6
+[296]		3	1	0	#7
+out:s386_out_4_	4	1	6	#8
+out:s386_out_1_	1	4	1	#9
+out:s386_out_3_	1	0	1	#10
+out:s386_out_2_	1	0	3	#11
+out:s386_out_6_	0	3	6	#12
+s386_in_0_	0	3	3	#13
+s386_in_1_	0	3	4	#14
+s386_in_2_	0	2	3	#15
+s386_in_3_	1	4	0	#16
+s386_in_4_	2	4	3	#17
+s386_in_5_	1	0	6	#18
+s386_in_6_	1	0	7	#19
+clock		3	0	6	#20

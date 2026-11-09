@@ -1,0 +1,66 @@
+Post-layout counter T=1.8ns; native MOS + CTS + distributed SPEF RC
+.lib "/home/bailufrost/eda/pdk/sky130A/libs.tech/ngspice/sky130.lib.spice" tt
+.include "/mnt/hgfs/LatchSTA_Code/code/examples/counter/xschem/ngspice/postlayout_1p8ns_01/models/sky130_cells.spice"
+.include "/mnt/hgfs/LatchSTA_Code/code/examples/counter/xschem/ngspice/postlayout_1p8ns_01/models/counter_postroute.spice"
+.temp 25
+.option reltol=1e-4 abstol=1e-12 vntol=1e-6
+VDD VPWR 0 1.8
+VSS VGND 0 0
+VCLK clk 0 PULSE(0 1.8 0.85n 100p 100p 0.8n 1.8n)
+VRST rst_n 0 PWL(
++ 0n 0
++ 7.25n 0
++ 7.35n 1.8
++ 120.65n 1.8
++ 120.75n 0
++ 126.05n 0
++ 126.15n 1.8
++ 212.45n 1.8
++ 212.55n 0
++ 219.65n 0
++ 219.75n 1.8)
+VEN en 0 PWL(
++ 0n 0
++ 5.45n 0
++ 5.55n 1.8
++ 70.25n 1.8
++ 70.35n 0
++ 84.65n 0
++ 84.75n 1.8
++ 126.05n 1.8
++ 126.15n 0
++ 133.25n 0
++ 133.35n 1.8
++ 198.05n 1.8
++ 198.15n 0
++ 199.85n 0
++ 199.95n 1.8
++ 201.65n 1.8
++ 201.75n 0
++ 203.45n 0
++ 203.55n 1.8
++ 205.25n 1.8
++ 205.35n 0
++ 207.05n 0
++ 207.15n 1.8
++ 208.85n 1.8
++ 208.95n 0
++ 210.65n 0
++ 210.75n 1.8
++ 212.45n 1.8
++ 212.55n 0
++ 219.65n 0
++ 219.75n 1.8)
+XDUT clk rst_n en VPWR VGND q3 q2 q1 q0 counter_postroute
+C0 q0 0 10f
+C1 q1 0 10f
+C2 q2 0 10f
+C3 q3 0 10f
+.save v(clk) v(rst_n) v(en) i(VDD) v(q0) v(q1) v(q2) v(q3) v(xdut.master[0]) v(xdut.master[1]) v(xdut.master[2]) v(xdut.master[3]) v(xdut._00_[0]) v(xdut._00_[1]) v(xdut._00_[2]) v(xdut._00_[3]) v(xdut.ckm[0]) v(xdut.ckm[1]) v(xdut.ckm[2]) v(xdut.ckm[3]) v(xdut.cks[0]) v(xdut.cks[1]) v(xdut.cks[2]) v(xdut.cks[3]) v(xdut.slave[0]) v(xdut.slave[1]) v(xdut.slave[2]) v(xdut.slave[3]) v(xdut.clk_root_out) v(xdut.clk_leaf0_out) v(xdut.clk_leaf1_out)
+.control
+set num_threads=1
+set filetype=binary
+tran 1.25p 231.21n 0 1.25p
+write counter.raw
+.endc
+.end

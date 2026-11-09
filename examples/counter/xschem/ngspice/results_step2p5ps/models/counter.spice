@@ -1,0 +1,24 @@
+** sch_path: /mnt/hgfs/LatchSTA_Code/code/examples/counter/xschem/counter.sch
+.subckt counter clk rst_n en VPWR VGND count[3] count[2] count[1] count[0]
+*.PININFO clk:I rst_n:I en:I VPWR:B VGND:B count[3:0]:O
+x_07_ en count[0] rst_n VGND VGND VPWR VPWR _01_ sky130_fd_sc_hd__o21ai_0
+x_08_ en count[0] _01_ VGND VGND VPWR VPWR _00_[0] sky130_fd_sc_hd__a21oi_1
+x_09_ en count[1] count[0] VGND VGND VPWR VPWR _02_ sky130_fd_sc_hd__and3_1
+x_10_ count[2] _02_ rst_n VGND VGND VPWR VPWR _03_ sky130_fd_sc_hd__o21ai_0
+x_11_ count[2] _02_ _03_ VGND VGND VPWR VPWR _00_[2] sky130_fd_sc_hd__a21oi_1
+x_12_ count[2] en count[1] count[0] count[3] VGND VGND VPWR VPWR _04_ sky130_fd_sc_hd__a41o_1
+x_13_ rst_n _04_ VGND VGND VPWR VPWR _05_ sky130_fd_sc_hd__nand2_1
+x_14_ count[2] count[3] _02_ _05_ VGND VGND VPWR VPWR _00_[3] sky130_fd_sc_hd__a31oi_1
+x_15_ en count[0] count[1] VGND VGND VPWR VPWR _06_ sky130_fd_sc_hd__a21oi_1
+x_16_ _02_ _06_ rst_n VGND VGND VPWR VPWR _00_[1] sky130_fd_sc_hd__nor3b_1
+x_17_ _00_[0] clk VGND VGND VPWR VPWR master[0] sky130_fd_sc_hd__dlxtn_1
+x_18_ _00_[1] clk VGND VGND VPWR VPWR master[1] sky130_fd_sc_hd__dlxtn_1
+x_19_ _00_[2] clk VGND VGND VPWR VPWR master[2] sky130_fd_sc_hd__dlxtn_1
+x_20_ _00_[3] clk VGND VGND VPWR VPWR master[3] sky130_fd_sc_hd__dlxtn_1
+x_21_ master[0] clk VGND VGND VPWR VPWR count[0] sky130_fd_sc_hd__dlxtp_1
+x_22_ master[1] clk VGND VGND VPWR VPWR count[1] sky130_fd_sc_hd__dlxtp_1
+x_23_ master[2] clk VGND VGND VPWR VPWR count[2] sky130_fd_sc_hd__dlxtp_1
+x_24_ master[3] clk VGND VGND VPWR VPWR count[3] sky130_fd_sc_hd__dlxtp_1
+.ends
+.GLOBAL VPWR
+.GLOBAL VGND

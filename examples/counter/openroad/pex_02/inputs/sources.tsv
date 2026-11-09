@@ -1,0 +1,5 @@
+kind	path
+routed_odb	/mnt/hgfs/LatchSTA_Code/code/examples/counter/openroad/run_03/results/08_routed.odb
+extraction_rules	/home/bailufrost/eda/OpenROAD-flow-scripts-live/flow/platforms/sky130hd/rcx_patterns.rules
+netlist	/mnt/hgfs/LatchSTA_Code/code/examples/counter/openroad/run_03/results/counter_routed.v
+sdc_reference_only	/mnt/hgfs/LatchSTA_Code/code/examples/counter/openroad/run_03/results/08_routed.sdc

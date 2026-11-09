@@ -1,0 +1,57 @@
+Placement_File: s27.place Placement_ID: SHA256:7b22c99c362bebe31285151ed01b9ef0d5b50e7a91427a0ffbab003e65713ff6
+Array size: 3 x 3 logic blocks.
+
+Routing:
+
+Net 0 (s27_in_2_)
+
+Node:	13	SOURCE (0,1)  Pad: 13  Switch: 0
+Node:	77	  OPIN (0,1)  Pad: 13  Switch: 2
+Node:	580	 CHANY (0,1)  Track: 1  Switch: 1
+Node:	265	  IPIN (1,1)  Pin: 3   clb.I[3] Switch: 0
+Node:	240	  SINK (1,1)  Class: 0  Switch: -1
+
+
+Net 1 (s27_in_1_)
+
+Node:	462	SOURCE (2,1)  Pad: 19  Switch: 0
+Node:	546	  OPIN (2,1)  Pad: 19  Switch: 2
+Node:	587	 CHANY (1,1)  Track: 0  Switch: 1
+Node:	267	  IPIN (1,1)  Pin: 5   clb.I[5] Switch: 0
+Node:	240	  SINK (1,1)  Class: 0  Switch: -1
+
+
+Net 2 (s27_in_3_)
+
+Node:	339	SOURCE (1,2)  Pad: 16  Switch: 0
+Node:	413	  OPIN (1,2)  Pad: 16  Switch: 2
+Node:	577	 CHANX (1,1)  Track: 6  Switch: 1
+Node:	262	  IPIN (1,1)  Pin: 0   clb.I[0] Switch: 0
+Node:	240	  SINK (1,1)  Class: 0  Switch: -1
+
+
+Net 3 (s27_in_0_)
+
+Node:	342	SOURCE (1,2)  Pad: 19  Switch: 0
+Node:	425	  OPIN (1,2)  Pad: 19  Switch: 2
+Node:	571	 CHANX (1,1)  Track: 0  Switch: 1
+Node:	266	  IPIN (1,1)  Pin: 4   clb.I[4] Switch: 0
+Node:	240	  SINK (1,1)  Class: 0  Switch: -1
+
+
+Net 4 (s27_out)
+
+Node:	248	SOURCE (1,1)  Class: 8  Switch: 0
+Node:	309	  OPIN (1,1)  Pin: 47   clb.O[7] Switch: 2
+Node:	582	 CHANY (0,1)  Track: 3  Switch: 2
+Node:	567	 CHANX (1,0)  Track: 4  Switch: 2
+Node:	591	 CHANY (1,1)  Track: 4  Switch: 2
+Node:	578	 CHANX (1,1)  Track: 7  Switch: 1
+Node:	349	  IPIN (1,2)  Pad: 0  Switch: 0
+Node:	323	  SINK (1,2)  Pad: 0  Switch: -1
+
+
+Net 5 (clock): global net connecting:
+
+Block clock (#6) at (0,1), Pin class 22.
+Block n_n17 (#0) at (1,1), Pin class 21.

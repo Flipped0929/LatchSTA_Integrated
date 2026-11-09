@@ -1,0 +1,14 @@
+Instance _22_
+ Cell: sky130_fd_sc_hd__dlxtp_1
+ Library: sky130_fd_sc_hd__tt_025C_1v80
+ Path cells: sky130_fd_sc_hd__dlxtp_1
+ Input pins:
+  D input master[1]
+  GATE input clk
+ Output pins:
+  Q output slave[1]
+ Other pins:
+  VGND ground (unconnected)
+  VPWR power (unconnected)
+  IQ internal (unconnected)
+  IQ_N internal (unconnected)

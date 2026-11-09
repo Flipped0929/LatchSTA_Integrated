@@ -1,0 +1,69 @@
+SKY130 HD counter transistor transient: T=10ns
+* TT, 25 C, 1.8 V, 10 fF per output; native cell SPICE, no interconnect PEX.
+* Clock 50-percent crossings: rising (n+0.5)*T, falling (n+1)*T.
+* Inputs cross 50 percent 1 ns after the preceding rising edge.
+.lib "/home/bailufrost/eda/pdk/sky130A/libs.tech/ngspice/sky130.lib.spice" tt
+.include "/mnt/hgfs/LatchSTA_Code/code/examples/counter/xschem/ngspice/results/models/sky130_hd_used.spice"
+.include "/mnt/hgfs/LatchSTA_Code/code/examples/counter/xschem/ngspice/results/models/counter.spice"
+.temp 25
+.option reltol=1e-4 abstol=1e-12 vntol=1e-6
+VDD VPWR 0 1.8
+VSS VGND 0 0
+VCLK clk 0 PULSE(0 1.8 4.95n 100p 100p 4.9n 10n)
+VRST rst_n 0 PWL(
++ 0n 0
++ 35.95n 0
++ 36.05n 1.8
++ 665.95n 1.8
++ 666.05n 0
++ 695.95n 0
++ 696.05n 1.8
++ 1175.95n 1.8
++ 1176.05n 0
++ 1215.95n 0
++ 1216.05n 1.8)
+VEN en 0 PWL(
++ 0n 0
++ 25.95n 0
++ 26.05n 1.8
++ 385.95n 1.8
++ 386.05n 0
++ 465.95n 0
++ 466.05n 1.8
++ 695.95n 1.8
++ 696.05n 0
++ 735.95n 0
++ 736.05n 1.8
++ 1095.95n 1.8
++ 1096.05n 0
++ 1105.95n 0
++ 1106.05n 1.8
++ 1115.95n 1.8
++ 1116.05n 0
++ 1125.95n 0
++ 1126.05n 1.8
++ 1135.95n 1.8
++ 1136.05n 0
++ 1145.95n 0
++ 1146.05n 1.8
++ 1155.95n 1.8
++ 1156.05n 0
++ 1165.95n 0
++ 1166.05n 1.8
++ 1175.95n 1.8
++ 1176.05n 0
++ 1215.95n 0
++ 1216.05n 1.8)
+XDUT clk rst_n en VPWR VGND q3 q2 q1 q0 counter
+C0 q0 0 10f
+C1 q1 0 10f
+C2 q2 0 10f
+C3 q3 0 10f
+.save v(clk) v(rst_n) v(en) i(VDD) v(q0) v(q1) v(q2) v(q3) v(xdut.master[0]) v(xdut.master[1]) v(xdut.master[2]) v(xdut.master[3]) v(xdut._00_[0]) v(xdut._00_[1]) v(xdut._00_[2]) v(xdut._00_[3])
+.control
+set num_threads=1
+set filetype=binary
+tran 5p 1284.5n 0 5p
+write counter.raw
+.endc
+.end

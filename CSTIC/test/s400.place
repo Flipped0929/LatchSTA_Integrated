@@ -1,0 +1,23 @@
+Netlist_File: s400.net Netlist_ID: SHA256:2628aa046b2a69996db75d87c206205b13d2c5a79e11c82afbd18335e43c985a
+Array size: 6 x 6 logic blocks
+
+#block name	x	y	subblk	block number
+#----------	--	--	------	------------
+nc3_q2vd	3	2	0	#0
+nc3_q3vd	4	2	0	#1
+nuc_8vd		3	3	0	#2
+nuc_16vd	3	1	0	#3
+nr2c		4	1	0	#4
+ntcomb_ra1	4	3	0	#5
+out:pred2	1	0	6	#6
+out:pylw1	3	0	1	#7
+pred2		1	1	0	#8
+pylw1		3	4	0	#9
+out:pgrn1	4	0	3	#10
+out:pred1	5	3	6	#11
+out:pgrn2	5	3	4	#12
+out:pylw2	5	3	5	#13
+pclr		5	1	2	#14
+pclk		2	0	5	#15
+ptest		5	3	2	#16
+pfm		5	3	7	#17

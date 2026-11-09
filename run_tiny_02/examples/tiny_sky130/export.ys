@@ -1,0 +1,15 @@
+# Run from examples/tiny_sky130; all instances already use target library cells.
+read_liberty -lib -ignore_miss_func -ignore_miss_dir ../../sky130_pdk/sky130_fd_sc_hd__tt_025C_1v80.lib
+read_verilog tiny.v
+hierarchy -check -top tiny
+check -assert
+
+select -assert-count 3 t:sky130_fd_sc_hd__dlxtp_1
+select -assert-count 7 t:sky130_fd_sc_hd__buf_1
+select -assert-count 1 t:sky130_fd_sc_hd__and2_1
+select -assert-count 11 tiny/c:*
+select -assert-none tiny/t:$*
+select *
+
+stat -liberty ../../sky130_pdk/sky130_fd_sc_hd__tt_025C_1v80.lib
+write_verilog -noattr -noexpr tiny_mapped.v

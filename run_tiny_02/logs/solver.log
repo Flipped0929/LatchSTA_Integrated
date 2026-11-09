@@ -1,0 +1,47 @@
+/home/bailufrost/LatchSTA_Code/LatchSTA_Code/code/run_tiny_02/examples/tiny_sky130/tiny.blif.out
+GLPK Simplex Optimizer 5.0
+47 rows, 31 columns, 104 non-zeros
+      0: obj =   4.620274367e-01 inf =   9.197e+00 (22)
+     32: obj =   3.541155000e+00 inf =   0.000e+00 (0)
+OPTIMAL LP SOLUTION FOUND
+=====================SUMMARY====================
+Input file is /home/bailufrost/LatchSTA_Code/LatchSTA_Code/code/run_tiny_02/examples/tiny_sky130/tiny.blif.out
+Initial T is 0.33677800000000002 ns
+MCR latch timing: /home/bailufrost/LatchSTA_Code/LatchSTA_Code/code/run_tiny_02/examples/tiny_sky130/latch_timing.json (ns); separate SDC input/output ports, anchor s[0]=0.
+SDC IO: i_din min/max=0.20000000000000001/1 ns; o_dout min/max=-0.050000000000000003/1 ns; setup/hold uncertainty=0/0 ns; output setup/hold capture cycles=1/0; path cycle shift=0. Conservative hold guards enabled.
+MCR pulse-width coverage: 3/3 latch instances; period lower bound = 0.46202743673469393 ns.
+MCR: duty_cycle=0.5, W=0.5*T, s_IO=0, s_k <= T - 1e-08 ns; feasibility tolerance = 9.9999999999999995e-08 ns.
+	#vertices = 30, #edges = 69
+	T_Howard = 3.5411549999999998 ns, time is 0.21160499999999999 ms, status = Optimal, cycle_len = 9, max_violation = 4.4408920985006262e-16, iters = 2
+Skew schedule s_k from Howard (index 0 = reference, unit ns):
+	n_latch = 3
+	s[0] = 0  (IO)
+	s[1] = 1.0953609999999996  (L1)
+	s[2] = 1.7611459999999997  (L2)
+	s[3] = 2.1452409999999995  (L3)
+	T_YTO = 3.5411549999999998 ns, time is 1.2217359999999999 ms, status = Optimal, cycle_len = 9, max_violation = 4.4408920985006262e-16, iters = 1
+Skew schedule s_k from YTO (index 0 = reference, unit ns):
+	n_latch = 3
+	s[0] = 0  (IO)
+	s[1] = 1.0953609999999996  (L1)
+	s[2] = 1.7611459999999997  (L2)
+	s[3] = 2.1452409999999995  (L3)
+	T_LP_MCR = 3.5411549999999998 ns, time is 0.48575499999999999 ms, status = Optimal, cycle_len = 0, max_violation = 8.8817841970012523e-16, iters = 32
+Skew schedule s_k from LP_MCR (index 0 = reference, unit ns):
+	n_latch = 3
+	s[0] = 0  (IO)
+	s[1] = 0  (L1)
+	s[2] = 0.1698925  (L2)
+	s[3] = 0.55484349999999993  (L3)
+	|T_Howard - T_LP_MCR| = 0 ns
+	|T_YTO - T_LP_MCR| = 0 ns
+Selected MCR solver: Howard, period = 3.5411549999999998 ns
+Skew schedule s_k from selected Howard (index 0 = reference, unit ns):
+	n_latch = 3
+	s[0] = 0  (IO)
+	s[1] = 1.0953609999999996  (L1)
+	s[2] = 1.7611459999999997  (L2)
+	s[3] = 2.1452409999999995  (L3)
+Feasible optimum skew schedules can differ at the same period.
+ELL skipped: the independent legacy model has no SDC IO constraints.
+Exported Howard candidate SDC: /home/bailufrost/LatchSTA_Code/LatchSTA_Code/code/run_tiny_02/examples/tiny_sky130/candidate_howard.sdc; independent OpenSTA validation is pending.

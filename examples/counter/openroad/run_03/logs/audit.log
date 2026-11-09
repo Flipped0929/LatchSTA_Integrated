@@ -1,0 +1,85 @@
+OpenROAD 26Q2-1164-g08f67ee5ec 
+Features included (+) or not (-): +GPU +GUI +Python
+This program is licensed under the BSD-3 license. See the LICENSE file for details.
+Components of this program may be licensed under more restrictive licenses which must be honored.
+[INFO PSM-0040] All shapes on net VDD are connected.
+[INFO PSM-0040] All shapes on net VSS are connected.
+[INFO GRT-0240] Net _00_[0] detailed route wire length: 7.45um
+	Layer met1 :  3.71um
+	Layer met2 :  3.74um
+[INFO GRT-0240] Net _00_[1] detailed route wire length: 5.80um
+	Layer met1 :  1.38um
+	Layer met2 :  4.42um
+[INFO GRT-0240] Net _00_[2] detailed route wire length: 4.34um
+	Layer met1 :  2.30um
+	Layer met2 :  2.04um
+[INFO GRT-0240] Net _00_[3] detailed route wire length: 12.24um
+	Layer met1 :  7.82um
+	Layer met2 :  4.42um
+[INFO GRT-0240] Net _01_ detailed route wire length: 4.70um
+	Layer met1 :  2.30um
+	Layer met2 :  2.40um
+[INFO GRT-0240] Net _02_ detailed route wire length: 23.34um
+	Layer met1 : 16.88um
+	Layer met2 :  6.46um
+[INFO GRT-0240] Net _03_ detailed route wire length: 5.48um
+	Layer met1 :  2.76um
+	Layer met2 :  2.72um
+[INFO GRT-0240] Net _04_ detailed route wire length: 11.78um
+	Layer met1 :  7.36um
+	Layer met2 :  4.42um
+[INFO GRT-0240] Net _05_ detailed route wire length: 1.26um
+	Layer met1 :  1.26um
+[INFO GRT-0240] Net _06_ detailed route wire length: 10.88um
+	Layer met1 :  8.16um
+	Layer met2 :  2.72um
+[INFO GRT-0240] Net clk detailed route wire length: 46.23um
+	Layer met1 :  1.38um
+	Layer met2 :  7.92um
+	Layer met3 :  8.37um
+	Layer met4 : 28.56um
+[INFO GRT-0240] Net en detailed route wire length: 54.74um
+	Layer met1 : 12.75um
+	Layer met2 :  8.79um
+	Layer met3 : 33.20um
+[INFO GRT-0240] Net master[0] detailed route wire length: 2.52um
+	Layer met1 :  2.52um
+[INFO GRT-0240] Net master[1] detailed route wire length: 3.08um
+	Layer met1 :  2.06um
+	Layer met2 :  1.02um
+[INFO GRT-0240] Net master[2] detailed route wire length: 4.80um
+	Layer met1 :  2.76um
+	Layer met2 :  2.04um
+[INFO GRT-0240] Net master[3] detailed route wire length: 3.08um
+	Layer met1 :  1.38um
+	Layer met2 :  1.70um
+[INFO GRT-0240] Net rst_n detailed route wire length: 61.15um
+	Layer met1 : 14.58um
+	Layer met2 : 11.99um
+	Layer met3 : 34.58um
+[INFO GRT-0240] Net slave[0] detailed route wire length: 39.50um
+	Layer met1 : 17.92um
+	Layer met2 :  7.48um
+	Layer met3 : 14.10um
+[INFO GRT-0240] Net slave[1] detailed route wire length: 32.28um
+	Layer met1 :  8.74um
+	Layer met2 :  6.46um
+	Layer met3 : 17.08um
+[INFO GRT-0240] Net slave[2] detailed route wire length: 42.35um
+	Layer met1 : 17.80um
+	Layer met2 : 13.89um
+	Layer met3 : 10.66um
+[INFO GRT-0240] Net slave[3] detailed route wire length: 28.29um
+	Layer met1 :  3.90um
+	Layer met2 :  6.97um
+	Layer met3 : 17.42um
+[INFO GRT-0240] Net clknet_0_clk detailed route wire length: 28.66um
+	Layer met1 :  6.32um
+	Layer met2 : 22.34um
+[INFO GRT-0240] Net clknet_1_0__leaf_clk detailed route wire length: 27.94um
+	Layer met1 : 12.86um
+	Layer met2 : 15.08um
+[INFO GRT-0240] Net clknet_1_1__leaf_clk detailed route wire length: 15.06um
+	Layer met1 :  7.58um
+	Layer met2 :  7.48um
+FINAL_PHYSICAL_AUDIT_COMPLETE

@@ -1,0 +1,54 @@
+Library: sky130_fd_sc_hd__tt_025C_1v80
+Cell: sky130_fd_sc_hd__dlxtp_1
+Arc sense: non_unate
+Arc type: Latch En to Q
+GATE ^ -> Q ^
+P = 1.000000 V = 1.800000 T = 25.000000
+------- input_net_transition = 0.060000
+|       total_output_net_capacitance = 0.015116
+|        0.008951     0.023414
+v      --------------------
+0.053133 | 0.347087     0.441257
+0.122474 | 0.371015     0.464859
+Table value = 0.389584
+PVT scale factor = 1.000000
+Delay = 0.389584
+
+------- input_net_transition = 0.060000
+|       total_output_net_capacitance = 0.015116
+|        0.008951     0.023414
+v      --------------------
+0.053133 | 0.096764     0.229096
+0.122474 | 0.096679     0.228994
+Table value = 0.153164
+PVT scale factor = 1.000000
+Slew = 0.153164
+Driver waveform slew = 0.153164
+
+.............................................
+
+GATE ^ -> Q v
+P = 1.000000 V = 1.800000 T = 25.000000
+------- input_net_transition = 0.060000
+|       total_output_net_capacitance = 0.014562
+|        0.008951     0.023414
+v      --------------------
+0.053133 | 0.294835     0.344969
+0.122474 | 0.319151     0.369252
+Table value = 0.316692
+PVT scale factor = 1.000000
+Delay = 0.316692
+
+------- input_net_transition = 0.060000
+|       total_output_net_capacitance = 0.014562
+|        0.008951     0.023414
+v      --------------------
+0.053133 | 0.052915     0.113533
+0.122474 | 0.052806     0.113331
+Table value = 0.076418
+PVT scale factor = 1.000000
+Slew = 0.076418
+Driver waveform slew = 0.076418
+
+.............................................
+

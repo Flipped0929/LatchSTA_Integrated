@@ -1,0 +1,19 @@
+{
+  "status": "opensta_baseline_completed",
+  "yosys": "completed: 0 reported connectivity problems, 11 target-cell instances",
+  "opensta_version": "3.1.0",
+  "opensta": "completed: no errors or warnings in rerun log, 27 expected reports present",
+  "constraint_sanity": "check_setup.rpt empty",
+  "setup": {
+    "count": 18,
+    "minimum_slack_ns": 0.0,
+    "violations": 0
+  },
+  "hold": {
+    "count": 10,
+    "minimum_slack_ns": 0.302808,
+    "violations": 0
+  },
+  "solver_integration": "pending: per-instance input, IO boundaries, cycle indexing and complete pin graph",
+  "strict_verilog_gate": "Separate historical style gate remains blocked by skill loader NameError; real Yosys connectivity check passed."
+}

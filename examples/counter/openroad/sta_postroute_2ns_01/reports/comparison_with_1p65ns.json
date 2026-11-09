@@ -1,0 +1,12 @@
+{
+  "same_physical_netlist": true,
+  "same_spef": true,
+  "same_effective_constraints_except_clock_definition": true,
+  "prior_period_ns": 1.65,
+  "new_period_ns": 2.0,
+  "prior_setup_worst_slack_ns": -0.1392046517457869,
+  "new_setup_worst_slack_ns": 0.0,
+  "new_output_setup_worst_slack_ns": 0.210795283,
+  "new_hold_worst_slack_ns": 0.03501787847698269,
+  "new_timing_status": "PASS"
+}

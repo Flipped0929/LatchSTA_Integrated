@@ -1,0 +1,94 @@
+{
+  "status": "PASS",
+  "routed_nets": 24,
+  "rc_nodes": 113,
+  "instance_count": 22,
+  "cell_types": {
+    "sky130_fd_sc_hd__o21ai_0": 2,
+    "sky130_fd_sc_hd__a21oi_1": 3,
+    "sky130_fd_sc_hd__and3_1": 1,
+    "sky130_fd_sc_hd__a41o_1": 1,
+    "sky130_fd_sc_hd__nand2_1": 1,
+    "sky130_fd_sc_hd__a31oi_1": 1,
+    "sky130_fd_sc_hd__nor3b_1": 1,
+    "sky130_fd_sc_hd__dlxtn_1": 4,
+    "sky130_fd_sc_hd__dlxtp_1": 4,
+    "sky130_fd_sc_hd__clkbuf_4": 3,
+    "sky130_fd_sc_hd__clkbuf_1": 1
+  },
+  "mos_devices": 248,
+  "cell_pins_backannotated": 73,
+  "ports": 7,
+  "resistors": 89,
+  "ground_cap_entries": 113,
+  "positive_ground_capacitors": 104,
+  "distinct_coupling_pairs": 188,
+  "positive_coupling_capacitors": 166,
+  "ground_cap_sum_ff": 49.8664529,
+  "coupling_cap_sum_ff": 11.307624439,
+  "summed_spef_d_net_ff": 72.481717,
+  "resistor_sum_ohm": 1467.979549,
+  "coupling_handling": "One capacitor per reciprocal SPEF pair; full two-node coupling retained.",
+  "pin_cap_handling": "SPEF PIN_CAP NONE; native MOS intrinsic capacitance, no Liberty pin-cap duplication.",
+  "dummy_clock_load": "clkload0 included; its unconnected X output is left open.",
+  "source_pex_manifest_verified": true,
+  "matches_1p8ns_sta_spef": true,
+  "sources": [
+    {
+      "path": "/mnt/hgfs/LatchSTA_Code/code/examples/counter/openroad/pex_02/inputs/counter_routed.v",
+      "sha256": "2886ab027280d6aea812aa2d16450504cc7da44e8e2032ed1408fa462435a736"
+    },
+    {
+      "path": "/mnt/hgfs/LatchSTA_Code/code/examples/counter/openroad/pex_02/results/counter.nominal.spef",
+      "sha256": "a5c9129421bd51e8f202d9a54262ae1667d8d46fa1acaa83b23372549da0d3c0"
+    },
+    {
+      "path": "/home/bailufrost/eda/pdk/sky130A/libs.tech/ngspice/sky130.lib.spice",
+      "sha256": "17c208a699228f5acb87bf59c09c22a4c4d3937b6766b4957737d34e8e075f64"
+    },
+    {
+      "path": "/mnt/hgfs/LatchSTA_Code/pdk_work/sources/sky130_fd_sc_hd/cells/a21oi/sky130_fd_sc_hd__a21oi_1.spice",
+      "sha256": "6481f50a3f0af9dd7f21f574b8e5c239a90c14ce19326e402089329988ac5094"
+    },
+    {
+      "path": "/mnt/hgfs/LatchSTA_Code/pdk_work/sources/sky130_fd_sc_hd/cells/a31oi/sky130_fd_sc_hd__a31oi_1.spice",
+      "sha256": "7c1ad596e04e9d9fbb292feeee3ffc4f9c4a49ff5190b914b734e71a2bced4bd"
+    },
+    {
+      "path": "/mnt/hgfs/LatchSTA_Code/pdk_work/sources/sky130_fd_sc_hd/cells/a41o/sky130_fd_sc_hd__a41o_1.spice",
+      "sha256": "9d04ee0840f56ed7201d545179babf9bd32a7a32153b3fdcdd83ad4d3f8a3251"
+    },
+    {
+      "path": "/mnt/hgfs/LatchSTA_Code/pdk_work/sources/sky130_fd_sc_hd/cells/and3/sky130_fd_sc_hd__and3_1.spice",
+      "sha256": "99ca27ce14c0f88c1eba10d75d0e973997640e8d1d91a9d91a7d1ef1f8a7e14f"
+    },
+    {
+      "path": "/mnt/hgfs/LatchSTA_Code/pdk_work/sources/sky130_fd_sc_hd/cells/clkbuf/sky130_fd_sc_hd__clkbuf_1.spice",
+      "sha256": "324288096682a8b85ba76d04bf7395d26a1217ef0ade7b1aa82ade7f3530235e"
+    },
+    {
+      "path": "/mnt/hgfs/LatchSTA_Code/pdk_work/sources/sky130_fd_sc_hd/cells/clkbuf/sky130_fd_sc_hd__clkbuf_4.spice",
+      "sha256": "66d6d8271ccb403ebc4c90b76cfe7a0e58a8a4b6efec9f91db2ec35b2af75e5c"
+    },
+    {
+      "path": "/mnt/hgfs/LatchSTA_Code/pdk_work/sources/sky130_fd_sc_hd/cells/dlxtn/sky130_fd_sc_hd__dlxtn_1.spice",
+      "sha256": "d8f477efbaaa4661e8ebafd38725f6cf1dd065af1091eb448ed6f9876fcb0172"
+    },
+    {
+      "path": "/mnt/hgfs/LatchSTA_Code/pdk_work/sources/sky130_fd_sc_hd/cells/dlxtp/sky130_fd_sc_hd__dlxtp_1.spice",
+      "sha256": "9c21d06223951de2564ff4d727181be9df795d4341e98bc3368e60bd4285e0fa"
+    },
+    {
+      "path": "/mnt/hgfs/LatchSTA_Code/pdk_work/sources/sky130_fd_sc_hd/cells/nand2/sky130_fd_sc_hd__nand2_1.spice",
+      "sha256": "2753f3d2d7bd6e3c1c10905a8124e9538df99124be7285bc0d180f9b6b421233"
+    },
+    {
+      "path": "/mnt/hgfs/LatchSTA_Code/pdk_work/sources/sky130_fd_sc_hd/cells/nor3b/sky130_fd_sc_hd__nor3b_1.spice",
+      "sha256": "641f0bdd08a95ff37e4cc8199af2dda3f4a51f16401bd860dbc4d2e4909bb616"
+    },
+    {
+      "path": "/mnt/hgfs/LatchSTA_Code/pdk_work/sources/sky130_fd_sc_hd/cells/o21ai/sky130_fd_sc_hd__o21ai_0.spice",
+      "sha256": "eff97c6de85362d88a704c0750d95b5a10772e71d2d3e215bf15c208d0119bff"
+    }
+  ]
+}

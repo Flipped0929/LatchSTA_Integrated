@@ -1,0 +1,8 @@
+{
+  "status": "PASS",
+  "via_shapes": 156,
+  "net_layer_groups": 54,
+  "metal_shapes_before": 163,
+  "metal_shapes_after": 171,
+  "comparison": "Exact rectangle-union equality per net/layer; via shapes including multiplicity"
+}

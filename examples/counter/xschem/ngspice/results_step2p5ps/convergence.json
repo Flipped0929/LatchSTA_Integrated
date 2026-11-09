@@ -1,0 +1,15 @@
+{
+  "period_ns": 1.65,
+  "steps_ps": [
+    5,
+    2.5
+  ],
+  "cycles": 128,
+  "all_sampled_counts_identical": true,
+  "all_stability_checks_pass": true,
+  "max_absolute_sample_voltage_difference_v": 1.694271535090941e-05,
+  "max_settling_ns": [
+    0.41250000000042064,
+    0.4112500000004147
+  ]
+}

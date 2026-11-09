@@ -1,0 +1,15 @@
+Verification completed: 2026-11-05
+Tool: xschem 3.4.8RC; SKY130A sky130_fd_sc_hd
+Command: python3 xschem/verify.py --simulate
+PASS: all 18 instances and signal pins match counter_mapped.v
+PASS: SPICE signal/power/well pin mapping and 9-port subcircuit
+PASS: xschem SPICE and Verilog ERC without warnings/errors
+PASS: 656 functional cycles, all 64 state/control cases, wrap, hold, reset priority, latch phases
+Simulation: upstream SKY130 functional models, Icarus Verilog, zero delay
+
+SHA256:
+9740c8e1462f736171239a38fb1e686defca194e8ad57f285a806dabcd0ab470  counter.v
+8c69e9c1b7ff7769adac6a67ab3d251891992afb01024f6a5d0f0d5e77cc23aa  counter_mapped.v
+9499cde5058686cc5b76791480356337b9a236665cb43ea534c269dc6a290910  xschem/counter.sch
+43683ef18bd6f235cab247b613db090a97141ffd6beaaa956477b2024f7e5509  xschem/simulation/counter.spice
+77a9b8fd4522c09f1394b141bb9bd1e312f67abc3947f90db4c7e5fedbb7789b  xschem/simulation/counter.v

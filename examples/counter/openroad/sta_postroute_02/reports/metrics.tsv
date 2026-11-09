@@ -1,0 +1,15 @@
+metric	value
+clock_period_ns	1.650000
+setup_worst_slack_ns	-0.1392046517457869
+hold_worst_slack_ns	0.035017767454677086
+setup_tns_ns	-0.46122351687799945
+hold_tns_ns	0.0
+constraints_ok	1
+clock_propagated	1
+clock_source_rise_slew_ns	0.060000
+clock_source_fall_slew_ns	0.060000
+crpr_enabled	1
+crpr_mode	same_transition
+cells	22
+latches	8
+functional_ports	7

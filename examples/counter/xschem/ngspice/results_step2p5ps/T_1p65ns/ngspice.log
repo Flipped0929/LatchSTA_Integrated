@@ -1,0 +1,51 @@
+
+Note: Compatibility modes selected: hs a
+
+Warning: m=xx on .subckt line will override multiplier m hierarchy!
+
+
+Circuit: sky130 hd counter transistor transient: t=1.65ns
+
+option SCALE: Scale is set to 1e-06 for instance and model parameters
+Doing analysis at TEMP = 25.000000 and TNOM = 27.000000
+
+Using SPARSE 1.3 as Direct Linear Solver
+
+Initial Transient Solution
+--------------------------
+
+Node                                   Voltage
+----                                   -------
+vpwr                                       1.8
+vgnd                                         0
+clk                                          0
+rst_n                                        0
+en                                           0
+q0                                         1.8
+xdut._01_                                  1.8
+xdut._00_[0]                       2.67658e-09
+q1                                         1.8
+xdut._02_                          2.67658e-09
+xdut._03_                                  1.8
+q2                                         1.8
+xdut._00_[2]                       2.67658e-09
+q3                                         1.8
+xdut._04_                                  1.8
+xdut._05_                                  1.8
+xdut._00_[3]                       2.67658e-09
+xdut._06_                          2.67658e-09
+xdut._00_[1]                       2.67658e-09
+xdut.master[0]                     2.67658e-09
+xdut.master[1]                     2.67658e-09
+xdut.master[2]                     2.67658e-09
+xdut.master[3]                     2.67658e-09
+ven#branch                                   0
+vrst#branch                                  0
+vclk#branch                                  0
+vss#branch                         1.79443e-10
+vdd#branch                        -1.79429e-10
+
+
+No. of Data Rows : 86423
+binary raw file "counter.raw"
+Note: Simulation executed from .control section 

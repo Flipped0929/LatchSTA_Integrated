@@ -1,0 +1,58 @@
+
+ /----------------------------------------------------------------------------\
+ |  yosys -- Yosys Open SYnthesis Suite                                       |
+ |  Copyright (C) 2012 - 2026  Claire Xenia Wolf <claire@yosyshq.com>         |
+ |  Distributed under an ISC-like license, type "license" to see terms        |
+ \----------------------------------------------------------------------------/
+ Yosys 0.68 (git sha1 38e001a6f, Release, GNU /home/bailufrost/miniconda3/bin/c++ 16.2.0)
+
+-- Executing script file `export.ys' --
+
+1. Executing Liberty frontend: ../../sky130_pdk/sky130_fd_sc_hd__tt_025C_1v80.lib
+Imported 428 cell types from liberty file.
+
+2. Executing Verilog-2005 frontend: tiny.v
+Parsing Verilog input from `tiny.v' to AST representation.
+Generating RTLIL representation for module `\tiny'.
+Successfully finished Verilog frontend.
+
+3. Executing HIERARCHY pass (managing design hierarchy).
+
+3.1. Analyzing design hierarchy..
+Top module:  \tiny
+
+3.2. Analyzing design hierarchy..
+Top module:  \tiny
+Removed 0 unused modules.
+
+4. Executing CHECK pass (checking for obvious problems).
+Checking module tiny...
+Found and reported 0 problems.
+
+5. Printing statistics.
+
+=== tiny ===
+
+        +----------Local Count, excluding submodules.
+        |        +-Local Area, excluding submodules.
+        |        | 
+       13        - wires
+       13        - wire bits
+       13        - public wires
+       13        - public wire bits
+        3        - ports
+        3        - port bits
+       11   77.574 cells
+        1    6.256   sky130_fd_sc_hd__and2_1
+        7   26.275   sky130_fd_sc_hd__buf_1
+        3   45.043   sky130_fd_sc_hd__dlxtp_1
+
+   Chip area for module '\tiny': 77.574400
+     of which used for sequential elements: 0.000000 (0.00%)
+
+6. Executing Verilog backend.
+Dumping module `\tiny'.
+
+End of script. Logfile hash: 344edbdcdd, time: 0.18s, user: 0.13s, system: 0.06s, MEM: 42.91 MB peak
+Yosys 0.68 (git sha1 38e001a6f, Release, GNU /home/bailufrost/miniconda3/bin/c++ 16.2.0)
+Time spent: 50% 2x read_liberty (0 sec), 30% 1x stat (0 sec), ...

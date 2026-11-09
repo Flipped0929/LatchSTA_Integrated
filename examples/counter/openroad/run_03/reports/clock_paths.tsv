@@ -1,0 +1,9 @@
+instance	pin	leaf_net	buffer_depth	root_to_sink_buffers
+_17_	GATE_N	clknet_1_0__leaf_clk	2	clkbuf_0_clk -> clkbuf_1_0__f_clk
+_18_	GATE_N	clknet_1_1__leaf_clk	2	clkbuf_0_clk -> clkbuf_1_1__f_clk
+_19_	GATE_N	clknet_1_1__leaf_clk	2	clkbuf_0_clk -> clkbuf_1_1__f_clk
+_20_	GATE_N	clknet_1_1__leaf_clk	2	clkbuf_0_clk -> clkbuf_1_1__f_clk
+_21_	GATE	clknet_1_0__leaf_clk	2	clkbuf_0_clk -> clkbuf_1_0__f_clk
+_22_	GATE	clknet_1_0__leaf_clk	2	clkbuf_0_clk -> clkbuf_1_0__f_clk
+_23_	GATE	clknet_1_0__leaf_clk	2	clkbuf_0_clk -> clkbuf_1_0__f_clk
+_24_	GATE	clknet_1_1__leaf_clk	2	clkbuf_0_clk -> clkbuf_1_1__f_clk

@@ -1,0 +1,31 @@
+digraph CTS {
+rankdir=LR;
+graph [bgcolor="white",pad="0.25",nodesep="0.35",ranksep="0.7"];
+node [shape=box,fontname="DejaVu Sans",fontsize=11,style=filled,fillcolor="#e5f3ff"];
+edge [color="#475569"];
+clk [shape=oval,label="clk input\n1.65 ns"];
+"clkbuf_0_clk" [label="clkbuf_0_clk\nclkbuf_4"];
+"clk" -> "clkbuf_0_clk";
+"clkbuf_1_0__f_clk" [label="clkbuf_1_0__f_clk\nclkbuf_4"];
+"clkbuf_0_clk" -> "clkbuf_1_0__f_clk";
+"clkbuf_1_1__f_clk" [label="clkbuf_1_1__f_clk\nclkbuf_4"];
+"clkbuf_0_clk" -> "clkbuf_1_1__f_clk";
+"_17_" [label="_17_ / dlxtn_1\nGATE_N",fillcolor="#dcfce7"];
+"clkbuf_1_0__f_clk" -> "_17_";
+"_18_" [label="_18_ / dlxtn_1\nGATE_N",fillcolor="#dcfce7"];
+"clkbuf_1_1__f_clk" -> "_18_";
+"_19_" [label="_19_ / dlxtn_1\nGATE_N",fillcolor="#dcfce7"];
+"clkbuf_1_1__f_clk" -> "_19_";
+"_20_" [label="_20_ / dlxtn_1\nGATE_N",fillcolor="#dcfce7"];
+"clkbuf_1_1__f_clk" -> "_20_";
+"_21_" [label="_21_ / dlxtp_1\nGATE",fillcolor="#dcfce7"];
+"clkbuf_1_0__f_clk" -> "_21_";
+"_22_" [label="_22_ / dlxtp_1\nGATE",fillcolor="#dcfce7"];
+"clkbuf_1_0__f_clk" -> "_22_";
+"_23_" [label="_23_ / dlxtp_1\nGATE",fillcolor="#dcfce7"];
+"clkbuf_1_0__f_clk" -> "_23_";
+"_24_" [label="_24_ / dlxtp_1\nGATE",fillcolor="#dcfce7"];
+"clkbuf_1_1__f_clk" -> "_24_";
+"clkload0" [label="clkload0 / clkbuf_1\nbalancing load (X open)",fillcolor="#fef3c7"];
+"clkbuf_1_0__f_clk" -> "clkload0" [style=dashed];
+}

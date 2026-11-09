@@ -1,0 +1,9 @@
+instance	cell	gate_pin	data_pin	output_pin
+_17_	sky130_fd_sc_hd__dlxtn_1	_17_/GATE_N	_17_/D	_17_/Q
+_18_	sky130_fd_sc_hd__dlxtn_1	_18_/GATE_N	_18_/D	_18_/Q
+_19_	sky130_fd_sc_hd__dlxtn_1	_19_/GATE_N	_19_/D	_19_/Q
+_20_	sky130_fd_sc_hd__dlxtn_1	_20_/GATE_N	_20_/D	_20_/Q
+_21_	sky130_fd_sc_hd__dlxtp_1	_21_/GATE	_21_/D	_21_/Q
+_22_	sky130_fd_sc_hd__dlxtp_1	_22_/GATE	_22_/D	_22_/Q
+_23_	sky130_fd_sc_hd__dlxtp_1	_23_/GATE	_23_/D	_23_/Q
+_24_	sky130_fd_sc_hd__dlxtp_1	_24_/GATE	_24_/D	_24_/Q

@@ -1,0 +1,10 @@
+placement_legal=PASS
+design_is_routed=1
+VDD_connectivity=PASS
+VSS_connectivity=PASS
+die_dbu=0 0 60000 60000
+database_units_per_um=1000
+instances=235
+nets=26
+ports=9
+rows=14

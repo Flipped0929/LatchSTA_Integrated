@@ -1,0 +1,16 @@
+{
+  "signal": [
+    {
+      "name": "i_clk",
+      "wave": "01010"
+    },
+    {
+      "name": "i_din",
+      "wave": "01.0."
+    },
+    {
+      "name": "o_dout (ideal)",
+      "wave": "x1.0."
+    }
+  ]
+}

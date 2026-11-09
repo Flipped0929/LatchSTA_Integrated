@@ -1,0 +1,6 @@
+kind	path
+technology_lef	/home/bailufrost/eda/OpenROAD-flow-scripts-live/flow/platforms/sky130hd/lef/sky130_fd_sc_hd.tlef
+cell_lef	/home/bailufrost/eda/OpenROAD-flow-scripts-live/flow/platforms/sky130hd/lef/sky130_fd_sc_hd_merged.lef
+liberty	/home/bailufrost/eda/OpenROAD-flow-scripts-live/flow/platforms/sky130hd/lib/sky130_fd_sc_hd__tt_025C_1v80.lib
+netlist	/mnt/hgfs/LatchSTA_Code/code/examples/counter/counter_mapped.v
+sdc	/mnt/hgfs/LatchSTA_Code/code/examples/counter/counter_opt.sdc

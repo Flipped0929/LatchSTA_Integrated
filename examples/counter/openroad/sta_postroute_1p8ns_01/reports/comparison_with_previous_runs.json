@@ -1,0 +1,32 @@
+{
+  "same_netlist_spef_liberty": true,
+  "same_effective_constraints_except_clock_definition": true,
+  "setup_violations": 0,
+  "hold_violations": 0,
+  "runs": [
+    {
+      "run": "sta_postroute_02",
+      "period_ns": 1.65,
+      "timing_status": "FAIL",
+      "setup_worst_slack_ns": -0.1392046517457869,
+      "output_setup_worst_slack_ns": -0.139204651,
+      "hold_worst_slack_ns": 0.035017767454677086
+    },
+    {
+      "run": "sta_postroute_2ns_01",
+      "period_ns": 2.0,
+      "timing_status": "PASS",
+      "setup_worst_slack_ns": 0.0,
+      "output_setup_worst_slack_ns": 0.210795283,
+      "hold_worst_slack_ns": 0.03501787847698269
+    },
+    {
+      "run": "sta_postroute_1p8ns_01",
+      "period_ns": 1.8,
+      "timing_status": "PASS",
+      "setup_worst_slack_ns": 0.0,
+      "output_setup_worst_slack_ns": 0.010795365,
+      "hold_worst_slack_ns": 0.03501787847698269
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "status": "reported_checks_passed",
+  "setup": {
+    "reported_paths": 18,
+    "worst_slack_ns": 0.0
+  },
+  "hold": {
+    "reported_paths": 10,
+    "worst_slack_ns": 0.302808
+  },
+  "pulse_width": {
+    "reported_checks": 1,
+    "pins": [
+      "L1/GATE"
+    ],
+    "worst_slack_ns": 4.768986
+  },
+  "limitations": [
+    "Checks cover reported paths and pulse checks; path sensitization and physical clock implementation are not verified.",
+    "A worst-only pulse summary does not separately list every latch."
+  ]
+}

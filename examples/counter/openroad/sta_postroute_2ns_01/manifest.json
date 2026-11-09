@@ -1,0 +1,57 @@
+{
+  "sta_version": "3.1.0",
+  "pex_source": "/mnt/hgfs/LatchSTA_Code/code/examples/counter/openroad/pex_02",
+  "pnr_source": "/mnt/hgfs/LatchSTA_Code/code/examples/counter/openroad/run_03",
+  "files": [
+    {
+      "kind": "liberty",
+      "path": "/home/bailufrost/eda/OpenROAD-flow-scripts-live/flow/platforms/sky130hd/lib/sky130_fd_sc_hd__tt_025C_1v80.lib",
+      "sha256": "ec0e1067a35c8bf20b11e58d1e8ac53326067e4dac84a125cc1b917a3518d0d9"
+    },
+    {
+      "kind": "artifact",
+      "path": "inputs/counter_routed_original.v",
+      "sha256": "2886ab027280d6aea812aa2d16450504cc7da44e8e2032ed1408fa462435a736"
+    },
+    {
+      "kind": "artifact",
+      "path": "inputs/counter_sta.v",
+      "sha256": "13eadee7cc26f5445790f97154509f27f258003ecb4aee7cbef1e315324ca757"
+    },
+    {
+      "kind": "artifact",
+      "path": "inputs/counter_routed_original.sdc",
+      "sha256": "615489c27532c9fb15caec8faf9f25d35a3e6684b89101f9653fc51fda539b44"
+    },
+    {
+      "kind": "artifact",
+      "path": "inputs/counter_routed.sdc",
+      "sha256": "cd6d2745dfc84c386800a19aabdabf08cdeabd22f6f1f089c3db336691d77167"
+    },
+    {
+      "kind": "artifact",
+      "path": "inputs/counter.nominal.spef",
+      "sha256": "a5c9129421bd51e8f202d9a54262ae1667d8d46fa1acaa83b23372549da0d3c0"
+    },
+    {
+      "kind": "artifact",
+      "path": "inputs/postroute_sta.tcl",
+      "sha256": "dbbae049a0de7d367fb5789f494a7eb12e222160488f56bb1a758e80c2a4bee7"
+    },
+    {
+      "kind": "artifact",
+      "path": "results/effective.sdc",
+      "sha256": "c068ab307f931dbd5016f4f033b29ac4b84927a5a5b1c2def82ab68761f7113a"
+    }
+  ],
+  "netlist_adaptation": "Only disconnected VDD/VSS top ports removed; all named cell connections preserved",
+  "clock_period_ns": 2.0,
+  "source_sdc_clock_period_ns": 1.649999976158,
+  "period_overridden": true,
+  "clock_source_transition_ns": 0.06,
+  "coupling_reduction_factor": 1.0,
+  "crpr_enabled": true,
+  "crpr_mode": "same_transition",
+  "library_corner": "TT 025C 1v80",
+  "rc_corner": "nominal"
+}

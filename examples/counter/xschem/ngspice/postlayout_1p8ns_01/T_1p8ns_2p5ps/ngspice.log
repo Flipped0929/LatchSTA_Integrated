@@ -1,0 +1,144 @@
+
+Note: Compatibility modes selected: hs a
+
+Warning: m=xx on .subckt line will override multiplier m hierarchy!
+
+
+Circuit: post-layout counter t=1.8ns; native mos + cts + distributed spef rc
+
+option SCALE: Scale is set to 1e-06 for instance and model parameters
+Doing analysis at TEMP = 25.000000 and TNOM = 27.000000
+
+Using SPARSE 1.3 as Direct Linear Solver
+
+Initial Transient Solution
+--------------------------
+
+Node                                   Voltage
+----                                   -------
+vpwr                                       1.8
+vgnd                                         0
+clk                                          0
+rst_n                                        0
+en                                           0
+xdut.n0004                                 1.8
+xdut.n0006                                 1.8
+xdut.n0005                                   0
+xdut.n0003                                   0
+xdut.n0008                                 1.8
+xdut.n0007                                   0
+xdut.n0010                         2.67658e-09
+xdut.n0009                                 1.8
+xdut.n0013                                 1.8
+xdut.n0011                                   0
+xdut.n0012                             1.27481
+xdut.n0014                         2.67658e-09
+xdut.n0016                         2.67658e-09
+xdut.n0018                                 1.8
+xdut.n0017                                   0
+xdut.n0015                                 1.8
+xdut.n0020                         2.67658e-09
+xdut.n0019                                 1.8
+xdut.n0022                         2.67658e-09
+xdut.n0021                                 1.8
+xdut.n0027                                 1.8
+xdut.n0026                                 1.8
+xdut.n0024                                   0
+xdut.n0025                             1.27481
+xdut.n0023                                 1.8
+xdut.n0028                                 1.8
+xdut.n0031                                 1.8
+xdut.n0029                                   0
+xdut.n0030                                 1.8
+xdut.n0035                                 1.8
+xdut.n0036                         2.67658e-09
+xdut.n0032                                 1.8
+xdut.n0033                                 1.8
+xdut.n0034                         2.67658e-09
+xdut.n0038                                 1.8
+xdut.n0037                                   0
+xdut.n0040                         2.84078e-05
+xdut.n0039                             1.27481
+xdut.n0044                         2.67658e-09
+xdut.n0041                         2.67658e-09
+xdut.n0043                                   0
+xdut.n0042                         2.84078e-05
+xdut.master[0]                     2.67658e-09
+xdut._00_[0]                       2.67658e-09
+xdut.ckm[0]                        4.90093e-09
+xdut.master[1]                     2.67658e-09
+xdut._00_[1]                       2.67658e-09
+xdut.ckm[1]                        4.90093e-09
+xdut.master[2]                     2.67658e-09
+xdut._00_[2]                       2.67658e-09
+xdut.ckm[2]                        4.90093e-09
+xdut.master[3]                     2.67658e-09
+xdut._00_[3]                       2.67658e-09
+xdut.ckm[3]                        4.90093e-09
+xdut.n0057                         2.67658e-09
+xdut.slave[0]                              1.8
+xdut.cks[0]                        4.90093e-09
+xdut.n0060                         2.67658e-09
+xdut.slave[1]                          1.27481
+xdut.cks[1]                        4.90093e-09
+xdut.n0063                         2.67658e-09
+xdut.slave[2]                              1.8
+xdut.cks[2]                        4.90093e-09
+xdut.n0066                         2.67658e-09
+xdut.slave[3]                              1.8
+xdut.cks[3]                        4.90093e-09
+xdut.clk_root_out                  4.90093e-09
+xdut.n0071                                   0
+xdut.clk_leaf0_out                 4.90093e-09
+xdut.n0073                         4.90093e-09
+xdut.clk_leaf1_out                 4.90093e-09
+xdut.n0075                         4.90093e-09
+xdut.n0077                         4.90093e-09
+xdut.dummy_clkload0_x              2.57049e-09
+xdut.n0000                         2.67658e-09
+xdut.n0001                         2.67658e-09
+xdut.n0002                         2.67658e-09
+xdut.n0070                                   0
+xdut.n0078                         4.90093e-09
+xdut.n0079                         4.90093e-09
+xdut.n0080                         4.90093e-09
+xdut.n0084                         4.90093e-09
+xdut.n0081                         4.90093e-09
+xdut.n0082                         4.90093e-09
+xdut.n0083                         4.90093e-09
+xdut.n0087                         4.90093e-09
+xdut.n0085                         4.90093e-09
+xdut.n0086                         4.90093e-09
+xdut.n0093                                   0
+xdut.n0094                                   0
+xdut.n0095                                   0
+xdut.n0096                                   0
+xdut.n0100                                   0
+xdut.n0098                                   0
+xdut.n0099                                   0
+xdut.n0101                                 1.8
+xdut.n0102                                 1.8
+xdut.n0103                                 1.8
+xdut.n0104                                 1.8
+q0                                         1.8
+xdut.n0106                             1.27481
+xdut.n0107                             1.27481
+xdut.n0105                             1.27481
+q1                                     1.27481
+xdut.n0108                                 1.8
+xdut.n0109                                 1.8
+xdut.n0110                                 1.8
+q2                                         1.8
+xdut.n0111                                 1.8
+xdut.n0112                                 1.8
+q3                                         1.8
+ven#branch                                   0
+vrst#branch                                  0
+vclk#branch                                  0
+vss#branch                         1.90707e-05
+vdd#branch                        -1.90707e-05
+
+
+No. of Data Rows : 94079
+binary raw file "counter.raw"
+Note: Simulation executed from .control section 

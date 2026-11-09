@@ -1,0 +1,9 @@
+instance	cell	clock_pin	clock_net	rise_slew_ns	fall_slew_ns
+_17_	sky130_fd_sc_hd__dlxtn_1	_17_/GATE_N	clknet_1_0__leaf_clk	0.057688	0.044221
+_18_	sky130_fd_sc_hd__dlxtn_1	_18_/GATE_N	clknet_1_1__leaf_clk	0.044452	0.035329
+_19_	sky130_fd_sc_hd__dlxtn_1	_19_/GATE_N	clknet_1_1__leaf_clk	0.044451	0.035328
+_20_	sky130_fd_sc_hd__dlxtn_1	_20_/GATE_N	clknet_1_1__leaf_clk	0.044450	0.035328
+_21_	sky130_fd_sc_hd__dlxtp_1	_21_/GATE	clknet_1_0__leaf_clk	0.057688	0.044220
+_22_	sky130_fd_sc_hd__dlxtp_1	_22_/GATE	clknet_1_0__leaf_clk	0.057689	0.044222
+_23_	sky130_fd_sc_hd__dlxtp_1	_23_/GATE	clknet_1_0__leaf_clk	0.057690	0.044222
+_24_	sky130_fd_sc_hd__dlxtp_1	_24_/GATE	clknet_1_1__leaf_clk	0.044451	0.035328

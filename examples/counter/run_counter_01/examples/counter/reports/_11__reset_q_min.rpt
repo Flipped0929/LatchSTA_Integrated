@@ -1,0 +1,29 @@
+Library: sky130_fd_sc_hd__tt_025C_1v80
+Cell: sky130_fd_sc_hd__dlrtn_1
+Arc sense: positive_unate
+Arc type: Reg Set/Clr
+RESET_B v -> Q v
+P = 1.000000 V = 1.800000 T = 25.000000
+------- input_net_transition = 0.050000
+|       total_output_net_capacitance = 0.001714
+|        0.001305     0.003408
+v      --------------------
+0.023051 | 0.098177     0.109722
+0.053133 | 0.111128     0.122733
+Table value = 0.112032
+PVT scale factor = 1.000000
+Delay = 0.112032
+
+------- input_net_transition = 0.050000
+|       total_output_net_capacitance = 0.001714
+|        0.001305     0.003408
+v      --------------------
+0.023051 | 0.022650     0.031692
+0.053133 | 0.022327     0.031978
+Table value = 0.024223
+PVT scale factor = 1.000000
+Slew = 0.024223
+Driver waveform slew = 0.024223
+
+.............................................
+

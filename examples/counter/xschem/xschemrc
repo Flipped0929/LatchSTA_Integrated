@@ -1,0 +1,19 @@
+# Project-local SKY130 configuration. PDK_ROOT may be supplied by the caller.
+if {[info exists env(PDK_ROOT)] && $env(PDK_ROOT) ne ""} {
+    set PDK_ROOT $env(PDK_ROOT)
+} else {
+    set PDK_ROOT $env(HOME)/eda/pdk
+}
+set PDK sky130A
+source $PDK_ROOT/$PDK/libs.tech/xschem/xschemrc
+append XSCHEM_LIBRARY_PATH :[file dirname [file normalize [info script]]]
+set XSCHEM_START_WINDOW {}
+set local_netlist_dir 1
+set netlist_type spice
+set top_is_subckt 1
+set spiceprefix 1
+set netlist_show 0
+set show_infowindow_after_netlist 0
+set undo_type memory
+set initial_geometry 1600x1000
+set dark_colorscheme 0

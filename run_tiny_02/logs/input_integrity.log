@@ -1,0 +1,13 @@
+examples/tiny_sky130/convert_opensta_reports.py: OK
+examples/tiny_sky130/run_sta.tcl: OK
+examples/tiny_sky130/export.ys: OK
+examples/tiny_sky130/tiny.sdc: OK
+examples/tiny_sky130/tiny.v: OK
+examples/tiny_sky130/check_flow_reports.py: OK
+examples/tiny_sky130/export_pin_graph.tcl: OK
+examples/tiny_sky130/run_flow.sh: OK
+sky130_pdk/sky130_fd_sc_hd__tt_025C_1v80.lib: OK
+sky130_pdk/sky130_fd_sc_hd__dlxtp_1__tt_025C_1v80.lib.json: OK
+sky130_pdk/sky130_fd_sc_hd__common.lib.json: OK
+sky130_pdk/extract_latch_timing.py: OK
+/home/bailufrost/LatchSTA_Code/LatchSTA_Code/code/build/main: OK

@@ -1,0 +1,22 @@
+# 从 examples/counter 运行；适用于当前 4 位主从 latch 计数器（Yosys 0.68+）。
+# 读取目标库和 RTL
+read_liberty -lib -ignore_miss_func -ignore_miss_dir ../../sky130_pdk/sky130_fd_sc_hd__tt_025C_1v80.lib
+read_verilog counter.v
+
+# 两级各 4 位；有意推断 latch，暂不进行 ABC 映射。
+hierarchy -check -top counter
+synth -top counter -noabc -latches info
+
+techmap -map latch_map.v
+
+# 将组合逻辑映射到目标库
+abc -liberty ../../sky130_pdk/sky130_fd_sc_hd__tt_025C_1v80.lib
+
+# 清理并检查
+clean
+hierarchy -check -top counter
+check -assert
+
+# 输出统计和门级网表
+stat -liberty ../../sky130_pdk/sky130_fd_sc_hd__tt_025C_1v80.lib
+write_verilog -noattr -noexpr counter_mapped.v

@@ -1,0 +1,83 @@
+benchmark/s349.blif.out
+GLPK Simplex Optimizer 5.0
+373 rows, 81 columns, 1024 non-zeros
+      0: obj =   0.000000000e+00 inf =   9.704e+02 (205)
+    198: obj =   1.230052490e+01 inf =   6.883e-15 (0) 1
+*   207: obj =   1.101144480e+01 inf =   1.021e-14 (0)
+OPTIMAL LP SOLUTION FOUND
+GLPK Simplex Optimizer 5.0
+345 rows, 18 columns, 1060 non-zeros
+      0: obj =   0.000000000e+00 inf =   1.905e+03 (230)
+     69: obj =   1.589407000e+01 inf =   3.553e-15 (0)
+*    82: obj =   1.351169500e+01 inf =   8.749e-14 (0)
+OPTIMAL LP SOLUTION FOUND
+=====================SUMMARY====================
+Input file is benchmark/s349.blif.out
+Initial T is 15.894069999999999 ns
+Legacy compressed input uses zero LatchTiming; IO is a boundary placeholder.
+MCR: s_IO=0, W=T/2, s_k <= T - 1e-08 ns; feasibility tolerance = 9.9999999999999995e-08 ns.
+	#vertices = 80, #edges = 389
+	T_Howard = nan ns, time is 1739.7268200000001 ms, status = IterationLimit, cycle_len = 0, max_violation = inf, iters = 10000
+	T_YTO = 11.0114448 ns, time is 6.7509269999999999 ms, status = Optimal, cycle_len = 2, max_violation = 1.7763568394002505e-15, iters = 39
+Skew schedule s_k from YTO (index 0 = IO, unit ns):
+	n_latch = 15
+	s[0] = 0  (IO)
+	s[1] = 2.9482361999999966
+	s[2] = 1.3283761999999975
+	s[3] = 2.4219961999999988
+	s[4] = 9.742916199999998
+	s[5] = 9.742916199999998
+	s[6] = 8.5776261999999992
+	s[7] = 8.0024461999999996
+	s[8] = 5.4907261999999992
+	s[9] = 7.9846561999999999
+	s[10] = 7.9846561999999999
+	s[11] = 7.9846561999999999
+	s[12] = 5.2866261999999988
+	s[13] = 5.2866261999999988
+	s[14] = 5.2866261999999988
+	s[15] = 5.2866261999999988
+	T_LP_MCR = 11.0114448 ns, time is 2.7936049999999999 ms, status = Optimal, cycle_len = 0, max_violation = 5.3290705182007514e-15, iters = 207
+Skew schedule s_k from LP_MCR (index 0 = IO, unit ns):
+	n_latch = 15
+	s[0] = 0  (IO)
+	s[1] = 0
+	s[2] = 0
+	s[3] = 0
+	s[4] = 5.8680263000000021
+	s[5] = 7.9559863000000028
+	s[6] = 6.1290363000000028
+	s[7] = 3.9248863000000025
+	s[8] = 2.7835763000000009
+	s[9] = 2.7835763000000013
+	s[10] = 2.7835762999999996
+	s[11] = 3.4556662999999985
+	s[12] = 0
+	s[13] = 0
+	s[14] = 0
+	s[15] = 0
+	|T_YTO - T_LP_MCR| = 0 ns
+Selected MCR solver: YTO (Howard failed), period = 11.0114448 ns
+Skew schedule s_k from selected YTO (Howard failed) (index 0 = IO, unit ns):
+	n_latch = 15
+	s[0] = 0  (IO)
+	s[1] = 2.9482361999999966
+	s[2] = 1.3283761999999975
+	s[3] = 2.4219961999999988
+	s[4] = 9.742916199999998
+	s[5] = 9.742916199999998
+	s[6] = 8.5776261999999992
+	s[7] = 8.0024461999999996
+	s[8] = 5.4907261999999992
+	s[9] = 7.9846561999999999
+	s[10] = 7.9846561999999999
+	s[11] = 7.9846561999999999
+	s[12] = 5.2866261999999988
+	s[13] = 5.2866261999999988
+	s[14] = 5.2866261999999988
+	s[15] = 5.2866261999999988
+Feasible optimum skew schedules can differ at the same period.
+ELL (independent legacy model):
+	#vertices = 16, #edges = 345
+	T_ELL = 13.511997221346434 ns, W_ELL = 0.00011488878866480172 ns, time is 15.541225000000001 ms
+	T_LP_ELL = 13.511694999999996 ns, W_LP_ELL = 0 ns, time is 9.2855059999999998 ms

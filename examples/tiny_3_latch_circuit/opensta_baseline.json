@@ -1,0 +1,709 @@
+{
+  "status": "OpenSTA baseline completed; not yet a solver input",
+  "tools": {
+    "yosys": "0.68 (38e001a6f)",
+    "opensta": "3.1.0"
+  },
+  "corner": "tt_025C_1v80",
+  "units": {
+    "time": "ns",
+    "capacitance": "pF"
+  },
+  "clock": {
+    "period_ns": 10,
+    "rise_ns": 5,
+    "fall_ns": 10,
+    "ideal": true,
+    "uncertainty_ns": 0
+  },
+  "reported_path_summary": {
+    "max": {
+      "count": 18,
+      "minimum_slack_ns": 0.0,
+      "violations": 0
+    },
+    "min": {
+      "count": 10,
+      "minimum_slack_ns": 0.302808,
+      "violations": 0
+    }
+  },
+  "nodes": [
+    {
+      "instance": "L1",
+      "cell": "sky130_fd_sc_hd__dlxtp_1",
+      "q_load_pf": {
+        "min": 0.00403,
+        "max": 0.004382
+      },
+      "parameters_ns": {
+        "tsu": 0.19198,
+        "thd": -0.015695,
+        "tdqMin": 0.218371,
+        "tdqMax": 0.327392,
+        "tcqMin": 0.273814,
+        "tcqMax": 0.315624
+      },
+      "reported_arcs": {
+        "dq_min": {
+          "rise_ns": 0.327392,
+          "fall_ns": 0.218371,
+          "source": "L1_dq_min.rpt"
+        },
+        "dq_max": {
+          "rise_ns": 0.327392,
+          "fall_ns": 0.218371,
+          "source": "L1_dq_max.rpt"
+        },
+        "cq_min": {
+          "rise_ns": 0.315624,
+          "fall_ns": 0.273814,
+          "source": "L1_cq_min.rpt"
+        },
+        "cq_max": {
+          "rise_ns": 0.315624,
+          "fall_ns": 0.273814,
+          "source": "L1_cq_max.rpt"
+        }
+      },
+      "setup_values_ns": [
+        0.02699,
+        0.19198
+      ],
+      "hold_values_ns": [
+        -0.179921,
+        -0.015695
+      ]
+    },
+    {
+      "instance": "L2",
+      "cell": "sky130_fd_sc_hd__dlxtp_1",
+      "q_load_pf": {
+        "min": 0.002015,
+        "max": 0.002191
+      },
+      "parameters_ns": {
+        "tsu": 0.192707,
+        "thd": -0.018286,
+        "tdqMin": 0.21217,
+        "tdqMax": 0.313652,
+        "tcqMin": 0.264169,
+        "tcqMax": 0.300269
+      },
+      "reported_arcs": {
+        "dq_min": {
+          "rise_ns": 0.313627,
+          "fall_ns": 0.21217,
+          "source": "L2_dq_min.rpt"
+        },
+        "dq_max": {
+          "rise_ns": 0.313652,
+          "fall_ns": 0.212835,
+          "source": "L2_dq_max.rpt"
+        },
+        "cq_min": {
+          "rise_ns": 0.300269,
+          "fall_ns": 0.264169,
+          "source": "L2_cq_min.rpt"
+        },
+        "cq_max": {
+          "rise_ns": 0.300269,
+          "fall_ns": 0.264169,
+          "source": "L2_cq_max.rpt"
+        }
+      },
+      "setup_values_ns": [
+        0.030056,
+        0.192707
+      ],
+      "hold_values_ns": [
+        -0.180648,
+        -0.018286
+      ]
+    },
+    {
+      "instance": "L3",
+      "cell": "sky130_fd_sc_hd__dlxtp_1",
+      "q_load_pf": {
+        "min": 0.002015,
+        "max": 0.002191
+      },
+      "parameters_ns": {
+        "tsu": 0.191975,
+        "thd": -0.015689,
+        "tdqMin": 0.20878,
+        "tdqMax": 0.312064,
+        "tcqMin": 0.264169,
+        "tcqMax": 0.300269
+      },
+      "reported_arcs": {
+        "dq_min": {
+          "rise_ns": 0.312064,
+          "fall_ns": 0.20878,
+          "source": "L3_dq_min.rpt"
+        },
+        "dq_max": {
+          "rise_ns": 0.312064,
+          "fall_ns": 0.20878,
+          "source": "L3_dq_max.rpt"
+        },
+        "cq_min": {
+          "rise_ns": 0.300269,
+          "fall_ns": 0.264169,
+          "source": "L3_cq_min.rpt"
+        },
+        "cq_max": {
+          "rise_ns": 0.300269,
+          "fall_ns": 0.264169,
+          "source": "L3_cq_max.rpt"
+        }
+      },
+      "setup_values_ns": [
+        0.026984,
+        0.191975
+      ],
+      "hold_values_ns": [
+        -0.179916,
+        -0.015689
+      ]
+    }
+  ],
+  "reported_combinational_edges": [
+    {
+      "source": "L1",
+      "target": "L2",
+      "min_delay_ns": 0.177533,
+      "max_delay_ns": 0.336778,
+      "min_witness": {
+        "source": "L1",
+        "target": "L2",
+        "analysis": "min",
+        "transition": "rise",
+        "combinational_delay_ns": 0.177533,
+        "pins": [
+          "L1/Q",
+          "U_SHORT/A",
+          "U_SHORT/X",
+          "U_MERGE/B",
+          "U_MERGE/X",
+          "L2/D"
+        ],
+        "report": "hold.rpt"
+      },
+      "max_witness": {
+        "source": "L1",
+        "target": "L2",
+        "analysis": "max",
+        "transition": "fall",
+        "combinational_delay_ns": 0.336778,
+        "pins": [
+          "L1/Q",
+          "U_LONG_HEAD/A",
+          "U_LONG_HEAD/X",
+          "U_LONG_MIDDLE/A",
+          "U_LONG_MIDDLE/X",
+          "U_LONG_TAIL/A",
+          "U_LONG_TAIL/X",
+          "U_MERGE/A",
+          "U_MERGE/X",
+          "L2/D"
+        ],
+        "report": "setup.rpt"
+      }
+    },
+    {
+      "source": "L2",
+      "target": "L3",
+      "min_delay_ns": 0.070218,
+      "max_delay_ns": 0.072031,
+      "min_witness": {
+        "source": "L2",
+        "target": "L3",
+        "analysis": "min",
+        "transition": "rise",
+        "combinational_delay_ns": 0.070218,
+        "pins": [
+          "L2/Q",
+          "U_TAIL/A",
+          "U_TAIL/X",
+          "L3/D"
+        ],
+        "report": "hold.rpt"
+      },
+      "max_witness": {
+        "source": "L2",
+        "target": "L3",
+        "analysis": "max",
+        "transition": "fall",
+        "combinational_delay_ns": 0.072031,
+        "pins": [
+          "L2/Q",
+          "U_TAIL/A",
+          "U_TAIL/X",
+          "L3/D"
+        ],
+        "report": "setup.rpt"
+      }
+    }
+  ],
+  "reported_combinational_paths": [
+    {
+      "source": "L2",
+      "target": "L3",
+      "analysis": "max",
+      "transition": "rise",
+      "combinational_delay_ns": 0.070218,
+      "pins": [
+        "L2/Q",
+        "U_TAIL/A",
+        "U_TAIL/X",
+        "L3/D"
+      ],
+      "report": "setup.rpt"
+    },
+    {
+      "source": "L2",
+      "target": "L3",
+      "analysis": "max",
+      "transition": "fall",
+      "combinational_delay_ns": 0.072031,
+      "pins": [
+        "L2/Q",
+        "U_TAIL/A",
+        "U_TAIL/X",
+        "L3/D"
+      ],
+      "report": "setup.rpt"
+    },
+    {
+      "source": "L1",
+      "target": "L2",
+      "analysis": "max",
+      "transition": "rise",
+      "combinational_delay_ns": 0.318199,
+      "pins": [
+        "L1/Q",
+        "U_LONG_HEAD/A",
+        "U_LONG_HEAD/X",
+        "U_LONG_MIDDLE/A",
+        "U_LONG_MIDDLE/X",
+        "U_LONG_TAIL/A",
+        "U_LONG_TAIL/X",
+        "U_MERGE/A",
+        "U_MERGE/X",
+        "L2/D"
+      ],
+      "report": "setup.rpt"
+    },
+    {
+      "source": "L1",
+      "target": "L2",
+      "analysis": "max",
+      "transition": "fall",
+      "combinational_delay_ns": 0.336778,
+      "pins": [
+        "L1/Q",
+        "U_LONG_HEAD/A",
+        "U_LONG_HEAD/X",
+        "U_LONG_MIDDLE/A",
+        "U_LONG_MIDDLE/X",
+        "U_LONG_TAIL/A",
+        "U_LONG_TAIL/X",
+        "U_MERGE/A",
+        "U_MERGE/X",
+        "L2/D"
+      ],
+      "report": "setup.rpt"
+    },
+    {
+      "source": "L1",
+      "target": "L2",
+      "analysis": "max",
+      "transition": "rise",
+      "combinational_delay_ns": 0.177533,
+      "pins": [
+        "L1/Q",
+        "U_SHORT/A",
+        "U_SHORT/X",
+        "U_MERGE/B",
+        "U_MERGE/X",
+        "L2/D"
+      ],
+      "report": "setup.rpt"
+    },
+    {
+      "source": "L1",
+      "target": "L2",
+      "analysis": "max",
+      "transition": "fall",
+      "combinational_delay_ns": 0.207292,
+      "pins": [
+        "L1/Q",
+        "U_SHORT/A",
+        "U_SHORT/X",
+        "U_MERGE/B",
+        "U_MERGE/X",
+        "L2/D"
+      ],
+      "report": "setup.rpt"
+    },
+    {
+      "source": "L1",
+      "target": "L2",
+      "analysis": "max",
+      "transition": "rise",
+      "combinational_delay_ns": 0.318199,
+      "pins": [
+        "L1/Q",
+        "U_LONG_HEAD/A",
+        "U_LONG_HEAD/X",
+        "U_LONG_MIDDLE/A",
+        "U_LONG_MIDDLE/X",
+        "U_LONG_TAIL/A",
+        "U_LONG_TAIL/X",
+        "U_MERGE/A",
+        "U_MERGE/X",
+        "L2/D"
+      ],
+      "report": "setup.rpt"
+    },
+    {
+      "source": "L1",
+      "target": "L2",
+      "analysis": "max",
+      "transition": "fall",
+      "combinational_delay_ns": 0.336778,
+      "pins": [
+        "L1/Q",
+        "U_LONG_HEAD/A",
+        "U_LONG_HEAD/X",
+        "U_LONG_MIDDLE/A",
+        "U_LONG_MIDDLE/X",
+        "U_LONG_TAIL/A",
+        "U_LONG_TAIL/X",
+        "U_MERGE/A",
+        "U_MERGE/X",
+        "L2/D"
+      ],
+      "report": "setup.rpt"
+    },
+    {
+      "source": "L1",
+      "target": "L2",
+      "analysis": "max",
+      "transition": "rise",
+      "combinational_delay_ns": 0.177533,
+      "pins": [
+        "L1/Q",
+        "U_SHORT/A",
+        "U_SHORT/X",
+        "U_MERGE/B",
+        "U_MERGE/X",
+        "L2/D"
+      ],
+      "report": "setup.rpt"
+    },
+    {
+      "source": "L1",
+      "target": "L2",
+      "analysis": "max",
+      "transition": "fall",
+      "combinational_delay_ns": 0.207292,
+      "pins": [
+        "L1/Q",
+        "U_SHORT/A",
+        "U_SHORT/X",
+        "U_MERGE/B",
+        "U_MERGE/X",
+        "L2/D"
+      ],
+      "report": "setup.rpt"
+    },
+    {
+      "source": "L2",
+      "target": "L3",
+      "analysis": "max",
+      "transition": "rise",
+      "combinational_delay_ns": 0.070218,
+      "pins": [
+        "L2/Q",
+        "U_TAIL/A",
+        "U_TAIL/X",
+        "L3/D"
+      ],
+      "report": "setup.rpt"
+    },
+    {
+      "source": "L2",
+      "target": "L3",
+      "analysis": "max",
+      "transition": "fall",
+      "combinational_delay_ns": 0.072031,
+      "pins": [
+        "L2/Q",
+        "U_TAIL/A",
+        "U_TAIL/X",
+        "L3/D"
+      ],
+      "report": "setup.rpt"
+    },
+    {
+      "source": "L2",
+      "target": "L3",
+      "analysis": "min",
+      "transition": "fall",
+      "combinational_delay_ns": 0.072031,
+      "pins": [
+        "L2/Q",
+        "U_TAIL/A",
+        "U_TAIL/X",
+        "L3/D"
+      ],
+      "report": "hold.rpt"
+    },
+    {
+      "source": "L1",
+      "target": "L2",
+      "analysis": "min",
+      "transition": "fall",
+      "combinational_delay_ns": 0.207292,
+      "pins": [
+        "L1/Q",
+        "U_SHORT/A",
+        "U_SHORT/X",
+        "U_MERGE/B",
+        "U_MERGE/X",
+        "L2/D"
+      ],
+      "report": "hold.rpt"
+    },
+    {
+      "source": "L2",
+      "target": "L3",
+      "analysis": "min",
+      "transition": "rise",
+      "combinational_delay_ns": 0.070218,
+      "pins": [
+        "L2/Q",
+        "U_TAIL/A",
+        "U_TAIL/X",
+        "L3/D"
+      ],
+      "report": "hold.rpt"
+    },
+    {
+      "source": "L1",
+      "target": "L2",
+      "analysis": "min",
+      "transition": "fall",
+      "combinational_delay_ns": 0.336778,
+      "pins": [
+        "L1/Q",
+        "U_LONG_HEAD/A",
+        "U_LONG_HEAD/X",
+        "U_LONG_MIDDLE/A",
+        "U_LONG_MIDDLE/X",
+        "U_LONG_TAIL/A",
+        "U_LONG_TAIL/X",
+        "U_MERGE/A",
+        "U_MERGE/X",
+        "L2/D"
+      ],
+      "report": "hold.rpt"
+    },
+    {
+      "source": "L1",
+      "target": "L2",
+      "analysis": "min",
+      "transition": "rise",
+      "combinational_delay_ns": 0.177533,
+      "pins": [
+        "L1/Q",
+        "U_SHORT/A",
+        "U_SHORT/X",
+        "U_MERGE/B",
+        "U_MERGE/X",
+        "L2/D"
+      ],
+      "report": "hold.rpt"
+    },
+    {
+      "source": "L1",
+      "target": "L2",
+      "analysis": "min",
+      "transition": "rise",
+      "combinational_delay_ns": 0.318199,
+      "pins": [
+        "L1/Q",
+        "U_LONG_HEAD/A",
+        "U_LONG_HEAD/X",
+        "U_LONG_MIDDLE/A",
+        "U_LONG_MIDDLE/X",
+        "U_LONG_TAIL/A",
+        "U_LONG_TAIL/X",
+        "U_MERGE/A",
+        "U_MERGE/X",
+        "L2/D"
+      ],
+      "report": "hold.rpt"
+    }
+  ],
+  "method": [
+    "Setup is max of reported signed setup requirements: negate the contribution shown in the borrowing table.",
+    "Hold is max of reported signed library hold values; negative values are preserved.",
+    "Propagation minima use min(rise,fall) from min-analysis reports; maxima use max(rise,fall) from max-analysis reports.",
+    "Combinational segments start after source Q and end at target D; exclude source latch, clock and IO delays."
+  ],
+  "limitations": [
+    "Rounded report-derived envelopes at existing slew/load and one TT corner, not a multi-PVT envelope.",
+    "Coverage is limited to reported paths; this is not a complete pin-level graph export.",
+    "IO boundary mapping, cycle indexing and solver input loading remain to be implemented and independently validated.",
+    "Re-evaluate delay/slew conditions when clock scheduling or loads change."
+  ],
+  "sources": [
+    {
+      "path": "examples/tiny_sky130/tiny.v",
+      "sha256": "3a2f0477ff8946ec25619ee6127bd48a44b8791cb4974fcb3262230393016558"
+    },
+    {
+      "path": "examples/tiny_sky130/tiny_mapped.v",
+      "sha256": "1450adfd4778f5b8c80b71a5835522e19965e01381b5d74e7cf5b5666d826033"
+    },
+    {
+      "path": "examples/tiny_sky130/export.ys",
+      "sha256": "77a0dff8c202789c79018557ffaa0b8817f50bdafeb7e44ee5e45b18c5e3b003"
+    },
+    {
+      "path": "examples/tiny_sky130/tiny.sdc",
+      "sha256": "ac074aab5a1e618ee03f33629c09cba9314bb6b498ff234a849fd170be6f83bf"
+    },
+    {
+      "path": "examples/tiny_sky130/run_sta.tcl",
+      "sha256": "0e47f48b9d9c69e55697cb788a3f977c92464ba19e40d39445fef6f6826ddd7f"
+    },
+    {
+      "path": "sky130_pdk/sky130_fd_sc_hd__tt_025C_1v80.lib",
+      "sha256": "ec0e1067a35c8bf20b11e58d1e8ac53326067e4dac84a125cc1b917a3518d0d9"
+    },
+    {
+      "path": "examples/tiny_sky130/reports/units.rpt",
+      "sha256": "68cd79d3bdd9d6a6042a83c2b041185a6b47ba9d1791cea4c42d270cd6381bf1"
+    },
+    {
+      "path": "examples/tiny_sky130/reports/clocks.rpt",
+      "sha256": "bda3f0b7b5e348b4ff40befc937a070352114394e2c4345c9d4ec525eda4dfa0"
+    },
+    {
+      "path": "examples/tiny_sky130/reports/check_setup.rpt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "examples/tiny_sky130/reports/setup.rpt",
+      "sha256": "31e8130698c9b608b7152a559c51cb8b6cd4df4127f6c40e67a45430a12a61e1"
+    },
+    {
+      "path": "examples/tiny_sky130/reports/hold.rpt",
+      "sha256": "441e013028802f4ca451dcccaf9fc7c795c718b457f722e591498b92baa7de89"
+    },
+    {
+      "path": "examples/tiny_sky130/reports/pulse_width.rpt",
+      "sha256": "5ce3bdca02b557bc93d818d6d95123edcebd5bb3daa1ece7be7e173148653525"
+    },
+    {
+      "path": "examples/tiny_sky130/reports/L1_instance.rpt",
+      "sha256": "54a74800bf6b58e136bfc409a3466c1c08ce9ac3e7324dfc7d9076521a3a864b"
+    },
+    {
+      "path": "examples/tiny_sky130/reports/L1_arrival.rpt",
+      "sha256": "93da1e4466f80b3670c84f385bed14abfe8b4c0c0a9b075c49f0cb9719009535"
+    },
+    {
+      "path": "examples/tiny_sky130/reports/L1_load.rpt",
+      "sha256": "4d6e905a0e5850387cd82be10c8742606776dc7c722cf9bf7af77ee536a46a8c"
+    },
+    {
+      "path": "examples/tiny_sky130/reports/L1_dq_min.rpt",
+      "sha256": "31219d4fa1ce6753b106f41347ffe0243cf14f8a2bf2d17591d04248effe254c"
+    },
+    {
+      "path": "examples/tiny_sky130/reports/L1_dq_max.rpt",
+      "sha256": "31219d4fa1ce6753b106f41347ffe0243cf14f8a2bf2d17591d04248effe254c"
+    },
+    {
+      "path": "examples/tiny_sky130/reports/L1_cq_min.rpt",
+      "sha256": "f1c76a4d79325e813c9129d852b3ca35985fdecc5bf7096fc6cc779e6b0e2301"
+    },
+    {
+      "path": "examples/tiny_sky130/reports/L1_cq_max.rpt",
+      "sha256": "f1c76a4d79325e813c9129d852b3ca35985fdecc5bf7096fc6cc779e6b0e2301"
+    },
+    {
+      "path": "examples/tiny_sky130/reports/L2_instance.rpt",
+      "sha256": "22a3caf9b492a5c4f9e39b3361f6eb3ef0b63daad88cd227e4840fdde18ed7b8"
+    },
+    {
+      "path": "examples/tiny_sky130/reports/L2_arrival.rpt",
+      "sha256": "cb311527e2e62b7471e3c8b2920ef1ea02015cb22d5ad0108a4071130671c5ca"
+    },
+    {
+      "path": "examples/tiny_sky130/reports/L2_load.rpt",
+      "sha256": "9c05ecea49538a2d1f5e67f1f33a005528c4c9de28ab37ec9375ddb51f0e024a"
+    },
+    {
+      "path": "examples/tiny_sky130/reports/L2_dq_min.rpt",
+      "sha256": "b30c7c4bad300070e2ecb97948bf920d086050ffba7b9ce26ecb3648593b882f"
+    },
+    {
+      "path": "examples/tiny_sky130/reports/L2_dq_max.rpt",
+      "sha256": "fd265d0110ec334fbf9c5a011652298d1473710b0b8c91ae38efed41dbcf941e"
+    },
+    {
+      "path": "examples/tiny_sky130/reports/L2_cq_min.rpt",
+      "sha256": "9c16484f20b54358dc901dfc2229e7f6c275e4c70189df35d3d501147e974ff3"
+    },
+    {
+      "path": "examples/tiny_sky130/reports/L2_cq_max.rpt",
+      "sha256": "9c16484f20b54358dc901dfc2229e7f6c275e4c70189df35d3d501147e974ff3"
+    },
+    {
+      "path": "examples/tiny_sky130/reports/L3_instance.rpt",
+      "sha256": "a578abac817d4dcb9765f383fbaf73fda40d2a2487d9b9f2eb40379ee47fe815"
+    },
+    {
+      "path": "examples/tiny_sky130/reports/L3_arrival.rpt",
+      "sha256": "101ca2c8b376f2bd14b8cff123c809b7475349b8892b45b9df773e363deaa22b"
+    },
+    {
+      "path": "examples/tiny_sky130/reports/L3_load.rpt",
+      "sha256": "4b859bf44271427187dca4ee434f02e4eb9cbc56c73cbf9574539148a818b8ce"
+    },
+    {
+      "path": "examples/tiny_sky130/reports/L3_dq_min.rpt",
+      "sha256": "eca1a7e3d495d5173be09e73c9296c9ee620b16a4aa29fe7a8fdb7d2c87e3712"
+    },
+    {
+      "path": "examples/tiny_sky130/reports/L3_dq_max.rpt",
+      "sha256": "eca1a7e3d495d5173be09e73c9296c9ee620b16a4aa29fe7a8fdb7d2c87e3712"
+    },
+    {
+      "path": "examples/tiny_sky130/reports/L3_cq_min.rpt",
+      "sha256": "9c16484f20b54358dc901dfc2229e7f6c275e4c70189df35d3d501147e974ff3"
+    },
+    {
+      "path": "examples/tiny_sky130/reports/L3_cq_max.rpt",
+      "sha256": "9c16484f20b54358dc901dfc2229e7f6c275e4c70189df35d3d501147e974ff3"
+    },
+    {
+      "path": "examples/tiny_sky130/reports/yosys.log",
+      "sha256": "5576123a3c5058770cd9d443f469d509ea92e9ec4f48a5809740e4426e17eb2d"
+    },
+    {
+      "path": "examples/tiny_sky130/reports/opensta_rerun.log",
+      "sha256": "9fe2aa1bb0c3b726ce4e0458a0e48fca6785325be6f84713acab6ab013a1c22c"
+    },
+    {
+      "path": "examples/tiny_sky130/reports/opensta_version.txt",
+      "sha256": "b2f44d3b6e29f8b1b73ea4735f006affc4d198e1fd9c7d50e736159b1ef636c6"
+    }
+  ]
+}

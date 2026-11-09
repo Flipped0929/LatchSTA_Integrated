@@ -1,0 +1,81 @@
+net	kind	instance	pin	direction
+_00_[0]	instance	_17_	D	INPUT
+_00_[0]	instance	_08_	Y	OUTPUT
+_00_[1]	instance	_18_	D	INPUT
+_00_[1]	instance	_16_	Y	OUTPUT
+_00_[2]	instance	_19_	D	INPUT
+_00_[2]	instance	_11_	Y	OUTPUT
+_00_[3]	instance	_20_	D	INPUT
+_00_[3]	instance	_14_	Y	OUTPUT
+_01_	instance	_08_	B1	INPUT
+_01_	instance	_07_	Y	OUTPUT
+_02_	instance	_16_	A	INPUT
+_02_	instance	_14_	A3	INPUT
+_02_	instance	_11_	A2	INPUT
+_02_	instance	_10_	A2	INPUT
+_02_	instance	_09_	X	OUTPUT
+_03_	instance	_11_	B1	INPUT
+_03_	instance	_10_	Y	OUTPUT
+_04_	instance	_13_	B	INPUT
+_04_	instance	_12_	X	OUTPUT
+_05_	instance	_14_	B1	INPUT
+_05_	instance	_13_	Y	OUTPUT
+_06_	instance	_16_	B	INPUT
+_06_	instance	_15_	Y	OUTPUT
+clk	instance	clkbuf_0_clk	A	INPUT
+clk	port		clk	INPUT
+en	instance	_15_	A1	INPUT
+en	instance	_12_	A2	INPUT
+en	instance	_09_	A	INPUT
+en	instance	_08_	A1	INPUT
+en	instance	_07_	A1	INPUT
+en	port		en	INPUT
+master[0]	instance	_21_	D	INPUT
+master[0]	instance	_17_	Q	OUTPUT
+master[1]	instance	_22_	D	INPUT
+master[1]	instance	_18_	Q	OUTPUT
+master[2]	instance	_23_	D	INPUT
+master[2]	instance	_19_	Q	OUTPUT
+master[3]	instance	_24_	D	INPUT
+master[3]	instance	_20_	Q	OUTPUT
+rst_n	instance	_16_	C_N	INPUT
+rst_n	instance	_13_	A	INPUT
+rst_n	instance	_10_	B1	INPUT
+rst_n	instance	_07_	B1	INPUT
+rst_n	port		rst_n	INPUT
+slave[0]	instance	_21_	Q	OUTPUT
+slave[0]	instance	_15_	A2	INPUT
+slave[0]	instance	_12_	A4	INPUT
+slave[0]	instance	_09_	C	INPUT
+slave[0]	instance	_08_	A2	INPUT
+slave[0]	instance	_07_	A2	INPUT
+slave[0]	port		count[0]	OUTPUT
+slave[1]	instance	_22_	Q	OUTPUT
+slave[1]	instance	_15_	B1	INPUT
+slave[1]	instance	_12_	A3	INPUT
+slave[1]	instance	_09_	B	INPUT
+slave[1]	port		count[1]	OUTPUT
+slave[2]	instance	_23_	Q	OUTPUT
+slave[2]	instance	_14_	A1	INPUT
+slave[2]	instance	_12_	A1	INPUT
+slave[2]	instance	_11_	A1	INPUT
+slave[2]	instance	_10_	A1	INPUT
+slave[2]	port		count[2]	OUTPUT
+slave[3]	instance	_24_	Q	OUTPUT
+slave[3]	instance	_14_	A2	INPUT
+slave[3]	instance	_12_	B1	INPUT
+slave[3]	port		count[3]	OUTPUT
+clknet_0_clk	instance	clkbuf_1_1__f_clk	A	INPUT
+clknet_0_clk	instance	clkbuf_1_0__f_clk	A	INPUT
+clknet_0_clk	instance	clkbuf_0_clk	X	OUTPUT
+clknet_1_0__leaf_clk	instance	clkload0	A	INPUT
+clknet_1_0__leaf_clk	instance	_17_	GATE_N	INPUT
+clknet_1_0__leaf_clk	instance	_21_	GATE	INPUT
+clknet_1_0__leaf_clk	instance	_22_	GATE	INPUT
+clknet_1_0__leaf_clk	instance	_23_	GATE	INPUT
+clknet_1_0__leaf_clk	instance	clkbuf_1_0__f_clk	X	OUTPUT
+clknet_1_1__leaf_clk	instance	_18_	GATE_N	INPUT
+clknet_1_1__leaf_clk	instance	_19_	GATE_N	INPUT
+clknet_1_1__leaf_clk	instance	_20_	GATE_N	INPUT
+clknet_1_1__leaf_clk	instance	_24_	GATE	INPUT
+clknet_1_1__leaf_clk	instance	clkbuf_1_1__f_clk	X	OUTPUT

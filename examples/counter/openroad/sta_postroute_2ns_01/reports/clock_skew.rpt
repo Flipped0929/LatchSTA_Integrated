@@ -1,0 +1,16 @@
+Clock clk
+0.274582475 source latency _23_/GATE ^
+-0.262058496 target latency _20_/GATE_N ^
+0.049999997 clock uncertainty
+0.000000000 CRPR
+--------------
+0.062523991 setup skew
+
+Clock clk
+0.278580725 source latency _19_/GATE_N v
+-0.288780779 target latency _23_/GATE v
+-0.049999997 clock uncertainty
+0.000000000 CRPR
+--------------
+-0.060200069 hold skew
+

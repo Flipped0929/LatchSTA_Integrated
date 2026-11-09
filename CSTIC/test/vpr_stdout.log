@@ -1,0 +1,12 @@
+VPR FPGA Placement and Routing.
+Version: 8.0.0+unkown
+Revision: unkown
+Compiled: 2021-08-14T12:35:22
+Compiler: GNU 7.5.0 on Linux-5.4.0-77-generic x86_64
+Build Info: release IPO VTR_ASSERT_LEVEL=2
+
+University of Toronto
+verilogtorouting.org
+vtr-users@googlegroups.com
+This is free open source code under MIT license.
+

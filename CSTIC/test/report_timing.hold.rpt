@@ -1,0 +1,2576 @@
+#Timing report of worst 79 path(s)
+# Unit scale: 1e-09 seconds
+# Output precision: 3
+
+#Path 1
+Startpoint: ng35.Q[0] (.latch clocked by pclk)
+Endpoint  : ng35.D[0] (.latch clocked by pclk)
+Path Type : hold
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock pclk (rise edge)                                           0.000     0.000
+clock source latency                                             0.000     0.000
+pclk.inpad[0] (.input)                                           0.000     0.000
+ng35.clk[0] (.latch)                                             0.000     0.000
+ng35.Q[0] (.latch) [clock-to-output]                             0.124     0.124
+ng175.in[1] (.names)                                             0.000     0.124
+ng175.out[0] (.names)                                            0.235     0.359
+ng35.D[0] (.latch)                                               0.000     0.359
+data arrival time                                                          0.359
+
+clock pclk (rise edge)                                           0.000     0.000
+clock source latency                                             0.000     0.000
+pclk.inpad[0] (.input)                                           0.000     0.000
+ng35.clk[0] (.latch)                                             0.000     0.000
+clock uncertainty                                                0.000     0.000
+cell hold time                                                   0.066     0.066
+data required time                                                         0.066
+--------------------------------------------------------------------------------
+data required time                                                        -0.066
+data arrival time                                                          0.359
+--------------------------------------------------------------------------------
+slack (MET)                                                                0.293
+
+
+#Path 2
+Startpoint: pg14.inpad[0] (.input clocked by pclk)
+Endpoint  : ng28.D[0] (.latch clocked by pclk)
+Path Type : hold
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock pclk (rise edge)                                           0.000     0.000
+clock source latency                                             0.000     0.000
+input external delay                                             0.000     0.000
+pg14.inpad[0] (.input)                                           0.000     0.000
+ng129.in[0] (.names)                                             0.214     0.214
+ng129.out[0] (.names)                                            0.235     0.449
+ng28.D[0] (.latch)                                               0.000     0.449
+data arrival time                                                          0.449
+
+clock pclk (rise edge)                                           0.000     0.000
+clock source latency                                             0.000     0.000
+pclk.inpad[0] (.input)                                           0.000     0.000
+ng28.clk[0] (.latch)                                             0.000     0.000
+clock uncertainty                                                0.000     0.000
+cell hold time                                                   0.066     0.066
+data required time                                                         0.066
+--------------------------------------------------------------------------------
+data required time                                                        -0.066
+data arrival time                                                          0.449
+--------------------------------------------------------------------------------
+slack (MET)                                                                0.383
+
+
+#Path 3
+Startpoint: pg14.inpad[0] (.input clocked by pclk)
+Endpoint  : ng41.D[0] (.latch clocked by pclk)
+Path Type : hold
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock pclk (rise edge)                                           0.000     0.000
+clock source latency                                             0.000     0.000
+input external delay                                             0.000     0.000
+pg14.inpad[0] (.input)                                           0.000     0.000
+ng218.in[0] (.names)                                             0.214     0.214
+ng218.out[0] (.names)                                            0.235     0.449
+ng41.D[0] (.latch)                                               0.000     0.449
+data arrival time                                                          0.449
+
+clock pclk (rise edge)                                           0.000     0.000
+clock source latency                                             0.000     0.000
+pclk.inpad[0] (.input)                                           0.000     0.000
+ng41.clk[0] (.latch)                                             0.000     0.000
+clock uncertainty                                                0.000     0.000
+cell hold time                                                   0.066     0.066
+data required time                                                         0.066
+--------------------------------------------------------------------------------
+data required time                                                        -0.066
+data arrival time                                                          0.449
+--------------------------------------------------------------------------------
+slack (MET)                                                                0.383
+
+
+#Path 4
+Startpoint: pg14.inpad[0] (.input clocked by pclk)
+Endpoint  : ng40.D[0] (.latch clocked by pclk)
+Path Type : hold
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock pclk (rise edge)                                           0.000     0.000
+clock source latency                                             0.000     0.000
+input external delay                                             0.000     0.000
+pg14.inpad[0] (.input)                                           0.000     0.000
+ng214.in[0] (.names)                                             0.214     0.214
+ng214.out[0] (.names)                                            0.235     0.449
+ng40.D[0] (.latch)                                               0.000     0.449
+data arrival time                                                          0.449
+
+clock pclk (rise edge)                                           0.000     0.000
+clock source latency                                             0.000     0.000
+pclk.inpad[0] (.input)                                           0.000     0.000
+ng40.clk[0] (.latch)                                             0.000     0.000
+clock uncertainty                                                0.000     0.000
+cell hold time                                                   0.066     0.066
+data required time                                                         0.066
+--------------------------------------------------------------------------------
+data required time                                                        -0.066
+data arrival time                                                          0.449
+--------------------------------------------------------------------------------
+slack (MET)                                                                0.383
+
+
+#Path 5
+Startpoint: pg14.inpad[0] (.input clocked by pclk)
+Endpoint  : ng39.D[0] (.latch clocked by pclk)
+Path Type : hold
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock pclk (rise edge)                                           0.000     0.000
+clock source latency                                             0.000     0.000
+input external delay                                             0.000     0.000
+pg14.inpad[0] (.input)                                           0.000     0.000
+ng208.in[0] (.names)                                             0.214     0.214
+ng208.out[0] (.names)                                            0.235     0.449
+ng39.D[0] (.latch)                                               0.000     0.449
+data arrival time                                                          0.449
+
+clock pclk (rise edge)                                           0.000     0.000
+clock source latency                                             0.000     0.000
+pclk.inpad[0] (.input)                                           0.000     0.000
+ng39.clk[0] (.latch)                                             0.000     0.000
+clock uncertainty                                                0.000     0.000
+cell hold time                                                   0.066     0.066
+data required time                                                         0.066
+--------------------------------------------------------------------------------
+data required time                                                        -0.066
+data arrival time                                                          0.449
+--------------------------------------------------------------------------------
+slack (MET)                                                                0.383
+
+
+#Path 6
+Startpoint: pg14.inpad[0] (.input clocked by pclk)
+Endpoint  : ng32.D[0] (.latch clocked by pclk)
+Path Type : hold
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock pclk (rise edge)                                           0.000     0.000
+clock source latency                                             0.000     0.000
+input external delay                                             0.000     0.000
+pg14.inpad[0] (.input)                                           0.000     0.000
+ng154.in[0] (.names)                                             0.326     0.326
+ng154.out[0] (.names)                                            0.235     0.561
+ng32.D[0] (.latch)                                               0.000     0.561
+data arrival time                                                          0.561
+
+clock pclk (rise edge)                                           0.000     0.000
+clock source latency                                             0.000     0.000
+pclk.inpad[0] (.input)                                           0.000     0.000
+ng32.clk[0] (.latch)                                             0.000     0.000
+clock uncertainty                                                0.000     0.000
+cell hold time                                                   0.066     0.066
+data required time                                                         0.066
+--------------------------------------------------------------------------------
+data required time                                                        -0.066
+data arrival time                                                          0.561
+--------------------------------------------------------------------------------
+slack (MET)                                                                0.495
+
+
+#Path 7
+Startpoint: pg14.inpad[0] (.input clocked by pclk)
+Endpoint  : ng34.D[0] (.latch clocked by pclk)
+Path Type : hold
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock pclk (rise edge)                                           0.000     0.000
+clock source latency                                             0.000     0.000
+input external delay                                             0.000     0.000
+pg14.inpad[0] (.input)                                           0.000     0.000
+ng166.in[0] (.names)                                             0.326     0.326
+ng166.out[0] (.names)                                            0.235     0.561
+ng34.D[0] (.latch)                                               0.000     0.561
+data arrival time                                                          0.561
+
+clock pclk (rise edge)                                           0.000     0.000
+clock source latency                                             0.000     0.000
+pclk.inpad[0] (.input)                                           0.000     0.000
+ng34.clk[0] (.latch)                                             0.000     0.000
+clock uncertainty                                                0.000     0.000
+cell hold time                                                   0.066     0.066
+data required time                                                         0.066
+--------------------------------------------------------------------------------
+data required time                                                        -0.066
+data arrival time                                                          0.561
+--------------------------------------------------------------------------------
+slack (MET)                                                                0.495
+
+
+#Path 8
+Startpoint: ng30.Q[0] (.latch clocked by pclk)
+Endpoint  : ng30.D[0] (.latch clocked by pclk)
+Path Type : hold
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock pclk (rise edge)                                           0.000     0.000
+clock source latency                                             0.000     0.000
+pclk.inpad[0] (.input)                                           0.000     0.000
+ng30.clk[0] (.latch)                                             0.000     0.000
+ng30.Q[0] (.latch) [clock-to-output]                             0.124     0.124
+[260].in[0] (.names)                                             0.000     0.124
+[260].out[0] (.names)                                            0.235     0.359
+ng144.in[0] (.names)                                             0.000     0.359
+ng144.out[0] (.names)                                            0.235     0.594
+ng30.D[0] (.latch)                                               0.000     0.594
+data arrival time                                                          0.594
+
+clock pclk (rise edge)                                           0.000     0.000
+clock source latency                                             0.000     0.000
+pclk.inpad[0] (.input)                                           0.000     0.000
+ng30.clk[0] (.latch)                                             0.000     0.000
+clock uncertainty                                                0.000     0.000
+cell hold time                                                   0.066     0.066
+data required time                                                         0.066
+--------------------------------------------------------------------------------
+data required time                                                        -0.066
+data arrival time                                                          0.594
+--------------------------------------------------------------------------------
+slack (MET)                                                                0.528
+
+
+#Path 9
+Startpoint: ng33.Q[0] (.latch clocked by pclk)
+Endpoint  : ng33.D[0] (.latch clocked by pclk)
+Path Type : hold
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock pclk (rise edge)                                           0.000     0.000
+clock source latency                                             0.000     0.000
+pclk.inpad[0] (.input)                                           0.000     0.000
+ng33.clk[0] (.latch)                                             0.000     0.000
+ng33.Q[0] (.latch) [clock-to-output]                             0.124     0.124
+[282].in[0] (.names)                                             0.000     0.124
+[282].out[0] (.names)                                            0.235     0.359
+ng159.in[0] (.names)                                             0.000     0.359
+ng159.out[0] (.names)                                            0.235     0.594
+ng33.D[0] (.latch)                                               0.000     0.594
+data arrival time                                                          0.594
+
+clock pclk (rise edge)                                           0.000     0.000
+clock source latency                                             0.000     0.000
+pclk.inpad[0] (.input)                                           0.000     0.000
+ng33.clk[0] (.latch)                                             0.000     0.000
+clock uncertainty                                                0.000     0.000
+cell hold time                                                   0.066     0.066
+data required time                                                         0.066
+--------------------------------------------------------------------------------
+data required time                                                        -0.066
+data arrival time                                                          0.594
+--------------------------------------------------------------------------------
+slack (MET)                                                                0.528
+
+
+#Path 10
+Startpoint: ng54.Q[0] (.latch clocked by pclk)
+Endpoint  : ng54.D[0] (.latch clocked by pclk)
+Path Type : hold
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock pclk (rise edge)                                           0.000     0.000
+clock source latency                                             0.000     0.000
+pclk.inpad[0] (.input)                                           0.000     0.000
+ng54.clk[0] (.latch)                                             0.000     0.000
+ng54.Q[0] (.latch) [clock-to-output]                             0.124     0.124
+[239].in[0] (.names)                                             0.000     0.124
+[239].out[0] (.names)                                            0.235     0.359
+ng379.in[1] (.names)                                             0.000     0.359
+ng379.out[0] (.names)                                            0.235     0.594
+ng54.D[0] (.latch)                                               0.000     0.594
+data arrival time                                                          0.594
+
+clock pclk (rise edge)                                           0.000     0.000
+clock source latency                                             0.000     0.000
+pclk.inpad[0] (.input)                                           0.000     0.000
+ng54.clk[0] (.latch)                                             0.000     0.000
+clock uncertainty                                                0.000     0.000
+cell hold time                                                   0.066     0.066
+data required time                                                         0.066
+--------------------------------------------------------------------------------
+data required time                                                        -0.066
+data arrival time                                                          0.594
+--------------------------------------------------------------------------------
+slack (MET)                                                                0.528
+
+
+#Path 11
+Startpoint: ng31.Q[0] (.latch clocked by pclk)
+Endpoint  : ng31.D[0] (.latch clocked by pclk)
+Path Type : hold
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock pclk (rise edge)                                           0.000     0.000
+clock source latency                                             0.000     0.000
+pclk.inpad[0] (.input)                                           0.000     0.000
+ng31.clk[0] (.latch)                                             0.000     0.000
+ng31.Q[0] (.latch) [clock-to-output]                             0.124     0.124
+[244].in[0] (.names)                                             0.000     0.124
+[244].out[0] (.names)                                            0.235     0.359
+ng149.in[1] (.names)                                             0.000     0.359
+ng149.out[0] (.names)                                            0.235     0.594
+ng31.D[0] (.latch)                                               0.000     0.594
+data arrival time                                                          0.594
+
+clock pclk (rise edge)                                           0.000     0.000
+clock source latency                                             0.000     0.000
+pclk.inpad[0] (.input)                                           0.000     0.000
+ng31.clk[0] (.latch)                                             0.000     0.000
+clock uncertainty                                                0.000     0.000
+cell hold time                                                   0.066     0.066
+data required time                                                         0.066
+--------------------------------------------------------------------------------
+data required time                                                        -0.066
+data arrival time                                                          0.594
+--------------------------------------------------------------------------------
+slack (MET)                                                                0.528
+
+
+#Path 12
+Startpoint: ng29.Q[0] (.latch clocked by pclk)
+Endpoint  : ng29.D[0] (.latch clocked by pclk)
+Path Type : hold
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock pclk (rise edge)                                           0.000     0.000
+clock source latency                                             0.000     0.000
+pclk.inpad[0] (.input)                                           0.000     0.000
+ng29.clk[0] (.latch)                                             0.000     0.000
+ng29.Q[0] (.latch) [clock-to-output]                             0.124     0.124
+[259].in[0] (.names)                                             0.000     0.124
+[259].out[0] (.names)                                            0.235     0.359
+ng140.in[1] (.names)                                             0.000     0.359
+ng140.out[0] (.names)                                            0.235     0.594
+ng29.D[0] (.latch)                                               0.000     0.594
+data arrival time                                                          0.594
+
+clock pclk (rise edge)                                           0.000     0.000
+clock source latency                                             0.000     0.000
+pclk.inpad[0] (.input)                                           0.000     0.000
+ng29.clk[0] (.latch)                                             0.000     0.000
+clock uncertainty                                                0.000     0.000
+cell hold time                                                   0.066     0.066
+data required time                                                         0.066
+--------------------------------------------------------------------------------
+data required time                                                        -0.066
+data arrival time                                                          0.594
+--------------------------------------------------------------------------------
+slack (MET)                                                                0.528
+
+
+#Path 13
+Startpoint: ng55.Q[0] (.latch clocked by pclk)
+Endpoint  : ng55.D[0] (.latch clocked by pclk)
+Path Type : hold
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock pclk (rise edge)                                           0.000     0.000
+clock source latency                                             0.000     0.000
+pclk.inpad[0] (.input)                                           0.000     0.000
+ng55.clk[0] (.latch)                                             0.000     0.000
+ng55.Q[0] (.latch) [clock-to-output]                             0.124     0.124
+[242].in[0] (.names)                                             0.000     0.124
+[242].out[0] (.names)                                            0.235     0.359
+ng384.in[0] (.names)                                             0.000     0.359
+ng384.out[0] (.names)                                            0.235     0.594
+ng55.D[0] (.latch)                                               0.000     0.594
+data arrival time                                                          0.594
+
+clock pclk (rise edge)                                           0.000     0.000
+clock source latency                                             0.000     0.000
+pclk.inpad[0] (.input)                                           0.000     0.000
+ng55.clk[0] (.latch)                                             0.000     0.000
+clock uncertainty                                                0.000     0.000
+cell hold time                                                   0.066     0.066
+data required time                                                         0.066
+--------------------------------------------------------------------------------
+data required time                                                        -0.066
+data arrival time                                                          0.594
+--------------------------------------------------------------------------------
+slack (MET)                                                                0.528
+
+
+#Path 14
+Startpoint: ng56.Q[0] (.latch clocked by pclk)
+Endpoint  : ng56.D[0] (.latch clocked by pclk)
+Path Type : hold
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock pclk (rise edge)                                           0.000     0.000
+clock source latency                                             0.000     0.000
+pclk.inpad[0] (.input)                                           0.000     0.000
+ng56.clk[0] (.latch)                                             0.000     0.000
+ng56.Q[0] (.latch) [clock-to-output]                             0.124     0.124
+[261].in[0] (.names)                                             0.000     0.124
+[261].out[0] (.names)                                            0.235     0.359
+ng392.in[0] (.names)                                             0.000     0.359
+ng392.out[0] (.names)                                            0.235     0.594
+ng56.D[0] (.latch)                                               0.000     0.594
+data arrival time                                                          0.594
+
+clock pclk (rise edge)                                           0.000     0.000
+clock source latency                                             0.000     0.000
+pclk.inpad[0] (.input)                                           0.000     0.000
+ng56.clk[0] (.latch)                                             0.000     0.000
+clock uncertainty                                                0.000     0.000
+cell hold time                                                   0.066     0.066
+data required time                                                         0.066
+--------------------------------------------------------------------------------
+data required time                                                        -0.066
+data arrival time                                                          0.594
+--------------------------------------------------------------------------------
+slack (MET)                                                                0.528
+
+
+#Path 15
+Startpoint: ng38.Q[0] (.latch clocked by pclk)
+Endpoint  : ng38.D[0] (.latch clocked by pclk)
+Path Type : hold
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock pclk (rise edge)                                           0.000     0.000
+clock source latency                                             0.000     0.000
+pclk.inpad[0] (.input)                                           0.000     0.000
+ng38.clk[0] (.latch)                                             0.000     0.000
+ng38.Q[0] (.latch) [clock-to-output]                             0.124     0.124
+[286].in[0] (.names)                                             0.000     0.124
+[286].out[0] (.names)                                            0.235     0.359
+ng198.in[1] (.names)                                             0.000     0.359
+ng198.out[0] (.names)                                            0.235     0.594
+ng38.D[0] (.latch)                                               0.000     0.594
+data arrival time                                                          0.594
+
+clock pclk (rise edge)                                           0.000     0.000
+clock source latency                                             0.000     0.000
+pclk.inpad[0] (.input)                                           0.000     0.000
+ng38.clk[0] (.latch)                                             0.000     0.000
+clock uncertainty                                                0.000     0.000
+cell hold time                                                   0.066     0.066
+data required time                                                         0.066
+--------------------------------------------------------------------------------
+data required time                                                        -0.066
+data arrival time                                                          0.594
+--------------------------------------------------------------------------------
+slack (MET)                                                                0.528
+
+
+#Path 16
+Startpoint: ng50.Q[0] (.latch clocked by pclk)
+Endpoint  : ng50.D[0] (.latch clocked by pclk)
+Path Type : hold
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock pclk (rise edge)                                           0.000     0.000
+clock source latency                                             0.000     0.000
+pclk.inpad[0] (.input)                                           0.000     0.000
+ng50.clk[0] (.latch)                                             0.000     0.000
+ng50.Q[0] (.latch) [clock-to-output]                             0.124     0.124
+[189].in[0] (.names)                                             0.000     0.124
+[189].out[0] (.names)                                            0.235     0.359
+ng321.in[0] (.names)                                             0.000     0.359
+ng321.out[0] (.names)                                            0.235     0.594
+ng50.D[0] (.latch)                                               0.000     0.594
+data arrival time                                                          0.594
+
+clock pclk (rise edge)                                           0.000     0.000
+clock source latency                                             0.000     0.000
+pclk.inpad[0] (.input)                                           0.000     0.000
+ng50.clk[0] (.latch)                                             0.000     0.000
+clock uncertainty                                                0.000     0.000
+cell hold time                                                   0.066     0.066
+data required time                                                         0.066
+--------------------------------------------------------------------------------
+data required time                                                        -0.066
+data arrival time                                                          0.594
+--------------------------------------------------------------------------------
+slack (MET)                                                                0.528
+
+
+#Path 17
+Startpoint: ng48.Q[0] (.latch clocked by pclk)
+Endpoint  : ng48.D[0] (.latch clocked by pclk)
+Path Type : hold
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock pclk (rise edge)                                           0.000     0.000
+clock source latency                                             0.000     0.000
+pclk.inpad[0] (.input)                                           0.000     0.000
+ng48.clk[0] (.latch)                                             0.000     0.000
+ng48.Q[0] (.latch) [clock-to-output]                             0.124     0.124
+[297].in[0] (.names)                                             0.000     0.124
+[297].out[0] (.names)                                            0.235     0.359
+ng309.in[0] (.names)                                             0.000     0.359
+ng309.out[0] (.names)                                            0.235     0.594
+ng48.D[0] (.latch)                                               0.000     0.594
+data arrival time                                                          0.594
+
+clock pclk (rise edge)                                           0.000     0.000
+clock source latency                                             0.000     0.000
+pclk.inpad[0] (.input)                                           0.000     0.000
+ng48.clk[0] (.latch)                                             0.000     0.000
+clock uncertainty                                                0.000     0.000
+cell hold time                                                   0.066     0.066
+data required time                                                         0.066
+--------------------------------------------------------------------------------
+data required time                                                        -0.066
+data arrival time                                                          0.594
+--------------------------------------------------------------------------------
+slack (MET)                                                                0.528
+
+
+#Path 18
+Startpoint: ng49.Q[0] (.latch clocked by pclk)
+Endpoint  : ng49.D[0] (.latch clocked by pclk)
+Path Type : hold
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock pclk (rise edge)                                           0.000     0.000
+clock source latency                                             0.000     0.000
+pclk.inpad[0] (.input)                                           0.000     0.000
+ng49.clk[0] (.latch)                                             0.000     0.000
+ng49.Q[0] (.latch) [clock-to-output]                             0.124     0.124
+[305].in[0] (.names)                                             0.000     0.124
+[305].out[0] (.names)                                            0.235     0.359
+ng315.in[0] (.names)                                             0.000     0.359
+ng315.out[0] (.names)                                            0.235     0.594
+ng49.D[0] (.latch)                                               0.000     0.594
+data arrival time                                                          0.594
+
+clock pclk (rise edge)                                           0.000     0.000
+clock source latency                                             0.000     0.000
+pclk.inpad[0] (.input)                                           0.000     0.000
+ng49.clk[0] (.latch)                                             0.000     0.000
+clock uncertainty                                                0.000     0.000
+cell hold time                                                   0.066     0.066
+data required time                                                         0.066
+--------------------------------------------------------------------------------
+data required time                                                        -0.066
+data arrival time                                                          0.594
+--------------------------------------------------------------------------------
+slack (MET)                                                                0.528
+
+
+#Path 19
+Startpoint: ng47.Q[0] (.latch clocked by pclk)
+Endpoint  : ng47.D[0] (.latch clocked by pclk)
+Path Type : hold
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock pclk (rise edge)                                           0.000     0.000
+clock source latency                                             0.000     0.000
+pclk.inpad[0] (.input)                                           0.000     0.000
+ng47.clk[0] (.latch)                                             0.000     0.000
+ng47.Q[0] (.latch) [clock-to-output]                             0.124     0.124
+[334].in[0] (.names)                                             0.000     0.124
+[334].out[0] (.names)                                            0.235     0.359
+ng303.in[0] (.names)                                             0.000     0.359
+ng303.out[0] (.names)                                            0.235     0.594
+ng47.D[0] (.latch)                                               0.000     0.594
+data arrival time                                                          0.594
+
+clock pclk (rise edge)                                           0.000     0.000
+clock source latency                                             0.000     0.000
+pclk.inpad[0] (.input)                                           0.000     0.000
+ng47.clk[0] (.latch)                                             0.000     0.000
+clock uncertainty                                                0.000     0.000
+cell hold time                                                   0.066     0.066
+data required time                                                         0.066
+--------------------------------------------------------------------------------
+data required time                                                        -0.066
+data arrival time                                                          0.594
+--------------------------------------------------------------------------------
+slack (MET)                                                                0.528
+
+
+#Path 20
+Startpoint: ng36.Q[0] (.latch clocked by pclk)
+Endpoint  : ng36.D[0] (.latch clocked by pclk)
+Path Type : hold
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock pclk (rise edge)                                           0.000     0.000
+clock source latency                                             0.000     0.000
+pclk.inpad[0] (.input)                                           0.000     0.000
+ng36.clk[0] (.latch)                                             0.000     0.000
+ng36.Q[0] (.latch) [clock-to-output]                             0.124     0.124
+[284].in[0] (.names)                                             0.000     0.124
+[284].out[0] (.names)                                            0.235     0.359
+ng189.in[1] (.names)                                             0.000     0.359
+ng189.out[0] (.names)                                            0.235     0.594
+ng36.D[0] (.latch)                                               0.000     0.594
+data arrival time                                                          0.594
+
+clock pclk (rise edge)                                           0.000     0.000
+clock source latency                                             0.000     0.000
+pclk.inpad[0] (.input)                                           0.000     0.000
+ng36.clk[0] (.latch)                                             0.000     0.000
+clock uncertainty                                                0.000     0.000
+cell hold time                                                   0.066     0.066
+data required time                                                         0.066
+--------------------------------------------------------------------------------
+data required time                                                        -0.066
+data arrival time                                                          0.594
+--------------------------------------------------------------------------------
+slack (MET)                                                                0.528
+
+
+#Path 21
+Startpoint: ng76.Q[0] (.latch clocked by pclk)
+Endpoint  : ng76.D[0] (.latch clocked by pclk)
+Path Type : hold
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock pclk (rise edge)                                           0.000     0.000
+clock source latency                                             0.000     0.000
+pclk.inpad[0] (.input)                                           0.000     0.000
+ng76.clk[0] (.latch)                                             0.000     0.000
+ng76.Q[0] (.latch) [clock-to-output]                             0.124     0.124
+[272].in[0] (.names)                                             0.000     0.124
+[272].out[0] (.names)                                            0.235     0.359
+ng536.in[1] (.names)                                             0.000     0.359
+ng536.out[0] (.names)                                            0.235     0.594
+ng76.D[0] (.latch)                                               0.000     0.594
+data arrival time                                                          0.594
+
+clock pclk (rise edge)                                           0.000     0.000
+clock source latency                                             0.000     0.000
+pclk.inpad[0] (.input)                                           0.000     0.000
+ng76.clk[0] (.latch)                                             0.000     0.000
+clock uncertainty                                                0.000     0.000
+cell hold time                                                   0.066     0.066
+data required time                                                         0.066
+--------------------------------------------------------------------------------
+data required time                                                        -0.066
+data arrival time                                                          0.594
+--------------------------------------------------------------------------------
+slack (MET)                                                                0.528
+
+
+#Path 22
+Startpoint: ng69.Q[0] (.latch clocked by pclk)
+Endpoint  : ng69.D[0] (.latch clocked by pclk)
+Path Type : hold
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock pclk (rise edge)                                           0.000     0.000
+clock source latency                                             0.000     0.000
+pclk.inpad[0] (.input)                                           0.000     0.000
+ng69.clk[0] (.latch)                                             0.000     0.000
+ng69.Q[0] (.latch) [clock-to-output]                             0.124     0.124
+[254].in[0] (.names)                                             0.000     0.124
+[254].out[0] (.names)                                            0.235     0.359
+ng469.in[1] (.names)                                             0.000     0.359
+ng469.out[0] (.names)                                            0.235     0.594
+ng69.D[0] (.latch)                                               0.000     0.594
+data arrival time                                                          0.594
+
+clock pclk (rise edge)                                           0.000     0.000
+clock source latency                                             0.000     0.000
+pclk.inpad[0] (.input)                                           0.000     0.000
+ng69.clk[0] (.latch)                                             0.000     0.000
+clock uncertainty                                                0.000     0.000
+cell hold time                                                   0.066     0.066
+data required time                                                         0.066
+--------------------------------------------------------------------------------
+data required time                                                        -0.066
+data arrival time                                                          0.594
+--------------------------------------------------------------------------------
+slack (MET)                                                                0.528
+
+
+#Path 23
+Startpoint: ng68.Q[0] (.latch clocked by pclk)
+Endpoint  : ng68.D[0] (.latch clocked by pclk)
+Path Type : hold
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock pclk (rise edge)                                           0.000     0.000
+clock source latency                                             0.000     0.000
+pclk.inpad[0] (.input)                                           0.000     0.000
+ng68.clk[0] (.latch)                                             0.000     0.000
+ng68.Q[0] (.latch) [clock-to-output]                             0.124     0.124
+[252].in[0] (.names)                                             0.000     0.124
+[252].out[0] (.names)                                            0.235     0.359
+ng464.in[1] (.names)                                             0.000     0.359
+ng464.out[0] (.names)                                            0.235     0.594
+ng68.D[0] (.latch)                                               0.000     0.594
+data arrival time                                                          0.594
+
+clock pclk (rise edge)                                           0.000     0.000
+clock source latency                                             0.000     0.000
+pclk.inpad[0] (.input)                                           0.000     0.000
+ng68.clk[0] (.latch)                                             0.000     0.000
+clock uncertainty                                                0.000     0.000
+cell hold time                                                   0.066     0.066
+data required time                                                         0.066
+--------------------------------------------------------------------------------
+data required time                                                        -0.066
+data arrival time                                                          0.594
+--------------------------------------------------------------------------------
+slack (MET)                                                                0.528
+
+
+#Path 24
+Startpoint: ng67.Q[0] (.latch clocked by pclk)
+Endpoint  : ng67.D[0] (.latch clocked by pclk)
+Path Type : hold
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock pclk (rise edge)                                           0.000     0.000
+clock source latency                                             0.000     0.000
+pclk.inpad[0] (.input)                                           0.000     0.000
+ng67.clk[0] (.latch)                                             0.000     0.000
+ng67.Q[0] (.latch) [clock-to-output]                             0.124     0.124
+[263].in[0] (.names)                                             0.000     0.124
+[263].out[0] (.names)                                            0.235     0.359
+ng459.in[1] (.names)                                             0.000     0.359
+ng459.out[0] (.names)                                            0.235     0.594
+ng67.D[0] (.latch)                                               0.000     0.594
+data arrival time                                                          0.594
+
+clock pclk (rise edge)                                           0.000     0.000
+clock source latency                                             0.000     0.000
+pclk.inpad[0] (.input)                                           0.000     0.000
+ng67.clk[0] (.latch)                                             0.000     0.000
+clock uncertainty                                                0.000     0.000
+cell hold time                                                   0.066     0.066
+data required time                                                         0.066
+--------------------------------------------------------------------------------
+data required time                                                        -0.066
+data arrival time                                                          0.594
+--------------------------------------------------------------------------------
+slack (MET)                                                                0.528
+
+
+#Path 25
+Startpoint: ng77.Q[0] (.latch clocked by pclk)
+Endpoint  : ng77.D[0] (.latch clocked by pclk)
+Path Type : hold
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock pclk (rise edge)                                           0.000     0.000
+clock source latency                                             0.000     0.000
+pclk.inpad[0] (.input)                                           0.000     0.000
+ng77.clk[0] (.latch)                                             0.000     0.000
+ng77.Q[0] (.latch) [clock-to-output]                             0.124     0.124
+[274].in[0] (.names)                                             0.000     0.124
+[274].out[0] (.names)                                            0.235     0.359
+ng541.in[0] (.names)                                             0.000     0.359
+ng541.out[0] (.names)                                            0.235     0.594
+ng77.D[0] (.latch)                                               0.000     0.594
+data arrival time                                                          0.594
+
+clock pclk (rise edge)                                           0.000     0.000
+clock source latency                                             0.000     0.000
+pclk.inpad[0] (.input)                                           0.000     0.000
+ng77.clk[0] (.latch)                                             0.000     0.000
+clock uncertainty                                                0.000     0.000
+cell hold time                                                   0.066     0.066
+data required time                                                         0.066
+--------------------------------------------------------------------------------
+data required time                                                        -0.066
+data arrival time                                                          0.594
+--------------------------------------------------------------------------------
+slack (MET)                                                                0.528
+
+
+#Path 26
+Startpoint: ng78.Q[0] (.latch clocked by pclk)
+Endpoint  : ng78.D[0] (.latch clocked by pclk)
+Path Type : hold
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock pclk (rise edge)                                           0.000     0.000
+clock source latency                                             0.000     0.000
+pclk.inpad[0] (.input)                                           0.000     0.000
+ng78.clk[0] (.latch)                                             0.000     0.000
+ng78.Q[0] (.latch) [clock-to-output]                             0.124     0.124
+[255].in[0] (.names)                                             0.000     0.124
+[255].out[0] (.names)                                            0.235     0.359
+ng548.in[1] (.names)                                             0.000     0.359
+ng548.out[0] (.names)                                            0.235     0.594
+ng78.D[0] (.latch)                                               0.000     0.594
+data arrival time                                                          0.594
+
+clock pclk (rise edge)                                           0.000     0.000
+clock source latency                                             0.000     0.000
+pclk.inpad[0] (.input)                                           0.000     0.000
+ng78.clk[0] (.latch)                                             0.000     0.000
+clock uncertainty                                                0.000     0.000
+cell hold time                                                   0.066     0.066
+data required time                                                         0.066
+--------------------------------------------------------------------------------
+data required time                                                        -0.066
+data arrival time                                                          0.594
+--------------------------------------------------------------------------------
+slack (MET)                                                                0.528
+
+
+#Path 27
+Startpoint: ng60.Q[0] (.latch clocked by pclk)
+Endpoint  : ng60.D[0] (.latch clocked by pclk)
+Path Type : hold
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock pclk (rise edge)                                           0.000     0.000
+clock source latency                                             0.000     0.000
+pclk.inpad[0] (.input)                                           0.000     0.000
+ng60.clk[0] (.latch)                                             0.000     0.000
+ng60.Q[0] (.latch) [clock-to-output]                             0.124     0.124
+[184].in[0] (.names)                                             0.000     0.124
+[184].out[0] (.names)                                            0.235     0.359
+ng416.in[0] (.names)                                             0.000     0.359
+ng416.out[0] (.names)                                            0.235     0.594
+ng60.D[0] (.latch)                                               0.000     0.594
+data arrival time                                                          0.594
+
+clock pclk (rise edge)                                           0.000     0.000
+clock source latency                                             0.000     0.000
+pclk.inpad[0] (.input)                                           0.000     0.000
+ng60.clk[0] (.latch)                                             0.000     0.000
+clock uncertainty                                                0.000     0.000
+cell hold time                                                   0.066     0.066
+data required time                                                         0.066
+--------------------------------------------------------------------------------
+data required time                                                        -0.066
+data arrival time                                                          0.594
+--------------------------------------------------------------------------------
+slack (MET)                                                                0.528
+
+
+#Path 28
+Startpoint: ng60.Q[0] (.latch clocked by pclk)
+Endpoint  : ng61.D[0] (.latch clocked by pclk)
+Path Type : hold
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock pclk (rise edge)                                           0.000     0.000
+clock source latency                                             0.000     0.000
+pclk.inpad[0] (.input)                                           0.000     0.000
+ng60.clk[0] (.latch)                                             0.000     0.000
+ng60.Q[0] (.latch) [clock-to-output]                             0.124     0.124
+[171].in[0] (.names)                                             0.000     0.124
+[171].out[0] (.names)                                            0.235     0.359
+ng424.in[0] (.names)                                             0.000     0.359
+ng424.out[0] (.names)                                            0.235     0.594
+ng61.D[0] (.latch)                                               0.000     0.594
+data arrival time                                                          0.594
+
+clock pclk (rise edge)                                           0.000     0.000
+clock source latency                                             0.000     0.000
+pclk.inpad[0] (.input)                                           0.000     0.000
+ng61.clk[0] (.latch)                                             0.000     0.000
+clock uncertainty                                                0.000     0.000
+cell hold time                                                   0.066     0.066
+data required time                                                         0.066
+--------------------------------------------------------------------------------
+data required time                                                        -0.066
+data arrival time                                                          0.594
+--------------------------------------------------------------------------------
+slack (MET)                                                                0.528
+
+
+#Path 29
+Startpoint: ng62.Q[0] (.latch clocked by pclk)
+Endpoint  : ng62.D[0] (.latch clocked by pclk)
+Path Type : hold
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock pclk (rise edge)                                           0.000     0.000
+clock source latency                                             0.000     0.000
+pclk.inpad[0] (.input)                                           0.000     0.000
+ng62.clk[0] (.latch)                                             0.000     0.000
+ng62.Q[0] (.latch) [clock-to-output]                             0.124     0.124
+[236].in[0] (.names)                                             0.000     0.124
+[236].out[0] (.names)                                            0.235     0.359
+ng427.in[1] (.names)                                             0.000     0.359
+ng427.out[0] (.names)                                            0.235     0.594
+ng62.D[0] (.latch)                                               0.000     0.594
+data arrival time                                                          0.594
+
+clock pclk (rise edge)                                           0.000     0.000
+clock source latency                                             0.000     0.000
+pclk.inpad[0] (.input)                                           0.000     0.000
+ng62.clk[0] (.latch)                                             0.000     0.000
+clock uncertainty                                                0.000     0.000
+cell hold time                                                   0.066     0.066
+data required time                                                         0.066
+--------------------------------------------------------------------------------
+data required time                                                        -0.066
+data arrival time                                                          0.594
+--------------------------------------------------------------------------------
+slack (MET)                                                                0.528
+
+
+#Path 30
+Startpoint: ng53.Q[0] (.latch clocked by pclk)
+Endpoint  : ng53.D[0] (.latch clocked by pclk)
+Path Type : hold
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock pclk (rise edge)                                           0.000     0.000
+clock source latency                                             0.000     0.000
+pclk.inpad[0] (.input)                                           0.000     0.000
+ng53.clk[0] (.latch)                                             0.000     0.000
+ng53.Q[0] (.latch) [clock-to-output]                             0.124     0.124
+[234].in[0] (.names)                                             0.000     0.124
+[234].out[0] (.names)                                            0.235     0.359
+ng373.in[1] (.names)                                             0.000     0.359
+ng373.out[0] (.names)                                            0.235     0.594
+ng53.D[0] (.latch)                                               0.000     0.594
+data arrival time                                                          0.594
+
+clock pclk (rise edge)                                           0.000     0.000
+clock source latency                                             0.000     0.000
+pclk.inpad[0] (.input)                                           0.000     0.000
+ng53.clk[0] (.latch)                                             0.000     0.000
+clock uncertainty                                                0.000     0.000
+cell hold time                                                   0.066     0.066
+data required time                                                         0.066
+--------------------------------------------------------------------------------
+data required time                                                        -0.066
+data arrival time                                                          0.594
+--------------------------------------------------------------------------------
+slack (MET)                                                                0.528
+
+
+#Path 31
+Startpoint: ng37.Q[0] (.latch clocked by pclk)
+Endpoint  : ng37.D[0] (.latch clocked by pclk)
+Path Type : hold
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock pclk (rise edge)                                           0.000     0.000
+clock source latency                                             0.000     0.000
+pclk.inpad[0] (.input)                                           0.000     0.000
+ng37.clk[0] (.latch)                                             0.000     0.000
+ng37.Q[0] (.latch) [clock-to-output]                             0.124     0.124
+[285].in[0] (.names)                                             0.000     0.124
+[285].out[0] (.names)                                            0.235     0.359
+ng193.in[1] (.names)                                             0.000     0.359
+ng193.out[0] (.names)                                            0.235     0.594
+ng37.D[0] (.latch)                                               0.000     0.594
+data arrival time                                                          0.594
+
+clock pclk (rise edge)                                           0.000     0.000
+clock source latency                                             0.000     0.000
+pclk.inpad[0] (.input)                                           0.000     0.000
+ng37.clk[0] (.latch)                                             0.000     0.000
+clock uncertainty                                                0.000     0.000
+cell hold time                                                   0.066     0.066
+data required time                                                         0.066
+--------------------------------------------------------------------------------
+data required time                                                        -0.066
+data arrival time                                                          0.594
+--------------------------------------------------------------------------------
+slack (MET)                                                                0.528
+
+
+#Path 32
+Startpoint: ng51.Q[0] (.latch clocked by pclk)
+Endpoint  : ng51.D[0] (.latch clocked by pclk)
+Path Type : hold
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock pclk (rise edge)                                           0.000     0.000
+clock source latency                                             0.000     0.000
+pclk.inpad[0] (.input)                                           0.000     0.000
+ng51.clk[0] (.latch)                                             0.000     0.000
+ng51.Q[0] (.latch) [clock-to-output]                             0.124     0.124
+[1470].in[0] (.names)                                            0.000     0.124
+[1470].out[0] (.names)                                           0.235     0.359
+ng360.in[1] (.names)                                             0.000     0.359
+ng360.out[0] (.names)                                            0.235     0.594
+ng51.D[0] (.latch)                                               0.000     0.594
+data arrival time                                                          0.594
+
+clock pclk (rise edge)                                           0.000     0.000
+clock source latency                                             0.000     0.000
+pclk.inpad[0] (.input)                                           0.000     0.000
+ng51.clk[0] (.latch)                                             0.000     0.000
+clock uncertainty                                                0.000     0.000
+cell hold time                                                   0.066     0.066
+data required time                                                         0.066
+--------------------------------------------------------------------------------
+data required time                                                        -0.066
+data arrival time                                                          0.594
+--------------------------------------------------------------------------------
+slack (MET)                                                                0.528
+
+
+#Path 33
+Startpoint: ng52.Q[0] (.latch clocked by pclk)
+Endpoint  : ng52.D[0] (.latch clocked by pclk)
+Path Type : hold
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock pclk (rise edge)                                           0.000     0.000
+clock source latency                                             0.000     0.000
+pclk.inpad[0] (.input)                                           0.000     0.000
+ng52.clk[0] (.latch)                                             0.000     0.000
+ng52.Q[0] (.latch) [clock-to-output]                             0.124     0.124
+[223].in[0] (.names)                                             0.000     0.124
+[223].out[0] (.names)                                            0.235     0.359
+ng365.in[1] (.names)                                             0.000     0.359
+ng365.out[0] (.names)                                            0.235     0.594
+ng52.D[0] (.latch)                                               0.000     0.594
+data arrival time                                                          0.594
+
+clock pclk (rise edge)                                           0.000     0.000
+clock source latency                                             0.000     0.000
+pclk.inpad[0] (.input)                                           0.000     0.000
+ng52.clk[0] (.latch)                                             0.000     0.000
+clock uncertainty                                                0.000     0.000
+cell hold time                                                   0.066     0.066
+data required time                                                         0.066
+--------------------------------------------------------------------------------
+data required time                                                        -0.066
+data arrival time                                                          0.594
+--------------------------------------------------------------------------------
+slack (MET)                                                                0.528
+
+
+#Path 34
+Startpoint: ng75.Q[0] (.latch clocked by pclk)
+Endpoint  : ng75.D[0] (.latch clocked by pclk)
+Path Type : hold
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock pclk (rise edge)                                           0.000     0.000
+clock source latency                                             0.000     0.000
+pclk.inpad[0] (.input)                                           0.000     0.000
+ng75.clk[0] (.latch)                                             0.000     0.000
+ng75.Q[0] (.latch) [clock-to-output]                             0.124     0.124
+[237].in[0] (.names)                                             0.000     0.124
+[237].out[0] (.names)                                            0.235     0.359
+ng531.in[1] (.names)                                             0.000     0.359
+ng531.out[0] (.names)                                            0.235     0.594
+ng75.D[0] (.latch)                                               0.000     0.594
+data arrival time                                                          0.594
+
+clock pclk (rise edge)                                           0.000     0.000
+clock source latency                                             0.000     0.000
+pclk.inpad[0] (.input)                                           0.000     0.000
+ng75.clk[0] (.latch)                                             0.000     0.000
+clock uncertainty                                                0.000     0.000
+cell hold time                                                   0.066     0.066
+data required time                                                         0.066
+--------------------------------------------------------------------------------
+data required time                                                        -0.066
+data arrival time                                                          0.594
+--------------------------------------------------------------------------------
+slack (MET)                                                                0.528
+
+
+#Path 35
+Startpoint: ng74.Q[0] (.latch clocked by pclk)
+Endpoint  : ng74.D[0] (.latch clocked by pclk)
+Path Type : hold
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock pclk (rise edge)                                           0.000     0.000
+clock source latency                                             0.000     0.000
+pclk.inpad[0] (.input)                                           0.000     0.000
+ng74.clk[0] (.latch)                                             0.000     0.000
+ng74.Q[0] (.latch) [clock-to-output]                             0.124     0.124
+[225].in[0] (.names)                                             0.000     0.124
+[225].out[0] (.names)                                            0.235     0.359
+ng526.in[1] (.names)                                             0.000     0.359
+ng526.out[0] (.names)                                            0.235     0.594
+ng74.D[0] (.latch)                                               0.000     0.594
+data arrival time                                                          0.594
+
+clock pclk (rise edge)                                           0.000     0.000
+clock source latency                                             0.000     0.000
+pclk.inpad[0] (.input)                                           0.000     0.000
+ng74.clk[0] (.latch)                                             0.000     0.000
+clock uncertainty                                                0.000     0.000
+cell hold time                                                   0.066     0.066
+data required time                                                         0.066
+--------------------------------------------------------------------------------
+data required time                                                        -0.066
+data arrival time                                                          0.594
+--------------------------------------------------------------------------------
+slack (MET)                                                                0.528
+
+
+#Path 36
+Startpoint: ng59.Q[0] (.latch clocked by pclk)
+Endpoint  : ng59.D[0] (.latch clocked by pclk)
+Path Type : hold
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock pclk (rise edge)                                           0.000     0.000
+clock source latency                                             0.000     0.000
+pclk.inpad[0] (.input)                                           0.000     0.000
+ng59.clk[0] (.latch)                                             0.000     0.000
+ng59.Q[0] (.latch) [clock-to-output]                             0.124     0.124
+[245].in[0] (.names)                                             0.000     0.124
+[245].out[0] (.names)                                            0.235     0.359
+ng408.in[1] (.names)                                             0.000     0.359
+ng408.out[0] (.names)                                            0.235     0.594
+ng59.D[0] (.latch)                                               0.000     0.594
+data arrival time                                                          0.594
+
+clock pclk (rise edge)                                           0.000     0.000
+clock source latency                                             0.000     0.000
+pclk.inpad[0] (.input)                                           0.000     0.000
+ng59.clk[0] (.latch)                                             0.000     0.000
+clock uncertainty                                                0.000     0.000
+cell hold time                                                   0.066     0.066
+data required time                                                         0.066
+--------------------------------------------------------------------------------
+data required time                                                        -0.066
+data arrival time                                                          0.594
+--------------------------------------------------------------------------------
+slack (MET)                                                                0.528
+
+
+#Path 37
+Startpoint: ng57.Q[0] (.latch clocked by pclk)
+Endpoint  : ng58.D[0] (.latch clocked by pclk)
+Path Type : hold
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock pclk (rise edge)                                           0.000     0.000
+clock source latency                                             0.000     0.000
+pclk.inpad[0] (.input)                                           0.000     0.000
+ng57.clk[0] (.latch)                                             0.000     0.000
+ng57.Q[0] (.latch) [clock-to-output]                             0.124     0.124
+[333].in[0] (.names)                                             0.000     0.124
+[333].out[0] (.names)                                            0.235     0.359
+ng405.in[1] (.names)                                             0.000     0.359
+ng405.out[0] (.names)                                            0.235     0.594
+ng58.D[0] (.latch)                                               0.000     0.594
+data arrival time                                                          0.594
+
+clock pclk (rise edge)                                           0.000     0.000
+clock source latency                                             0.000     0.000
+pclk.inpad[0] (.input)                                           0.000     0.000
+ng58.clk[0] (.latch)                                             0.000     0.000
+clock uncertainty                                                0.000     0.000
+cell hold time                                                   0.066     0.066
+data required time                                                         0.066
+--------------------------------------------------------------------------------
+data required time                                                        -0.066
+data arrival time                                                          0.594
+--------------------------------------------------------------------------------
+slack (MET)                                                                0.528
+
+
+#Path 38
+Startpoint: ng57.Q[0] (.latch clocked by pclk)
+Endpoint  : ng57.D[0] (.latch clocked by pclk)
+Path Type : hold
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock pclk (rise edge)                                           0.000     0.000
+clock source latency                                             0.000     0.000
+pclk.inpad[0] (.input)                                           0.000     0.000
+ng57.clk[0] (.latch)                                             0.000     0.000
+ng57.Q[0] (.latch) [clock-to-output]                             0.124     0.124
+[296].in[0] (.names)                                             0.000     0.124
+[296].out[0] (.names)                                            0.235     0.359
+ng397.in[1] (.names)                                             0.000     0.359
+ng397.out[0] (.names)                                            0.235     0.594
+ng57.D[0] (.latch)                                               0.000     0.594
+data arrival time                                                          0.594
+
+clock pclk (rise edge)                                           0.000     0.000
+clock source latency                                             0.000     0.000
+pclk.inpad[0] (.input)                                           0.000     0.000
+ng57.clk[0] (.latch)                                             0.000     0.000
+clock uncertainty                                                0.000     0.000
+cell hold time                                                   0.066     0.066
+data required time                                                         0.066
+--------------------------------------------------------------------------------
+data required time                                                        -0.066
+data arrival time                                                          0.594
+--------------------------------------------------------------------------------
+slack (MET)                                                                0.528
+
+
+#Path 39
+Startpoint: ng70.Q[0] (.latch clocked by pclk)
+Endpoint  : ng70.D[0] (.latch clocked by pclk)
+Path Type : hold
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock pclk (rise edge)                                           0.000     0.000
+clock source latency                                             0.000     0.000
+pclk.inpad[0] (.input)                                           0.000     0.000
+ng70.clk[0] (.latch)                                             0.000     0.000
+ng70.Q[0] (.latch) [clock-to-output]                             0.124     0.124
+[247].in[0] (.names)                                             0.000     0.124
+[247].out[0] (.names)                                            0.235     0.359
+ng477.in[1] (.names)                                             0.000     0.359
+ng477.out[0] (.names)                                            0.235     0.594
+ng70.D[0] (.latch)                                               0.000     0.594
+data arrival time                                                          0.594
+
+clock pclk (rise edge)                                           0.000     0.000
+clock source latency                                             0.000     0.000
+pclk.inpad[0] (.input)                                           0.000     0.000
+ng70.clk[0] (.latch)                                             0.000     0.000
+clock uncertainty                                                0.000     0.000
+cell hold time                                                   0.066     0.066
+data required time                                                         0.066
+--------------------------------------------------------------------------------
+data required time                                                        -0.066
+data arrival time                                                          0.594
+--------------------------------------------------------------------------------
+slack (MET)                                                                0.528
+
+
+#Path 40
+Startpoint: ng63.Q[0] (.latch clocked by pclk)
+Endpoint  : ng63.D[0] (.latch clocked by pclk)
+Path Type : hold
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock pclk (rise edge)                                           0.000     0.000
+clock source latency                                             0.000     0.000
+pclk.inpad[0] (.input)                                           0.000     0.000
+ng63.clk[0] (.latch)                                             0.000     0.000
+ng63.Q[0] (.latch) [clock-to-output]                             0.124     0.124
+[224].in[0] (.names)                                             0.000     0.124
+[224].out[0] (.names)                                            0.235     0.359
+ng438.in[1] (.names)                                             0.000     0.359
+ng438.out[0] (.names)                                            0.235     0.594
+ng63.D[0] (.latch)                                               0.000     0.594
+data arrival time                                                          0.594
+
+clock pclk (rise edge)                                           0.000     0.000
+clock source latency                                             0.000     0.000
+pclk.inpad[0] (.input)                                           0.000     0.000
+ng63.clk[0] (.latch)                                             0.000     0.000
+clock uncertainty                                                0.000     0.000
+cell hold time                                                   0.066     0.066
+data required time                                                         0.066
+--------------------------------------------------------------------------------
+data required time                                                        -0.066
+data arrival time                                                          0.594
+--------------------------------------------------------------------------------
+slack (MET)                                                                0.528
+
+
+#Path 41
+Startpoint: ng65.Q[0] (.latch clocked by pclk)
+Endpoint  : ng65.D[0] (.latch clocked by pclk)
+Path Type : hold
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock pclk (rise edge)                                           0.000     0.000
+clock source latency                                             0.000     0.000
+pclk.inpad[0] (.input)                                           0.000     0.000
+ng65.clk[0] (.latch)                                             0.000     0.000
+ng65.Q[0] (.latch) [clock-to-output]                             0.124     0.124
+[360].in[1] (.names)                                             0.000     0.124
+[360].out[0] (.names)                                            0.235     0.359
+ng447.in[1] (.names)                                             0.000     0.359
+ng447.out[0] (.names)                                            0.235     0.594
+ng65.D[0] (.latch)                                               0.000     0.594
+data arrival time                                                          0.594
+
+clock pclk (rise edge)                                           0.000     0.000
+clock source latency                                             0.000     0.000
+pclk.inpad[0] (.input)                                           0.000     0.000
+ng65.clk[0] (.latch)                                             0.000     0.000
+clock uncertainty                                                0.000     0.000
+cell hold time                                                   0.066     0.066
+data required time                                                         0.066
+--------------------------------------------------------------------------------
+data required time                                                        -0.066
+data arrival time                                                          0.594
+--------------------------------------------------------------------------------
+slack (MET)                                                                0.528
+
+
+#Path 42
+Startpoint: ng22.Q[0] (.latch clocked by pclk)
+Endpoint  : ng22.D[0] (.latch clocked by pclk)
+Path Type : hold
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock pclk (rise edge)                                           0.000     0.000
+clock source latency                                             0.000     0.000
+pclk.inpad[0] (.input)                                           0.000     0.000
+ng22.clk[0] (.latch)                                             0.000     0.000
+ng22.Q[0] (.latch) [clock-to-output]                             0.124     0.124
+[455].in[0] (.names)                                             0.000     0.124
+[455].out[0] (.names)                                            0.235     0.359
+ng332.in[0] (.names)                                             0.000     0.359
+ng332.out[0] (.names)                                            0.235     0.594
+ng22.D[0] (.latch)                                               0.000     0.594
+data arrival time                                                          0.594
+
+clock pclk (rise edge)                                           0.000     0.000
+clock source latency                                             0.000     0.000
+pclk.inpad[0] (.input)                                           0.000     0.000
+ng22.clk[0] (.latch)                                             0.000     0.000
+clock uncertainty                                                0.000     0.000
+cell hold time                                                   0.066     0.066
+data required time                                                         0.066
+--------------------------------------------------------------------------------
+data required time                                                        -0.066
+data arrival time                                                          0.594
+--------------------------------------------------------------------------------
+slack (MET)                                                                0.528
+
+
+#Path 43
+Startpoint: ng65.Q[0] (.latch clocked by pclk)
+Endpoint  : ng66.D[0] (.latch clocked by pclk)
+Path Type : hold
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock pclk (rise edge)                                           0.000     0.000
+clock source latency                                             0.000     0.000
+pclk.inpad[0] (.input)                                           0.000     0.000
+ng65.clk[0] (.latch)                                             0.000     0.000
+ng65.Q[0] (.latch) [clock-to-output]                             0.124     0.124
+[293].in[0] (.names)                                             0.000     0.124
+[293].out[0] (.names)                                            0.235     0.359
+ng451.in[0] (.names)                                             0.000     0.359
+ng451.out[0] (.names)                                            0.235     0.594
+ng66.D[0] (.latch)                                               0.000     0.594
+data arrival time                                                          0.594
+
+clock pclk (rise edge)                                           0.000     0.000
+clock source latency                                             0.000     0.000
+pclk.inpad[0] (.input)                                           0.000     0.000
+ng66.clk[0] (.latch)                                             0.000     0.000
+clock uncertainty                                                0.000     0.000
+cell hold time                                                   0.066     0.066
+data required time                                                         0.066
+--------------------------------------------------------------------------------
+data required time                                                        -0.066
+data arrival time                                                          0.594
+--------------------------------------------------------------------------------
+slack (MET)                                                                0.528
+
+
+#Path 44
+Startpoint: ng63.Q[0] (.latch clocked by pclk)
+Endpoint  : ng64.D[0] (.latch clocked by pclk)
+Path Type : hold
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock pclk (rise edge)                                           0.000     0.000
+clock source latency                                             0.000     0.000
+pclk.inpad[0] (.input)                                           0.000     0.000
+ng63.clk[0] (.latch)                                             0.000     0.000
+ng63.Q[0] (.latch) [clock-to-output]                             0.124     0.124
+[352].in[0] (.names)                                             0.000     0.124
+[352].out[0] (.names)                                            0.235     0.359
+ng441.in[0] (.names)                                             0.000     0.359
+ng441.out[0] (.names)                                            0.235     0.594
+ng64.D[0] (.latch)                                               0.000     0.594
+data arrival time                                                          0.594
+
+clock pclk (rise edge)                                           0.000     0.000
+clock source latency                                             0.000     0.000
+pclk.inpad[0] (.input)                                           0.000     0.000
+ng64.clk[0] (.latch)                                             0.000     0.000
+clock uncertainty                                                0.000     0.000
+cell hold time                                                   0.066     0.066
+data required time                                                         0.066
+--------------------------------------------------------------------------------
+data required time                                                        -0.066
+data arrival time                                                          0.594
+--------------------------------------------------------------------------------
+slack (MET)                                                                0.528
+
+
+#Path 45
+Startpoint: ng94.Q[0] (.latch clocked by pclk)
+Endpoint  : ng94.D[0] (.latch clocked by pclk)
+Path Type : hold
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock pclk (rise edge)                                           0.000     0.000
+clock source latency                                             0.000     0.000
+pclk.inpad[0] (.input)                                           0.000     0.000
+ng94.clk[0] (.latch)                                             0.000     0.000
+ng94.Q[0] (.latch) [clock-to-output]                             0.124     0.124
+[406].in[0] (.names)                                             0.000     0.124
+[406].out[0] (.names)                                            0.235     0.359
+ng707.in[0] (.names)                                             0.000     0.359
+ng707.out[0] (.names)                                            0.235     0.594
+ng94.D[0] (.latch)                                               0.000     0.594
+data arrival time                                                          0.594
+
+clock pclk (rise edge)                                           0.000     0.000
+clock source latency                                             0.000     0.000
+pclk.inpad[0] (.input)                                           0.000     0.000
+ng94.clk[0] (.latch)                                             0.000     0.000
+clock uncertainty                                                0.000     0.000
+cell hold time                                                   0.066     0.066
+data required time                                                         0.066
+--------------------------------------------------------------------------------
+data required time                                                        -0.066
+data arrival time                                                          0.594
+--------------------------------------------------------------------------------
+slack (MET)                                                                0.528
+
+
+#Path 46
+Startpoint: ng79.Q[0] (.latch clocked by pclk)
+Endpoint  : ng79.D[0] (.latch clocked by pclk)
+Path Type : hold
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock pclk (rise edge)                                           0.000     0.000
+clock source latency                                             0.000     0.000
+pclk.inpad[0] (.input)                                           0.000     0.000
+ng79.clk[0] (.latch)                                             0.000     0.000
+ng79.Q[0] (.latch) [clock-to-output]                             0.124     0.124
+[161].in[0] (.names)                                             0.000     0.124
+[161].out[0] (.names)                                            0.235     0.359
+ng565.in[0] (.names)                                             0.000     0.359
+ng565.out[0] (.names)                                            0.235     0.594
+ng79.D[0] (.latch)                                               0.000     0.594
+data arrival time                                                          0.594
+
+clock pclk (rise edge)                                           0.000     0.000
+clock source latency                                             0.000     0.000
+pclk.inpad[0] (.input)                                           0.000     0.000
+ng79.clk[0] (.latch)                                             0.000     0.000
+clock uncertainty                                                0.000     0.000
+cell hold time                                                   0.066     0.066
+data required time                                                         0.066
+--------------------------------------------------------------------------------
+data required time                                                        -0.066
+data arrival time                                                          0.594
+--------------------------------------------------------------------------------
+slack (MET)                                                                0.528
+
+
+#Path 47
+Startpoint: ng81.Q[0] (.latch clocked by pclk)
+Endpoint  : ng81.D[0] (.latch clocked by pclk)
+Path Type : hold
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock pclk (rise edge)                                           0.000     0.000
+clock source latency                                             0.000     0.000
+pclk.inpad[0] (.input)                                           0.000     0.000
+ng81.clk[0] (.latch)                                             0.000     0.000
+ng81.Q[0] (.latch) [clock-to-output]                             0.124     0.124
+[312].in[0] (.names)                                             0.000     0.124
+[312].out[0] (.names)                                            0.235     0.359
+ng573.in[0] (.names)                                             0.000     0.359
+ng573.out[0] (.names)                                            0.235     0.594
+ng81.D[0] (.latch)                                               0.000     0.594
+data arrival time                                                          0.594
+
+clock pclk (rise edge)                                           0.000     0.000
+clock source latency                                             0.000     0.000
+pclk.inpad[0] (.input)                                           0.000     0.000
+ng81.clk[0] (.latch)                                             0.000     0.000
+clock uncertainty                                                0.000     0.000
+cell hold time                                                   0.066     0.066
+data required time                                                         0.066
+--------------------------------------------------------------------------------
+data required time                                                        -0.066
+data arrival time                                                          0.594
+--------------------------------------------------------------------------------
+slack (MET)                                                                0.528
+
+
+#Path 48
+Startpoint: ng87.Q[0] (.latch clocked by pclk)
+Endpoint  : ng87.D[0] (.latch clocked by pclk)
+Path Type : hold
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock pclk (rise edge)                                           0.000     0.000
+clock source latency                                             0.000     0.000
+pclk.inpad[0] (.input)                                           0.000     0.000
+ng87.clk[0] (.latch)                                             0.000     0.000
+ng87.Q[0] (.latch) [clock-to-output]                             0.124     0.124
+[193].in[0] (.names)                                             0.000     0.124
+[193].out[0] (.names)                                            0.235     0.359
+ng663.in[0] (.names)                                             0.000     0.359
+ng663.out[0] (.names)                                            0.235     0.594
+ng87.D[0] (.latch)                                               0.000     0.594
+data arrival time                                                          0.594
+
+clock pclk (rise edge)                                           0.000     0.000
+clock source latency                                             0.000     0.000
+pclk.inpad[0] (.input)                                           0.000     0.000
+ng87.clk[0] (.latch)                                             0.000     0.000
+clock uncertainty                                                0.000     0.000
+cell hold time                                                   0.066     0.066
+data required time                                                         0.066
+--------------------------------------------------------------------------------
+data required time                                                        -0.066
+data arrival time                                                          0.594
+--------------------------------------------------------------------------------
+slack (MET)                                                                0.528
+
+
+#Path 49
+Startpoint: ng84.Q[0] (.latch clocked by pclk)
+Endpoint  : ng84.D[0] (.latch clocked by pclk)
+Path Type : hold
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock pclk (rise edge)                                           0.000     0.000
+clock source latency                                             0.000     0.000
+pclk.inpad[0] (.input)                                           0.000     0.000
+ng84.clk[0] (.latch)                                             0.000     0.000
+ng84.Q[0] (.latch) [clock-to-output]                             0.124     0.124
+[388].in[0] (.names)                                             0.000     0.124
+[388].out[0] (.names)                                            0.235     0.359
+ng608.in[0] (.names)                                             0.000     0.359
+ng608.out[0] (.names)                                            0.235     0.594
+ng84.D[0] (.latch)                                               0.000     0.594
+data arrival time                                                          0.594
+
+clock pclk (rise edge)                                           0.000     0.000
+clock source latency                                             0.000     0.000
+pclk.inpad[0] (.input)                                           0.000     0.000
+ng84.clk[0] (.latch)                                             0.000     0.000
+clock uncertainty                                                0.000     0.000
+cell hold time                                                   0.066     0.066
+data required time                                                         0.066
+--------------------------------------------------------------------------------
+data required time                                                        -0.066
+data arrival time                                                          0.594
+--------------------------------------------------------------------------------
+slack (MET)                                                                0.528
+
+
+#Path 50
+Startpoint: ng89.Q[0] (.latch clocked by pclk)
+Endpoint  : ng89.D[0] (.latch clocked by pclk)
+Path Type : hold
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock pclk (rise edge)                                           0.000     0.000
+clock source latency                                             0.000     0.000
+pclk.inpad[0] (.input)                                           0.000     0.000
+ng89.clk[0] (.latch)                                             0.000     0.000
+ng89.Q[0] (.latch) [clock-to-output]                             0.124     0.124
+[177].in[0] (.names)                                             0.000     0.124
+[177].out[0] (.names)                                            0.235     0.359
+ng675.in[0] (.names)                                             0.000     0.359
+ng675.out[0] (.names)                                            0.235     0.594
+ng89.D[0] (.latch)                                               0.000     0.594
+data arrival time                                                          0.594
+
+clock pclk (rise edge)                                           0.000     0.000
+clock source latency                                             0.000     0.000
+pclk.inpad[0] (.input)                                           0.000     0.000
+ng89.clk[0] (.latch)                                             0.000     0.000
+clock uncertainty                                                0.000     0.000
+cell hold time                                                   0.066     0.066
+data required time                                                         0.066
+--------------------------------------------------------------------------------
+data required time                                                        -0.066
+data arrival time                                                          0.594
+--------------------------------------------------------------------------------
+slack (MET)                                                                0.528
+
+
+#Path 51
+Startpoint: ng82.Q[0] (.latch clocked by pclk)
+Endpoint  : ng82.D[0] (.latch clocked by pclk)
+Path Type : hold
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock pclk (rise edge)                                           0.000     0.000
+clock source latency                                             0.000     0.000
+pclk.inpad[0] (.input)                                           0.000     0.000
+ng82.clk[0] (.latch)                                             0.000     0.000
+ng82.Q[0] (.latch) [clock-to-output]                             0.124     0.124
+[399].in[0] (.names)                                             0.000     0.124
+[399].out[0] (.names)                                            0.235     0.359
+ng577.in[0] (.names)                                             0.000     0.359
+ng577.out[0] (.names)                                            0.235     0.594
+ng82.D[0] (.latch)                                               0.000     0.594
+data arrival time                                                          0.594
+
+clock pclk (rise edge)                                           0.000     0.000
+clock source latency                                             0.000     0.000
+pclk.inpad[0] (.input)                                           0.000     0.000
+ng82.clk[0] (.latch)                                             0.000     0.000
+clock uncertainty                                                0.000     0.000
+cell hold time                                                   0.066     0.066
+data required time                                                         0.066
+--------------------------------------------------------------------------------
+data required time                                                        -0.066
+data arrival time                                                          0.594
+--------------------------------------------------------------------------------
+slack (MET)                                                                0.528
+
+
+#Path 52
+Startpoint: ng88.Q[0] (.latch clocked by pclk)
+Endpoint  : ng88.D[0] (.latch clocked by pclk)
+Path Type : hold
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock pclk (rise edge)                                           0.000     0.000
+clock source latency                                             0.000     0.000
+pclk.inpad[0] (.input)                                           0.000     0.000
+ng88.clk[0] (.latch)                                             0.000     0.000
+ng88.Q[0] (.latch) [clock-to-output]                             0.124     0.124
+[155].in[0] (.names)                                             0.000     0.124
+[155].out[0] (.names)                                            0.235     0.359
+ng669.in[0] (.names)                                             0.000     0.359
+ng669.out[0] (.names)                                            0.235     0.594
+ng88.D[0] (.latch)                                               0.000     0.594
+data arrival time                                                          0.594
+
+clock pclk (rise edge)                                           0.000     0.000
+clock source latency                                             0.000     0.000
+pclk.inpad[0] (.input)                                           0.000     0.000
+ng88.clk[0] (.latch)                                             0.000     0.000
+clock uncertainty                                                0.000     0.000
+cell hold time                                                   0.066     0.066
+data required time                                                         0.066
+--------------------------------------------------------------------------------
+data required time                                                        -0.066
+data arrival time                                                          0.594
+--------------------------------------------------------------------------------
+slack (MET)                                                                0.528
+
+
+#Path 53
+Startpoint: ng43.Q[0] (.latch clocked by pclk)
+Endpoint  : ng43.D[0] (.latch clocked by pclk)
+Path Type : hold
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock pclk (rise edge)                                           0.000     0.000
+clock source latency                                             0.000     0.000
+pclk.inpad[0] (.input)                                           0.000     0.000
+ng43.clk[0] (.latch)                                             0.000     0.000
+ng43.Q[0] (.latch) [clock-to-output]                             0.124     0.124
+[276].in[0] (.names)                                             0.000     0.124
+[276].out[0] (.names)                                            0.235     0.359
+ng242.in[1] (.names)                                             0.000     0.359
+ng242.out[0] (.names)                                            0.235     0.594
+ng43.D[0] (.latch)                                               0.000     0.594
+data arrival time                                                          0.594
+
+clock pclk (rise edge)                                           0.000     0.000
+clock source latency                                             0.000     0.000
+pclk.inpad[0] (.input)                                           0.000     0.000
+ng43.clk[0] (.latch)                                             0.000     0.000
+clock uncertainty                                                0.000     0.000
+cell hold time                                                   0.066     0.066
+data required time                                                         0.066
+--------------------------------------------------------------------------------
+data required time                                                        -0.066
+data arrival time                                                          0.594
+--------------------------------------------------------------------------------
+slack (MET)                                                                0.528
+
+
+#Path 54
+Startpoint: ng42.Q[0] (.latch clocked by pclk)
+Endpoint  : ng42.D[0] (.latch clocked by pclk)
+Path Type : hold
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock pclk (rise edge)                                           0.000     0.000
+clock source latency                                             0.000     0.000
+pclk.inpad[0] (.input)                                           0.000     0.000
+ng42.clk[0] (.latch)                                             0.000     0.000
+ng42.Q[0] (.latch) [clock-to-output]                             0.124     0.124
+[275].in[0] (.names)                                             0.000     0.124
+[275].out[0] (.names)                                            0.235     0.359
+ng237.in[0] (.names)                                             0.000     0.359
+ng237.out[0] (.names)                                            0.235     0.594
+ng42.D[0] (.latch)                                               0.000     0.594
+data arrival time                                                          0.594
+
+clock pclk (rise edge)                                           0.000     0.000
+clock source latency                                             0.000     0.000
+pclk.inpad[0] (.input)                                           0.000     0.000
+ng42.clk[0] (.latch)                                             0.000     0.000
+clock uncertainty                                                0.000     0.000
+cell hold time                                                   0.066     0.066
+data required time                                                         0.066
+--------------------------------------------------------------------------------
+data required time                                                        -0.066
+data arrival time                                                          0.594
+--------------------------------------------------------------------------------
+slack (MET)                                                                0.528
+
+
+#Path 55
+Startpoint: ng44.Q[0] (.latch clocked by pclk)
+Endpoint  : ng44.D[0] (.latch clocked by pclk)
+Path Type : hold
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock pclk (rise edge)                                           0.000     0.000
+clock source latency                                             0.000     0.000
+pclk.inpad[0] (.input)                                           0.000     0.000
+ng44.clk[0] (.latch)                                             0.000     0.000
+ng44.Q[0] (.latch) [clock-to-output]                             0.124     0.124
+[277].in[0] (.names)                                             0.000     0.124
+[277].out[0] (.names)                                            0.235     0.359
+ng247.in[1] (.names)                                             0.000     0.359
+ng247.out[0] (.names)                                            0.235     0.594
+ng44.D[0] (.latch)                                               0.000     0.594
+data arrival time                                                          0.594
+
+clock pclk (rise edge)                                           0.000     0.000
+clock source latency                                             0.000     0.000
+pclk.inpad[0] (.input)                                           0.000     0.000
+ng44.clk[0] (.latch)                                             0.000     0.000
+clock uncertainty                                                0.000     0.000
+cell hold time                                                   0.066     0.066
+data required time                                                         0.066
+--------------------------------------------------------------------------------
+data required time                                                        -0.066
+data arrival time                                                          0.594
+--------------------------------------------------------------------------------
+slack (MET)                                                                0.528
+
+
+#Path 56
+Startpoint: ng45.Q[0] (.latch clocked by pclk)
+Endpoint  : ng45.D[0] (.latch clocked by pclk)
+Path Type : hold
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock pclk (rise edge)                                           0.000     0.000
+clock source latency                                             0.000     0.000
+pclk.inpad[0] (.input)                                           0.000     0.000
+ng45.clk[0] (.latch)                                             0.000     0.000
+ng45.Q[0] (.latch) [clock-to-output]                             0.124     0.124
+[278].in[0] (.names)                                             0.000     0.124
+[278].out[0] (.names)                                            0.235     0.359
+ng252.in[1] (.names)                                             0.000     0.359
+ng252.out[0] (.names)                                            0.235     0.594
+ng45.D[0] (.latch)                                               0.000     0.594
+data arrival time                                                          0.594
+
+clock pclk (rise edge)                                           0.000     0.000
+clock source latency                                             0.000     0.000
+pclk.inpad[0] (.input)                                           0.000     0.000
+ng45.clk[0] (.latch)                                             0.000     0.000
+clock uncertainty                                                0.000     0.000
+cell hold time                                                   0.066     0.066
+data required time                                                         0.066
+--------------------------------------------------------------------------------
+data required time                                                        -0.066
+data arrival time                                                          0.594
+--------------------------------------------------------------------------------
+slack (MET)                                                                0.528
+
+
+#Path 57
+Startpoint: ng46.Q[0] (.latch clocked by pclk)
+Endpoint  : ng46.D[0] (.latch clocked by pclk)
+Path Type : hold
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock pclk (rise edge)                                           0.000     0.000
+clock source latency                                             0.000     0.000
+pclk.inpad[0] (.input)                                           0.000     0.000
+ng46.clk[0] (.latch)                                             0.000     0.000
+ng46.Q[0] (.latch) [clock-to-output]                             0.124     0.124
+[280].in[0] (.names)                                             0.000     0.124
+[280].out[0] (.names)                                            0.235     0.359
+ng260.in[1] (.names)                                             0.000     0.359
+ng260.out[0] (.names)                                            0.235     0.594
+ng46.D[0] (.latch)                                               0.000     0.594
+data arrival time                                                          0.594
+
+clock pclk (rise edge)                                           0.000     0.000
+clock source latency                                             0.000     0.000
+pclk.inpad[0] (.input)                                           0.000     0.000
+ng46.clk[0] (.latch)                                             0.000     0.000
+clock uncertainty                                                0.000     0.000
+cell hold time                                                   0.066     0.066
+data required time                                                         0.066
+--------------------------------------------------------------------------------
+data required time                                                        -0.066
+data arrival time                                                          0.594
+--------------------------------------------------------------------------------
+slack (MET)                                                                0.528
+
+
+#Path 58
+Startpoint: ng24.Q[0] (.latch clocked by pclk)
+Endpoint  : ng24.D[0] (.latch clocked by pclk)
+Path Type : hold
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock pclk (rise edge)                                           0.000     0.000
+clock source latency                                             0.000     0.000
+pclk.inpad[0] (.input)                                           0.000     0.000
+ng24.clk[0] (.latch)                                             0.000     0.000
+ng24.Q[0] (.latch) [clock-to-output]                             0.124     0.124
+[266].in[0] (.names)                                             0.000     0.124
+[266].out[0] (.names)                                            0.235     0.359
+ng109.in[1] (.names)                                             0.000     0.359
+ng109.out[0] (.names)                                            0.235     0.594
+ng24.D[0] (.latch)                                               0.000     0.594
+data arrival time                                                          0.594
+
+clock pclk (rise edge)                                           0.000     0.000
+clock source latency                                             0.000     0.000
+pclk.inpad[0] (.input)                                           0.000     0.000
+ng24.clk[0] (.latch)                                             0.000     0.000
+clock uncertainty                                                0.000     0.000
+cell hold time                                                   0.066     0.066
+data required time                                                         0.066
+--------------------------------------------------------------------------------
+data required time                                                        -0.066
+data arrival time                                                          0.594
+--------------------------------------------------------------------------------
+slack (MET)                                                                0.528
+
+
+#Path 59
+Startpoint: ng26.Q[0] (.latch clocked by pclk)
+Endpoint  : ng26.D[0] (.latch clocked by pclk)
+Path Type : hold
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock pclk (rise edge)                                           0.000     0.000
+clock source latency                                             0.000     0.000
+pclk.inpad[0] (.input)                                           0.000     0.000
+ng26.clk[0] (.latch)                                             0.000     0.000
+ng26.Q[0] (.latch) [clock-to-output]                             0.124     0.124
+[273].in[0] (.names)                                             0.000     0.124
+[273].out[0] (.names)                                            0.235     0.359
+ng118.in[0] (.names)                                             0.000     0.359
+ng118.out[0] (.names)                                            0.235     0.594
+ng26.D[0] (.latch)                                               0.000     0.594
+data arrival time                                                          0.594
+
+clock pclk (rise edge)                                           0.000     0.000
+clock source latency                                             0.000     0.000
+pclk.inpad[0] (.input)                                           0.000     0.000
+ng26.clk[0] (.latch)                                             0.000     0.000
+clock uncertainty                                                0.000     0.000
+cell hold time                                                   0.066     0.066
+data required time                                                         0.066
+--------------------------------------------------------------------------------
+data required time                                                        -0.066
+data arrival time                                                          0.594
+--------------------------------------------------------------------------------
+slack (MET)                                                                0.528
+
+
+#Path 60
+Startpoint: ng25.Q[0] (.latch clocked by pclk)
+Endpoint  : ng25.D[0] (.latch clocked by pclk)
+Path Type : hold
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock pclk (rise edge)                                           0.000     0.000
+clock source latency                                             0.000     0.000
+pclk.inpad[0] (.input)                                           0.000     0.000
+ng25.clk[0] (.latch)                                             0.000     0.000
+ng25.Q[0] (.latch) [clock-to-output]                             0.124     0.124
+[271].in[0] (.names)                                             0.000     0.124
+[271].out[0] (.names)                                            0.235     0.359
+ng113.in[1] (.names)                                             0.000     0.359
+ng113.out[0] (.names)                                            0.235     0.594
+ng25.D[0] (.latch)                                               0.000     0.594
+data arrival time                                                          0.594
+
+clock pclk (rise edge)                                           0.000     0.000
+clock source latency                                             0.000     0.000
+pclk.inpad[0] (.input)                                           0.000     0.000
+ng25.clk[0] (.latch)                                             0.000     0.000
+clock uncertainty                                                0.000     0.000
+cell hold time                                                   0.066     0.066
+data required time                                                         0.066
+--------------------------------------------------------------------------------
+data required time                                                        -0.066
+data arrival time                                                          0.594
+--------------------------------------------------------------------------------
+slack (MET)                                                                0.528
+
+
+#Path 61
+Startpoint: ng27.Q[0] (.latch clocked by pclk)
+Endpoint  : ng27.D[0] (.latch clocked by pclk)
+Path Type : hold
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock pclk (rise edge)                                           0.000     0.000
+clock source latency                                             0.000     0.000
+pclk.inpad[0] (.input)                                           0.000     0.000
+ng27.clk[0] (.latch)                                             0.000     0.000
+ng27.Q[0] (.latch) [clock-to-output]                             0.124     0.124
+[257].in[0] (.names)                                             0.000     0.124
+[257].out[0] (.names)                                            0.235     0.359
+ng125.in[1] (.names)                                             0.000     0.359
+ng125.out[0] (.names)                                            0.235     0.594
+ng27.D[0] (.latch)                                               0.000     0.594
+data arrival time                                                          0.594
+
+clock pclk (rise edge)                                           0.000     0.000
+clock source latency                                             0.000     0.000
+pclk.inpad[0] (.input)                                           0.000     0.000
+ng27.clk[0] (.latch)                                             0.000     0.000
+clock uncertainty                                                0.000     0.000
+cell hold time                                                   0.066     0.066
+data required time                                                         0.066
+--------------------------------------------------------------------------------
+data required time                                                        -0.066
+data arrival time                                                          0.594
+--------------------------------------------------------------------------------
+slack (MET)                                                                0.528
+
+
+#Path 62
+Startpoint: pg13.inpad[0] (.input clocked by pclk)
+Endpoint  : ng86.D[0] (.latch clocked by pclk)
+Path Type : hold
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock pclk (rise edge)                                           0.000     0.000
+clock source latency                                             0.000     0.000
+input external delay                                             0.000     0.000
+pg13.inpad[0] (.input)                                           0.000     0.000
+ng657.in[1] (.names)                                             0.192     0.192
+ng657.out[0] (.names)                                            0.235     0.427
+ng86.D[0] (.latch)                                               0.267     0.694
+data arrival time                                                          0.694
+
+clock pclk (rise edge)                                           0.000     0.000
+clock source latency                                             0.000     0.000
+pclk.inpad[0] (.input)                                           0.000     0.000
+ng86.clk[0] (.latch)                                             0.000     0.000
+clock uncertainty                                                0.000     0.000
+cell hold time                                                   0.066     0.066
+data required time                                                         0.066
+--------------------------------------------------------------------------------
+data required time                                                        -0.066
+data arrival time                                                          0.694
+--------------------------------------------------------------------------------
+slack (MET)                                                                0.628
+
+
+#Path 63
+Startpoint: pg726.Q[0] (.latch clocked by pclk)
+Endpoint  : out:pg726.outpad[0] (.output clocked by pclk)
+Path Type : hold
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock pclk (rise edge)                                           0.000     0.000
+clock source latency                                             0.000     0.000
+pclk.inpad[0] (.input)                                           0.000     0.000
+pg726.clk[0] (.latch)                                            0.000     0.000
+pg726.Q[0] (.latch) [clock-to-output]                            0.124     0.124
+out:pg726.outpad[0] (.output)                                    0.544     0.668
+data arrival time                                                          0.668
+
+clock pclk (rise edge)                                           0.000     0.000
+clock source latency                                             0.000     0.000
+clock uncertainty                                                0.000     0.000
+output external delay                                            0.000     0.000
+data required time                                                         0.000
+--------------------------------------------------------------------------------
+data required time                                                        -0.000
+data arrival time                                                          0.668
+--------------------------------------------------------------------------------
+slack (MET)                                                                0.668
+
+
+#Path 64
+Startpoint: ng22.Q[0] (.latch clocked by pclk)
+Endpoint  : ng23.D[0] (.latch clocked by pclk)
+Path Type : hold
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock pclk (rise edge)                                           0.000     0.000
+clock source latency                                             0.000     0.000
+pclk.inpad[0] (.input)                                           0.000     0.000
+ng22.clk[0] (.latch)                                             0.000     0.000
+ng22.Q[0] (.latch) [clock-to-output]                             0.124     0.124
+[451].in[0] (.names)                                             0.000     0.124
+[451].out[0] (.names)                                            0.235     0.359
+ng328.in[0] (.names)                                             0.000     0.359
+ng328.out[0] (.names)                                            0.235     0.594
+ng23.D[0] (.latch)                                               0.184     0.778
+data arrival time                                                          0.778
+
+clock pclk (rise edge)                                           0.000     0.000
+clock source latency                                             0.000     0.000
+pclk.inpad[0] (.input)                                           0.000     0.000
+ng23.clk[0] (.latch)                                             0.000     0.000
+clock uncertainty                                                0.000     0.000
+cell hold time                                                   0.066     0.066
+data required time                                                         0.066
+--------------------------------------------------------------------------------
+data required time                                                        -0.066
+data arrival time                                                          0.778
+--------------------------------------------------------------------------------
+slack (MET)                                                                0.712
+
+
+#Path 65
+Startpoint: pg729.Q[0] (.latch clocked by pclk)
+Endpoint  : out:pg729.outpad[0] (.output clocked by pclk)
+Path Type : hold
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock pclk (rise edge)                                           0.000     0.000
+clock source latency                                             0.000     0.000
+pclk.inpad[0] (.input)                                           0.000     0.000
+pg729.clk[0] (.latch)                                            0.000     0.000
+pg729.Q[0] (.latch) [clock-to-output]                            0.124     0.124
+out:pg729.outpad[0] (.output)                                    0.593     0.717
+data arrival time                                                          0.717
+
+clock pclk (rise edge)                                           0.000     0.000
+clock source latency                                             0.000     0.000
+clock uncertainty                                                0.000     0.000
+output external delay                                            0.000     0.000
+data required time                                                         0.000
+--------------------------------------------------------------------------------
+data required time                                                        -0.000
+data arrival time                                                          0.717
+--------------------------------------------------------------------------------
+slack (MET)                                                                0.717
+
+
+#Path 66
+Startpoint: pg14.inpad[0] (.input clocked by pclk)
+Endpoint  : pg726.D[0] (.latch clocked by pclk)
+Path Type : hold
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock pclk (rise edge)                                           0.000     0.000
+clock source latency                                             0.000     0.000
+input external delay                                             0.000     0.000
+pg14.inpad[0] (.input)                                           0.000     0.000
+ng705.in[0] (.names)                                             0.587     0.587
+ng705.out[0] (.names)                                            0.235     0.822
+pg726.D[0] (.latch)                                              0.000     0.822
+data arrival time                                                          0.822
+
+clock pclk (rise edge)                                           0.000     0.000
+clock source latency                                             0.000     0.000
+pclk.inpad[0] (.input)                                           0.000     0.000
+pg726.clk[0] (.latch)                                            0.000     0.000
+clock uncertainty                                                0.000     0.000
+cell hold time                                                   0.066     0.066
+data required time                                                         0.066
+--------------------------------------------------------------------------------
+data required time                                                        -0.066
+data arrival time                                                          0.822
+--------------------------------------------------------------------------------
+slack (MET)                                                                0.756
+
+
+#Path 67
+Startpoint: ng73.Q[0] (.latch clocked by pclk)
+Endpoint  : ng73.D[0] (.latch clocked by pclk)
+Path Type : hold
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock pclk (rise edge)                                           0.000     0.000
+clock source latency                                             0.000     0.000
+pclk.inpad[0] (.input)                                           0.000     0.000
+ng73.clk[0] (.latch)                                             0.000     0.000
+ng73.Q[0] (.latch) [clock-to-output]                             0.124     0.124
+[405].in[0] (.names)                                             0.000     0.124
+[405].out[0] (.names)                                            0.235     0.359
+[1445].in[1] (.names)                                            0.000     0.359
+[1445].out[0] (.names)                                           0.235     0.594
+ng503.in[1] (.names)                                             0.000     0.594
+ng503.out[0] (.names)                                            0.235     0.829
+ng73.D[0] (.latch)                                               0.000     0.829
+data arrival time                                                          0.829
+
+clock pclk (rise edge)                                           0.000     0.000
+clock source latency                                             0.000     0.000
+pclk.inpad[0] (.input)                                           0.000     0.000
+ng73.clk[0] (.latch)                                             0.000     0.000
+clock uncertainty                                                0.000     0.000
+cell hold time                                                   0.066     0.066
+data required time                                                         0.066
+--------------------------------------------------------------------------------
+data required time                                                        -0.066
+data arrival time                                                          0.829
+--------------------------------------------------------------------------------
+slack (MET)                                                                0.763
+
+
+#Path 68
+Startpoint: ng72.Q[0] (.latch clocked by pclk)
+Endpoint  : ng72.D[0] (.latch clocked by pclk)
+Path Type : hold
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock pclk (rise edge)                                           0.000     0.000
+clock source latency                                             0.000     0.000
+pclk.inpad[0] (.input)                                           0.000     0.000
+ng72.clk[0] (.latch)                                             0.000     0.000
+ng72.Q[0] (.latch) [clock-to-output]                             0.124     0.124
+[436].in[0] (.names)                                             0.000     0.124
+[436].out[0] (.names)                                            0.235     0.359
+[1430].in[1] (.names)                                            0.000     0.359
+[1430].out[0] (.names)                                           0.235     0.594
+ng498.in[1] (.names)                                             0.000     0.594
+ng498.out[0] (.names)                                            0.235     0.829
+ng72.D[0] (.latch)                                               0.000     0.829
+data arrival time                                                          0.829
+
+clock pclk (rise edge)                                           0.000     0.000
+clock source latency                                             0.000     0.000
+pclk.inpad[0] (.input)                                           0.000     0.000
+ng72.clk[0] (.latch)                                             0.000     0.000
+clock uncertainty                                                0.000     0.000
+cell hold time                                                   0.066     0.066
+data required time                                                         0.066
+--------------------------------------------------------------------------------
+data required time                                                        -0.066
+data arrival time                                                          0.829
+--------------------------------------------------------------------------------
+slack (MET)                                                                0.763
+
+
+#Path 69
+Startpoint: ng91.Q[0] (.latch clocked by pclk)
+Endpoint  : ng92.D[0] (.latch clocked by pclk)
+Path Type : hold
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock pclk (rise edge)                                           0.000     0.000
+clock source latency                                             0.000     0.000
+pclk.inpad[0] (.input)                                           0.000     0.000
+ng91.clk[0] (.latch)                                             0.000     0.000
+ng91.Q[0] (.latch) [clock-to-output]                             0.124     0.124
+[393].in[0] (.names)                                             0.312     0.436
+[393].out[0] (.names)                                            0.235     0.671
+ng693.in[0] (.names)                                             0.000     0.671
+ng693.out[0] (.names)                                            0.235     0.906
+ng92.D[0] (.latch)                                               0.000     0.906
+data arrival time                                                          0.906
+
+clock pclk (rise edge)                                           0.000     0.000
+clock source latency                                             0.000     0.000
+pclk.inpad[0] (.input)                                           0.000     0.000
+ng92.clk[0] (.latch)                                             0.000     0.000
+clock uncertainty                                                0.000     0.000
+cell hold time                                                   0.066     0.066
+data required time                                                         0.066
+--------------------------------------------------------------------------------
+data required time                                                        -0.066
+data arrival time                                                          0.906
+--------------------------------------------------------------------------------
+slack (MET)                                                                0.840
+
+
+#Path 70
+Startpoint: ng86.Q[0] (.latch clocked by pclk)
+Endpoint  : ng90.D[0] (.latch clocked by pclk)
+Path Type : hold
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock pclk (rise edge)                                           0.000     0.000
+clock source latency                                             0.000     0.000
+pclk.inpad[0] (.input)                                           0.000     0.000
+ng86.clk[0] (.latch)                                             0.000     0.000
+ng86.Q[0] (.latch) [clock-to-output]                             0.124     0.124
+[309].in[1] (.names)                                             0.000     0.124
+[309].out[0] (.names)                                            0.235     0.359
+ng682.in[0] (.names)                                             0.352     0.711
+ng682.out[0] (.names)                                            0.235     0.946
+ng90.D[0] (.latch)                                               0.000     0.946
+data arrival time                                                          0.946
+
+clock pclk (rise edge)                                           0.000     0.000
+clock source latency                                             0.000     0.000
+pclk.inpad[0] (.input)                                           0.000     0.000
+ng90.clk[0] (.latch)                                             0.000     0.000
+clock uncertainty                                                0.000     0.000
+cell hold time                                                   0.066     0.066
+data required time                                                         0.066
+--------------------------------------------------------------------------------
+data required time                                                        -0.066
+data arrival time                                                          0.946
+--------------------------------------------------------------------------------
+slack (MET)                                                                0.880
+
+
+#Path 71
+Startpoint: ng85.Q[0] (.latch clocked by pclk)
+Endpoint  : ng85.D[0] (.latch clocked by pclk)
+Path Type : hold
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock pclk (rise edge)                                           0.000     0.000
+clock source latency                                             0.000     0.000
+pclk.inpad[0] (.input)                                           0.000     0.000
+ng85.clk[0] (.latch)                                             0.000     0.000
+ng85.Q[0] (.latch) [clock-to-output]                             0.124     0.124
+[395].in[0] (.names)                                             0.217     0.341
+[395].out[0] (.names)                                            0.235     0.576
+ng613.in[0] (.names)                                             0.168     0.744
+ng613.out[0] (.names)                                            0.235     0.979
+ng85.D[0] (.latch)                                               0.000     0.979
+data arrival time                                                          0.979
+
+clock pclk (rise edge)                                           0.000     0.000
+clock source latency                                             0.000     0.000
+pclk.inpad[0] (.input)                                           0.000     0.000
+ng85.clk[0] (.latch)                                             0.000     0.000
+clock uncertainty                                                0.000     0.000
+cell hold time                                                   0.066     0.066
+data required time                                                         0.066
+--------------------------------------------------------------------------------
+data required time                                                        -0.066
+data arrival time                                                          0.979
+--------------------------------------------------------------------------------
+slack (MET)                                                                0.913
+
+
+#Path 72
+Startpoint: ng80.Q[0] (.latch clocked by pclk)
+Endpoint  : ng80.D[0] (.latch clocked by pclk)
+Path Type : hold
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock pclk (rise edge)                                           0.000     0.000
+clock source latency                                             0.000     0.000
+pclk.inpad[0] (.input)                                           0.000     0.000
+ng80.clk[0] (.latch)                                             0.000     0.000
+ng80.Q[0] (.latch) [clock-to-output]                             0.124     0.124
+[325].in[0] (.names)                                             0.218     0.342
+[325].out[0] (.names)                                            0.235     0.577
+ng569.in[0] (.names)                                             0.212     0.789
+ng569.out[0] (.names)                                            0.235     1.024
+ng80.D[0] (.latch)                                               0.000     1.024
+data arrival time                                                          1.024
+
+clock pclk (rise edge)                                           0.000     0.000
+clock source latency                                             0.000     0.000
+pclk.inpad[0] (.input)                                           0.000     0.000
+ng80.clk[0] (.latch)                                             0.000     0.000
+clock uncertainty                                                0.000     0.000
+cell hold time                                                   0.066     0.066
+data required time                                                         0.066
+--------------------------------------------------------------------------------
+data required time                                                        -0.066
+data arrival time                                                          1.024
+--------------------------------------------------------------------------------
+slack (MET)                                                                0.958
+
+
+#Path 73
+Startpoint: pg15.inpad[0] (.input clocked by pclk)
+Endpoint  : out:pg701bf.outpad[0] (.output clocked by pclk)
+Path Type : hold
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock pclk (rise edge)                                           0.000     0.000
+clock source latency                                             0.000     0.000
+input external delay                                             0.000     0.000
+pg15.inpad[0] (.input)                                           0.000     0.000
+pg701bf.in[0] (.names)                                           0.336     0.336
+pg701bf.out[0] (.names)                                          0.235     0.571
+out:pg701bf.outpad[0] (.output)                                  0.409     0.980
+data arrival time                                                          0.980
+
+clock pclk (rise edge)                                           0.000     0.000
+clock source latency                                             0.000     0.000
+clock uncertainty                                                0.000     0.000
+output external delay                                            0.000     0.000
+data required time                                                         0.000
+--------------------------------------------------------------------------------
+data required time                                                        -0.000
+data arrival time                                                          0.980
+--------------------------------------------------------------------------------
+slack (MET)                                                                0.980
+
+
+#Path 74
+Startpoint: ng83.Q[0] (.latch clocked by pclk)
+Endpoint  : pg729.D[0] (.latch clocked by pclk)
+Path Type : hold
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock pclk (rise edge)                                           0.000     0.000
+clock source latency                                             0.000     0.000
+pclk.inpad[0] (.input)                                           0.000     0.000
+ng83.clk[0] (.latch)                                             0.000     0.000
+ng83.Q[0] (.latch) [clock-to-output]                             0.124     0.124
+[1446].in[0] (.names)                                            0.267     0.391
+[1446].out[0] (.names)                                           0.235     0.626
+[1447].in[1] (.names)                                            0.000     0.626
+[1447].out[0] (.names)                                           0.235     0.861
+ng713.in[1] (.names)                                             0.000     0.861
+ng713.out[0] (.names)                                            0.235     1.096
+pg729.D[0] (.latch)                                              0.000     1.096
+data arrival time                                                          1.096
+
+clock pclk (rise edge)                                           0.000     0.000
+clock source latency                                             0.000     0.000
+pclk.inpad[0] (.input)                                           0.000     0.000
+pg729.clk[0] (.latch)                                            0.000     0.000
+clock uncertainty                                                0.000     0.000
+cell hold time                                                   0.066     0.066
+data required time                                                         0.066
+--------------------------------------------------------------------------------
+data required time                                                        -0.066
+data arrival time                                                          1.096
+--------------------------------------------------------------------------------
+slack (MET)                                                                1.030
+
+
+#Path 75
+Startpoint: ng90.Q[0] (.latch clocked by pclk)
+Endpoint  : ng91.D[0] (.latch clocked by pclk)
+Path Type : hold
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock pclk (rise edge)                                           0.000     0.000
+clock source latency                                             0.000     0.000
+pclk.inpad[0] (.input)                                           0.000     0.000
+ng90.clk[0] (.latch)                                             0.000     0.000
+ng90.Q[0] (.latch) [clock-to-output]                             0.124     0.124
+[323].in[0] (.names)                                             0.191     0.315
+[323].out[0] (.names)                                            0.235     0.550
+ng687.in[0] (.names)                                             0.356     0.905
+ng687.out[0] (.names)                                            0.235     1.140
+ng91.D[0] (.latch)                                               0.000     1.140
+data arrival time                                                          1.140
+
+clock pclk (rise edge)                                           0.000     0.000
+clock source latency                                             0.000     0.000
+pclk.inpad[0] (.input)                                           0.000     0.000
+ng91.clk[0] (.latch)                                             0.000     0.000
+clock uncertainty                                                0.000     0.000
+cell hold time                                                   0.066     0.066
+data required time                                                         0.066
+--------------------------------------------------------------------------------
+data required time                                                        -0.066
+data arrival time                                                          1.140
+--------------------------------------------------------------------------------
+slack (MET)                                                                1.074
+
+
+#Path 76
+Startpoint: pg0.inpad[0] (.input clocked by pclk)
+Endpoint  : ng71.D[0] (.latch clocked by pclk)
+Path Type : hold
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock pclk (rise edge)                                           0.000     0.000
+clock source latency                                             0.000     0.000
+input external delay                                             0.000     0.000
+pg0.inpad[0] (.input)                                            0.000     0.000
+[181].in[0] (.names)                                             0.283     0.283
+[181].out[0] (.names)                                            0.235     0.518
+[1474].in[0] (.names)                                            0.000     0.518
+[1474].out[0] (.names)                                           0.235     0.753
+ng494.in[1] (.names)                                             0.211     0.965
+ng494.out[0] (.names)                                            0.235     1.200
+ng71.D[0] (.latch)                                               0.000     1.200
+data arrival time                                                          1.200
+
+clock pclk (rise edge)                                           0.000     0.000
+clock source latency                                             0.000     0.000
+pclk.inpad[0] (.input)                                           0.000     0.000
+ng71.clk[0] (.latch)                                             0.000     0.000
+clock uncertainty                                                0.000     0.000
+cell hold time                                                   0.066     0.066
+data required time                                                         0.066
+--------------------------------------------------------------------------------
+data required time                                                        -0.066
+data arrival time                                                          1.200
+--------------------------------------------------------------------------------
+slack (MET)                                                                1.134
+
+
+#Path 77
+Startpoint: ng90.Q[0] (.latch clocked by pclk)
+Endpoint  : out:pg727.outpad[0] (.output clocked by pclk)
+Path Type : hold
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock pclk (rise edge)                                           0.000     0.000
+clock source latency                                             0.000     0.000
+pclk.inpad[0] (.input)                                           0.000     0.000
+ng90.clk[0] (.latch)                                             0.000     0.000
+ng90.Q[0] (.latch) [clock-to-output]                             0.124     0.124
+pg727.in[0] (.names)                                             0.327     0.451
+pg727.out[0] (.names)                                            0.235     0.686
+out:pg727.outpad[0] (.output)                                    0.497     1.183
+data arrival time                                                          1.183
+
+clock pclk (rise edge)                                           0.000     0.000
+clock source latency                                             0.000     0.000
+clock uncertainty                                                0.000     0.000
+output external delay                                            0.000     0.000
+data required time                                                         0.000
+--------------------------------------------------------------------------------
+data required time                                                        -0.000
+data arrival time                                                          1.183
+--------------------------------------------------------------------------------
+slack (MET)                                                                1.183
+
+
+#Path 78
+Startpoint: ng83.Q[0] (.latch clocked by pclk)
+Endpoint  : ng83.D[0] (.latch clocked by pclk)
+Path Type : hold
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock pclk (rise edge)                                           0.000     0.000
+clock source latency                                             0.000     0.000
+pclk.inpad[0] (.input)                                           0.000     0.000
+ng83.clk[0] (.latch)                                             0.000     0.000
+ng83.Q[0] (.latch) [clock-to-output]                             0.124     0.124
+[408].in[0] (.names)                                             0.267     0.391
+[408].out[0] (.names)                                            0.235     0.626
+[240].in[1] (.names)                                             0.315     0.941
+[240].out[0] (.names)                                            0.235     1.176
+ng590.in[1] (.names)                                             0.000     1.176
+ng590.out[0] (.names)                                            0.235     1.411
+ng83.D[0] (.latch)                                               0.000     1.411
+data arrival time                                                          1.411
+
+clock pclk (rise edge)                                           0.000     0.000
+clock source latency                                             0.000     0.000
+pclk.inpad[0] (.input)                                           0.000     0.000
+ng83.clk[0] (.latch)                                             0.000     0.000
+clock uncertainty                                                0.000     0.000
+cell hold time                                                   0.066     0.066
+data required time                                                         0.066
+--------------------------------------------------------------------------------
+data required time                                                        -0.066
+data arrival time                                                          1.411
+--------------------------------------------------------------------------------
+slack (MET)                                                                1.345
+
+
+#Path 79
+Startpoint: ng40.Q[0] (.latch clocked by pclk)
+Endpoint  : out:pg702.outpad[0] (.output clocked by pclk)
+Path Type : hold
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock pclk (rise edge)                                           0.000     0.000
+clock source latency                                             0.000     0.000
+pclk.inpad[0] (.input)                                           0.000     0.000
+ng40.clk[0] (.latch)                                             0.000     0.000
+ng40.Q[0] (.latch) [clock-to-output]                             0.124     0.124
+[208].in[0] (.names)                                             0.000     0.124
+[208].out[0] (.names)                                            0.235     0.359
+ng652.in[0] (.names)                                             0.000     0.359
+ng652.out[0] (.names)                                            0.235     0.594
+[1480].in[0] (.names)                                            0.000     0.594
+[1480].out[0] (.names)                                           0.235     0.829
+pg702.in[1] (.names)                                             0.000     0.829
+pg702.out[0] (.names)                                            0.235     1.064
+out:pg702.outpad[0] (.output)                                    0.668     1.732
+data arrival time                                                          1.732
+
+clock pclk (rise edge)                                           0.000     0.000
+clock source latency                                             0.000     0.000
+clock uncertainty                                                0.000     0.000
+output external delay                                            0.000     0.000
+data required time                                                         0.000
+--------------------------------------------------------------------------------
+data required time                                                        -0.000
+data arrival time                                                          1.732
+--------------------------------------------------------------------------------
+slack (MET)                                                                1.732
+
+
+#End of timing report

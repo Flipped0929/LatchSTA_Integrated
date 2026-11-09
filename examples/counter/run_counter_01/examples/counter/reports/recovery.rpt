@@ -1,0 +1,7 @@
+max_delay/setup group asynchronous
+
+                                        Required      Actual
+Endpoint                                   Delay       Delay       Slack
+------------------------------------------------------------------------
+_14_/RESET_B (sky130_fd_sc_hd__dlrtp_1)    4.997476    1.000000    3.997475 (MET)
+

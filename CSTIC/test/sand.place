@@ -1,0 +1,50 @@
+Netlist_File: sand.net Netlist_ID: SHA256:8b3fb1fc22190a9a49fa96f1e683c8f279cd49e57a5bd1992803db71f86652dc
+Array size: 8 x 8 logic blocks
+
+#block name	x	y	subblk	block number
+#----------	--	--	------	------------
+n_n55		4	5	0	#0
+n_n56		3	1	0	#1
+n_n58		4	3	0	#2
+n_n54		4	2	0	#3
+out:sand_out_7_	7	4	1	#4
+sand_out_7_	4	4	0	#5
+[205]		3	2	0	#6
+[70]		3	4	0	#7
+[114]		4	6	0	#8
+[79]		5	4	0	#9
+[105]		5	2	0	#10
+[115]		5	3	0	#11
+[108]		5	5	0	#12
+sand_out_8_	1	4	0	#13
+out:sand_out_8_	0	4	1	#14
+sand_out_6_	1	2	0	#15
+sand_out_2_	3	6	0	#16
+[44]		5	1	0	#17
+[192]		4	1	0	#18
+out:sand_out_6_	0	2	5	#19
+out:sand_out_3_	7	2	6	#20
+out:sand_out_2_	3	7	2	#21
+[64]		5	6	0	#22
+[106]		1	5	0	#23
+[309]		1	3	0	#24
+[1074]		3	3	0	#25
+[1118]		3	5	0	#26
+out:sand_out_5_	5	0	0	#27
+out:sand_out_0_	1	7	2	#28
+sand_out_0_	1	6	0	#29
+[1068]		1	1	0	#30
+out:sand_out_4_	5	7	7	#31
+out:sand_out_1_	0	5	7	#32
+sand_in_0_	0	4	4	#33
+sand_in_1_	4	0	1	#34
+sand_in_10_	7	5	5	#35
+sand_in_6_	0	3	0	#36
+sand_in_7_	2	7	2	#37
+sand_in_8_	2	7	6	#38
+sand_in_9_	4	7	0	#39
+clock		2	0	5	#40
+sand_in_2_	0	3	6	#41
+sand_in_3_	4	0	4	#42
+sand_in_4_	0	4	6	#43
+sand_in_5_	2	0	0	#44

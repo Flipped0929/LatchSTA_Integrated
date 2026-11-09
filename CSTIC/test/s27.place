@@ -1,0 +1,12 @@
+Netlist_File: s27.net Netlist_ID: SHA256:204a08c5ae1fd91766f7a72504d8e0c0b60d7de7148df1099f2f5ac9238154ee
+Array size: 3 x 3 logic blocks
+
+#block name	x	y	subblk	block number
+#----------	--	--	------	------------
+n_n17		1	1	0	#0
+out:s27_out	1	2	0	#1
+s27_in_2_	0	1	4	#2
+s27_in_1_	2	1	6	#3
+s27_in_3_	1	2	5	#4
+s27_in_0_	1	2	6	#5
+clock		0	1	7	#6

@@ -1,0 +1,68 @@
+{
+  "ngspice_version": "******\n** ngspice-45.2 : Circuit level simulation program\n** Compiled with KLU Direct Linear Solver\n** The U. C. Berkeley CAD Group\n** Copyright 1985-1994, Regents of the University of California.\n** Copyright 2001-2025, The ngspice team.\n** Please get your ngspice manual from https://ngspice.sourceforge.io/docs.html\n** Please file your bug-reports at http://ngspice.sourceforge.net/bugrep.html\n** Creation Date: Fri Sep 12 11:58:13 UTC 2025\n******\n",
+  "pdk_library": "/home/bailufrost/eda/pdk/sky130A/libs.tech/ngspice/sky130.lib.spice",
+  "pdk_library_sha256": "17c208a699228f5acb87bf59c09c22a4c4d3937b6766b4957737d34e8e075f64",
+  "source_netlist": "/mnt/hgfs/LatchSTA_Code/code/examples/counter/xschem/simulation/counter.spice",
+  "netlist_sha256": "43683ef18bd6f235cab247b613db090a97141ffd6beaaa956477b2024f7e5509",
+  "cell_sources": [
+    {
+      "cell": "sky130_fd_sc_hd__a21oi_1",
+      "path": "/mnt/hgfs/LatchSTA_Code/pdk_work/sources/sky130_fd_sc_hd/cells/a21oi/sky130_fd_sc_hd__a21oi_1.spice",
+      "sha256": "6481f50a3f0af9dd7f21f574b8e5c239a90c14ce19326e402089329988ac5094"
+    },
+    {
+      "cell": "sky130_fd_sc_hd__a31oi_1",
+      "path": "/mnt/hgfs/LatchSTA_Code/pdk_work/sources/sky130_fd_sc_hd/cells/a31oi/sky130_fd_sc_hd__a31oi_1.spice",
+      "sha256": "7c1ad596e04e9d9fbb292feeee3ffc4f9c4a49ff5190b914b734e71a2bced4bd"
+    },
+    {
+      "cell": "sky130_fd_sc_hd__a41o_1",
+      "path": "/mnt/hgfs/LatchSTA_Code/pdk_work/sources/sky130_fd_sc_hd/cells/a41o/sky130_fd_sc_hd__a41o_1.spice",
+      "sha256": "9d04ee0840f56ed7201d545179babf9bd32a7a32153b3fdcdd83ad4d3f8a3251"
+    },
+    {
+      "cell": "sky130_fd_sc_hd__and3_1",
+      "path": "/mnt/hgfs/LatchSTA_Code/pdk_work/sources/sky130_fd_sc_hd/cells/and3/sky130_fd_sc_hd__and3_1.spice",
+      "sha256": "99ca27ce14c0f88c1eba10d75d0e973997640e8d1d91a9d91a7d1ef1f8a7e14f"
+    },
+    {
+      "cell": "sky130_fd_sc_hd__dlxtn_1",
+      "path": "/mnt/hgfs/LatchSTA_Code/pdk_work/sources/sky130_fd_sc_hd/cells/dlxtn/sky130_fd_sc_hd__dlxtn_1.spice",
+      "sha256": "d8f477efbaaa4661e8ebafd38725f6cf1dd065af1091eb448ed6f9876fcb0172"
+    },
+    {
+      "cell": "sky130_fd_sc_hd__dlxtp_1",
+      "path": "/mnt/hgfs/LatchSTA_Code/pdk_work/sources/sky130_fd_sc_hd/cells/dlxtp/sky130_fd_sc_hd__dlxtp_1.spice",
+      "sha256": "9c21d06223951de2564ff4d727181be9df795d4341e98bc3368e60bd4285e0fa"
+    },
+    {
+      "cell": "sky130_fd_sc_hd__nand2_1",
+      "path": "/mnt/hgfs/LatchSTA_Code/pdk_work/sources/sky130_fd_sc_hd/cells/nand2/sky130_fd_sc_hd__nand2_1.spice",
+      "sha256": "2753f3d2d7bd6e3c1c10905a8124e9538df99124be7285bc0d180f9b6b421233"
+    },
+    {
+      "cell": "sky130_fd_sc_hd__nor3b_1",
+      "path": "/mnt/hgfs/LatchSTA_Code/pdk_work/sources/sky130_fd_sc_hd/cells/nor3b/sky130_fd_sc_hd__nor3b_1.spice",
+      "sha256": "641f0bdd08a95ff37e4cc8199af2dda3f4a51f16401bd860dbc4d2e4909bb616"
+    },
+    {
+      "cell": "sky130_fd_sc_hd__o21ai_0",
+      "path": "/mnt/hgfs/LatchSTA_Code/pdk_work/sources/sky130_fd_sc_hd/cells/o21ai/sky130_fd_sc_hd__o21ai_0.spice",
+      "sha256": "eff97c6de85362d88a704c0750d95b5a10772e71d2d3e215bf15c208d0119bff"
+    }
+  ],
+  "standard_cell_instances": 18,
+  "transistor_instances": 214,
+  "corner": "tt",
+  "temperature_c": 25,
+  "vdd_v": 1.8,
+  "output_load_ff_per_bit": 10,
+  "clock_duty_at_50_percent": 0.5,
+  "rise_fall_ps": 100,
+  "input_delay_after_previous_rising_ns": 1.0,
+  "max_step_ps": 5,
+  "cycles_checked": 128,
+  "initialized_by": "DC operating point followed by four synchronous reset cycles; no forced state",
+  "validation": "20/80% levels; samples at rising+0.4T and rising+0.9T; stable through rising+0.95T",
+  "parasitics": "native cell SPICE MOS models; no interconnect or layout PEX"
+}

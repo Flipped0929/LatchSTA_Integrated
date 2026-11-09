@@ -1,0 +1,106 @@
+{
+  "review_type": "Review of user-supplied OpenSTA reports; no STA execution in this review",
+  "period_ns": 3.541155,
+  "duty_cycle": 0.5,
+  "lp_period_ns_in_sdc": 3.541155,
+  "skew_ns": {
+    "L1": 1.0953609999999996,
+    "L2": 1.7611459999999997,
+    "L3": 2.1452409999999995
+  },
+  "report_file_count": 27,
+  "check_setup_empty": true,
+  "candidate_matches_report_snapshot": true,
+  "setup": {
+    "path_count": 10,
+    "worst": {
+      "source": "L3",
+      "target": "o_dout",
+      "slack_ns": 0.0
+    },
+    "all_reported_met": true,
+    "path_groups": {
+      "L3 -> o_dout": 2,
+      "i_din -> L1": 2,
+      "L2 -> L3": 2,
+      "L1 -> L2": 4
+    }
+  },
+  "actual_borrow_ns": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "hold": {
+    "path_count": 10,
+    "worst": {
+      "source": "i_din",
+      "target": "L1",
+      "slack_ns": 0.974505
+    },
+    "all_reported_met": true,
+    "path_groups": {
+      "i_din -> L1": 2,
+      "L1 -> L2": 4,
+      "L2 -> L3": 2,
+      "L3 -> o_dout": 2
+    }
+  },
+  "reported_pulse_checks": [
+    {
+      "pin": "L1/GATE",
+      "level": "high",
+      "required_ns": 0.231014,
+      "actual_ns": 1.770578,
+      "slack_ns": 1.539564,
+      "status": "MET"
+    }
+  ],
+  "arc_changes_from_baseline": [],
+  "input_capture_rise_ns": 1.7705775,
+  "output_setup_capture_rise_ns": 5.3117325,
+  "output_setup_required_ns": 4.3117325,
+  "output_hold_required_ns": 1.8205775,
+  "report_sha256": {
+    "check_setup.rpt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "clocks.rpt": "5fec8eeb9aa0b2a737fc456d27ef1e00dc36446550311af13f8ea6b26c69aeec",
+    "constraints.sdc": "31362e8f0445ab9ac8a8176caa9f6c455e715ea58400530b44baa232d1c231ce",
+    "hold.rpt": "f62edb75102d566d811807657bb94425fa60aaa1d92a1338526aa8ab8ecbe735",
+    "L1_arrival.rpt": "26c3a99762d92235afa66d4ff629c0e7787d5e3662d8dbe0c0345a20d0040bad",
+    "L1_cq_max.rpt": "f1c76a4d79325e813c9129d852b3ca35985fdecc5bf7096fc6cc779e6b0e2301",
+    "L1_cq_min.rpt": "f1c76a4d79325e813c9129d852b3ca35985fdecc5bf7096fc6cc779e6b0e2301",
+    "L1_dq_max.rpt": "31219d4fa1ce6753b106f41347ffe0243cf14f8a2bf2d17591d04248effe254c",
+    "L1_dq_min.rpt": "31219d4fa1ce6753b106f41347ffe0243cf14f8a2bf2d17591d04248effe254c",
+    "L1_instance.rpt": "54a74800bf6b58e136bfc409a3466c1c08ce9ac3e7324dfc7d9076521a3a864b",
+    "L1_load.rpt": "4d6e905a0e5850387cd82be10c8742606776dc7c722cf9bf7af77ee536a46a8c",
+    "L2_arrival.rpt": "2125306b13bec8b379634eb594c8b623774c6dc0bf9f0dbeef3ab829e2d462f0",
+    "L2_cq_max.rpt": "9c16484f20b54358dc901dfc2229e7f6c275e4c70189df35d3d501147e974ff3",
+    "L2_cq_min.rpt": "9c16484f20b54358dc901dfc2229e7f6c275e4c70189df35d3d501147e974ff3",
+    "L2_dq_max.rpt": "fd265d0110ec334fbf9c5a011652298d1473710b0b8c91ae38efed41dbcf941e",
+    "L2_dq_min.rpt": "b30c7c4bad300070e2ecb97948bf920d086050ffba7b9ce26ecb3648593b882f",
+    "L2_instance.rpt": "22a3caf9b492a5c4f9e39b3361f6eb3ef0b63daad88cd227e4840fdde18ed7b8",
+    "L2_load.rpt": "9c05ecea49538a2d1f5e67f1f33a005528c4c9de28ab37ec9375ddb51f0e024a",
+    "L3_arrival.rpt": "8ca0508567abf78509c4dcd3b6245d305c37ae5468863758dd646beebe57fa5d",
+    "L3_cq_max.rpt": "9c16484f20b54358dc901dfc2229e7f6c275e4c70189df35d3d501147e974ff3",
+    "L3_cq_min.rpt": "9c16484f20b54358dc901dfc2229e7f6c275e4c70189df35d3d501147e974ff3",
+    "L3_dq_max.rpt": "eca1a7e3d495d5173be09e73c9296c9ee620b16a4aa29fe7a8fdb7d2c87e3712",
+    "L3_dq_min.rpt": "eca1a7e3d495d5173be09e73c9296c9ee620b16a4aa29fe7a8fdb7d2c87e3712",
+    "L3_instance.rpt": "a578abac817d4dcb9765f383fbaf73fda40d2a2487d9b9f2eb40379ee47fe815",
+    "L3_load.rpt": "4b859bf44271427187dca4ee434f02e4eb9cbc56c73cbf9574539148a818b8ce",
+    "pulse_width.rpt": "52cb39c8afc625d649a3ea99785ece7c5d52f1a182a7ce22e83651ce3e29ac91",
+    "setup.rpt": "c6261815df521700f6ae6f7d2a6c396b8917e8e21ae86b59097cb122d6124d63",
+    "units.rpt": "68cd79d3bdd9d6a6042a83c2b041185a6b47ba9d1791cea4c42d270cd6381bf1"
+  },
+  "limitations": [
+    "No current-run OpenSTA console log, version or input hashes was supplied; current workspace inputs are not proof of the exact execution inputs.",
+    "The pulse-width report contains only one L1/high summary row; L2/L3 checks are not individually listed.",
+    "Zero setup slack is a boundary result at six printed decimals, not robust margin or a proof of global minimum period.",
+    "All eight reported latch-endpoint actual time borrow values are zero; this run does not demonstrate positive time borrowing.",
+    "Ideal-clock TT single-scenario result; no physical clock tree or extracted interconnect verification."
+  ]
+}

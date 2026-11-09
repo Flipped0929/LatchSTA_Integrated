@@ -1,0 +1,36 @@
+Startpoint: _23_ (positive level-sensitive latch clocked by clk)
+Endpoint: count[2] (output port clocked by clk)
+Path Group: clk
+Path Type: max
+
+Fanout            Cap           Slew          Delay           Time   Description
+---------------------------------------------------------------------------------------------------------
+                                        0.899999976    0.899999976   clock clk (rise edge)
+                                        0.000000000    0.899999976   clock source latency
+     1    0.007774882    0.059999999    0.000000000    0.899999976 ^ clk (in)
+                                                                     clk (net)
+                         0.060225125    0.000112577    0.900112569 ^ clkbuf_0_clk/A (sky130_fd_sc_hd__clkbuf_4)
+     2    0.008194298    0.042126331    0.132970974    1.033083558 ^ clkbuf_0_clk/X (sky130_fd_sc_hd__clkbuf_4)
+                                                                     clknet_0_clk (net)
+                         0.042127222    0.000225597    1.033309102 ^ clkbuf_1_0__f_clk/A (sky130_fd_sc_hd__clkbuf_4)
+     5    0.014083051    0.057687074    0.140805483    1.174114585 ^ clkbuf_1_0__f_clk/X (sky130_fd_sc_hd__clkbuf_4)
+                                                                     clknet_1_0__leaf_clk (net)
+                         0.057689801    0.000467848    1.174582481 ^ _23_/GATE (sky130_fd_sc_hd__dlxtp_1)
+     5    0.026773032    0.256729007    0.464230776    1.638813257 ^ _23_/Q (sky130_fd_sc_hd__dlxtp_1)
+                                                                     slave[2] (net)
+                         0.256729007    0.000391243    1.639204502 ^ count[2] (out)
+                                                       1.639204502   data arrival time
+
+                                        2.699999809    2.699999809   clock clk (rise edge)
+                                        0.000000000    2.699999809   clock network delay (propagated)
+                                       -0.049999997    2.649999857   clock uncertainty
+                                        0.000000000    2.649999857   clock reconvergence pessimism
+                                       -1.000000000    1.649999857   output external delay
+                                                       1.649999857   data required time
+---------------------------------------------------------------------------------------------------------
+                                                       1.649999857   data required time
+                                                      -1.639204502   data arrival time
+---------------------------------------------------------------------------------------------------------
+                                                       0.010795365   slack (MET)
+
+

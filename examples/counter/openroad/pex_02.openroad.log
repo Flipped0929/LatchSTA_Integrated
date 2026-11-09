@@ -1,0 +1,21 @@
+OpenROAD 26Q2-1164-g08f67ee5ec 
+Features included (+) or not (-): +GPU +GUI +Python
+This program is licensed under the BSD-3 license. See the LICENSE file for details.
+Components of this program may be licensed under more restrictive licenses which must be honored.
+[INFO ORD-0030] Using 2 thread(s).
+
+===== OPENRCX NOMINAL EXTRACTION =====
+[INFO RCX-0431] Defined process_corner nominal with ext_model_index 0
+[INFO RCX-0029] Defined extraction corner nominal
+[INFO RCX-0435] Reading extraction model file /mnt/hgfs/LatchSTA_Code/code/examples/counter/openroad/pex_02/inputs/sky130hd_rcx_patterns.rules ...
+[INFO RCX-0436] RC segment generation counter (max_merge_res 50.0) ...
+[INFO RCX-0040] Final 89 rc segments
+[INFO RCX-0439] Coupling Cap extraction counter ...
+[INFO RCX-0440] Coupling threshhold is 0.0000 fF, coupling capacitance less than 0.0000 fF will be grounded.
+[INFO RCX-0442] 71% of 322 wires extracted
+[INFO RCX-0442] 100% of 322 wires extracted
+[INFO RCX-0045] Extract 24 nets, 113 rsegs, 113 caps, 188 ccs
+[INFO RCX-0443] 24 nets finished
+
+PARASITIC_EXTRACTION_COMPLETE: /mnt/hgfs/LatchSTA_Code/code/examples/counter/openroad/pex_02
+Post-route STA and timing-parasitic annotation: NOT RUN.

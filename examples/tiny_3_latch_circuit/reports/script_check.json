@@ -1,0 +1,11 @@
+{
+  "checks": [
+    "SDC/Tcl syntax and control flow passed with mocked STA commands; log capture balanced",
+    "bad_count: expected rejection",
+    "bad_lib: expected rejection"
+  ],
+  "limitations": [
+    "No real Yosys/OpenSTA execution; syntax/control-flow checks do not validate timing.",
+    "WSL invocation in this session exits 1: system cannot find the specified path."
+  ]
+}

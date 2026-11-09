@@ -1,0 +1,23 @@
+Netlist_File: s526.net Netlist_ID: SHA256:1b9523703d80b0ec5377e3cfa093512e1c4d306e35a5b72adb54534801e082c0
+Array size: 6 x 6 logic blocks
+
+#block name	x	y	subblk	block number
+#----------	--	--	------	------------
+ng69		3	2	0	#0
+ng183		4	3	0	#1
+ng194		3	4	0	#2
+ng167		4	4	0	#3
+ng84		3	1	0	#4
+[136]		4	2	0	#5
+[71]		3	3	0	#6
+ng60		4	1	0	#7
+out:pg148	3	5	3	#8
+out:pg147	4	5	4	#9
+out:pg213	3	5	6	#10
+out:pg214	3	5	0	#11
+out:pg198	4	5	6	#12
+out:pg199	5	3	6	#13
+pg2		3	0	5	#14
+pg1		5	3	7	#15
+pg0		5	3	5	#16
+pclk		5	4	2	#17

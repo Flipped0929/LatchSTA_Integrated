@@ -1,0 +1,139 @@
+instance	master	pin	direction	signal_type	net
+_07_	sky130_fd_sc_hd__o21ai_0	A1	INPUT	SIGNAL	en
+_07_	sky130_fd_sc_hd__o21ai_0	A2	INPUT	SIGNAL	slave[0]
+_07_	sky130_fd_sc_hd__o21ai_0	B1	INPUT	SIGNAL	rst_n
+_07_	sky130_fd_sc_hd__o21ai_0	Y	OUTPUT	SIGNAL	_01_
+_07_	sky130_fd_sc_hd__o21ai_0	VGND	INOUT	GROUND	
+_07_	sky130_fd_sc_hd__o21ai_0	VNB	INOUT	GROUND	
+_07_	sky130_fd_sc_hd__o21ai_0	VPB	INOUT	POWER	
+_07_	sky130_fd_sc_hd__o21ai_0	VPWR	INOUT	POWER	
+_08_	sky130_fd_sc_hd__a21oi_1	A1	INPUT	SIGNAL	en
+_08_	sky130_fd_sc_hd__a21oi_1	A2	INPUT	SIGNAL	slave[0]
+_08_	sky130_fd_sc_hd__a21oi_1	B1	INPUT	SIGNAL	_01_
+_08_	sky130_fd_sc_hd__a21oi_1	Y	OUTPUT	SIGNAL	_00_[0]
+_08_	sky130_fd_sc_hd__a21oi_1	VGND	INOUT	GROUND	
+_08_	sky130_fd_sc_hd__a21oi_1	VNB	INOUT	GROUND	
+_08_	sky130_fd_sc_hd__a21oi_1	VPB	INOUT	POWER	
+_08_	sky130_fd_sc_hd__a21oi_1	VPWR	INOUT	POWER	
+_09_	sky130_fd_sc_hd__and3_1	A	INPUT	SIGNAL	en
+_09_	sky130_fd_sc_hd__and3_1	B	INPUT	SIGNAL	slave[1]
+_09_	sky130_fd_sc_hd__and3_1	C	INPUT	SIGNAL	slave[0]
+_09_	sky130_fd_sc_hd__and3_1	X	OUTPUT	SIGNAL	_02_
+_09_	sky130_fd_sc_hd__and3_1	VGND	INOUT	GROUND	
+_09_	sky130_fd_sc_hd__and3_1	VNB	INOUT	GROUND	
+_09_	sky130_fd_sc_hd__and3_1	VPB	INOUT	POWER	
+_09_	sky130_fd_sc_hd__and3_1	VPWR	INOUT	POWER	
+_10_	sky130_fd_sc_hd__o21ai_0	A1	INPUT	SIGNAL	slave[2]
+_10_	sky130_fd_sc_hd__o21ai_0	A2	INPUT	SIGNAL	_02_
+_10_	sky130_fd_sc_hd__o21ai_0	B1	INPUT	SIGNAL	rst_n
+_10_	sky130_fd_sc_hd__o21ai_0	Y	OUTPUT	SIGNAL	_03_
+_10_	sky130_fd_sc_hd__o21ai_0	VGND	INOUT	GROUND	
+_10_	sky130_fd_sc_hd__o21ai_0	VNB	INOUT	GROUND	
+_10_	sky130_fd_sc_hd__o21ai_0	VPB	INOUT	POWER	
+_10_	sky130_fd_sc_hd__o21ai_0	VPWR	INOUT	POWER	
+_11_	sky130_fd_sc_hd__a21oi_1	A1	INPUT	SIGNAL	slave[2]
+_11_	sky130_fd_sc_hd__a21oi_1	A2	INPUT	SIGNAL	_02_
+_11_	sky130_fd_sc_hd__a21oi_1	B1	INPUT	SIGNAL	_03_
+_11_	sky130_fd_sc_hd__a21oi_1	Y	OUTPUT	SIGNAL	_00_[2]
+_11_	sky130_fd_sc_hd__a21oi_1	VGND	INOUT	GROUND	
+_11_	sky130_fd_sc_hd__a21oi_1	VNB	INOUT	GROUND	
+_11_	sky130_fd_sc_hd__a21oi_1	VPB	INOUT	POWER	
+_11_	sky130_fd_sc_hd__a21oi_1	VPWR	INOUT	POWER	
+_12_	sky130_fd_sc_hd__a41o_1	A1	INPUT	SIGNAL	slave[2]
+_12_	sky130_fd_sc_hd__a41o_1	A2	INPUT	SIGNAL	en
+_12_	sky130_fd_sc_hd__a41o_1	A3	INPUT	SIGNAL	slave[1]
+_12_	sky130_fd_sc_hd__a41o_1	A4	INPUT	SIGNAL	slave[0]
+_12_	sky130_fd_sc_hd__a41o_1	B1	INPUT	SIGNAL	slave[3]
+_12_	sky130_fd_sc_hd__a41o_1	X	OUTPUT	SIGNAL	_04_
+_12_	sky130_fd_sc_hd__a41o_1	VGND	INOUT	GROUND	
+_12_	sky130_fd_sc_hd__a41o_1	VNB	INOUT	GROUND	
+_12_	sky130_fd_sc_hd__a41o_1	VPB	INOUT	POWER	
+_12_	sky130_fd_sc_hd__a41o_1	VPWR	INOUT	POWER	
+_13_	sky130_fd_sc_hd__nand2_1	A	INPUT	SIGNAL	rst_n
+_13_	sky130_fd_sc_hd__nand2_1	B	INPUT	SIGNAL	_04_
+_13_	sky130_fd_sc_hd__nand2_1	Y	OUTPUT	SIGNAL	_05_
+_13_	sky130_fd_sc_hd__nand2_1	VGND	INOUT	GROUND	
+_13_	sky130_fd_sc_hd__nand2_1	VNB	INOUT	GROUND	
+_13_	sky130_fd_sc_hd__nand2_1	VPB	INOUT	POWER	
+_13_	sky130_fd_sc_hd__nand2_1	VPWR	INOUT	POWER	
+_14_	sky130_fd_sc_hd__a31oi_1	A1	INPUT	SIGNAL	slave[2]
+_14_	sky130_fd_sc_hd__a31oi_1	A2	INPUT	SIGNAL	slave[3]
+_14_	sky130_fd_sc_hd__a31oi_1	A3	INPUT	SIGNAL	_02_
+_14_	sky130_fd_sc_hd__a31oi_1	B1	INPUT	SIGNAL	_05_
+_14_	sky130_fd_sc_hd__a31oi_1	Y	OUTPUT	SIGNAL	_00_[3]
+_14_	sky130_fd_sc_hd__a31oi_1	VGND	INOUT	GROUND	
+_14_	sky130_fd_sc_hd__a31oi_1	VNB	INOUT	GROUND	
+_14_	sky130_fd_sc_hd__a31oi_1	VPB	INOUT	POWER	
+_14_	sky130_fd_sc_hd__a31oi_1	VPWR	INOUT	POWER	
+_15_	sky130_fd_sc_hd__a21oi_1	A1	INPUT	SIGNAL	en
+_15_	sky130_fd_sc_hd__a21oi_1	A2	INPUT	SIGNAL	slave[0]
+_15_	sky130_fd_sc_hd__a21oi_1	B1	INPUT	SIGNAL	slave[1]
+_15_	sky130_fd_sc_hd__a21oi_1	Y	OUTPUT	SIGNAL	_06_
+_15_	sky130_fd_sc_hd__a21oi_1	VGND	INOUT	GROUND	
+_15_	sky130_fd_sc_hd__a21oi_1	VNB	INOUT	GROUND	
+_15_	sky130_fd_sc_hd__a21oi_1	VPB	INOUT	POWER	
+_15_	sky130_fd_sc_hd__a21oi_1	VPWR	INOUT	POWER	
+_16_	sky130_fd_sc_hd__nor3b_1	A	INPUT	SIGNAL	_02_
+_16_	sky130_fd_sc_hd__nor3b_1	B	INPUT	SIGNAL	_06_
+_16_	sky130_fd_sc_hd__nor3b_1	C_N	INPUT	SIGNAL	rst_n
+_16_	sky130_fd_sc_hd__nor3b_1	Y	OUTPUT	SIGNAL	_00_[1]
+_16_	sky130_fd_sc_hd__nor3b_1	VGND	INOUT	GROUND	
+_16_	sky130_fd_sc_hd__nor3b_1	VNB	INOUT	GROUND	
+_16_	sky130_fd_sc_hd__nor3b_1	VPB	INOUT	POWER	
+_16_	sky130_fd_sc_hd__nor3b_1	VPWR	INOUT	POWER	
+_17_	sky130_fd_sc_hd__dlxtn_1	D	INPUT	SIGNAL	_00_[0]
+_17_	sky130_fd_sc_hd__dlxtn_1	Q	OUTPUT	SIGNAL	master[0]
+_17_	sky130_fd_sc_hd__dlxtn_1	GATE_N	INPUT	CLOCK	clk
+_17_	sky130_fd_sc_hd__dlxtn_1	VGND	INOUT	GROUND	
+_17_	sky130_fd_sc_hd__dlxtn_1	VNB	INOUT	GROUND	
+_17_	sky130_fd_sc_hd__dlxtn_1	VPB	INOUT	POWER	
+_17_	sky130_fd_sc_hd__dlxtn_1	VPWR	INOUT	POWER	
+_18_	sky130_fd_sc_hd__dlxtn_1	D	INPUT	SIGNAL	_00_[1]
+_18_	sky130_fd_sc_hd__dlxtn_1	Q	OUTPUT	SIGNAL	master[1]
+_18_	sky130_fd_sc_hd__dlxtn_1	GATE_N	INPUT	CLOCK	clk
+_18_	sky130_fd_sc_hd__dlxtn_1	VGND	INOUT	GROUND	
+_18_	sky130_fd_sc_hd__dlxtn_1	VNB	INOUT	GROUND	
+_18_	sky130_fd_sc_hd__dlxtn_1	VPB	INOUT	POWER	
+_18_	sky130_fd_sc_hd__dlxtn_1	VPWR	INOUT	POWER	
+_19_	sky130_fd_sc_hd__dlxtn_1	D	INPUT	SIGNAL	_00_[2]
+_19_	sky130_fd_sc_hd__dlxtn_1	Q	OUTPUT	SIGNAL	master[2]
+_19_	sky130_fd_sc_hd__dlxtn_1	GATE_N	INPUT	CLOCK	clk
+_19_	sky130_fd_sc_hd__dlxtn_1	VGND	INOUT	GROUND	
+_19_	sky130_fd_sc_hd__dlxtn_1	VNB	INOUT	GROUND	
+_19_	sky130_fd_sc_hd__dlxtn_1	VPB	INOUT	POWER	
+_19_	sky130_fd_sc_hd__dlxtn_1	VPWR	INOUT	POWER	
+_20_	sky130_fd_sc_hd__dlxtn_1	D	INPUT	SIGNAL	_00_[3]
+_20_	sky130_fd_sc_hd__dlxtn_1	Q	OUTPUT	SIGNAL	master[3]
+_20_	sky130_fd_sc_hd__dlxtn_1	GATE_N	INPUT	CLOCK	clk
+_20_	sky130_fd_sc_hd__dlxtn_1	VGND	INOUT	GROUND	
+_20_	sky130_fd_sc_hd__dlxtn_1	VNB	INOUT	GROUND	
+_20_	sky130_fd_sc_hd__dlxtn_1	VPB	INOUT	POWER	
+_20_	sky130_fd_sc_hd__dlxtn_1	VPWR	INOUT	POWER	
+_21_	sky130_fd_sc_hd__dlxtp_1	D	INPUT	SIGNAL	master[0]
+_21_	sky130_fd_sc_hd__dlxtp_1	Q	OUTPUT	SIGNAL	slave[0]
+_21_	sky130_fd_sc_hd__dlxtp_1	GATE	INPUT	CLOCK	clk
+_21_	sky130_fd_sc_hd__dlxtp_1	VGND	INOUT	GROUND	
+_21_	sky130_fd_sc_hd__dlxtp_1	VNB	INOUT	GROUND	
+_21_	sky130_fd_sc_hd__dlxtp_1	VPB	INOUT	POWER	
+_21_	sky130_fd_sc_hd__dlxtp_1	VPWR	INOUT	POWER	
+_22_	sky130_fd_sc_hd__dlxtp_1	D	INPUT	SIGNAL	master[1]
+_22_	sky130_fd_sc_hd__dlxtp_1	Q	OUTPUT	SIGNAL	slave[1]
+_22_	sky130_fd_sc_hd__dlxtp_1	GATE	INPUT	CLOCK	clk
+_22_	sky130_fd_sc_hd__dlxtp_1	VGND	INOUT	GROUND	
+_22_	sky130_fd_sc_hd__dlxtp_1	VNB	INOUT	GROUND	
+_22_	sky130_fd_sc_hd__dlxtp_1	VPB	INOUT	POWER	
+_22_	sky130_fd_sc_hd__dlxtp_1	VPWR	INOUT	POWER	
+_23_	sky130_fd_sc_hd__dlxtp_1	D	INPUT	SIGNAL	master[2]
+_23_	sky130_fd_sc_hd__dlxtp_1	Q	OUTPUT	SIGNAL	slave[2]
+_23_	sky130_fd_sc_hd__dlxtp_1	GATE	INPUT	CLOCK	clk
+_23_	sky130_fd_sc_hd__dlxtp_1	VGND	INOUT	GROUND	
+_23_	sky130_fd_sc_hd__dlxtp_1	VNB	INOUT	GROUND	
+_23_	sky130_fd_sc_hd__dlxtp_1	VPB	INOUT	POWER	
+_23_	sky130_fd_sc_hd__dlxtp_1	VPWR	INOUT	POWER	
+_24_	sky130_fd_sc_hd__dlxtp_1	D	INPUT	SIGNAL	master[3]
+_24_	sky130_fd_sc_hd__dlxtp_1	Q	OUTPUT	SIGNAL	slave[3]
+_24_	sky130_fd_sc_hd__dlxtp_1	GATE	INPUT	CLOCK	clk
+_24_	sky130_fd_sc_hd__dlxtp_1	VGND	INOUT	GROUND	
+_24_	sky130_fd_sc_hd__dlxtp_1	VNB	INOUT	GROUND	
+_24_	sky130_fd_sc_hd__dlxtp_1	VPB	INOUT	POWER	
+_24_	sky130_fd_sc_hd__dlxtp_1	VPWR	INOUT	POWER	

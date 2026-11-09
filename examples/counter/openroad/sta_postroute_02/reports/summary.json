@@ -1,0 +1,107 @@
+{
+  "analysis_completed": true,
+  "analysis_integrity": "PASS",
+  "timing_status": "FAIL",
+  "sta_version": "3.1.0",
+  "library_corner": "TT 025C 1v80",
+  "rc_corner": "nominal",
+  "period_ns": 1.65,
+  "source_transition_ns": 0.06,
+  "propagated_clock": true,
+  "crpr_enabled": true,
+  "crpr_mode": "same_transition",
+  "coupling_reduction_factor": 1.0,
+  "setup_worst_slack_ns": -0.1392046517457869,
+  "setup_tns_ns": -0.46122351687799945,
+  "hold_worst_slack_ns": 0.035017767454677086,
+  "hold_tns_ns": 0.0,
+  "setup_violating_endpoints": [
+    {
+      "endpoint": "count[0]",
+      "kind": "output",
+      "analysis": "setup",
+      "slack_ns": -0.135871,
+      "startpoint": "_21_/Q"
+    },
+    {
+      "endpoint": "count[1]",
+      "kind": "output",
+      "analysis": "setup",
+      "slack_ns": -0.111103,
+      "startpoint": "_22_/Q"
+    },
+    {
+      "endpoint": "count[2]",
+      "kind": "output",
+      "analysis": "setup",
+      "slack_ns": -0.139205,
+      "startpoint": "_23_/Q"
+    },
+    {
+      "endpoint": "count[3]",
+      "kind": "output",
+      "analysis": "setup",
+      "slack_ns": -0.075045,
+      "startpoint": "_24_/Q"
+    }
+  ],
+  "hold_violating_endpoints": [],
+  "constrained_endpoints": 12,
+  "annotated_routed_nets": 24,
+  "partially_unannotated_drivers": 0,
+  "expected_unannotated_open_driver": "clkload0/X",
+  "constraints_complete": true,
+  "checks": {
+    "pulse_width": {
+      "status": "PASS",
+      "count": 8,
+      "violations": 0,
+      "worst_slack": 0.597891867
+    },
+    "min_period": {
+      "status": "N/A",
+      "count": 0,
+      "violations": 0,
+      "worst_slack": null
+    },
+    "max_slew": {
+      "status": "PASS",
+      "count": 74,
+      "violations": 0,
+      "worst_slack": 1.243139982
+    },
+    "max_capacitance": {
+      "status": "PASS",
+      "count": 22,
+      "violations": 0,
+      "worst_slack": 0.046522882
+    },
+    "max_fanout": {
+      "status": "N/A",
+      "count": 0,
+      "violations": 0,
+      "worst_slack": null
+    }
+  },
+  "worst_setup": {
+    "startpoint": "_23_ (positive level-sensitive latch clocked by clk)",
+    "endpoint": "count[2] (output port clocked by clk)",
+    "arrival_ns": 1.564204454,
+    "required_ns": 1.424999833,
+    "slack_ns": -0.139204651
+  },
+  "worst_hold": {
+    "startpoint": "en (input port clocked by clk)",
+    "endpoint": "_17_ (negative level-sensitive latch clocked by clk)",
+    "arrival_ns": 1.084476948,
+    "required_ns": 1.049459219,
+    "slack_ns": 0.035017766
+  },
+  "raw_rising_clock_latency_min_ns": 0.26205837752600003,
+  "raw_rising_clock_latency_max_ns": 0.27458250552599994,
+  "raw_rising_clock_latency_spread_ns": 0.012524127999999912,
+  "raw_falling_clock_latency_spread_ns": 0.010270000000000001,
+  "numeric_rounding_tolerance_ns": 1e-06,
+  "implementation_modified": false,
+  "minimum_period_search": "NOT RUN"
+}

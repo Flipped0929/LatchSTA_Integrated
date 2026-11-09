@@ -1,0 +1,12 @@
+ time 1ns
+ capacitance 1pF
+ resistance 1kohm
+ voltage 1v
+ current 1mA
+ power 1nW
+ distance 1um
+Clock                   Period          Waveform
+----------------------------------------------------
+clk                      10.00        5.00     10.00
+(clk ^) r 5.274577:6.074577 f 5.283593:6.083593
+Error 232: run_sta.tcl line 1, net _f0c5f6f294630000_p_Net not found.

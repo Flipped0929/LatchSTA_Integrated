@@ -1,0 +1,15 @@
+Net launch_data
+ Pin capacitance: 0.004030-0.004382
+ Wire capacitance: 0.000000
+ Total capacitance: 0.004030-0.004382
+ Number of drivers: 1
+ Number of loads: 2
+ Number of pins: 3
+
+Driver pins
+ L1/Q output (sky130_fd_sc_hd__dlxtp_1)
+
+Load pins
+ U_LONG_HEAD/A input (sky130_fd_sc_hd__buf_1) 0.002015-0.002191
+ U_SHORT/A input (sky130_fd_sc_hd__buf_1) 0.002015-0.002191
+

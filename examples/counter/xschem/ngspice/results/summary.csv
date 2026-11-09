@@ -1,0 +1,4 @@
+period_ns,frequency_mhz,stop_ns,cycles_checked,high_sample_mismatches,low_sample_mismatches,status,max_settling_to_20_80_ns
+10,100.0,1284.5,128,0,0,PASS,0.4125000000022965
+2,500.0,256.90000000000003,128,0,0,PASS,0.41250000000042064
+1.65,606.0606060606061,211.9425,128,0,0,PASS,0.41250000000042064

@@ -1,0 +1,30 @@
+[
+  {
+    "folder": "results/T_10ns",
+    "measured_duty_min": 0.49999999999997724,
+    "measured_duty_max": 0.5000000000000113,
+    "raw_points": 258546,
+    "status": "PASS"
+  },
+  {
+    "folder": "results/T_2ns",
+    "measured_duty_min": 0.4999999999999929,
+    "measured_duty_max": 0.5000000000000142,
+    "raw_points": 52924,
+    "status": "PASS"
+  },
+  {
+    "folder": "results/T_1p65ns",
+    "measured_duty_min": 0.4999999999999931,
+    "measured_duty_max": 0.5000000000000103,
+    "raw_points": 44034,
+    "status": "PASS"
+  },
+  {
+    "folder": "results_step2p5ps/T_1p65ns",
+    "measured_duty_min": 0.4999999999999931,
+    "measured_duty_max": 0.5000000000000103,
+    "raw_points": 86423,
+    "status": "PASS"
+  }
+]
